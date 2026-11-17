@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "independently_aggregated_book_matches": 131567,
+  "ranked_books": 509,
+  "top100_rows": 100,
+  "report_top100_rows": 100,
+  "duplicate_item_book_pairs": 0,
+  "out_of_window_matches": 0,
+  "real_false_positive_regressions_checked": 66,
+  "real_positive_regressions_checked": 8,
+  "known_false_negative_examples": [
+    {
+      "book": "Starship Troopers",
+      "id": 12429040,
+      "reason": "Book evidence is more than 160 normalized characters from title."
+    }
+  ],
+  "catalogue_sha256": "9a83f6371fbc54d82aff53bb2664c1685fa37c802f197307b11acddb4f4a304c"
+}

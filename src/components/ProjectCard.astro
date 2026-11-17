@@ -1,0 +1,22 @@
+---
+import Icon from './Icon.astro';
+import { getProject, formatNumber } from '../lib/data.mjs';
+import { href } from '../lib/paths';
+const { id } = Astro.props;
+const project = getProject(id);
+const top = project.entries.slice(0, 3);
+---
+<article class:list={['project-card', `project-${id}`]}>
+  <div class="card-eyebrow"><span class="eyebrow">{project.number} / HACKER NEWS</span><span class="card-icon"><Icon name={project.icon} size={25} /></span></div>
+  <h3><a href={href(`${project.path}/`)}>{project.title}<Icon name="arrow-up" size={24} /></a></h3>
+  <p class="card-description">{project.description}</p>
+  <div class="card-chart" aria-label={`${project.label}榜单前三名及提及次数`}>
+    <div class="chart-label"><span>讨论中的常客</span><span>提及次数</span></div>
+    {top.map((entry, i) => <div class="chart-entry">
+      <span class="chart-position">0{i + 1}</span>
+      <div class="chart-body"><span>{project.previewLabels[i]}</span><span class="chart-track" aria-hidden="true"><i style={`--bar:${entry.mentions / top[0].mentions * 100}%`}></i></span></div>
+      <span class="chart-value">{formatNumber(entry.mentions)}</span>
+    </div>)}
+  </div>
+  <div class="card-footer"><span><b>{project.entries.length}</b> {project.unit}作品 · 附中文简介</span><a href={href(`${project.path}/`)}>浏览{project.label}榜单<Icon name="arrow" size={19} /></a></div>
+</article>

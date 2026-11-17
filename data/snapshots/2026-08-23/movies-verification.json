@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "window": [
+    "2016-08-23 08:44:12",
+    "2026-08-23 08:44:12"
+  ],
+  "eligible_items": 34721984,
+  "stories": 3072948,
+  "comments": 31649036,
+  "catalogue_entries": 1166,
+  "candidate_items": 578689,
+  "unique_candidate_ids": 578689,
+  "matched_movie_items": 48633,
+  "ranked_films": 1100,
+  "top100_rows": 100,
+  "out_of_window": 0,
+  "duplicate_movie_item_pairs": 0,
+  "synthetic_cases": 35,
+  "synthetic_failures": [],
+  "incremental_new_items": 9348
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "books",
+    "expectedCount": 100,
+    "catalogueSizeField": "bookCatalogueSize",
+    "number": "01",
+    "path": "hn/books",
+    "exportSlug": "hn-books-top100",
+    "title": "HN 书籍 Top 100",
+    "label": "书籍",
+    "englishLabel": "THE READING LIST",
+    "unit": "本",
+    "icon": "book",
+    "description": "从编程经典到科幻与哲学，看看 Hacker News 十年讨论中，哪些书被一次次提起。",
+    "headline": ["被反复提起的，", "100 本书。"],
+    "intro": "从技术经典到文学与哲学，在十年的讨论里寻找下一本想读的书。每本附有中文简介，也可以按主题慢慢逛。",
+    "snapshot": "2026-08-23",
+    "annotations": "annotations/books.json",
+    "previewLabels": ["圣经", "计算机程序的构造和解释", "1984"]
+  },
+  {
+    "id": "movies",
+    "expectedCount": 100,
+    "catalogueSizeField": "movieCatalogueSize",
+    "number": "02",
+    "path": "hn/movies",
+    "exportSlug": "hn-movies-top100",
+    "title": "HN 电影 Top 100",
+    "label": "电影",
+    "englishLabel": "THE WATCH LIST",
+    "unit": "部",
+    "icon": "film",
+    "description": "科幻、现实与银幕上的另一种可能。从 Hacker News 的十年讨论，整理一份值得探索的片单。",
+    "headline": ["被反复聊起的，", "100 部电影。"],
+    "intro": "从赛博朋克到办公室喜剧，透过十年的讨论发现银幕上的另一种可能。每部附有中文简介，包含剧情片、动画与纪录片。",
+    "snapshot": "2026-08-23",
+    "annotations": "annotations/movies.json",
+    "previewLabels": ["黑客帝国", "银翼杀手", "蠢蛋进化论"]
+  }
+]

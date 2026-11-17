@@ -1,0 +1,51 @@
+---
+import '../styles/global.css';
+import Icon from '../components/Icon.astro';
+import { href } from '../lib/paths';
+
+interface Props { title?: string; description?: string; active?: string }
+const { title = 'Data Lab · 好奇心的数据切片', description = 'shcalm 的个人数据实验室。收集有意思的榜单，让数据里的故事更容易被看见。', active = '' } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const navigation = [
+  { id: 'home', label: '全部项目', path: '' },
+  { id: 'books', label: '书籍', path: 'hn/books/' },
+  { id: 'movies', label: '电影', path: 'hn/movies/' },
+  { id: 'about', label: '关于', path: 'about/' },
+];
+---
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f7f2" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href={href('favicon.svg')} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content="Data Lab" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到正文</a>
+    <header class="site-header container">
+      <a class="brand" href={href()} aria-label="Data Lab 首页">
+        <span class="brand-mark" aria-hidden="true">d<span>/</span>l</span>
+        <span class="brand-type">Data Lab<small>BY SHCALM</small></span>
+      </a>
+      <nav aria-label="主导航" class="main-nav">
+        {navigation.map((item) => <a href={href(item.path)} aria-current={active === item.id ? 'page' : undefined}>{item.label}</a>)}
+      </nav>
+      <a class="github-link" href="https://github.com/shcalm/data-lab" aria-label="GitHub 源码仓库"><Icon name="github" size={19} /><span>GitHub</span></a>
+    </header>
+    <main id="main" class="container"><slot /></main>
+    <footer class="site-footer container">
+      <div><a class="footer-brand" href={href()}>Data Lab<span aria-hidden="true"> / </span></a><span>把好奇心留在数据里。</span></div>
+      <div class="footer-links"><a href={href('about/#methodology')}>数据与方法</a><a href="https://github.com/shcalm/data-lab">GitHub <Icon name="arrow-up" size={13} /></a><a href="#top" aria-label="回到页面顶部">回到顶部 ↑</a></div>
+    </footer>
+  </body>
+</html>

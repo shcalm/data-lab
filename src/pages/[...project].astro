@@ -1,0 +1,58 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import Icon from '../components/Icon.astro';
+import { projects, getProject, formatNumber } from '../lib/data.mjs';
+import { href } from '../lib/paths';
+
+export function getStaticPaths() {
+  return projects.map((project) => ({ params: { project: project.path }, props: { id: project.id } }));
+}
+const project = getProject(Astro.props.id);
+const isMovie = project.entries.some((entry) => entry.year);
+const catalogueSize = project.source[project.catalogueSizeField];
+const topMentions = project.entries[0].mentions;
+const total = project.entries.length;
+const start = project.source.periodStart.slice(0, 10);
+const end = project.source.periodEnd.slice(0, 10);
+const jsonData = JSON.stringify(project.entries).replaceAll('<', '\\u003c');
+---
+<SiteLayout title={`${project.title} · Data Lab`} description={`${project.description} 查看全部排名、中文简介、统计口径，下载 CSV 和 JSON 数据。`} active={project.id}>
+  <section class="ranking-hero" id="top" aria-labelledby="ranking-title">
+    <div class="breadcrumb"><a href={href()}>全部项目</a><span aria-hidden="true">/</span><span>Hacker News</span><span aria-hidden="true">/</span><span>{project.label}</span></div>
+    <div class="ranking-hero-grid">
+      <div><p class="eyebrow">{project.number} / {project.englishLabel}</p><h1 id="ranking-title">{project.headline[0]}<br /><span class="green-text">{project.headline[1]}</span></h1><p class="ranking-intro">{project.intro}</p></div>
+      <aside class="ranking-data-note" aria-label="数据概要"><span class="eyebrow">HACKER NEWS · 十年切片</span><p class="data-note-number">{formatNumber(project.source.eligibleItems)}</p><p>条有效帖子与评论，作为统计范围</p><div class="data-note-period"><span class="status-dot" aria-hidden="true"></span><time datetime={start}>{start.replaceAll('-', '.')}</time><span>—</span><time datetime={end}>{end.replaceAll('-', '.')}</time></div><span class="data-note-small">按作品与条目去重 · 截至数据集末日</span></aside>
+    </div>
+    <div class="ranking-hero-bottom"><p>按候选目录与上下文规则统计。提及 ≠ 推荐。<a href={href('about/#methodology')}>了解统计口径 <span aria-hidden="true">↗</span></a></p><div class="download-links"><a href={href(`downloads/${project.exportSlug}.csv`)} download><Icon name="download" size={16} />CSV</a><a href={href(`downloads/${project.exportSlug}.json`)} download>JSON<Icon name="download" size={16} /></a></div></div>
+  </section>
+
+  <section class="ranking-section" data-ranking aria-labelledby="list-title">
+    <div class="list-section-heading"><div class="collection-tabs" aria-label="切换榜单">{projects.map((item) => <a href={href(`${item.path}/`)} aria-current={item.id === project.id ? 'page' : undefined}><Icon name={item.icon} size={18} />{item.label}榜单<span class="mono">{getProject(item.id).entries.length}</span></a>)}</div><span class="eyebrow list-edition">2016 — 2026 / VOL. {project.number}</span></div>
+    <h2 id="list-title" class="sr-only">{project.title}完整榜单</h2>
+    <form class="ranking-tools" data-controls role="search" aria-label={`搜索${project.label}榜单`} hidden>
+      <div class="search-field"><label for="search">在这份{project.label === '书籍' ? '书单' : '片单'}里找一找</label><div class="input-wrap"><Icon name="search" size={19} /><input type="search" id="search" name="q" placeholder={isMovie ? '搜索中英文片名、年份或简介…' : '搜索中英文书名、作者或简介…'} autocomplete="off" /></div></div>
+      <div class="select-field"><label for="category">按主题筛选</label><div class="select-wrap"><select id="category" name="category"><option value="">全部主题</option>{project.categories.map((category) => <option value={category.name}>{category.name}</option>)}</select><Icon name="chevron" size={16} /></div></div>
+      <div class="select-field"><label for="sort">排序方式</label><div class="select-wrap"><select id="sort" name="sort"><option value="most">提及最多</option><option value="least">提及最少</option><option value="title">英文标题 A–Z</option>{isMovie && <option value="year">年份：新 → 旧</option>}</select><Icon name="chevron" size={16} /></div></div>
+    </form>
+    <div class="list-utility"><p role="status" aria-live="polite" aria-atomic="true">显示 <b class="mono" data-result-count>{total}</b> / {total} {project.unit}作品<span class="utility-note"> · 排名保留原榜名次</span></p><div class="list-actions" data-list-actions hidden><button type="button" data-reset disabled>清空条件</button><span aria-hidden="true">/</span><button type="button" data-expand>展开全部简介</button></div></div>
+    <div class="ranking-column-head" aria-hidden="true"><span>排名</span><span>作品 / 简介</span><span>提及次数</span></div>
+    <ol class="ranking-list" data-list aria-label={project.title}>
+      {project.entries.map((entry) => {
+        const firstStop = entry.summary.indexOf('。') + 1;
+        const preview = entry.summary.slice(0, firstStop);
+        const rest = entry.summary.slice(firstStop);
+        return <li class:list={['ranking-row', { 'top-ranked': entry.rank <= 3 }]} data-rank={entry.rank} id={`rank-${entry.rank}`} value={entry.rank}>
+          <a class="rank-number mono" href={`#rank-${entry.rank}`} aria-label={`链接到第 ${entry.rank} 名`}>{String(entry.rank).padStart(2, '0')}</a>
+          <div class="work-info"><div class="work-heading"><h3>{entry.zh}</h3><span class="category-tag">{entry.category}</span></div><p class="original-title" lang="en">{entry.title}</p><p class="work-meta">{entry.author ?? `${entry.year} 年上映`}</p><details class="work-details"><summary><span class="summary-preview">{preview}</span><span class="details-toggle"><span class="when-closed">展开简介</span><span class="when-open">收起简介</span><Icon name="chevron" size={14} /></span></summary><div class="details-body"><p>{rest}</p><div class="details-bottom"><span>帖子 {formatNumber(entry.stories)} · 评论 {formatNumber(entry.comments)}</span><a href={`https://hn.algolia.com/?q=${encodeURIComponent(entry.title)}`}>查找相关讨论<Icon name="arrow-up" size={13} /></a></div></div></details></div>
+          <div class="mention-count"><span class="count-number mono">{formatNumber(entry.mentions)}</span><span class="mobile-count-label">次提及</span><span class="mention-track" aria-hidden="true"><i style={`--bar:${entry.mentions / topMentions * 100}%`}></i></span></div>
+        </li>;
+      })}
+    </ol>
+    <div class="empty-state" data-empty hidden><Icon name="search" size={30} /><h3>这次没有找到</h3><p>试试更短的关键词，或换一个主题。</p><button class="button" type="button" data-reset>清空条件，看看全部作品<Icon name="arrow" size={18} /></button></div>
+    <div class="list-end"><span class="mono">END OF LIST / {total}</span><a href="#top">回到榜单顶部 ↑</a></div>
+    <script type="application/json" id="ranking-data" set:html={jsonData} />
+  </section>
+
+  <aside class="methodology-note" aria-labelledby="method-note-title"><span class="note-index mono">BEHIND<br />THE LIST</span><div><h2 id="method-note-title">读榜之前，知道这些。</h2><p>这是在 {formatNumber(catalogueSize)} {project.unit}候选作品中，依据{isMovie ? '片名' : '书名'}、别名与上下文规则得到的提及排名。同一条帖子或评论对同一作品最多计一次，已排除标记为删除或 dead 的条目。{isMovie ? '包括纪录片与独立电视电影，不包括连续剧。' : '丛书、合订本及版本名称按原始候选目录处理。'}</p><p>它呈现讨论的频率，不能覆盖所有表达方式，也不能据此判断作品质量。简介和主题分类为另行整理的阅读辅助。</p><a class="text-link" href={href('about/#methodology')}>查看数据来源与完整口径<Icon name="arrow" size={18} /></a></div></aside>
+  <script src="../scripts/ranking.ts"></script>
+</SiteLayout>

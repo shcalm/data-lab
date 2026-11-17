@@ -1,0 +1,902 @@
+[
+  {
+    "rank": 1,
+    "title": "The Bible",
+    "zh": "圣经",
+    "author": "多位作者",
+    "mentions": 8143,
+    "stories": 111,
+    "comments": 8032
+  },
+  {
+    "rank": 2,
+    "title": "Structure and Interpretation of Computer Programs",
+    "zh": "计算机程序的构造和解释",
+    "author": "Harold Abelson、Gerald Jay Sussman、Julie Sussman",
+    "mentions": 3979,
+    "stories": 269,
+    "comments": 3710
+  },
+  {
+    "rank": 3,
+    "title": "1984",
+    "zh": "一九八四",
+    "author": "George Orwell",
+    "mentions": 3064,
+    "stories": 92,
+    "comments": 2972
+  },
+  {
+    "rank": 4,
+    "title": "Snow Crash",
+    "zh": "雪崩",
+    "author": "Neal Stephenson",
+    "mentions": 2050,
+    "stories": 22,
+    "comments": 2028
+  },
+  {
+    "rank": 5,
+    "title": "The Quran",
+    "zh": "古兰经",
+    "author": "伊斯兰经典",
+    "mentions": 1743,
+    "stories": 84,
+    "comments": 1659
+  },
+  {
+    "rank": 6,
+    "title": "The Lord of the Rings",
+    "zh": "魔戒",
+    "author": "J. R. R. Tolkien",
+    "mentions": 1720,
+    "stories": 33,
+    "comments": 1687
+  },
+  {
+    "rank": 7,
+    "title": "Dune",
+    "zh": "沙丘",
+    "author": "Frank Herbert",
+    "mentions": 1550,
+    "stories": 50,
+    "comments": 1500
+  },
+  {
+    "rank": 8,
+    "title": "The Mythical Man-Month",
+    "zh": "人月神话",
+    "author": "Frederick P. Brooks Jr.",
+    "mentions": 1537,
+    "stories": 56,
+    "comments": 1481
+  },
+  {
+    "rank": 9,
+    "title": "Neuromancer",
+    "zh": "神经漫游者",
+    "author": "William Gibson",
+    "mentions": 1491,
+    "stories": 65,
+    "comments": 1426
+  },
+  {
+    "rank": 10,
+    "title": "The Art of Computer Programming",
+    "zh": "计算机程序设计艺术",
+    "author": "Donald Knuth",
+    "mentions": 1415,
+    "stories": 61,
+    "comments": 1354
+  },
+  {
+    "rank": 11,
+    "title": "Clean Code",
+    "zh": "代码整洁之道",
+    "author": "Robert C. Martin",
+    "mentions": 1223,
+    "stories": 82,
+    "comments": 1141
+  },
+  {
+    "rank": 12,
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "zh": "银河系漫游指南",
+    "author": "Douglas Adams",
+    "mentions": 1120,
+    "stories": 248,
+    "comments": 872
+  },
+  {
+    "rank": 13,
+    "title": "Gödel, Escher, Bach",
+    "zh": "哥德尔、埃舍尔、巴赫：集异璧之大成",
+    "author": "Douglas Hofstadter",
+    "mentions": 1094,
+    "stories": 38,
+    "comments": 1056
+  },
+  {
+    "rank": 14,
+    "title": "Brave New World",
+    "zh": "美丽新世界",
+    "author": "Aldous Huxley",
+    "mentions": 1085,
+    "stories": 74,
+    "comments": 1011
+  },
+  {
+    "rank": 15,
+    "title": "The C Programming Language",
+    "zh": "C 程序设计语言",
+    "author": "Brian Kernighan、Dennis Ritchie",
+    "mentions": 1073,
+    "stories": 22,
+    "comments": 1051
+  },
+  {
+    "rank": 16,
+    "title": "Mein Kampf",
+    "zh": "我的奋斗",
+    "author": "Adolf Hitler",
+    "mentions": 983,
+    "stories": 11,
+    "comments": 972
+  },
+  {
+    "rank": 17,
+    "title": "Thinking, Fast and Slow",
+    "zh": "思考，快与慢",
+    "author": "Daniel Kahneman",
+    "mentions": 977,
+    "stories": 56,
+    "comments": 921
+  },
+  {
+    "rank": 18,
+    "title": "Atlas Shrugged",
+    "zh": "阿特拉斯耸耸肩",
+    "author": "Ayn Rand",
+    "mentions": 926,
+    "stories": 13,
+    "comments": 913
+  },
+  {
+    "rank": 19,
+    "title": "Designing Data-Intensive Applications",
+    "zh": "设计数据密集型应用",
+    "author": "Martin Kleppmann",
+    "mentions": 898,
+    "stories": 106,
+    "comments": 792
+  },
+  {
+    "rank": 20,
+    "title": "Moby-Dick",
+    "zh": "白鲸",
+    "author": "Herman Melville",
+    "mentions": 891,
+    "stories": 58,
+    "comments": 833
+  },
+  {
+    "rank": 21,
+    "title": "Sapiens",
+    "zh": "人类简史",
+    "author": "Yuval Noah Harari",
+    "mentions": 864,
+    "stories": 38,
+    "comments": 826
+  },
+  {
+    "rank": 22,
+    "title": "The Diamond Age",
+    "zh": "钻石年代",
+    "author": "Neal Stephenson",
+    "mentions": 861,
+    "stories": 17,
+    "comments": 844
+  },
+  {
+    "rank": 23,
+    "title": "How to Win Friends and Influence People",
+    "zh": "人性的弱点",
+    "author": "Dale Carnegie",
+    "mentions": 815,
+    "stories": 29,
+    "comments": 786
+  },
+  {
+    "rank": 24,
+    "title": "Animal Farm",
+    "zh": "动物农场",
+    "author": "George Orwell",
+    "mentions": 791,
+    "stories": 16,
+    "comments": 775
+  },
+  {
+    "rank": 25,
+    "title": "Cryptonomicon",
+    "zh": "密码宝典",
+    "author": "Neal Stephenson",
+    "mentions": 781,
+    "stories": 10,
+    "comments": 771
+  },
+  {
+    "rank": 26,
+    "title": "How to Design Programs",
+    "zh": "程序设计方法",
+    "author": "Matthias Felleisen 等",
+    "mentions": 753,
+    "stories": 53,
+    "comments": 700
+  },
+  {
+    "rank": 27,
+    "title": "The Wealth of Nations",
+    "zh": "国富论",
+    "author": "Adam Smith",
+    "mentions": 738,
+    "stories": 26,
+    "comments": 712
+  },
+  {
+    "rank": 28,
+    "title": "Anathem",
+    "zh": "Anathem",
+    "author": "Neal Stephenson",
+    "mentions": 736,
+    "stories": 5,
+    "comments": 731
+  },
+  {
+    "rank": 29,
+    "title": "Why We Sleep",
+    "zh": "我们为什么要睡觉",
+    "author": "Matthew Walker",
+    "mentions": 733,
+    "stories": 42,
+    "comments": 691
+  },
+  {
+    "rank": 30,
+    "title": "Code Complete",
+    "zh": "代码大全",
+    "author": "Steve McConnell",
+    "mentions": 732,
+    "stories": 33,
+    "comments": 699
+  },
+  {
+    "rank": 31,
+    "title": "Meditations",
+    "zh": "沉思录",
+    "author": "Marcus Aurelius",
+    "mentions": 720,
+    "stories": 25,
+    "comments": 695
+  },
+  {
+    "rank": 32,
+    "title": "The Three-Body Problem",
+    "zh": "三体",
+    "author": "Liu Cixin",
+    "mentions": 694,
+    "stories": 12,
+    "comments": 682
+  },
+  {
+    "rank": 33,
+    "title": "Crafting Interpreters",
+    "zh": "手写编程语言",
+    "author": "Robert Nystrom",
+    "mentions": 693,
+    "stories": 90,
+    "comments": 603
+  },
+  {
+    "rank": 34,
+    "title": "The Pragmatic Programmer",
+    "zh": "程序员修炼之道",
+    "author": "Andrew Hunt、David Thomas",
+    "mentions": 681,
+    "stories": 65,
+    "comments": 616
+  },
+  {
+    "rank": 35,
+    "title": "Seveneves",
+    "zh": "七夏娃",
+    "author": "Neal Stephenson",
+    "mentions": 660,
+    "stories": 7,
+    "comments": 653
+  },
+  {
+    "rank": 36,
+    "title": "The Selfish Gene",
+    "zh": "自私的基因",
+    "author": "Richard Dawkins",
+    "mentions": 654,
+    "stories": 11,
+    "comments": 643
+  },
+  {
+    "rank": 37,
+    "title": "Blindsight",
+    "zh": "盲视",
+    "author": "Peter Watts",
+    "mentions": 640,
+    "stories": 10,
+    "comments": 630
+  },
+  {
+    "rank": 38,
+    "title": "Infinite Jest",
+    "zh": "无尽的玩笑",
+    "author": "David Foster Wallace",
+    "mentions": 634,
+    "stories": 32,
+    "comments": 602
+  },
+  {
+    "rank": 39,
+    "title": "The Hobbit",
+    "zh": "霍比特人",
+    "author": "J. R. R. Tolkien",
+    "mentions": 621,
+    "stories": 9,
+    "comments": 612
+  },
+  {
+    "rank": 40,
+    "title": "Design Patterns",
+    "zh": "设计模式",
+    "author": "Erich Gamma、Richard Helm、Ralph Johnson、John Vlissides",
+    "mentions": 610,
+    "stories": 47,
+    "comments": 563
+  },
+  {
+    "rank": 41,
+    "title": "Compilers: Principles, Techniques, and Tools",
+    "zh": "编译原理",
+    "author": "Alfred Aho 等",
+    "mentions": 604,
+    "stories": 16,
+    "comments": 588
+  },
+  {
+    "rank": 42,
+    "title": "The Phoenix Project",
+    "zh": "凤凰项目",
+    "author": "Gene Kim、Kevin Behr、George Spafford",
+    "mentions": 601,
+    "stories": 31,
+    "comments": 570
+  },
+  {
+    "rank": 43,
+    "title": "Introduction to Algorithms",
+    "zh": "算法导论",
+    "author": "Thomas H. Cormen 等",
+    "mentions": 590,
+    "stories": 34,
+    "comments": 556
+  },
+  {
+    "rank": 44,
+    "title": "Zen and the Art of Motorcycle Maintenance",
+    "zh": "禅与摩托车维修艺术",
+    "author": "Robert M. Pirsig",
+    "mentions": 570,
+    "stories": 84,
+    "comments": 486
+  },
+  {
+    "rank": 45,
+    "title": "Atomic Habits",
+    "zh": "掌控习惯",
+    "author": "James Clear",
+    "mentions": 562,
+    "stories": 56,
+    "comments": 506
+  },
+  {
+    "rank": 46,
+    "title": "Lord of the Flies",
+    "zh": "蝇王",
+    "author": "William Golding",
+    "mentions": 544,
+    "stories": 16,
+    "comments": 528
+  },
+  {
+    "rank": 47,
+    "title": "The Tao Te Ching",
+    "zh": "道德经",
+    "author": "Laozi",
+    "mentions": 533,
+    "stories": 25,
+    "comments": 508
+  },
+  {
+    "rank": 48,
+    "title": "Permutation City",
+    "zh": "排列城市",
+    "author": "Greg Egan",
+    "mentions": 529,
+    "stories": 6,
+    "comments": 523
+  },
+  {
+    "rank": 49,
+    "title": "The Mom Test",
+    "zh": "妈妈测试",
+    "author": "Rob Fitzpatrick",
+    "mentions": 524,
+    "stories": 51,
+    "comments": 473
+  },
+  {
+    "rank": 50,
+    "title": "Accelerando",
+    "zh": "加速",
+    "author": "Charles Stross",
+    "mentions": 518,
+    "stories": 12,
+    "comments": 506
+  },
+  {
+    "rank": 51,
+    "title": "The Design of Everyday Things",
+    "zh": "设计心理学",
+    "author": "Don Norman",
+    "mentions": 517,
+    "stories": 16,
+    "comments": 501
+  },
+  {
+    "rank": 52,
+    "title": "Deep Work",
+    "zh": "深度工作",
+    "author": "Cal Newport",
+    "mentions": 505,
+    "stories": 25,
+    "comments": 480
+  },
+  {
+    "rank": 53,
+    "title": "Ulysses",
+    "zh": "尤利西斯",
+    "author": "James Joyce",
+    "mentions": 487,
+    "stories": 20,
+    "comments": 467
+  },
+  {
+    "rank": 54,
+    "title": "The Martian",
+    "zh": "火星救援",
+    "author": "Andy Weir",
+    "mentions": 475,
+    "stories": 22,
+    "comments": 453
+  },
+  {
+    "rank": 55,
+    "title": "Peopleware",
+    "zh": "人件",
+    "author": "Tom DeMarco、Timothy Lister",
+    "mentions": 474,
+    "stories": 7,
+    "comments": 467
+  },
+  {
+    "rank": 56,
+    "title": "The Four-Hour Workweek",
+    "zh": "每周工作4小时",
+    "author": "Tim Ferriss",
+    "mentions": 460,
+    "stories": 44,
+    "comments": 416
+  },
+  {
+    "rank": 57,
+    "title": "The Dispossessed",
+    "zh": "一无所有",
+    "author": "Ursula K. Le Guin",
+    "mentions": 460,
+    "stories": 3,
+    "comments": 457
+  },
+  {
+    "rank": 58,
+    "title": "Foundation",
+    "zh": "基地",
+    "author": "Isaac Asimov",
+    "mentions": 457,
+    "stories": 17,
+    "comments": 440
+  },
+  {
+    "rank": 59,
+    "title": "The Feynman Lectures on Physics",
+    "zh": "费曼物理学讲义",
+    "author": "Richard Feynman 等",
+    "mentions": 446,
+    "stories": 35,
+    "comments": 411
+  },
+  {
+    "rank": 60,
+    "title": "Guns, Germs, and Steel",
+    "zh": "枪炮、病菌与钢铁",
+    "author": "Jared Diamond",
+    "mentions": 441,
+    "stories": 5,
+    "comments": 436
+  },
+  {
+    "rank": 61,
+    "title": "Fahrenheit 451",
+    "zh": "华氏451度",
+    "author": "Ray Bradbury",
+    "mentions": 440,
+    "stories": 17,
+    "comments": 423
+  },
+  {
+    "rank": 62,
+    "title": "The Communist Manifesto",
+    "zh": "共产党宣言",
+    "author": "Karl Marx、Friedrich Engels",
+    "mentions": 437,
+    "stories": 4,
+    "comments": 433
+  },
+  {
+    "rank": 63,
+    "title": "Manufacturing Consent",
+    "zh": "制造共识",
+    "author": "Edward S. Herman、Noam Chomsky",
+    "mentions": 436,
+    "stories": 6,
+    "comments": 430
+  },
+  {
+    "rank": 64,
+    "title": "A Fire Upon the Deep",
+    "zh": "深渊上的火",
+    "author": "Vernor Vinge",
+    "mentions": 430,
+    "stories": 6,
+    "comments": 424
+  },
+  {
+    "rank": 65,
+    "title": "Project Hail Mary",
+    "zh": "挽救计划",
+    "author": "Andy Weir",
+    "mentions": 423,
+    "stories": 48,
+    "comments": 375
+  },
+  {
+    "rank": 66,
+    "title": "Don Quixote",
+    "zh": "堂吉诃德",
+    "author": "Miguel de Cervantes",
+    "mentions": 422,
+    "stories": 14,
+    "comments": 408
+  },
+  {
+    "rank": 67,
+    "title": "The Soul of a New Machine",
+    "zh": "新机器的灵魂",
+    "author": "Tracy Kidder",
+    "mentions": 417,
+    "stories": 23,
+    "comments": 394
+  },
+  {
+    "rank": 68,
+    "title": "The Limits to Growth",
+    "zh": "增长的极限",
+    "author": "Donella Meadows、Dennis Meadows、Jørgen Randers、William Behrens III",
+    "mentions": 410,
+    "stories": 45,
+    "comments": 365
+  },
+  {
+    "rank": 69,
+    "title": "A Deepness in the Sky",
+    "zh": "天渊",
+    "author": "Vernor Vinge",
+    "mentions": 408,
+    "stories": 3,
+    "comments": 405
+  },
+  {
+    "rank": 70,
+    "title": "Children of Time",
+    "zh": "时间之子",
+    "author": "Adrian Tchaikovsky",
+    "mentions": 402,
+    "stories": 5,
+    "comments": 397
+  },
+  {
+    "rank": 71,
+    "title": "A Philosophy of Software Design",
+    "zh": "软件设计的哲学",
+    "author": "John Ousterhout",
+    "mentions": 402,
+    "stories": 61,
+    "comments": 341
+  },
+  {
+    "rank": 72,
+    "title": "Masters of Doom",
+    "zh": "DOOM 启世录",
+    "author": "David Kushner",
+    "mentions": 401,
+    "stories": 11,
+    "comments": 390
+  },
+  {
+    "rank": 73,
+    "title": "War and Peace",
+    "zh": "战争与和平",
+    "author": "Leo Tolstoy",
+    "mentions": 399,
+    "stories": 7,
+    "comments": 392
+  },
+  {
+    "rank": 74,
+    "title": "Code: The Hidden Language of Computer Hardware and Software",
+    "zh": "编码：隐匿在计算机软硬件背后的语言",
+    "author": "Charles Petzold",
+    "mentions": 397,
+    "stories": 23,
+    "comments": 374
+  },
+  {
+    "rank": 75,
+    "title": "The Little Schemer",
+    "zh": "Scheme 趣味编程",
+    "author": "Daniel Friedman、Matthias Felleisen",
+    "mentions": 391,
+    "stories": 10,
+    "comments": 381
+  },
+  {
+    "rank": 76,
+    "title": "Seeing Like a State",
+    "zh": "国家的视角",
+    "author": "James C. Scott",
+    "mentions": 389,
+    "stories": 16,
+    "comments": 373
+  },
+  {
+    "rank": 77,
+    "title": "The Art of Electronics",
+    "zh": "电子学的艺术",
+    "author": "Paul Horowitz、Winfield Hill",
+    "mentions": 379,
+    "stories": 8,
+    "comments": 371
+  },
+  {
+    "rank": 78,
+    "title": "Paradigms of Artificial Intelligence Programming",
+    "zh": "Paradigms of Artificial Intelligence Programming",
+    "author": "Peter Norvig",
+    "mentions": 372,
+    "stories": 27,
+    "comments": 345
+  },
+  {
+    "rank": 79,
+    "title": "Refactoring",
+    "zh": "重构",
+    "author": "Martin Fowler",
+    "mentions": 369,
+    "stories": 14,
+    "comments": 355
+  },
+  {
+    "rank": 80,
+    "title": "The Fountainhead",
+    "zh": "源泉",
+    "author": "Ayn Rand",
+    "mentions": 366,
+    "stories": 16,
+    "comments": 350
+  },
+  {
+    "rank": 81,
+    "title": "Bullshit Jobs",
+    "zh": "毫无意义的工作",
+    "author": "David Graeber",
+    "mentions": 357,
+    "stories": 6,
+    "comments": 351
+  },
+  {
+    "rank": 82,
+    "title": "The Great Gatsby",
+    "zh": "了不起的盖茨比",
+    "author": "F. Scott Fitzgerald",
+    "mentions": 355,
+    "stories": 33,
+    "comments": 322
+  },
+  {
+    "rank": 83,
+    "title": "Harry Potter and the Methods of Rationality",
+    "zh": "哈利·波特与理性之道",
+    "author": "Eliezer Yudkowsky",
+    "mentions": 353,
+    "stories": 22,
+    "comments": 331
+  },
+  {
+    "rank": 84,
+    "title": "Debt: The First 5000 Years",
+    "zh": "债：第一个5000年",
+    "author": "David Graeber",
+    "mentions": 349,
+    "stories": 5,
+    "comments": 344
+  },
+  {
+    "rank": 85,
+    "title": "Hyperion",
+    "zh": "海伯利安",
+    "author": "Dan Simmons",
+    "mentions": 346,
+    "stories": 4,
+    "comments": 342
+  },
+  {
+    "rank": 86,
+    "title": "Amusing Ourselves to Death",
+    "zh": "娱乐至死",
+    "author": "Neil Postman",
+    "mentions": 345,
+    "stories": 20,
+    "comments": 325
+  },
+  {
+    "rank": 87,
+    "title": "Siddhartha",
+    "zh": "悉达多",
+    "author": "Hermann Hesse",
+    "mentions": 344,
+    "stories": 12,
+    "comments": 332
+  },
+  {
+    "rank": 88,
+    "title": "Diaspora",
+    "zh": "流散",
+    "author": "Greg Egan",
+    "mentions": 342,
+    "stories": 3,
+    "comments": 339
+  },
+  {
+    "rank": 89,
+    "title": "The Dawn of Everything",
+    "zh": "人类新史",
+    "author": "David Graeber、David Wengrow",
+    "mentions": 338,
+    "stories": 22,
+    "comments": 316
+  },
+  {
+    "rank": 90,
+    "title": "The Forever War",
+    "zh": "千年战争",
+    "author": "Joe Haldeman",
+    "mentions": 335,
+    "stories": 17,
+    "comments": 318
+  },
+  {
+    "rank": 91,
+    "title": "Surely You're Joking, Mr. Feynman!",
+    "zh": "别闹了，费曼先生",
+    "author": "Richard Feynman",
+    "mentions": 335,
+    "stories": 12,
+    "comments": 323
+  },
+  {
+    "rank": 92,
+    "title": "The Dark Forest",
+    "zh": "黑暗森林",
+    "author": "Liu Cixin",
+    "mentions": 335,
+    "stories": 0,
+    "comments": 335
+  },
+  {
+    "rank": 93,
+    "title": "Never Split the Difference",
+    "zh": "FBI谈判协商术",
+    "author": "Chris Voss、Tahl Raz",
+    "mentions": 329,
+    "stories": 11,
+    "comments": 318
+  },
+  {
+    "rank": 94,
+    "title": "The Elements of Computing Systems",
+    "zh": "计算机系统要素",
+    "author": "Noam Nisan、Shimon Schocken",
+    "mentions": 326,
+    "stories": 13,
+    "comments": 313
+  },
+  {
+    "rank": 95,
+    "title": "Anna Karenina",
+    "zh": "安娜·卡列尼娜",
+    "author": "Leo Tolstoy",
+    "mentions": 324,
+    "stories": 18,
+    "comments": 306
+  },
+  {
+    "rank": 96,
+    "title": "The Moon Is a Harsh Mistress",
+    "zh": "严厉的月亮",
+    "author": "Robert A. Heinlein",
+    "mentions": 320,
+    "stories": 3,
+    "comments": 317
+  },
+  {
+    "rank": 97,
+    "title": "The Odyssey",
+    "zh": "奥德赛",
+    "author": "Homer",
+    "mentions": 320,
+    "stories": 7,
+    "comments": 313
+  },
+  {
+    "rank": 98,
+    "title": "Zero to One",
+    "zh": "从0到1",
+    "author": "Peter Thiel、Blake Masters",
+    "mentions": 316,
+    "stories": 28,
+    "comments": 288
+  },
+  {
+    "rank": 99,
+    "title": "Getting Things Done",
+    "zh": "搞定",
+    "author": "David Allen",
+    "mentions": 315,
+    "stories": 8,
+    "comments": 307
+  },
+  {
+    "rank": 100,
+    "title": "Cracking the Coding Interview",
+    "zh": "程序员面试金典",
+    "author": "Gayle Laakmann McDowell",
+    "mentions": 314,
+    "stories": 28,
+    "comments": 286
+  }
+]

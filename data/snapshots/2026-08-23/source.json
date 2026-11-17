@@ -1,0 +1,15 @@
+{
+  "name": "Hacker News",
+  "eligibleItems": 34721984,
+  "periodStart": "2016-08-23T08:44:12Z",
+  "periodEnd": "2026-08-23T08:44:12Z",
+  "bookCatalogueSize": 509,
+  "movieCatalogueSize": 1166,
+  "rankingMethod": "candidate-catalogue-and-context-rules",
+  "mentionsUnit": "unique item id per work",
+  "dataset": "open-index/hacker-news",
+  "revision": "c54ced5973b95d80cd934b8921f44ec8d87c3cd1",
+  "downloadedAt": "2026-11-05",
+  "duplicateRule": "Each distinct item ID counts at most once per work; deleted and dead items excluded.",
+  "caveat": "Rankings are rule-based matches within candidate catalogues, not an exhaustive semantic count. Mentions do not imply recommendations."
+}

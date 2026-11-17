@@ -1,0 +1,902 @@
+[
+  {
+    "rank": 1,
+    "title": "The Matrix",
+    "year": 1999,
+    "zh": "黑客帝国",
+    "mentions": 4067,
+    "stories": 296,
+    "comments": 3771
+  },
+  {
+    "rank": 2,
+    "title": "Blade Runner",
+    "year": 1982,
+    "zh": "银翼杀手",
+    "mentions": 1795,
+    "stories": 160,
+    "comments": 1635
+  },
+  {
+    "rank": 3,
+    "title": "Idiocracy",
+    "year": 2006,
+    "zh": "蠢蛋进化论",
+    "mentions": 1659,
+    "stories": 14,
+    "comments": 1645
+  },
+  {
+    "rank": 4,
+    "title": "Office Space",
+    "year": 1999,
+    "zh": "上班一条虫",
+    "mentions": 1298,
+    "stories": 79,
+    "comments": 1219
+  },
+  {
+    "rank": 5,
+    "title": "WALL-E",
+    "year": 2008,
+    "zh": "机器人总动员",
+    "mentions": 673,
+    "stories": 21,
+    "comments": 652
+  },
+  {
+    "rank": 6,
+    "title": "Gattaca",
+    "year": 1997,
+    "zh": "千钧一发",
+    "mentions": 647,
+    "stories": 9,
+    "comments": 638
+  },
+  {
+    "rank": 7,
+    "title": "Dr. Strangelove",
+    "year": 1964,
+    "zh": "奇爱博士",
+    "mentions": 575,
+    "stories": 15,
+    "comments": 560
+  },
+  {
+    "rank": 8,
+    "title": "2001: A Space Odyssey",
+    "year": 1968,
+    "zh": "2001太空漫游",
+    "mentions": 503,
+    "stories": 75,
+    "comments": 428
+  },
+  {
+    "rank": 9,
+    "title": "WarGames",
+    "year": 1983,
+    "zh": "战争游戏",
+    "mentions": 405,
+    "stories": 33,
+    "comments": 372
+  },
+  {
+    "rank": 10,
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "zh": "低俗小说",
+    "mentions": 382,
+    "stories": 22,
+    "comments": 360
+  },
+  {
+    "rank": 11,
+    "title": "Soylent Green",
+    "year": 1973,
+    "zh": "超世纪谍杀案",
+    "mentions": 369,
+    "stories": 11,
+    "comments": 358
+  },
+  {
+    "rank": 12,
+    "title": "Rogue One",
+    "year": 2016,
+    "zh": "星球大战外传：侠盗一号",
+    "mentions": 348,
+    "stories": 42,
+    "comments": 306
+  },
+  {
+    "rank": 13,
+    "title": "Terminator 2: Judgment Day",
+    "year": 1991,
+    "zh": "终结者2：审判日",
+    "mentions": 346,
+    "stories": 25,
+    "comments": 321
+  },
+  {
+    "rank": 14,
+    "title": "Interstellar",
+    "year": 2014,
+    "zh": "星际穿越",
+    "mentions": 323,
+    "stories": 24,
+    "comments": 299
+  },
+  {
+    "rank": 15,
+    "title": "Avatar",
+    "year": 2009,
+    "zh": "阿凡达",
+    "mentions": 313,
+    "stories": 8,
+    "comments": 305
+  },
+  {
+    "rank": 16,
+    "title": "Hackers",
+    "year": 1995,
+    "zh": "黑客",
+    "mentions": 306,
+    "stories": 32,
+    "comments": 274
+  },
+  {
+    "rank": 17,
+    "title": "Jurassic Park",
+    "year": 1993,
+    "zh": "侏罗纪公园",
+    "mentions": 296,
+    "stories": 7,
+    "comments": 289
+  },
+  {
+    "rank": 18,
+    "title": "The Social Dilemma",
+    "year": 2020,
+    "zh": "监视资本主义：智能陷阱",
+    "mentions": 287,
+    "stories": 70,
+    "comments": 217
+  },
+  {
+    "rank": 19,
+    "title": "Alien",
+    "year": 1979,
+    "zh": "异形",
+    "mentions": 273,
+    "stories": 10,
+    "comments": 263
+  },
+  {
+    "rank": 20,
+    "title": "Blade Runner 2049",
+    "year": 2017,
+    "zh": "银翼杀手2049",
+    "mentions": 269,
+    "stories": 48,
+    "comments": 221
+  },
+  {
+    "rank": 21,
+    "title": "The Wolf of Wall Street",
+    "year": 2013,
+    "zh": "华尔街之狼",
+    "mentions": 263,
+    "stories": 16,
+    "comments": 247
+  },
+  {
+    "rank": 22,
+    "title": "Citizen Kane",
+    "year": 1941,
+    "zh": "公民凯恩",
+    "mentions": 254,
+    "stories": 8,
+    "comments": 246
+  },
+  {
+    "rank": 23,
+    "title": "Life of Brian",
+    "year": 1979,
+    "zh": "万世魔星",
+    "mentions": 251,
+    "stories": 10,
+    "comments": 241
+  },
+  {
+    "rank": 24,
+    "title": "Arrival",
+    "year": 2016,
+    "zh": "降临",
+    "mentions": 247,
+    "stories": 16,
+    "comments": 231
+  },
+  {
+    "rank": 25,
+    "title": "Apocalypse Now",
+    "year": 1979,
+    "zh": "现代启示录",
+    "mentions": 246,
+    "stories": 14,
+    "comments": 232
+  },
+  {
+    "rank": 26,
+    "title": "The Dark Knight",
+    "year": 2008,
+    "zh": "蝙蝠侠：黑暗骑士",
+    "mentions": 246,
+    "stories": 24,
+    "comments": 222
+  },
+  {
+    "rank": 27,
+    "title": "Brazil",
+    "year": 1985,
+    "zh": "妙想天开",
+    "mentions": 240,
+    "stories": 2,
+    "comments": 238
+  },
+  {
+    "rank": 28,
+    "title": "The Truman Show",
+    "year": 1998,
+    "zh": "楚门的世界",
+    "mentions": 237,
+    "stories": 11,
+    "comments": 226
+  },
+  {
+    "rank": 29,
+    "title": "Good Will Hunting",
+    "year": 1997,
+    "zh": "心灵捕手",
+    "mentions": 230,
+    "stories": 12,
+    "comments": 218
+  },
+  {
+    "rank": 30,
+    "title": "The Last Jedi",
+    "year": 2017,
+    "zh": "星球大战：最后的绝地武士",
+    "mentions": 220,
+    "stories": 48,
+    "comments": 172
+  },
+  {
+    "rank": 31,
+    "title": "Spirited Away",
+    "year": 2001,
+    "zh": "千与千寻",
+    "mentions": 217,
+    "stories": 14,
+    "comments": 203
+  },
+  {
+    "rank": 32,
+    "title": "The Big Short",
+    "year": 2015,
+    "zh": "大空头",
+    "mentions": 214,
+    "stories": 3,
+    "comments": 211
+  },
+  {
+    "rank": 33,
+    "title": "The Big Lebowski",
+    "year": 1998,
+    "zh": "谋杀绿脚趾",
+    "mentions": 213,
+    "stories": 11,
+    "comments": 202
+  },
+  {
+    "rank": 34,
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "zh": "肖申克的救赎",
+    "mentions": 211,
+    "stories": 13,
+    "comments": 198
+  },
+  {
+    "rank": 35,
+    "title": "Demolition Man",
+    "year": 1993,
+    "zh": "越空狂龙",
+    "mentions": 209,
+    "stories": 5,
+    "comments": 204
+  },
+  {
+    "rank": 36,
+    "title": "Everything Everywhere All at Once",
+    "year": 2022,
+    "zh": "瞬息全宇宙",
+    "mentions": 207,
+    "stories": 27,
+    "comments": 180
+  },
+  {
+    "rank": 37,
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "zh": "疯狂的麦克斯：狂暴之路",
+    "mentions": 200,
+    "stories": 10,
+    "comments": 190
+  },
+  {
+    "rank": 38,
+    "title": "Children of Men",
+    "year": 2006,
+    "zh": "人类之子",
+    "mentions": 196,
+    "stories": 8,
+    "comments": 188
+  },
+  {
+    "rank": 39,
+    "title": "HyperNormalisation",
+    "year": 2016,
+    "zh": "超正常化",
+    "mentions": 195,
+    "stories": 20,
+    "comments": 175
+  },
+  {
+    "rank": 40,
+    "title": "Spaceballs",
+    "year": 1987,
+    "zh": "太空炮弹",
+    "mentions": 193,
+    "stories": 8,
+    "comments": 185
+  },
+  {
+    "rank": 41,
+    "title": "The Godfather",
+    "year": 1972,
+    "zh": "教父",
+    "mentions": 191,
+    "stories": 3,
+    "comments": 188
+  },
+  {
+    "rank": 42,
+    "title": "The Terminator",
+    "year": 1984,
+    "zh": "终结者",
+    "mentions": 190,
+    "stories": 7,
+    "comments": 183
+  },
+  {
+    "rank": 43,
+    "title": "Johnny Mnemonic",
+    "year": 1995,
+    "zh": "捍卫机密",
+    "mentions": 189,
+    "stories": 4,
+    "comments": 185
+  },
+  {
+    "rank": 44,
+    "title": "The Fifth Element",
+    "year": 1997,
+    "zh": "第五元素",
+    "mentions": 184,
+    "stories": 9,
+    "comments": 175
+  },
+  {
+    "rank": 45,
+    "title": "This Is Spinal Tap",
+    "year": 1984,
+    "zh": "摇滚万万岁",
+    "mentions": 183,
+    "stories": 19,
+    "comments": 164
+  },
+  {
+    "rank": 46,
+    "title": "The Empire Strikes Back",
+    "year": 1980,
+    "zh": "星球大战：帝国反击战",
+    "mentions": 174,
+    "stories": 25,
+    "comments": 149
+  },
+  {
+    "rank": 47,
+    "title": "Dune",
+    "year": 1984,
+    "zh": "沙丘（1984）",
+    "mentions": 173,
+    "stories": 8,
+    "comments": 165
+  },
+  {
+    "rank": 48,
+    "title": "Lawrence of Arabia",
+    "year": 1962,
+    "zh": "阿拉伯的劳伦斯",
+    "mentions": 172,
+    "stories": 5,
+    "comments": 167
+  },
+  {
+    "rank": 49,
+    "title": "My Neighbor Totoro",
+    "year": 1988,
+    "zh": "龙猫",
+    "mentions": 169,
+    "stories": 14,
+    "comments": 155
+  },
+  {
+    "rank": 50,
+    "title": "Black Mirror: Bandersnatch",
+    "year": 2018,
+    "zh": "黑镜：潘达斯奈基",
+    "mentions": 167,
+    "stories": 54,
+    "comments": 113
+  },
+  {
+    "rank": 51,
+    "title": "Koyaanisqatsi",
+    "year": 1982,
+    "zh": "失衡生活",
+    "mentions": 163,
+    "stories": 14,
+    "comments": 149
+  },
+  {
+    "rank": 52,
+    "title": "Moana",
+    "year": 2016,
+    "zh": "海洋奇缘",
+    "mentions": 160,
+    "stories": 7,
+    "comments": 153
+  },
+  {
+    "rank": 53,
+    "title": "Star Wars",
+    "year": 1977,
+    "zh": "星球大战：新希望",
+    "mentions": 160,
+    "stories": 5,
+    "comments": 155
+  },
+  {
+    "rank": 54,
+    "title": "Don’t Look Up",
+    "year": 2021,
+    "zh": "不要抬头",
+    "mentions": 157,
+    "stories": 10,
+    "comments": 147
+  },
+  {
+    "rank": 55,
+    "title": "The Social Network",
+    "year": 2010,
+    "zh": "社交网络",
+    "mentions": 157,
+    "stories": 12,
+    "comments": 145
+  },
+  {
+    "rank": 56,
+    "title": "Team America: World Police",
+    "year": 2004,
+    "zh": "美国战队：世界警察",
+    "mentions": 156,
+    "stories": 4,
+    "comments": 152
+  },
+  {
+    "rank": 57,
+    "title": "Tron: Legacy",
+    "year": 2010,
+    "zh": "创：战纪",
+    "mentions": 153,
+    "stories": 17,
+    "comments": 136
+  },
+  {
+    "rank": 58,
+    "title": "Goodfellas",
+    "year": 1990,
+    "zh": "好家伙",
+    "mentions": 152,
+    "stories": 7,
+    "comments": 145
+  },
+  {
+    "rank": 59,
+    "title": "Stalker",
+    "year": 1979,
+    "zh": "潜行者",
+    "mentions": 149,
+    "stories": 5,
+    "comments": 144
+  },
+  {
+    "rank": 60,
+    "title": "The Martian",
+    "year": 2015,
+    "zh": "火星救援",
+    "mentions": 147,
+    "stories": 5,
+    "comments": 142
+  },
+  {
+    "rank": 61,
+    "title": "Fight Club",
+    "year": 1999,
+    "zh": "搏击俱乐部",
+    "mentions": 141,
+    "stories": 5,
+    "comments": 136
+  },
+  {
+    "rank": 62,
+    "title": "Her",
+    "year": 2013,
+    "zh": "她",
+    "mentions": 141,
+    "stories": 6,
+    "comments": 135
+  },
+  {
+    "rank": 63,
+    "title": "Minority Report",
+    "year": 2002,
+    "zh": "少数派报告",
+    "mentions": 140,
+    "stories": 0,
+    "comments": 140
+  },
+  {
+    "rank": 64,
+    "title": "The Prestige",
+    "year": 2006,
+    "zh": "致命魔术",
+    "mentions": 136,
+    "stories": 12,
+    "comments": 124
+  },
+  {
+    "rank": 65,
+    "title": "Sneakers",
+    "year": 1992,
+    "zh": "通天神偷",
+    "mentions": 134,
+    "stories": 7,
+    "comments": 127
+  },
+  {
+    "rank": 66,
+    "title": "An Inconvenient Truth",
+    "year": 2006,
+    "zh": "难以忽视的真相",
+    "mentions": 130,
+    "stories": 16,
+    "comments": 114
+  },
+  {
+    "rank": 67,
+    "title": "Waterworld",
+    "year": 1995,
+    "zh": "未来水世界",
+    "mentions": 129,
+    "stories": 9,
+    "comments": 120
+  },
+  {
+    "rank": 68,
+    "title": "Inception",
+    "year": 2010,
+    "zh": "盗梦空间",
+    "mentions": 128,
+    "stories": 7,
+    "comments": 121
+  },
+  {
+    "rank": 69,
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "zh": "复仇者联盟4：终局之战",
+    "mentions": 127,
+    "stories": 15,
+    "comments": 112
+  },
+  {
+    "rank": 70,
+    "title": "Saving Private Ryan",
+    "year": 1998,
+    "zh": "拯救大兵瑞恩",
+    "mentions": 126,
+    "stories": 2,
+    "comments": 124
+  },
+  {
+    "rank": 71,
+    "title": "Blazing Saddles",
+    "year": 1974,
+    "zh": "灼热的马鞍",
+    "mentions": 125,
+    "stories": 4,
+    "comments": 121
+  },
+  {
+    "rank": 72,
+    "title": "Princess Mononoke",
+    "year": 1997,
+    "zh": "幽灵公主",
+    "mentions": 124,
+    "stories": 8,
+    "comments": 116
+  },
+  {
+    "rank": 73,
+    "title": "Who Framed Roger Rabbit",
+    "year": 1988,
+    "zh": "谁陷害了兔子罗杰",
+    "mentions": 124,
+    "stories": 9,
+    "comments": 115
+  },
+  {
+    "rank": 74,
+    "title": "Avengers: Infinity War",
+    "year": 2018,
+    "zh": "复仇者联盟3：无限战争",
+    "mentions": 123,
+    "stories": 12,
+    "comments": 111
+  },
+  {
+    "rank": 75,
+    "title": "Colossus: The Forbin Project",
+    "year": 1970,
+    "zh": "巨人：福宾计划",
+    "mentions": 123,
+    "stories": 12,
+    "comments": 111
+  },
+  {
+    "rank": 76,
+    "title": "Tenet",
+    "year": 2020,
+    "zh": "信条",
+    "mentions": 122,
+    "stories": 7,
+    "comments": 115
+  },
+  {
+    "rank": 77,
+    "title": "Aliens",
+    "year": 1986,
+    "zh": "异形2",
+    "mentions": 121,
+    "stories": 5,
+    "comments": 116
+  },
+  {
+    "rank": 78,
+    "title": "Return of the Jedi",
+    "year": 1983,
+    "zh": "星球大战：绝地归来",
+    "mentions": 121,
+    "stories": 9,
+    "comments": 112
+  },
+  {
+    "rank": 79,
+    "title": "The Incredibles",
+    "year": 2004,
+    "zh": "超人总动员",
+    "mentions": 120,
+    "stories": 2,
+    "comments": 118
+  },
+  {
+    "rank": 80,
+    "title": "Top Gun: Maverick",
+    "year": 2022,
+    "zh": "壮志凌云：独行侠",
+    "mentions": 117,
+    "stories": 22,
+    "comments": 95
+  },
+  {
+    "rank": 81,
+    "title": "Tron",
+    "year": 1982,
+    "zh": "电子世界争霸战",
+    "mentions": 117,
+    "stories": 9,
+    "comments": 108
+  },
+  {
+    "rank": 82,
+    "title": "The Force Awakens",
+    "year": 2015,
+    "zh": "星球大战：原力觉醒",
+    "mentions": 114,
+    "stories": 3,
+    "comments": 111
+  },
+  {
+    "rank": 83,
+    "title": "Die Hard",
+    "year": 1988,
+    "zh": "虎胆龙威",
+    "mentions": 113,
+    "stories": 7,
+    "comments": 106
+  },
+  {
+    "rank": 84,
+    "title": "I, Robot",
+    "year": 2004,
+    "zh": "我，机器人",
+    "mentions": 113,
+    "stories": 7,
+    "comments": 106
+  },
+  {
+    "rank": 85,
+    "title": "The Phantom Menace",
+    "year": 1999,
+    "zh": "星球大战：幽灵的威胁",
+    "mentions": 112,
+    "stories": 6,
+    "comments": 106
+  },
+  {
+    "rank": 86,
+    "title": "Dune",
+    "year": 2021,
+    "zh": "沙丘（2021）",
+    "mentions": 111,
+    "stories": 10,
+    "comments": 101
+  },
+  {
+    "rank": 87,
+    "title": "Encanto",
+    "year": 2021,
+    "zh": "魔法满屋",
+    "mentions": 108,
+    "stories": 3,
+    "comments": 105
+  },
+  {
+    "rank": 88,
+    "title": "Zootopia",
+    "year": 2016,
+    "zh": "疯狂动物城",
+    "mentions": 108,
+    "stories": 5,
+    "comments": 103
+  },
+  {
+    "rank": 89,
+    "title": "Ferris Bueller's Day Off",
+    "year": 1986,
+    "zh": "春天不是读书天",
+    "mentions": 107,
+    "stories": 11,
+    "comments": 96
+  },
+  {
+    "rank": 90,
+    "title": "Back to the Future Part II",
+    "year": 1989,
+    "zh": "回到未来2",
+    "mentions": 106,
+    "stories": 3,
+    "comments": 103
+  },
+  {
+    "rank": 91,
+    "title": "12 Monkeys",
+    "year": 1995,
+    "zh": "十二猴子",
+    "mentions": 104,
+    "stories": 6,
+    "comments": 98
+  },
+  {
+    "rank": 92,
+    "title": "Oppenheimer",
+    "year": 2023,
+    "zh": "奥本海默",
+    "mentions": 103,
+    "stories": 10,
+    "comments": 93
+  },
+  {
+    "rank": 93,
+    "title": "Starship Troopers",
+    "year": 1997,
+    "zh": "星河战队",
+    "mentions": 103,
+    "stories": 1,
+    "comments": 102
+  },
+  {
+    "rank": 94,
+    "title": "It's a Wonderful Life",
+    "year": 1946,
+    "zh": "生活多美好",
+    "mentions": 101,
+    "stories": 12,
+    "comments": 89
+  },
+  {
+    "rank": 95,
+    "title": "Dark City",
+    "year": 1998,
+    "zh": "移魂都市",
+    "mentions": 100,
+    "stories": 3,
+    "comments": 97
+  },
+  {
+    "rank": 96,
+    "title": "Schindler's List",
+    "year": 1993,
+    "zh": "辛德勒的名单",
+    "mentions": 100,
+    "stories": 4,
+    "comments": 96
+  },
+  {
+    "rank": 97,
+    "title": "The Lives of Others",
+    "year": 2006,
+    "zh": "窃听风暴",
+    "mentions": 99,
+    "stories": 2,
+    "comments": 97
+  },
+  {
+    "rank": 98,
+    "title": "Top Gun",
+    "year": 1986,
+    "zh": "壮志凌云",
+    "mentions": 99,
+    "stories": 4,
+    "comments": 95
+  },
+  {
+    "rank": 99,
+    "title": "Close Encounters of the Third Kind",
+    "year": 1977,
+    "zh": "第三类接触",
+    "mentions": 98,
+    "stories": 25,
+    "comments": 73
+  },
+  {
+    "rank": 100,
+    "title": "Mulholland Drive",
+    "year": 2001,
+    "zh": "穆赫兰道",
+    "mentions": 98,
+    "stories": 2,
+    "comments": 96
+  }
+]
