@@ -1,0 +1,18 @@
+﻿书名,原书名,作者,年龄分组,类别,内容简介,作品形式,分龄依据,备注
+编码：隐匿在计算机软硬件背后的语言,Code: The Hidden Language of Computer Hardware and Software,Charles Petzold,15–18岁／高中,计算机与编程,从通信、开关和逻辑电路出发，逐步解释计算机如何工作。它把硬件与软件之间的抽象层连接起来。,图书,给16岁读者求书时获得的推荐；给15–18岁／高中读者求书时获得的推荐,部分年龄来自求书对象，未据此断言作品适读年龄。
+Computer Lib / Dream Machines,Computer Lib / Dream Machines,Ted Nelson,年龄未明确,计算机与编程,以实验性的版式讨论个人计算、超文本和计算机文化。它表达了让计算机服务于个人创造的愿景。,图书,具体年龄未说明,
+Getting Started in Electronics,Getting Started in Electronics,Forrest M. Mims III,年龄未明确,计算机与编程,从基本元件和电路图介绍电子学。通过小型电路帮助读者把概念与动手制作联系起来。,图书,具体年龄未说明,
+Hello World!: Computer Programming for Kids and Other Beginners,Hello World!: Computer Programming for Kids and Other Beginners,Warren Sande、Carter Sande,6–8岁／小学低年级,计算机与编程,面向初学者介绍Python和计算机编程。通过逐步练习建立对基本语法和程序行为的理解。,图书,给6–8岁／小学低年级读者求书时获得的推荐,部分年龄来自求书对象，未据此断言作品适读年龄。
+How Computers Really Work,How Computers Really Work,Matthew Justice,15–18岁／高中,计算机与编程,从硬件和数字表示等基础介绍计算机内部原理。结合练习连接电路、软件和系统行为。,图书,给15–18岁／高中读者求书时获得的推荐,部分年龄来自求书对象，未据此断言作品适读年龄。
+程序设计方法,How to Design Programs,Matthias Felleisen、Robert Bruce Findler、Matthew Flatt、Shriram Krishnamurthi,15–18岁／高中,计算机与编程,通过数据分析和系统化设计步骤教授程序设计。重点是如何从问题描述推导出结构清楚的程序。,图书,给16岁读者求书时获得的推荐,部分年龄来自求书对象，未据此断言作品适读年龄。
+Python游戏编程快速上手,Invent Your Own Computer Games with Python,Al Sweigart,6–8岁／小学低年级,计算机与编程,通过制作小游戏介绍Python语法和程序设计。每个项目逐步加入新的概念与功能。,图书,给6–8岁／小学低年级读者求书时获得的推荐,部分年龄来自求书对象，未据此断言作品适读年龄。
+Learn to Program,Learn to Program,Chris Pine,6–8岁／小学低年级,计算机与编程,通过Ruby和逐步练习介绍编程的基本概念。内容从输入输出延伸到条件、循环和程序组织。,图书,给6–8岁／小学低年级读者求书时获得的推荐,部分年龄来自求书对象，未据此断言作品适读年龄。
+Learn to Program with Small Basic,Learn to Program with Small Basic,Majed Marji、Ed Price,6–8岁／小学低年级,计算机与编程,使用Small Basic教授变量、循环、控制流程和图形等基础。以可运行的小项目帮助初学者理解程序。,图书,实际阅读／教学经历：7岁,
+编程珠玑,Programming Pearls,Jon Bentley,15–18岁／高中,计算机与编程,通过具体问题讨论算法、数据结构和程序优化。着重展示如何分析问题并找到简洁有效的解法。,图书,给15–18岁／高中读者求书时获得的推荐,部分年龄来自求书对象，未据此断言作品适读年龄。
+The Computational Beauty of Nature,The Computational Beauty of Nature,Gary William Flake,15–18岁／高中,计算机与编程,介绍分形、混沌、复杂系统和适应等计算主题。通过模型说明简单规则如何形成复杂现象。,图书,实际阅读／教学经历：16岁,
+The Computer Always Wins,The Computer Always Wins,Elliot Lichtman,15–18岁／高中,计算机与编程,通过游戏和谜题切入计算机问题。读者可以从具体策略理解算法和解决问题的方式。,图书,给15–18岁／高中读者求书时获得的推荐,部分年龄来自求书对象，未据此断言作品适读年龄。
+布谷鸟的蛋,The Cuckoo's Egg,Clifford Stoll,9–11岁／小学高年级；12–14岁／初中；15–18岁／高中,计算机与编程,系统管理员从微小的账目异常追查入侵者。真实调查经历呈现早期网络安全、耐心取证和跨机构合作。,图书,给15–18岁／高中读者求书时获得的推荐；实际阅读／教学经历：9–11岁／小学高年级／12–14岁／初中,部分年龄来自求书对象，未据此断言作品适读年龄。
+计算机系统要素,The Elements of Computing Systems,Noam Nisan、Shimon Schocken,15–18岁／高中,计算机与编程,从逻辑门逐步构建处理器、汇编器、编译器和操作系统。配套项目让读者理解一台计算机的完整组成。,图书,给16岁读者求书时获得的推荐；给15–18岁／高中读者求书时获得的推荐,部分年龄来自求书对象，未据此断言作品适读年龄。
+The Little Schemer,The Little Schemer,Daniel P. Friedman、Matthias Felleisen,15–18岁／高中,计算机与编程,以连续问答和短程序讲解递归及函数式思考。读者通过小例子逐步建立对程序结构的直觉。,图书,给15–18岁／高中读者求书时获得的推荐,部分年龄来自求书对象，未据此断言作品适读年龄。
+新黑客词典,The New Hacker's Dictionary,Eric S. Raymond,15–18岁／高中,计算机与编程,收集黑客社群的术语、笑话和技术文化。它也是了解早期计算机社区语言习惯的窗口。,图书,给15–18岁／高中读者求书时获得的推荐,部分年龄来自求书对象，未据此断言作品适读年龄。
+The Official ScratchJr Book,The Official ScratchJr Book,Marina Umaschi Bers、Mitchel Resnick,6–8岁／小学低年级,计算机与编程,用图形积木设计故事、动画和互动项目。重点是适合低龄学习者的顺序、事件和简单控制概念。,图书,读者建议年龄／年级：6–8岁／小学低年级,

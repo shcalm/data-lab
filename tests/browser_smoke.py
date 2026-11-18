@@ -15,7 +15,7 @@ base = args.base_url.rstrip('/') + '/'
 root = Path(__file__).resolve().parents[1]
 output = root / 'test-results'
 output.mkdir(exist_ok=True)
-pages = {'home': '', 'books': 'hn/books/', 'movies': 'hn/movies/', 'about': 'about/'}
+pages = {'home': '', 'books': 'hn/books/', 'movies': 'hn/movies/', 'reading': 'hn/school-reading/', 'about': 'about/'}
 
 with sync_playwright() as playwright:
     browser = playwright.chromium.launch(headless=True)
@@ -115,6 +115,79 @@ with sync_playwright() as playwright:
                 assert exported['entries'] == entries
                 assert exported['source']['eligibleItems'] == 34721984
 
+    page.goto(urljoin(base, 'hn/school-reading/'), wait_until='networkidle')
+    books = page.locator('[data-book]:visible')
+    entries = json.loads(page.locator('#school-reading-data').text_content())
+    expect(books).to_have_count(109)
+    assert all(book['summary'] in page.locator('main').inner_text() for book in entries)
+    for book_id, qualification in [
+        ('harry-potter', '明确是第一册，作品按系列合并；孩子并未理解所有细节。'),
+        ('asterix', '按初中阅读水平分组，不推定孩子的确切年龄。'),
+        ('design-real-world', '英国GCSE通常处于14–16岁阶段，跨两个导航组；不是确切年龄。'),
+    ]:
+        details = page.locator(f'[data-book="{book_id}"] details')
+        details.locator('summary').click()
+        assert qualification in details.inner_text(), (book_id, qualification)
+    for age, count in [('6-8', 30), ('9-11', 16), ('12-14', 27), ('15-18', 23), ('unspecified', 29)]:
+        page.locator(f'[data-age="{age}"]').click()
+        expect(books).to_have_count(count)
+        expect(page.locator('[data-result-count]')).to_have_text(str(count))
+        expect(page.locator(f'[data-age="{age}"]')).to_have_attribute('aria-pressed', 'true')
+    page.locator('[data-age="6-8"]').click()
+    page.locator('#reading-category').select_option('科普与自然')
+    expect(books).to_have_count(3)
+    page.locator('#reading-search').fill('万物 运转')
+    expect(books).to_have_count(1)
+    expect(books.first.locator('h3')).to_have_text('万物运转的秘密')
+    assert 'age=6-8' in page.url and 'category=' in page.url and 'q=' in page.url
+    filtered_url = page.url
+    page.reload(wait_until='networkidle')
+    expect(books).to_have_count(1)
+    page.goto(urljoin(base, 'hn/school-reading/?age=15-18'), wait_until='networkidle')
+    expect(books).to_have_count(23)
+    page.go_back(wait_until='networkidle')
+    assert page.url == filtered_url
+    expect(books).to_have_count(1)
+    page.locator('[data-reading-reset]').first.click()
+    expect(books).to_have_count(109)
+    expect(page.locator('#reading-search')).to_be_focused()
+    assert '?' not in page.url
+    page.locator('#reading-search').fill('没有这本书-998877')
+    expect(books).to_have_count(0)
+    expect(page.locator('[data-reading-empty]')).to_be_visible()
+    page.locator('[data-reading-empty] [data-reading-reset]').click()
+    expect(books).to_have_count(109)
+    page.locator('#reading-search').fill('ＯＲＷＥＬＬ')
+    expect(books).to_have_count(1)
+    books.first.locator('summary').focus()
+    page.keyboard.press('Enter')
+    expect(books.first.locator('details')).to_have_attribute('open', '')
+    assert books.first.locator('details a').count() > 0
+    page.locator('#reading-search').focus()
+    page.keyboard.press('Tab')
+    expect(page.locator('#reading-category')).to_be_focused()
+    page.goto(urljoin(base, 'hn/school-reading/?age=wrong&category=不存在'), wait_until='networkidle')
+    expect(books).to_have_count(109)
+
+    download_root = 'downloads/hn-school-reading/'
+    for ext in ['csv', 'json']:
+        response = context.request.get(urljoin(base, download_root + '书目总表.' + ext))
+        assert response.status == 200
+        text = response.body().decode('utf-8')
+        exported = list(csv.DictReader(io.StringIO(text.lstrip('\ufeff')))) if ext == 'csv' else json.loads(text)
+        assert len(exported) == 109
+        assert [row['原书名'] for row in exported] == [book['title'] for book in entries]
+        assert all(row['内容简介'] and row['作者'] and row['年龄分组'] for row in exported)
+    age_export = context.request.get(urljoin(base, download_root + '按年龄/6-8岁.json')).json()
+    assert len(age_export) == 30
+    category_export = context.request.get(urljoin(base, download_root + '按类别/科普与自然.json')).json()
+    assert len(category_export) == 7
+    response = context.request.get(urljoin(base, download_root + '学生阅读书目.zip'))
+    import zipfile
+    with zipfile.ZipFile(io.BytesIO(response.body())) as archive:
+        assert archive.testzip() is None
+        assert len(json.loads(archive.read('书目总表.json'))) == 109
+
     page.goto(urljoin(base, 'hn/movies/?q=Dune&sort=year'), wait_until='networkidle')
     expect(page.locator('[data-rank]:visible')).to_have_count(2)
     assert page.locator('[data-rank]:visible').first.get_attribute('data-rank') == '86'
@@ -143,6 +216,14 @@ with sync_playwright() as playwright:
     assert not errors, errors
 
     plain = browser.new_context(java_script_enabled=False, viewport={'width': 375, 'height': 900})
+    static = plain.new_page()
+    static.goto(urljoin(base, 'hn/school-reading/'), wait_until='networkidle')
+    expect(static.locator('[data-book]:visible')).to_have_count(109)
+    expect(static.locator('[data-reading-controls]')).to_be_hidden()
+    assert static.locator('[data-book] p.reading-summary').count() == 109
+    static.locator('[data-book] summary').first.click()
+    expect(static.locator('[data-book] details').first).to_have_attribute('open', '')
+    static.close()
     for kind in ['books', 'movies']:
         static = plain.new_page()
         response = static.goto(urljoin(base, f'hn/{kind}/'), wait_until='networkidle')
@@ -154,4 +235,4 @@ with sync_playwright() as playwright:
         static.close()
     plain.close()
     browser.close()
-    print(f'PASS: 4 pages, {len(internal)} internal assets/links, both complete rankings and exports; search, category, sort, URL restore, keyboard, no-JS, reduced motion, 5 viewport sizes; no script errors.')
+    print(f'PASS: 5 pages, {len(internal)} internal assets/links, two rankings and 109 reading books; age/category/search intersections, URL/history restore, downloads/ZIP, keyboard, no-JS, reduced motion, 5 viewport sizes; no script errors.')

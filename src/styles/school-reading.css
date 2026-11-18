@@ -1,0 +1,146 @@
+@layer components {
+  .project-reading { grid-column: 1 / -1; }
+  .reading-card-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 8%; align-items: center; }
+  .project-reading .card-description { max-width: 34em; }
+  .reading-card-ages, .reading-book-ages { display: flex; flex-wrap: wrap; gap: 7px; }
+  .reading-card-ages { margin-top: 20px; }
+  .reading-card-ages span, .reading-book-ages span { background: var(--soft-green); color: var(--green); padding: 3px 9px; font-size: 11px; border-radius: 2px; }
+  .reading-card-preview { margin-top: 18px; padding: 7px 22px; background: #f0f2eb; }
+  .reading-card-preview a { display: grid; grid-template-columns: 100px minmax(0, 1fr) 16px; align-items: center; gap: 12px; padding-block: 16px; }
+  .reading-card-preview a + a { border-top: 1px solid var(--rule); }
+  .reading-card-preview span { font-size: 11px; color: var(--muted); }
+  .reading-card-preview b { font-family: var(--serif); font-size: 16px; font-weight: 500; }
+  .reading-card-preview svg { color: var(--green); }
+  .reading-overview { padding: 28px 30px; background: #edf0e6; border: 1px solid #dbe2d4; }
+  .reading-overview .eyebrow { color: var(--muted); font-size: 10px; }
+  .reading-total { display: flex; align-items: baseline; gap: 16px; margin-block: 7px 15px; }
+  .reading-total > b { font-family: Georgia, serif; font-weight: 400; font-size: 80px; letter-spacing: -.07em; color: var(--green); line-height: 1.35; }
+  .reading-total > span { font-size: 13px; }
+  .reading-overview-facts { display: flex; flex-wrap: wrap; gap: 7px 22px; font-size: 11px; padding-bottom: 18px; border-bottom: 1px solid #cfd8c7; }
+  .reading-overview-facts b { font-family: var(--mono); font-weight: 500; }
+  .reading-overview > p:last-child { font-family: var(--serif); font-size: 13px; margin-top: 16px; }
+  .reading-section-heading { display: flex; align-items: center; justify-content: space-between; gap: 20px; border-top: 1px solid var(--ink); padding-top: 27px; }
+  .reading-section-heading .eyebrow { color: var(--muted); }
+  .reading-section-heading h2, .reading-downloads > h2 { font-family: var(--serif); font-weight: 500; font-size: 28px; margin-top: 6px; }
+  .reading-section-heading > a { font-size: 12px; gap: 9px; }
+  .reading-age-buttons { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 9px; padding-top: 26px; }
+  .reading-age-buttons button { border: 1px solid var(--rule); background: var(--surface); padding: 12px 13px; min-height: 67px; display: flex; align-items: center; justify-content: space-between; gap: 10px; text-align: left; border-radius: 3px; font-size: 12px; }
+  .reading-age-buttons small { display: block; font-size: 10px; font-weight: 400; color: var(--muted); line-height: 1.6; margin-top: 3px; }
+  .reading-age-buttons b { font-size: 12px; font-weight: 400; color: var(--muted); }
+  .reading-age-buttons button[aria-pressed="true"] { border-color: var(--green); background: var(--green); color: var(--paper); }
+  .reading-age-buttons button[aria-pressed="true"] small, .reading-age-buttons button[aria-pressed="true"] b { color: #dce7d7; }
+  .reading-age-buttons button:hover { border-color: var(--green); }
+  .reading-search-tools { grid-template-columns: minmax(0, 1fr) 260px; padding-block: 20px 16px; position: static; border: 0; }
+  .reading-category { margin-bottom: 38px; }
+  .reading-category-heading { display: flex; align-items: center; justify-content: space-between; gap: 20px; border-bottom: 1px solid var(--rule); padding-block: 15px; }
+  .reading-category-heading h2 { display: flex; align-items: center; gap: 17px; font-size: 20px; font-family: var(--serif); font-weight: 500; }
+  .reading-category-heading h2 .mono { font-family: var(--mono); font-size: 11px; color: var(--muted); }
+  .reading-category-heading > span { font-size: 11px; color: var(--muted); }
+  .reading-category-heading b { font-weight: 400; }
+  .reading-book-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; padding-top: 20px; align-items: start; }
+  .reading-book { border: 1px solid var(--rule); background: var(--surface); padding: 25px 27px 19px; min-width: 0; scroll-margin-top: 26px; }
+  .reading-book:target { outline: 2px solid var(--green); outline-offset: 3px; }
+  .reading-book-heading { display: flex; align-items: baseline; flex-wrap: wrap; gap: 7px 12px; }
+  .reading-book h3 { font-family: var(--serif); font-size: 21px; line-height: 1.6; font-weight: 600; overflow-wrap: anywhere; }
+  .reading-book .original-title { font-size: 12px; margin-top: 5px; }
+  .reading-book .work-meta { font-size: 11px; margin-top: 6px; }
+  .reading-summary { font-size: 14px; color: var(--ink); line-height: 1.95; margin-top: 17px; }
+  .reading-book-ages { margin-top: 18px; }
+  .reading-book-ages span { font-size: 10px; padding: 2px 8px; }
+  .reading-evidence { margin-top: 16px; border-top: 1px solid var(--rule); }
+  .reading-evidence summary { display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 44px; list-style: none; font-size: 11px; color: var(--muted); }
+  .reading-evidence summary::-webkit-details-marker { display: none; }
+  .reading-evidence[open] summary svg { transform: rotate(180deg); }
+  .reading-evidence > div { padding-block: 3px 10px; }
+  .reading-evidence p { font-size: 11px; color: var(--muted); line-height: 1.9; }
+  .reading-evidence p + p { margin-top: 8px; }
+  .reading-evidence ul { list-style: none; margin: 12px 0 0; padding: 0; }
+  .reading-evidence li { display: flex; justify-content: space-between; align-items: baseline; gap: 15px; font-size: 10px; color: var(--muted); }
+  .reading-evidence li > div { min-width: 0; }
+  .reading-evidence p.reading-evidence-note { margin-top: 5px; font-size: 10px; }
+  .reading-evidence li a { display: inline-flex; align-items: center; gap: 3px; min-height: 44px; color: var(--green); white-space: nowrap; }
+  .reading-case-note { background: #f3eee2; padding: 11px 13px; margin-top: 15px; color: #73532b; font-size: 11px; line-height: 1.8; }
+  .reading-downloads { border-top: 1px solid var(--ink); margin-top: 38px; padding-top: 33px; scroll-margin-top: 28px; }
+  .reading-downloads > .eyebrow { color: var(--muted); }
+  .reading-downloads > p:not(.eyebrow) { color: var(--muted); font-size: 13px; line-height: 1.9; max-width: 56em; margin-top: 16px; }
+  .reading-download-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 60px; margin-top: 31px; }
+  .reading-download-grid h3 { font-size: 14px; font-weight: 500; padding-bottom: 14px; border-bottom: 1px solid var(--rule); }
+  .reading-download-grid ul { list-style: none; margin: 0; padding: 0; }
+  .reading-download-grid li { display: flex; align-items: center; gap: 17px; border-bottom: 1px solid var(--rule); padding-block: 9px; font-size: 12px; }
+  .reading-download-grid li > span { margin-right: auto; }
+  .reading-download-grid small { display: inline-block; font-size: 10px; color: var(--muted); margin-left: 12px; }
+  .reading-download-grid a { display: flex; align-items: center; min-height: 44px; color: var(--green); font-family: var(--mono); font-size: 11px; }
+  .reading-extra-downloads { display: flex; flex-wrap: wrap; gap: 10px 26px; margin-top: 20px; }
+  .reading-extra-downloads a { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; font-size: 12px; color: var(--green); }
+  .reading-methodology { margin-top: 45px; }
+}
+
+@layer responsive {
+  @media (max-width: 1080px) {
+    .reading-age-buttons { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .reading-card-layout { gap: 5%; }
+    .reading-card-preview { padding-inline: 16px; }
+    .reading-card-preview a { grid-template-columns: 78px minmax(0, 1fr) 16px; gap: 9px; }
+    .reading-card-preview span { font-size: 10px; }
+    .reading-card-preview b { font-size: 14px; }
+    .reading-book { padding-inline: 23px; }
+    .reading-download-grid { gap: 35px; }
+  }
+  @media (max-width: 800px) {
+    .reading-overview { padding: 22px; }
+    .reading-total > b { font-size: 65px; }
+    .reading-overview-facts { gap: 7px 13px; font-size: 10px; }
+    .reading-book-grid { grid-template-columns: minmax(0, 1fr); }
+    .reading-card-preview a { grid-template-columns: minmax(0, 1fr) 16px; padding-block: 10px; }
+    .reading-card-preview span { grid-column: 1; }
+    .reading-card-preview b { grid-column: 1; }
+    .reading-card-preview svg { grid-column: 2; grid-row: span 2; }
+  }
+  @media (max-width: 620px) {
+    .main-nav { gap: 10px; }
+    .reading-card-layout { grid-template-columns: minmax(0, 1fr); gap: 3px; }
+    .reading-card-ages { margin-top: 17px; }
+    .reading-card-preview { margin-top: 19px; padding-inline: 16px; }
+    .reading-card-preview a { grid-template-columns: 80px minmax(0, 1fr) 16px; padding-block: 13px; gap: 8px; }
+    .reading-card-preview span, .reading-card-preview b, .reading-card-preview svg { grid-column: auto; grid-row: auto; }
+    .reading-card-preview b { font-size: 13px; }
+    .reading-overview { padding: 19px 22px; }
+    .reading-total { margin-block: 5px 11px; }
+    .reading-total > b { font-size: 68px; }
+    .reading-overview-facts { font-size: 11px; gap: 7px 23px; }
+    .reading-overview > p:last-child { font-size: 12px; }
+    .reading-hero .ranking-hero-bottom { align-items: flex-start; flex-direction: column; gap: 15px; }
+    .reading-hero .ranking-hero-bottom > p { font-size: 11px; }
+    .reading-hero .download-links { flex-wrap: wrap; }
+    .reading-section-heading { padding-top: 22px; gap: 12px; }
+    .reading-section-heading h2 { font-size: 22px; }
+    .reading-section-heading .eyebrow { font-size: 9px; }
+    .reading-section-heading > a { font-size: 11px; gap: 6px; }
+    .reading-age-buttons { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; padding-top: 22px; }
+    .reading-age-buttons button { padding: 10px 12px; min-height: 63px; }
+    .reading-search-tools { grid-template-columns: minmax(0, 1fr); gap: 14px; padding-block: 20px 13px; }
+    .reading-search-tools label { font-size: 11px; }
+    .reading-search-tools input, .reading-search-tools select { font-size: 12px; }
+    .reading-category-heading { padding-block: 13px; }
+    .reading-category-heading h2 { font-size: 19px; gap: 12px; }
+    .reading-category { margin-bottom: 26px; }
+    .reading-book-grid { gap: 15px; padding-top: 15px; }
+    .reading-book { padding: 21px 20px 13px; }
+    .reading-book h3 { font-size: 20px; }
+    .reading-summary { font-size: 13px; line-height: 2; }
+    .reading-book .original-title { font-size: 11px; }
+    .reading-book .work-meta { font-size: 11px; }
+    .reading-evidence li { align-items: flex-start; flex-direction: column; gap: 0; }
+    .reading-evidence li + li { margin-top: 9px; }
+    .reading-downloads { margin-top: 24px; padding-top: 26px; }
+    .reading-downloads > h2 { font-size: 23px; }
+    .reading-downloads > p:not(.eyebrow) { font-size: 12px; }
+    .reading-download-grid { grid-template-columns: minmax(0, 1fr); gap: 28px; margin-top: 25px; }
+    .reading-download-grid li { font-size: 11px; gap: 13px; }
+    .reading-download-grid small { margin-left: 8px; }
+  }
+  @media print {
+    .reading-controls, .reading-evidence, .reading-downloads, .reading-section-heading > a { display: none !important; }
+    .reading-book { break-inside: avoid; }
+  }
+}

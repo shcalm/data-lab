@@ -1,0 +1,2722 @@
+[
+  {
+    "书名": "一九八四",
+    "原书名": "1984",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41759381",
+      "https://news.ycombinator.com/item?id=41763617",
+      "https://news.ycombinator.com/item?id=41765490"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "nineteen-eighty-four:41759381",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41759381",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "nineteen-eighty-four:41763617",
+        "description_zh": "12–14岁／初中",
+        "kind": "explicit_school_stage",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=41763617",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": ""
+      },
+      {
+        "evidence_id": "nineteen-eighty-four:41765490",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41765490",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      }
+    ]
+  },
+  {
+    "书名": "双城记",
+    "原书名": "A Tale of Two Cities",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41760877"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "tale-two-cities:41760877",
+        "description_zh": "12–14岁／初中",
+        "kind": "explicit_school_stage",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=41760877",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "八十天环游地球",
+    "原书名": "Around the World in Eighty Days",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=33394928"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "around-world:33394928",
+        "description_zh": "6岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=33394928",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "卡姆·詹森系列",
+    "原书名": "Cam Jansen",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=15752917"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "cam-jansen:15752917",
+        "description_zh": "6–10岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=15752917",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "罪与罚",
+    "原书名": "Crime and Punishment",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=42963613"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "crime-punishment:42963613",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=42963613",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      }
+    ]
+  },
+  {
+    "书名": "手斧男孩",
+    "原书名": "Hatchet",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41765912",
+      "https://news.ycombinator.com/item?id=41778487",
+      "https://news.ycombinator.com/item?id=41782706"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "hatchet:41765912",
+        "description_zh": "12–14岁／初中",
+        "kind": "explicit_school_stage",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=41765912",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": ""
+      },
+      {
+        "evidence_id": "hatchet:41778487",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41778487",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "hatchet:41782706",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41782706",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      }
+    ]
+  },
+  {
+    "书名": "山居岁月",
+    "原书名": "My Side of the Mountain",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41763733",
+      "https://news.ycombinator.com/item?id=12461164"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "my-side-mountain:41763733",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41763733",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "my-side-mountain:12461164",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=12461164",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      }
+    ]
+  },
+  {
+    "书名": "土生子",
+    "原书名": "Native Son",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=42963513",
+      "https://news.ycombinator.com/item?id=41763733"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "native-son:42963513",
+        "description_zh": "15–18岁／高中",
+        "kind": "explicit_school_stage",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=42963513",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": ""
+      },
+      {
+        "evidence_id": "native-son:41763733",
+        "description_zh": "15–18岁／高中",
+        "kind": "explicit_school_stage",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=41763733",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "麦田里的守望者",
+    "原书名": "The Catcher in the Rye",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41759451",
+      "https://news.ycombinator.com/item?id=41759452",
+      "https://news.ycombinator.com/item?id=41762907"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "catcher-rye:41759451",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41759451",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "catcher-rye:41759452",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41759452",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "直接推荐",
+        "note": "只说as a teen，不能细分初中、高中。"
+      },
+      {
+        "evidence_id": "catcher-rye:41762907",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41762907",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "接续上级评论谈《麦田里的守望者》，只说school。"
+      }
+    ]
+  },
+  {
+    "书名": "柳林风声",
+    "原书名": "The Wind in the Willows",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=15757054",
+      "https://news.ycombinator.com/item?id=41759325"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "wind-willows:15757054",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=15757054",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "回复者回忆童年阅读，但未说明该书的具体年龄。"
+      },
+      {
+        "evidence_id": "wind-willows:41759325",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41759325",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      }
+    ]
+  },
+  {
+    "书名": "Animorphs",
+    "原书名": "Animorphs",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41763574"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "animorphs:41763574",
+        "description_zh": "9–14岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=41763574",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": "原文是约9–14岁。"
+      }
+    ]
+  },
+  {
+    "书名": "颂歌",
+    "原书名": "Anthem",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=28205889"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "anthem:28205889",
+        "description_zh": "13岁",
+        "kind": "explicit_age",
+        "context": "suggested_age",
+        "source_url": "https://news.ycombinator.com/item?id=28205889",
+        "basis_label_zh": "回复者建议年龄／年级",
+        "role_zh": "直接推荐",
+        "note": "年龄为回复者的推荐判断；作品涉及较复杂或成熟主题。"
+      }
+    ]
+  },
+  {
+    "书名": "沙丘",
+    "原书名": "Dune",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41761148",
+      "https://news.ycombinator.com/item?id=41761756",
+      "https://news.ycombinator.com/item?id=41761775",
+      "https://news.ycombinator.com/item?id=12454139"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "dune:41761148",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41761148",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "dune:41761756",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41761756",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "dune:41761775",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41761775",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "dune:12454139",
+        "description_zh": "11岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=12454139",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "安德的游戏",
+    "原书名": "Ender's Game",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41760899",
+      "https://news.ycombinator.com/item?id=41763574"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "enders-game:41760899",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41760899",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "enders-game:41763574",
+        "description_zh": "15岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=41763574",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": "原文为约15岁且带问号。"
+      }
+    ]
+  },
+  {
+    "书名": "哈利·波特系列",
+    "原书名": "Harry Potter",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41763733",
+      "https://news.ycombinator.com/item?id=41765490",
+      "https://news.ycombinator.com/item?id=33431258"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "harry-potter:41763733",
+        "description_zh": "7岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=41763733",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "孩子阅读经历",
+        "note": "此回复者自己大学才读；只使用其儿子7岁阅读的经历。"
+      },
+      {
+        "evidence_id": "harry-potter:41765490",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41765490",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "harry-potter:33431258",
+        "description_zh": "6岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=33431258",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "亲子共读／听书",
+        "note": "明确是第一册，作品按系列合并；孩子并未理解所有细节。"
+      }
+    ]
+  },
+  {
+    "书名": "黑暗物质三部曲",
+    "原书名": "His Dark Materials",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41764491"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "his-dark-materials:41764491",
+        "description_zh": "13岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=41764491",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": "原文是约13岁。"
+      }
+    ]
+  },
+  {
+    "书名": "我，机器人",
+    "原书名": "I, Robot",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=12445529"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "i-robot:12445529",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=12445529",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      }
+    ]
+  },
+  {
+    "书名": "侏罗纪公园",
+    "原书名": "Jurassic Park",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=23446064"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "jurassic-park:23446064",
+        "description_zh": "9–12岁",
+        "kind": "linked_age_range",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=23446064",
+        "basis_label_zh": "阅读经历承接楼主年龄范围",
+        "role_zh": "本人阅读回忆",
+        "note": "回复写around that age，指向楼主9–12岁；为间接年龄依据。"
+      }
+    ]
+  },
+  {
+    "书名": "小兄弟",
+    "原书名": "Little Brother",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=18331245"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "little-brother:18331245",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=18331245",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "转述推荐",
+        "note": "回复者明确说听说过，非本人阅读经验。"
+      }
+    ]
+  },
+  {
+    "书名": "神奇树屋",
+    "原书名": "Magic Tree House",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41255638"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "magic-tree-house:41255638",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41255638",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "亲子共读／听书",
+        "note": "回复说自己家庭睡前读，未说孩子年龄。"
+      }
+    ]
+  },
+  {
+    "书名": "神经漫游者",
+    "原书名": "Neuromancer",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=30483023",
+      "https://news.ycombinator.com/item?id=41765490"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "neuromancer:30483023",
+        "description_zh": "15–18岁／高中",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=30483023",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "高中毕业班映射到高中组，实际年龄未给出。"
+      },
+      {
+        "evidence_id": "neuromancer:41765490",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41765490",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      }
+    ]
+  },
+  {
+    "书名": "头号玩家",
+    "原书名": "Ready Player One",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=30483023"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "ready-player-one:30483023",
+        "description_zh": "15–18岁／高中",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=30483023",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "高中毕业班映射到高中组，实际年龄未给出。"
+      }
+    ]
+  },
+  {
+    "书名": "雪崩",
+    "原书名": "Snow Crash",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=30483023",
+      "https://news.ycombinator.com/item?id=41763733",
+      "https://news.ycombinator.com/item?id=41765490"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "snow-crash:30483023",
+        "description_zh": "15–18岁／高中",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=30483023",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "高中毕业班映射到高中组，实际年龄未给出。"
+      },
+      {
+        "evidence_id": "snow-crash:41763733",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41763733",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "只写teenage years，未给确切年龄。"
+      },
+      {
+        "evidence_id": "snow-crash:41765490",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41765490",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      }
+    ]
+  },
+  {
+    "书名": "狼与香辛料",
+    "原书名": "Spice and Wolf",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=28205889"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "spice-wolf:28205889",
+        "description_zh": "13岁",
+        "kind": "explicit_age",
+        "context": "suggested_age",
+        "source_url": "https://news.ycombinator.com/item?id=28205889",
+        "basis_label_zh": "回复者建议年龄／年级",
+        "role_zh": "直接推荐",
+        "note": "年龄为回复者的推荐判断；作品涉及较复杂或成熟主题。"
+      }
+    ]
+  },
+  {
+    "书名": "飞行员皮尔克斯的故事",
+    "原书名": "Tales of Pirx the Pilot",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=12460089"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "pirx:12460089",
+        "description_zh": "12岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=12460089",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": "原文为12岁左右。"
+      }
+    ]
+  },
+  {
+    "书名": "纳尼亚传奇",
+    "原书名": "The Chronicles of Narnia",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=12442724",
+      "https://news.ycombinator.com/item?id=12457893"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "narnia:12442724",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=12442724",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "narnia:12457893",
+        "description_zh": "8–9岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=12457893",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "银河系漫游指南",
+    "原书名": "The Hitchhiker's Guide to the Galaxy",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41759325",
+      "https://news.ycombinator.com/item?id=41759727",
+      "https://news.ycombinator.com/item?id=41766516"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "hitchhiker:41759325",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41759325",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "hitchhiker:41759727",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41759727",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "hitchhiker:41766516",
+        "description_zh": "15–18岁／高中",
+        "kind": "explicit_school_stage",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=41766516",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "霍比特人",
+    "原书名": "The Hobbit",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41759325",
+      "https://news.ycombinator.com/item?id=33396427"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "hobbit:41759325",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41759325",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "hobbit:33396427",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=33396427",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "本人回忆父亲讲睡前故事，没说当时年龄，不能直接套楼主的6岁。"
+      }
+    ]
+  },
+  {
+    "书名": "指环王",
+    "原书名": "The Lord of the Rings",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41759381",
+      "https://news.ycombinator.com/item?id=41765482",
+      "https://news.ycombinator.com/item?id=41766501",
+      "https://news.ycombinator.com/item?id=41809695"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "lord-rings:41759381",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41759381",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "lord-rings:41765482",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41765482",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "只是父亲建议、后来才读，年龄不明确；不进入分龄结果。"
+      },
+      {
+        "evidence_id": "lord-rings:41766501",
+        "description_zh": "11岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=41766501",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": "只读了一部分，未读完。"
+      },
+      {
+        "evidence_id": "lord-rings:41809695",
+        "description_zh": "12–14岁／初中",
+        "kind": "explicit_school_stage",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=41809695",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": "书单整体从初中前后开始接触，不表示每一本都在同一年读完。"
+      }
+    ]
+  },
+  {
+    "书名": "神秘岛",
+    "原书名": "The Mysterious Island",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41759381",
+      "https://news.ycombinator.com/item?id=33394928"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "mysterious-island:41759381",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41759381",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "mysterious-island:33394928",
+        "description_zh": "6岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=33394928",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "非标准英文称呼，结合Jules Verne和同列作品规范为《神秘岛》。"
+      }
+    ]
+  },
+  {
+    "书名": "汤姆·斯威夫特系列",
+    "原书名": "Tom Swift",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41766523",
+      "https://news.ycombinator.com/item?id=41766780",
+      "https://news.ycombinator.com/item?id=13527091",
+      "https://news.ycombinator.com/item?id=12440591"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "tom-swift:41766523",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41766523",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "tom-swift:41766780",
+        "description_zh": "10岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=41766780",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": "原文是约10岁。"
+      },
+      {
+        "evidence_id": "tom-swift:13527091",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=13527091",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "tom-swift:12440591",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=12440591",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      }
+    ]
+  },
+  {
+    "书名": "海底两万里",
+    "原书名": "Twenty Thousand Leagues Under the Seas",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=33394928"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "twenty-thousand:33394928",
+        "description_zh": "6岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=33394928",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "DK知识大百科",
+    "原书名": "Knowledge Encyclopedia",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=15752114"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "knowledge-encyclopedia:15752114",
+        "description_zh": "7岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=15752114",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "从一到无穷大",
+    "原书名": "One, Two, Three...Infinity",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=23463204"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "one-two-three:23463204",
+        "description_zh": "9–12岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=23463204",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "伊甸园的飞龙",
+    "原书名": "The Dragons of Eden",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41765469"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "dragons-eden:41765469",
+        "description_zh": "15岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=41765469",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "The Mind",
+    "原书名": "The Mind",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=13523436"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "the-mind:13523436",
+        "description_zh": "9–11岁／小学高年级",
+        "kind": "explicit_school_stage",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=13523436",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": "五年级按小学高年级归组，确切年龄未给出。"
+      }
+    ]
+  },
+  {
+    "书名": "The Story of Inventions",
+    "原书名": "The Story of Inventions",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=30465255"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "story-inventions:30465255",
+        "description_zh": "10岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=30465255",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "万物运转的秘密",
+    "原书名": "The Way Things Work",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=15751386",
+      "https://news.ycombinator.com/item?id=23463204",
+      "https://news.ycombinator.com/item?id=41760487",
+      "https://news.ycombinator.com/item?id=41764407",
+      "https://news.ycombinator.com/item?id=13526914",
+      "https://news.ycombinator.com/item?id=13543626"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "way-things-work:15751386",
+        "description_zh": "7岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=15751386",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": ""
+      },
+      {
+        "evidence_id": "way-things-work:23463204",
+        "description_zh": "9–12岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=23463204",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": ""
+      },
+      {
+        "evidence_id": "way-things-work:41760487",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41760487",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "way-things-work:41764407",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41764407",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "way-things-work:13526914",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=13526914",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "way-things-work:13543626",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=13543626",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "接续上级评论谈该书。"
+      }
+    ]
+  },
+  {
+    "书名": "万物解释者",
+    "原书名": "Thing Explainer",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=15752114"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "thing-explainer:15752114",
+        "description_zh": "7岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=15752114",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "Bedtime Math",
+    "原书名": "Bedtime Math",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=15757640"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "bedtime-math:15757640",
+        "description_zh": "6岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=15757640",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "亲子共读／听书",
+        "note": "从约3岁起喜欢，当前6岁。"
+      }
+    ]
+  },
+  {
+    "书名": "平面国",
+    "原书名": "Flatland",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=33412076"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "flatland:33412076",
+        "description_zh": "6岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=33412076",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "出现在6岁亲子朗读求书帖，不代表儿童独立阅读难度。"
+      }
+    ]
+  },
+  {
+    "书名": "哥德尔、埃舍尔、巴赫：集异璧之大成",
+    "原书名": "Gödel, Escher, Bach",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41763420",
+      "https://news.ycombinator.com/item?id=41766155",
+      "https://news.ycombinator.com/item?id=13533391",
+      "https://news.ycombinator.com/item?id=18331245"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "geb:41763420",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41763420",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "geb:41766155",
+        "description_zh": "15–18岁／高中",
+        "kind": "explicit_school_stage",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=41766155",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": ""
+      },
+      {
+        "evidence_id": "geb:13533391",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=13533391",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "只说at school，未给年级。"
+      },
+      {
+        "evidence_id": "geb:18331245",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=18331245",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "转述推荐",
+        "note": "回复者明确说尚未读过。"
+      }
+    ]
+  },
+  {
+    "书名": "魔鬼数学",
+    "原书名": "How Not to Be Wrong",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=18331245"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "how-not-wrong:18331245",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=18331245",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "直接推荐",
+        "note": "仅写teenagers，缺少具体年龄，保留在年龄未明确组。"
+      }
+    ]
+  },
+  {
+    "书名": "The Book of Numbers",
+    "原书名": "The Book of Numbers",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=42036851"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "book-numbers:42036851",
+        "description_zh": "12岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=42036851",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "转述推荐",
+        "note": "回复明确说由ChatGPT推荐；并非回复者亲读背书。"
+      }
+    ]
+  },
+  {
+    "书名": "数魔",
+    "原书名": "The Number Devil",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=15762849"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "number-devil:15762849",
+        "description_zh": "7岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=15762849",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "给出推荐，但没有说自己孩子阅读该书的确切年龄；沿用楼主求推荐的7岁情境。"
+      }
+    ]
+  },
+  {
+    "书名": "The Paradoxicon",
+    "原书名": "The Paradoxicon",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=13523395",
+      "https://news.ycombinator.com/item?id=13523436"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "paradoxicon:13523395",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=13523395",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "paradoxicon:13523436",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=13523436",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      }
+    ]
+  },
+  {
+    "书名": "The Penguin Dictionary of Curious and Interesting Numbers",
+    "原书名": "The Penguin Dictionary of Curious and Interesting Numbers",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=42034492"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "penguin-numbers:42034492",
+        "description_zh": "12岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=42034492",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "The Puzzling Adventures of Dr. Ecco",
+    "原书名": "The Puzzling Adventures of Dr. Ecco",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=12442418"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "dr-ecco:12442418",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=12442418",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      }
+    ]
+  },
+  {
+    "书名": "Turtle Confusion",
+    "原书名": "Turtle Confusion",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=26161103"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "turtle-confusion:26161103",
+        "description_zh": "12岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=26161103",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "教学使用经历",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "编码：隐匿在计算机软硬件背后的语言",
+    "原书名": "Code: The Hidden Language of Computer Hardware and Software",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=39369163",
+      "https://news.ycombinator.com/item?id=39372335",
+      "https://news.ycombinator.com/item?id=30482528",
+      "https://news.ycombinator.com/item?id=36752042"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "code:39369163",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=39369163",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "回复说自己在teen时读过，但未给具体年龄；不把原帖16岁套到回复者身上。"
+      },
+      {
+        "evidence_id": "code:39372335",
+        "description_zh": "16岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=39372335",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "原帖是约16岁。"
+      },
+      {
+        "evidence_id": "code:30482528",
+        "description_zh": "15–18岁／高中",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=30482528",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "高中毕业班映射到高中组，实际年龄未给出。"
+      },
+      {
+        "evidence_id": "code:36752042",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=36752042",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "直接推荐",
+        "note": "只写teenager，未细分初中、高中。"
+      }
+    ]
+  },
+  {
+    "书名": "Computer Lib / Dream Machines",
+    "原书名": "Computer Lib / Dream Machines",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=36754517"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "computer-lib:36754517",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=36754517",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "直接推荐",
+        "note": "只写teenager，未细分初中、高中。"
+      }
+    ]
+  },
+  {
+    "书名": "Getting Started in Electronics",
+    "原书名": "Getting Started in Electronics",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=13524671",
+      "https://news.ycombinator.com/item?id=13530876"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "electronics:13524671",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=13524671",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "原帖写with，规范书名为Getting Started in Electronics。"
+      },
+      {
+        "evidence_id": "electronics:13530876",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=13530876",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      }
+    ]
+  },
+  {
+    "书名": "Hello World!: Computer Programming for Kids and Other Beginners",
+    "原书名": "Hello World!: Computer Programming for Kids and Other Beginners",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=37396951"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "hello-world:37396951",
+        "description_zh": "6–8岁／小学低年级",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=37396951",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "二年级按小学低年级归组；不据此填写确切年龄。"
+      }
+    ]
+  },
+  {
+    "书名": "How Computers Really Work",
+    "原书名": "How Computers Really Work",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=47079626"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "computers-really-work:47079626",
+        "description_zh": "15–18岁／高中",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=47079626",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "程序设计方法",
+    "原书名": "How to Design Programs",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=39368779"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "htdp:39368779",
+        "description_zh": "16岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=39368779",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "原帖是约16岁。"
+      }
+    ]
+  },
+  {
+    "书名": "Python游戏编程快速上手",
+    "原书名": "Invent Your Own Computer Games with Python",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=37391162"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "invent-python:37391162",
+        "description_zh": "6–8岁／小学低年级",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=37391162",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "二年级按小学低年级归组；不据此填写确切年龄。"
+      }
+    ]
+  },
+  {
+    "书名": "Learn to Program",
+    "原书名": "Learn to Program",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=37386340"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "learn-program:37386340",
+        "description_zh": "6–8岁／小学低年级",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=37386340",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "二年级按小学低年级归组；不据此填写确切年龄。"
+      }
+    ]
+  },
+  {
+    "书名": "Learn to Program with Small Basic",
+    "原书名": "Learn to Program with Small Basic",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=37388122"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "small-basic:37388122",
+        "description_zh": "7岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=37388122",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "亲子共读／听书",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "编程珠玑",
+    "原书名": "Programming Pearls",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=30482087"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "programming-pearls:30482087",
+        "description_zh": "15–18岁／高中",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=30482087",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "高中毕业班映射到高中组，实际年龄未给出。"
+      }
+    ]
+  },
+  {
+    "书名": "The Computational Beauty of Nature",
+    "原书名": "The Computational Beauty of Nature",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=13543720"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "computational-beauty:13543720",
+        "description_zh": "16岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=13543720",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "The Computer Always Wins",
+    "原书名": "The Computer Always Wins",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=47079626"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "computer-wins:47079626",
+        "description_zh": "15–18岁／高中",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=47079626",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "布谷鸟的蛋",
+    "原书名": "The Cuckoo's Egg",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=30483386",
+      "https://news.ycombinator.com/item?id=41768087",
+      "https://news.ycombinator.com/item?id=36754411"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "cuckoo-egg:30483386",
+        "description_zh": "15–18岁／高中",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=30483386",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "高中毕业班映射到高中组，实际年龄未给出。"
+      },
+      {
+        "evidence_id": "cuckoo-egg:41768087",
+        "description_zh": "9–11岁／小学高年级／12–14岁／初中",
+        "kind": "explicit_school_stage",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=41768087",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": "美制六年级通常处在11–12岁附近，跨小学高年级和初中；只作分组映射。"
+      },
+      {
+        "evidence_id": "cuckoo-egg:36754411",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=36754411",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "回复者明确说作为青少年受影响，但未给年龄。"
+      }
+    ]
+  },
+  {
+    "书名": "计算机系统要素",
+    "原书名": "The Elements of Computing Systems",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=39372335",
+      "https://news.ycombinator.com/item?id=39398337",
+      "https://news.ycombinator.com/item?id=30482528",
+      "https://news.ycombinator.com/item?id=36750360"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "elements-computing:39372335",
+        "description_zh": "16岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=39372335",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "原帖是约16岁。"
+      },
+      {
+        "evidence_id": "elements-computing:39398337",
+        "description_zh": "16岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=39398337",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "原帖是约16岁。"
+      },
+      {
+        "evidence_id": "elements-computing:30482528",
+        "description_zh": "15–18岁／高中",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=30482528",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "高中毕业班映射到高中组，实际年龄未给出。"
+      },
+      {
+        "evidence_id": "elements-computing:36750360",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=36750360",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "直接推荐",
+        "note": "只写teenager，未细分初中、高中。"
+      }
+    ]
+  },
+  {
+    "书名": "The Little Schemer",
+    "原书名": "The Little Schemer",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=47082727"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "little-schemer:47082727",
+        "description_zh": "15–18岁／高中",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=47082727",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "新黑客词典",
+    "原书名": "The New Hacker's Dictionary",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=30482087"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "hacker-dictionary:30482087",
+        "description_zh": "15–18岁／高中",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=30482087",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "高中毕业班映射到高中组，实际年龄未给出。"
+      }
+    ]
+  },
+  {
+    "书名": "The Official ScratchJr Book",
+    "原书名": "The Official ScratchJr Book",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=37393671"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "scratch-jr:37393671",
+        "description_zh": "6–8岁／小学低年级",
+        "kind": "explicit_school_stage",
+        "context": "suggested_age",
+        "source_url": "https://news.ycombinator.com/item?id=37393671",
+        "basis_label_zh": "回复者建议年龄／年级",
+        "role_zh": "直接推荐",
+        "note": "回复虽说低龄儿童也可用，但这里明确向二年级推荐。"
+      }
+    ]
+  },
+  {
+    "书名": "宇航员地球生活指南",
+    "原书名": "An Astronaut's Guide to Life on Earth",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=23466577"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "astronaut-guide:23466577",
+        "description_zh": "9–12岁",
+        "kind": "linked_age_range",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=23466577",
+        "basis_label_zh": "阅读经历承接楼主年龄范围",
+        "role_zh": "亲子共读／听书",
+        "note": "回复指向原帖9–12岁范围，是听有声书的经验。"
+      }
+    ]
+  },
+  {
+    "书名": "编程人生",
+    "原书名": "Coders at Work",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=36747980"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "coders-work:36747980",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=36747980",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "直接推荐",
+        "note": "只写teenager，未细分初中、高中。"
+      }
+    ]
+  },
+  {
+    "书名": "一个德国人的故事",
+    "原书名": "Defying Hitler: A Memoir",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=33394032"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "defying-hitler:33394032",
+        "description_zh": "6岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=33394032",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "亲子共读／听书",
+        "note": "是家长朗读成人历史回忆录的个案；不作6岁独立阅读推荐。"
+      }
+    ]
+  },
+  {
+    "书名": "Fire in the Valley",
+    "原书名": "Fire in the Valley",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=36753992"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "fire-valley:36753992",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=36753992",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "直接推荐",
+        "note": "只写teenager，未细分初中、高中。"
+      }
+    ]
+  },
+  {
+    "书名": "创业者",
+    "原书名": "Founders at Work",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=36746919"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "founders-work:36746919",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=36746919",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "直接推荐",
+        "note": "只写teenager，未细分初中、高中。"
+      }
+    ]
+  },
+  {
+    "书名": "给女孩的100个榜样",
+    "原书名": "Good Night Stories for Rebel Girls",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=15752532",
+      "https://news.ycombinator.com/item?id=41252762",
+      "https://news.ycombinator.com/item?id=41288788",
+      "https://news.ycombinator.com/item?id=41292599"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "rebel-girls:15752532",
+        "description_zh": "7岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=15752532",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": ""
+      },
+      {
+        "evidence_id": "rebel-girls:41252762",
+        "description_zh": "6岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=41252762",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": ""
+      },
+      {
+        "evidence_id": "rebel-girls:41288788",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41288788",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "孩子阅读经历",
+        "note": "回复者自己的孩子，未给年龄。"
+      },
+      {
+        "evidence_id": "rebel-girls:41292599",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41292599",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "亲子共读／听书",
+        "note": "接续上级评论，未给自己孩子年龄。"
+      }
+    ]
+  },
+  {
+    "书名": "黑客：计算机革命的英雄",
+    "原书名": "Hackers: Heroes of the Computer Revolution",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=36752042",
+      "https://news.ycombinator.com/item?id=36753732"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "hackers:36752042",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=36752042",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "直接推荐",
+        "note": "只写teenager，未细分初中、高中。"
+      },
+      {
+        "evidence_id": "hackers:36753732",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=36753732",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "直接推荐",
+        "note": "只写teenager，未细分初中、高中。"
+      }
+    ]
+  },
+  {
+    "书名": "可怕的历史",
+    "原书名": "Horrible Histories",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41254020"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "horrible-histories:41254020",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41254020",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "孩子阅读经历",
+        "note": "回复是自家孩子的阅读经历，未给年龄；不沿用楼主6岁。"
+      }
+    ]
+  },
+  {
+    "书名": "只是为了好玩",
+    "原书名": "Just for Fun",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=36750360"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "just-fun:36750360",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=36750360",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "直接推荐",
+        "note": "只写teenager，未细分初中、高中。"
+      }
+    ]
+  },
+  {
+    "书名": "Little People, BIG DREAMS",
+    "原书名": "Little People, BIG DREAMS",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41250715",
+      "https://news.ycombinator.com/item?id=41261548",
+      "https://news.ycombinator.com/item?id=41288092"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "little-people:41250715",
+        "description_zh": "7–8岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=41250715",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "孩子阅读经历",
+        "note": "将接近8岁保留为7–8岁范围，不假定生日。"
+      },
+      {
+        "evidence_id": "little-people:41261548",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41261548",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "孩子阅读经历",
+        "note": "接续上级评论指该系列；未给自己女儿年龄。"
+      },
+      {
+        "evidence_id": "little-people:41288092",
+        "description_zh": "6岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=41288092",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "Now & Ben: The Modern Inventions of Benjamin Franklin",
+    "原书名": "Now & Ben: The Modern Inventions of Benjamin Franklin",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41287770"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "now-ben:41287770",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41287770",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "孩子阅读经历",
+        "note": "回复者自己的孩子，未给年龄。"
+      }
+    ]
+  },
+  {
+    "书名": "Ordinary People Change the World",
+    "原书名": "Ordinary People Change the World",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41287760"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "ordinary-people:41287760",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41287760",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "孩子阅读经历",
+        "note": "自己孩子的经历，未说明年龄。"
+      }
+    ]
+  },
+  {
+    "书名": "别闹了，费曼先生！",
+    "原书名": "Surely You're Joking, Mr. Feynman!",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=23466577",
+      "https://news.ycombinator.com/item?id=13524671"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "feynman-joking:23466577",
+        "description_zh": "9–12岁",
+        "kind": "linked_age_range",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=23466577",
+        "basis_label_zh": "阅读经历承接楼主年龄范围",
+        "role_zh": "亲子共读／听书",
+        "note": "回复指向原帖9–12岁范围，是听有声书的经验。"
+      },
+      {
+        "evidence_id": "feynman-joking:13524671",
+        "description_zh": "15–18岁／高中",
+        "kind": "explicit_school_stage",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=13524671",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "The Boy Who Loved Math",
+    "原书名": "The Boy Who Loved Math",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=15757640"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "boy-loved-math:15757640",
+        "description_zh": "6岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=15757640",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "亲子共读／听书",
+        "note": "回复说从约3岁起喜欢，当前6岁，按当前阅读经历归组。"
+      }
+    ]
+  },
+  {
+    "书名": "密码故事",
+    "原书名": "The Code Book",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=30482528"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "code-book:30482528",
+        "description_zh": "15–18岁／高中",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=30482528",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "回复的个人经历混合高中和大学；这里仅按向高中毕业班学生推荐的情境记录。"
+      }
+    ]
+  },
+  {
+    "书名": "破译者",
+    "原书名": "The Codebreakers",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=30482528"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "codebreakers:30482528",
+        "description_zh": "15–18岁／高中",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=30482528",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "回复的个人经历混合高中和大学；这里仅记录向高中毕业班学生推荐。"
+      }
+    ]
+  },
+  {
+    "书名": "创新者",
+    "原书名": "The Innovators",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=36752042"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "innovators:36752042",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=36752042",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "直接推荐",
+        "note": "只写teenager，未细分初中、高中。"
+      }
+    ]
+  },
+  {
+    "书名": "The Value of Determination: The Story of Helen Keller",
+    "原书名": "The Value of Determination: The Story of Helen Keller",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41287787"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "value-determination:41287787",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41287787",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      }
+    ]
+  },
+  {
+    "书名": "Three Cheers for Inventors!",
+    "原书名": "Three Cheers for Inventors!",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41251938"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "three-cheers:41251938",
+        "description_zh": "6岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=41251938",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "UNIX传奇",
+    "原书名": "UNIX: A History and a Memoir",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=36749971"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "unix-memoir:36749971",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=36749971",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "直接推荐",
+        "note": "只写teenager，未细分初中、高中。"
+      }
+    ]
+  },
+  {
+    "书名": "编织万维网",
+    "原书名": "Weaving the Web",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=36746919"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "weaving-web:36746919",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=36746919",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "直接推荐",
+        "note": "只写teenager，未细分初中、高中。"
+      }
+    ]
+  },
+  {
+    "书名": "互联网之父",
+    "原书名": "Where Wizards Stay Up Late",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=36750360"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "wizards-late:36750360",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=36750360",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "直接推荐",
+        "note": "只写teenager，未细分初中、高中。"
+      }
+    ]
+  },
+  {
+    "书名": "Who Was?",
+    "原书名": "Who Was?",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41257638",
+      "https://news.ycombinator.com/item?id=41287760",
+      "https://news.ycombinator.com/item?id=41287897"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "who-was:41257638",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41257638",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "孩子阅读经历",
+        "note": "回复说自己孩子小时候及在学校读，具体年龄不明。"
+      },
+      {
+        "evidence_id": "who-was:41287760",
+        "description_zh": "6岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=41287760",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "接续上级评论推荐Who Was?系列。"
+      },
+      {
+        "evidence_id": "who-was:41287897",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41287897",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "转述推荐",
+        "note": "朋友家孩子的经历，年龄未给出。"
+      }
+    ]
+  },
+  {
+    "书名": "无所畏惧：影响世界的50位女科学家",
+    "原书名": "Women in Science: 50 Fearless Pioneers Who Changed the World",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=15757640"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "women-science:15757640",
+        "description_zh": "6岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=15757640",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "亲子共读／听书",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "Big Ideas for Curious Minds: An Introduction to Philosophy",
+    "原书名": "Big Ideas for Curious Minds: An Introduction to Philosophy",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=26182026"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "big-ideas:26182026",
+        "description_zh": "7岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=26182026",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "亲子共读／听书",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "为真实的世界设计",
+    "原书名": "Design for the Real World",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=13529369"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "design-real-world:13529369",
+        "description_zh": "12–14岁／初中／15–18岁／高中",
+        "kind": "explicit_school_stage",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=13529369",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": "英国GCSE通常处于14–16岁阶段，跨两个导航组；不是确切年龄。"
+      }
+    ]
+  },
+  {
+    "书名": "揭穿伪科学",
+    "原书名": "Flim-Flam!",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=13523436"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "flim-flam:13523436",
+        "description_zh": "9–11岁／小学高年级／12–14岁／初中",
+        "kind": "explicit_school_stage",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=13523436",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": "六年级按约11–12岁附近作跨组映射。"
+      }
+    ]
+  },
+  {
+    "书名": "如何阅读一本书",
+    "原书名": "How to Read a Book",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=26161331"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "how-read:26161331",
+        "description_zh": "8岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=26161331",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "成人阅读方法书，被回复者推荐；不推断8岁可独立阅读。"
+      }
+    ]
+  },
+  {
+    "书名": "学习之道",
+    "原书名": "A Mind for Numbers",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=18331245"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "mind-numbers:18331245",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=18331245",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "直接推荐",
+        "note": "仅写teenagers，缺少具体年龄，保留在年龄未明确组。"
+      }
+    ]
+  },
+  {
+    "书名": "人性的弱点",
+    "原书名": "How to Win Friends and Influence People",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41795652",
+      "https://news.ycombinator.com/item?id=13528779"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "win-friends:41795652",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41795652",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "win-friends:13528779",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=13528779",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      }
+    ]
+  },
+  {
+    "书名": "杰出青少年的7个习惯",
+    "原书名": "The 7 Habits of Highly Effective Teens",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=12441578"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "seven-habits-teen:12441578",
+        "description_zh": "13–14岁",
+        "kind": "explicit_age",
+        "context": "reader_reported",
+        "source_url": "https://news.ycombinator.com/item?id=12441578",
+        "basis_label_zh": "实际阅读／教学经历",
+        "role_zh": "本人阅读回忆",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "最后的演讲",
+    "原书名": "The Last Lecture",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=30483386"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "last-lecture:30483386",
+        "description_zh": "15–18岁／高中",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=30483386",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "高中毕业班映射到高中组，实际年龄未给出。"
+      }
+    ]
+  },
+  {
+    "书名": "我们为什么会犯错",
+    "原书名": "Why We Make Mistakes",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=26161256"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "why-mistakes:26161256",
+        "description_zh": "8岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=26161256",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "推荐出现在8岁求书帖中，不代表作者或出版方的适龄结论。"
+      }
+    ]
+  },
+  {
+    "书名": "高卢英雄传",
+    "原书名": "Asterix",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=28207415"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "asterix:28207415",
+        "description_zh": "12–14岁／初中",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=28207415",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "按初中阅读水平分组，不推定孩子的确切年龄。"
+      }
+    ]
+  },
+  {
+    "书名": "卡尔文与霍布斯",
+    "原书名": "Calvin and Hobbes",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=41766516",
+      "https://news.ycombinator.com/item?id=13532064"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "calvin-hobbes:41766516",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=41766516",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      },
+      {
+        "evidence_id": "calvin-hobbes:13532064",
+        "description_zh": "年龄未明确",
+        "kind": "unspecified",
+        "context": "unresolved",
+        "source_url": "https://news.ycombinator.com/item?id=13532064",
+        "basis_label_zh": "年龄未说明",
+        "role_zh": "本人阅读回忆",
+        "note": "未给出具体年龄，不能强行归入小学、初中或高中。"
+      }
+    ]
+  },
+  {
+    "书名": "逻辑人生",
+    "原书名": "Logicomix: An Epic Search for Truth",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=28209628",
+      "https://news.ycombinator.com/item?id=41290532"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "logicomix:28209628",
+        "description_zh": "12–14岁／初中",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=28209628",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "按初中阅读水平分组，不推定孩子的确切年龄。"
+      },
+      {
+        "evidence_id": "logicomix:41290532",
+        "description_zh": "6岁",
+        "kind": "thread_target_age",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=41290532",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "书名": "鼠族",
+    "原书名": "Maus",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=28201591"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "maus:28201591",
+        "description_zh": "12–14岁／初中",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=28201591",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "按初中阅读水平分组，不推定孩子的确切年龄。"
+      }
+    ]
+  },
+  {
+    "书名": "怪物",
+    "原书名": "Monster",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=28205889"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "monster:28205889",
+        "description_zh": "13岁",
+        "kind": "explicit_age",
+        "context": "suggested_age",
+        "source_url": "https://news.ycombinator.com/item?id=28205889",
+        "basis_label_zh": "回复者建议年龄／年级",
+        "role_zh": "直接推荐",
+        "note": "年龄为回复者的推荐判断；作品涉及较复杂或成熟主题。"
+      }
+    ]
+  },
+  {
+    "书名": "鼠护卫",
+    "原书名": "Mouse Guard",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=28199167"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "mouse-guard:28199167",
+        "description_zh": "12–14岁／初中",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=28199167",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "按初中阅读水平分组，不推定孩子的确切年龄。"
+      }
+    ]
+  },
+  {
+    "书名": "我在伊朗长大",
+    "原书名": "Persepolis",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=28204415"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "persepolis:28204415",
+        "description_zh": "10–11岁",
+        "kind": "explicit_age",
+        "context": "suggested_age",
+        "source_url": "https://news.ycombinator.com/item?id=28204415",
+        "basis_label_zh": "回复者建议年龄／年级",
+        "role_zh": "直接推荐",
+        "note": "是假设自己将来会在这个年龄介绍给孩子，非实际阅读经历。"
+      }
+    ]
+  },
+  {
+    "书名": "丁丁历险记",
+    "原书名": "The Adventures of Tintin",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=28207415"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "tintin:28207415",
+        "description_zh": "12–14岁／初中",
+        "kind": "thread_target_stage",
+        "context": "recommendation_target",
+        "source_url": "https://news.ycombinator.com/item?id=28207415",
+        "basis_label_zh": "楼主求书对象",
+        "role_zh": "直接推荐",
+        "note": "按初中阅读水平分组，不推定孩子的确切年龄。"
+      }
+    ]
+  },
+  {
+    "书名": "没有图画的书",
+    "原书名": "The Book with No Pictures",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=33434074"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "book-no-pictures:33434074",
+        "description_zh": "4–8岁",
+        "kind": "explicit_age",
+        "context": "suggested_age",
+        "source_url": "https://news.ycombinator.com/item?id=33434074",
+        "basis_label_zh": "回复者建议年龄／年级",
+        "role_zh": "直接推荐",
+        "note": "原建议范围含学龄前；本次分龄结果只显示与6岁以上相交的部分。"
+      }
+    ]
+  },
+  {
+    "书名": "咕噜牛",
+    "原书名": "The Gruffalo",
+    "来源链接": [
+      "https://news.ycombinator.com/item?id=33434074"
+    ],
+    "分龄证据": [
+      {
+        "evidence_id": "gruffalo:33434074",
+        "description_zh": "4–8岁",
+        "kind": "explicit_age",
+        "context": "suggested_age",
+        "source_url": "https://news.ycombinator.com/item?id=33434074",
+        "basis_label_zh": "回复者建议年龄／年级",
+        "role_zh": "直接推荐",
+        "note": "回复说for that age，承接前句4–8岁。"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+---
+import Icon from './Icon.astro';
+import { getSchoolReading } from '../lib/school-reading.mjs';
+import { href } from '../lib/paths';
+import '../styles/school-reading.css';
+const project = getSchoolReading();
+const previews = [
+  { category: '科普与自然', title: '万物运转的秘密', id: 'way-things-work' },
+  { category: '文学与成长', title: '手斧男孩', id: 'hatchet' },
+  { category: '计算机与编程', title: '计算机系统要素', id: 'elements-computing' },
+];
+---
+<article class="project-card project-reading">
+  <div class="card-eyebrow"><span class="eyebrow">03 / A GROWING BOOKSHELF</span><span class="card-icon"><Icon name="book" size={25} /></span></div>
+  <div class="reading-card-layout">
+    <div><h3><a href={href(`${project.path}/`)}>{project.title}<Icon name="arrow-up" size={24} /></a></h3><p class="card-description">从小学到高中，读过哪些书？把 HN 讨论中的具体书目按年龄和类别收好，每本都有作者与内容简介。</p><div class="reading-card-ages"><span>小学</span><span>初中</span><span>高中</span><span>9 个类别</span></div></div>
+    <div class="reading-card-preview" aria-label="书目举例">{previews.map(book => <a href={href(`${project.path}/#book-${book.id}`)}><span>{book.category}</span><b>{book.title}</b><Icon name="arrow" size={16} /></a>)}</div>
+  </div>
+  <div class="card-footer"><span><b>{project.entries.length}</b> 部书与系列 · 分龄分类</span><a href={href(`${project.path}/`)}>打开学生书目<Icon name="arrow" size={19} /></a></div>
+</article>

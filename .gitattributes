@@ -1,0 +1,2 @@
+# Preserve the verified CSV bytes, including spreadsheet-friendly CRLF endings.
+public/downloads/hn-school-reading/**/*.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

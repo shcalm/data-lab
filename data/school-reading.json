@@ -1,0 +1,11 @@
+{
+  "id": "school-reading",
+  "number": "03",
+  "title": "学生阅读书目",
+  "path": "hn/school-reading",
+  "dataPath": "downloads/hn-school-reading",
+  "version": "2026-11-18",
+  "periodStart": "2016-08-23T08:44:12Z",
+  "periodEnd": "2026-08-23T08:44:12Z",
+  "description": "从小学到高中，整理 Hacker News 讨论中的 109 部书与系列。按年龄和类别寻找下一本书，每本附作者与中文简介。"
+}

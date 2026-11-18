@@ -4,7 +4,7 @@ shcalm 的个人数据实验室：用一个仓库持续整理有意思的榜单�
 
 站点地址：**https://shcalm.github.io/data-lab/**
 
-目前包含 Hacker News 十年讨论中的[书籍 Top 100](https://shcalm.github.io/data-lab/hn/books/) 和[电影 Top 100](https://shcalm.github.io/data-lab/hn/movies/)，共 200 条中文简介，支持中英文搜索、主题筛选、排序、展开简介，以及 CSV / JSON 下载。
+目前包含 Hacker News 十年讨论中的[书籍 Top 100](https://shcalm.github.io/data-lab/hn/books/)、[电影 Top 100](https://shcalm.github.io/data-lab/hn/movies/)，以及[学生阅读书目](https://shcalm.github.io/data-lab/hn/school-reading/)。两份榜单提供搜索、主题筛选和排序；学生书目提供 109 部作品的作者、完整简介及年龄与类别交叉筛选。所有项目均提供数据下载。
 
 ## 本地运行
 
@@ -34,6 +34,7 @@ python3 tests/browser_smoke.py
 ```text
 data/
   projects.json                   # 项目目录、标题、路径、简介和数据版本
+  school-reading.json             # 学生书目元数据、时间窗口及公开数据位置
   snapshots/2026-08-23/
     books.json                    # 原始排名与次数
     movies.json
@@ -43,9 +44,17 @@ data/
   annotations/
     books.json                    # 每本书的中文简介与主题分类
     movies.json                   # 电影按“原名 (年份)”区分同名版本
+public/downloads/hn-school-reading/
+  书目总表.json                    # 学生书目网页直接读取的同一份下载数据
+  书目总表.csv
+  按年龄/                         # 每个年龄组的 CSV / JSON / Markdown
+  按类别/                         # 九个类别的 CSV / JSON / Markdown
+  书目来源.json                    # 分龄依据与原文链接
+  学生阅读书目.zip
 src/
   pages/index.astro               # 项目首页
   pages/[...project].astro        # 共享的榜单页面
+  pages/hn/school-reading.astro   # 按年龄与类别浏览具体书目
   pages/about.astro               # 数据来源与统计口径
   pages/downloads/               # 构建时生成 CSV / JSON
   layouts/                       # 所有页面共用的导航和页脚
@@ -65,6 +74,16 @@ src/
 共享页面目前面向 HN 作品提及榜单。如果是不同来源、不同结构的数据（例如地图、趋势图），在 `src/pages/` 新增对应页面，复用 `SiteLayout.astro`，并在首页增加入口即可。所有项目继续由这个仓库统一部署，路径可以使用 `/data-lab/<主题>/<项目>/`。
 
 `expectedCount` 用于检查每份榜单是否缺行。搜索始终保留原榜名次，次数相同的条目保留快照顺序。下载文件由同一份数据生成，避免网页和导出版本不一致。
+
+## 学生阅读书目维护
+
+书目数据来自 HN 相关讨论中人工挑选并核对的作品，整理于 2026-11-18，沿用 2016-08-23 至 2026-08-23 UTC 的窗口。它是分类书目，不按提及次数排名，也未穷尽所选讨论中的全部书名。
+
+主表共 109 部不同作品（含系列），80 部有分龄依据，29 部没有明确年龄。四个年龄视图分别有 30、16、27、23 部；跨组作品可重复，年龄未明确组仅保留完全没有已知年龄的作品。九个主类别各自独立，每部只归入一个类别。
+
+`src/lib/school-reading.mjs` 从 `public/downloads/hn-school-reading/` 读取书目、数据说明和来源；网页与下载共用同一份 JSON。更新时从已核验的书目导出目录完整同步此目录（包括年龄、类别和 ZIP），并更新 `data/school-reading.json` 的版本、时间窗口和对应说明。不要单独修改网页内容或把旧 ZIP 与新主表混用。
+
+页面支持 `?age=6-8&category=科普与自然&q=万物` 等可分享查询。关闭 JavaScript 时仍显示完整 109 部书目和所有下载链接。简介保持展开，分龄依据与来源使用原生 `details`。
 
 ## GitHub Pages 发布
 

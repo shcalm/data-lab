@@ -1,0 +1,55 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import Icon from '../../components/Icon.astro';
+import { getSchoolReading } from '../../lib/school-reading.mjs';
+import { href } from '../../lib/paths';
+import '../../styles/school-reading.css';
+const project = getSchoolReading();
+const { entries, ageGroups, categories } = project;
+const download = (file: string) => href(`${project.dataPath}/${file}`);
+const jsonData = JSON.stringify(entries.map(({ evidence, ...book }) => book)).replaceAll('<', '\\u003c');
+---
+<SiteLayout title="学生阅读书目 · 按年龄与类别找书 · Data Lab" description={project.description} active="school-reading">
+  <section class="ranking-hero reading-hero" id="top" aria-labelledby="reading-title">
+    <div class="breadcrumb"><a href={href()}>全部项目</a><span aria-hidden="true">/</span><span>Hacker News</span><span aria-hidden="true">/</span><span>学生阅读书目</span></div>
+    <div class="ranking-hero-grid">
+      <div><p class="eyebrow">03 / A GROWING BOOKSHELF</p><h1 id="reading-title">在长大的路上，<br /><span class="green-text">遇见这些书。</span></h1><p class="ranking-intro">从小学到高中，把讨论中读过、共读过或推荐过的书收在一起。文学、科学、数学与编程……按年龄和兴趣慢慢找，每本都有作者与内容简介。</p></div>
+      <aside class="reading-overview" aria-label="书目概要"><span class="eyebrow">学生阅读书目 / HACKER NEWS</span><p class="reading-total"><b>{entries.length}</b><span>部书与系列</span></p><div class="reading-overview-facts"><span><b>{project.knownAgeCount}</b> 部有分龄依据</span><span><b>{categories.length}</b> 个阅读类别</span></div><p>从具体书名出发，留住阅读的线索。</p></aside>
+    </div>
+    <div class="ranking-hero-bottom"><p>年龄来自阅读经历或推荐对象，作为查找线索。<a href="#reading-methodology">了解分龄依据 ↗</a></p><div class="download-links"><a href={download('书目总表.csv')} download aria-label="下载完整109部书目 CSV"><Icon name="download" size={16} />CSV</a><a href={download('书目总表.json')} download aria-label="下载完整109部书目 JSON">JSON<Icon name="download" size={16} /></a><a href={download('学生阅读书目.zip')} download aria-label="下载全部分龄分类书目 ZIP">全部 ZIP<Icon name="download" size={16} /></a></div></div>
+  </section>
+
+  <section class="reading-section" data-school-reading aria-labelledby="bookshelf-title">
+    <div class="reading-section-heading"><div><p class="eyebrow">THE SCHOOL YEARS</p><h2 id="bookshelf-title">一份慢慢翻的书目</h2></div><a class="text-link" href="#reading-downloads">分组下载<Icon name="download" size={16} /></a></div>
+    <form class="reading-controls" data-reading-controls role="search" aria-label="按年龄和类别查找书目" hidden>
+      <div class="reading-age-buttons" role="group" aria-label="按年龄筛选"><button type="button" data-age="" aria-pressed="true"><span>全部书目</span><b class="mono">{entries.length}</b></button>{ageGroups.map(group => <button type="button" data-age={group.id} aria-pressed="false"><span>{group.shortLabel}<small>{group.label.includes('／') ? group.label.split('／')[1] : '保留原始记录'}</small></span><b class="mono">{group.count}</b></button>)}</div>
+      <div class="ranking-tools reading-search-tools"><div class="search-field"><label for="reading-search">在这份书目里找一找</label><div class="input-wrap"><Icon name="search" size={19} /><input type="search" id="reading-search" name="q" placeholder="搜索中英文书名、作者或内容…" autocomplete="off" /></div></div><div class="select-field"><label for="reading-category">按类别筛选</label><div class="select-wrap"><select id="reading-category" name="category"><option value="">全部类别</option>{categories.map(category => <option value={category.name}>{category.name} · {category.count}</option>)}</select><Icon name="chevron" size={16} /></div></div></div>
+    </form>
+    <div class="list-utility"><p role="status" aria-live="polite" aria-atomic="true">显示 <b class="mono" data-result-count>{entries.length}</b> / {entries.length} 部书与系列<span class="utility-note"> · 同一本书可出现在多个年龄组</span></p><div class="list-actions" data-reading-actions hidden><button type="button" data-reading-reset disabled>清空条件</button></div></div>
+    <div class="reading-categories">{categories.map((category, i) => <section class="reading-category" data-book-category={category.name} aria-labelledby={`category-${i}`}>
+      <div class="reading-category-heading"><h2 id={`category-${i}`}><span class="mono" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>{category.name}</h2><span><b class="mono" data-category-count>{category.count}</b> 部</span></div>
+      <div class="reading-book-grid">{entries.filter(book => book.category === category.name).map(book => <article class="reading-book" data-book={book.id} id={`book-${book.id}`}>
+        <div class="reading-book-heading"><h3><a href={`#book-${book.id}`}>{book.zh}</a></h3>{book.form !== '图书' && <span class="category-tag">{book.form}</span>}</div>
+        {book.zh !== book.title && <p class="original-title" lang="en">{book.title}</p>}
+        <p class="work-meta">{book.author}</p>
+        <p class="reading-summary">{book.summary}</p>
+        <div class="reading-book-ages" aria-label="讨论中关联的年龄">{book.ageIds.map(id => <span>{ageGroups.find(group => group.id === id)?.shortLabel}</span>)}</div>
+        {book.note.includes('家长给6岁孩子朗读') && <p class="reading-case-note">{book.note}</p>}
+        <details class="reading-evidence">
+          <summary>分龄依据与来源<Icon name="chevron" size={14} /></summary>
+          <div><p>{book.ageBasis}</p>{book.note && !book.note.includes('家长给6岁孩子朗读') && <p>{book.note}</p>}
+            <ul>{book.evidence.map(evidence => <li><div><span>{evidence.description_zh} · {evidence.basis_label_zh} · {evidence.role_zh}</span>{evidence.note && <p class="reading-evidence-note">{evidence.note}</p>}</div><a href={evidence.source_url}>查看原文<Icon name="arrow-up" size={12} /></a></li>)}</ul>
+          </div>
+        </details>
+      </article>)}</div>
+    </section>)}</div>
+    <div class="empty-state" data-reading-empty hidden><Icon name="search" size={30} /><h3>这一组暂时没有找到</h3><p>试试其他年龄、类别，或缩短关键词。</p><button class="button" type="button" data-reading-reset>清空条件，看看全部书目<Icon name="arrow" size={18} /></button></div>
+    <div class="list-end"><span class="mono">THE BOOKSHELF / {entries.length}</span><a href="#top">回到书目顶部 ↑</a></div>
+    <script type="application/json" id="school-reading-data" set:html={jsonData} />
+  </section>
+
+  <section class="reading-downloads" id="reading-downloads" aria-labelledby="downloads-title"><p class="eyebrow">TAKE A READING LIST</p><h2 id="downloads-title">把感兴趣的书目带走</h2><p>完整数据含书名、原名、作者、年龄、类别、简介与分龄依据。CSV 可用表格软件打开，JSON 便于继续处理。</p><div class="reading-download-grid">{[{ label: '按年龄', groups: ageGroups.map(group => ({ label: group.label, count: group.count, file: group.file })) }, { label: '按类别', groups: categories.map(group => ({ label: group.name, count: group.count, file: group.file })) }].map(section => <div><h3>{section.label}</h3><ul>{section.groups.map(group => <li><span>{group.label}<small>{group.count} 部</small></span><a href={download(`${group.file}.csv`)} download aria-label={`下载${group.label}书目 CSV`}>CSV</a><a href={download(`${group.file}.json`)} download aria-label={`下载${group.label}书目 JSON`}>JSON</a></li>)}</ul></div>)}</div><div class="reading-extra-downloads"><a href={download('年龄与类别交叉书目.csv')} download>年龄 × 类别交叉表 CSV<Icon name="download" size={15} /></a><a href={download('学生阅读书目.zip')} download>全部书目 ZIP<Icon name="download" size={15} /></a></div></section>
+
+  <aside class="methodology-note reading-methodology" id="reading-methodology" aria-labelledby="method-title"><span class="note-index mono">BEHIND<br />THE BOOKSHELF</span><div><h2 id="method-title">这些年龄标签，从哪里来？</h2><p>这份书目从所选 HN 讨论中人工挑选并核对，范围沿用 2016.08.23 至 2026.08.23 UTC 的数据窗口，整理于 2026.11.18。它保留具体书名与阅读线索，未穷尽讨论中的全部作品。</p><p>分龄依据包括本人或孩子的阅读经历、亲子共读、教学使用，以及给某年龄读者求书时获得的推荐。这些情况在每本书的「分龄依据与来源」中分别标注。年龄组与小学、初中、高中的对应是近似导航，不能直接视为独立阅读难度或适读年龄。</p><p>{project.knownAgeCount} 部作品有分龄依据，{project.unknownAgeCount} 部具体年龄未说明，保留在独立组。同一本书的年龄范围跨组时会重复出现，因此分龄数量不能直接相加。每本仅设一个主类别；系列按一部作品整理。简介与类别为另行编写的阅读辅助。</p><a class="text-link" href={download('书目来源.json')} download>下载完整分龄来源<Icon name="download" size={17} /></a></div></aside>
+  <script src="../../scripts/school-reading.ts"></script>
+</SiteLayout>
