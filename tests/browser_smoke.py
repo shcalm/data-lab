@@ -15,7 +15,7 @@ base = args.base_url.rstrip('/') + '/'
 root = Path(__file__).resolve().parents[1]
 output = root / 'test-results'
 output.mkdir(exist_ok=True)
-pages = {'home': '', 'books': 'hn/books/', 'movies': 'hn/movies/', 'reading': 'hn/school-reading/', 'history': 'hn/history-documentaries/', 'about': 'about/'}
+pages = {'home': '', 'books': 'hn/books/', 'movies': 'hn/movies/', 'reading': 'hn/school-reading/', 'history': 'hn/history-documentaries/', 'themes': 'hn/interesting-themes/', 'about': 'about/'}
 
 with sync_playwright() as playwright:
     browser = playwright.chromium.launch(headless=True)
@@ -269,6 +269,82 @@ with sync_playwright() as playwright:
         assert len(json.loads(archive.read('纪录片单.json'))) == 97
         assert len(json.loads(archive.read('历史题材纪录片.json'))) == 64
 
+    page.goto(urljoin(base, 'hn/interesting-themes/'), wait_until='networkidle')
+    themes = page.locator('[data-theme]:visible')
+    expect(themes).to_have_count(30)
+    assert page.locator('[data-theme] blockquote').count() == 106
+    reviewed = json.loads((root / 'public/downloads/hn-interesting-themes/themes.json').read_text())
+    for theme in reviewed['themes']:
+        row = page.locator(f'[data-theme="{theme["id"]}"]')
+        assert theme['one_sentence_zh'] in row.inner_text()
+        assert row.locator('.theme-insight').text_content() == theme['insight_zh']
+        href = row.locator('.theme-permalink').get_attribute('href')
+        assert '?' not in href and href.endswith('#theme-' + theme['id'])
+    for group, count in [('cognition', 7), ('institutions', 9), ('science', 7), ('computing', 7)]:
+        page.locator(f'[data-theme-group="{group}"]').click()
+        expect(themes).to_have_count(count)
+        expect(page.locator(f'[data-theme-group="{group}"]')).to_have_attribute('aria-pressed', 'true')
+    page.locator('[data-theme-group="science"]').click()
+    page.locator('#themes-starters').check()
+    expect(themes).to_have_count(4)
+    page.locator('#themes-search').fill('阳光 窗口')
+    expect(themes).to_have_count(1)
+    assert themes.first.get_attribute('data-theme') == 'science-sky-as-heat-sink'
+    assert 'group=science' in page.url and 'view=starters' in page.url and 'q=' in page.url
+    filtered_url = page.url
+    page.reload(wait_until='networkidle')
+    expect(themes).to_have_count(1)
+    page.goto(urljoin(base, 'hn/interesting-themes/?group=cognition'), wait_until='networkidle')
+    expect(themes).to_have_count(7)
+    page.go_back(wait_until='networkidle')
+    assert page.url == filtered_url
+    expect(themes).to_have_count(1)
+    details = themes.first.locator('[data-theme-reader]')
+    details.locator(':scope > summary').focus()
+    page.keyboard.press('Enter')
+    expect(details).to_have_attribute('open', '')
+    details.locator('.theme-evidence > summary').click()
+    assert details.locator('blockquote:visible').count() == 4
+    page.locator('[data-themes-reset]').first.click()
+    expect(themes).to_have_count(30)
+    expect(page.locator('#themes-search')).to_be_focused()
+    page.locator('#themes-search').fill('不存在的问题-998877')
+    expect(themes).to_have_count(0)
+    expect(page.locator('[data-themes-empty]')).to_be_visible()
+    page.locator('[data-themes-empty] [data-themes-reset]').click()
+    expect(themes).to_have_count(30)
+    page.locator('#themes-search').fill('ＣＲＤＴＳ 语义')
+    expect(themes).to_have_count(1)
+    themes.first.locator('.theme-permalink').click()
+    page.wait_for_load_state('networkidle')
+    assert '?' not in page.url
+    expect(themes).to_have_count(30)
+    expect(page.locator('#theme-computing_convergence_not_agreement [data-theme-reader]')).to_have_attribute('open', '')
+    page.goto(urljoin(base, 'hn/interesting-themes/?group=cognition&view=starters#theme-computing_save_persistence'), wait_until='networkidle')
+    expect(themes).to_have_count(30)
+    storage = page.locator('#theme-computing_save_persistence')
+    expect(storage.locator('[data-theme-reader]')).to_have_attribute('open', '')
+    storage.locator('.theme-evidence > summary').click()
+    assert 'drudru11' in storage.inner_text() and '80x86' in storage.inner_text()
+    assert 'jorangreef' in storage.inner_text() and '_urga' in storage.inner_text()
+    page.goto(urljoin(base, 'hn/interesting-themes/?group=wrong&view=unknown'), wait_until='networkidle')
+    expect(themes).to_have_count(30)
+    page.locator('#themes-search').focus()
+    page.keyboard.press('Tab')
+    expect(page.locator('#themes-starters')).to_be_focused()
+
+    theme_files = ['README.md', 'themes.json', 'themes.csv', 'sources.json', 'evidence.json', 'verification.json', 'reading-audit.json', 'hn-interesting-themes.zip']
+    for filename in theme_files:
+        response = context.request.get(urljoin(base, 'downloads/hn-interesting-themes/' + filename))
+        assert response.status == 200
+        assert response.body() == (root / 'public/downloads/hn-interesting-themes' / filename).read_bytes()
+        if filename.endswith('.zip'):
+            with zipfile.ZipFile(io.BytesIO(response.body())) as archive:
+                assert archive.testzip() is None
+                assert len(archive.namelist()) == 7
+                for member in archive.namelist():
+                    assert archive.read(member) == (root / 'public/downloads/hn-interesting-themes' / Path(member).name).read_bytes()
+
     page.goto(urljoin(base, 'hn/movies/?q=Dune&sort=year'), wait_until='networkidle')
     expect(page.locator('[data-rank]:visible')).to_have_count(2)
     assert page.locator('[data-rank]:visible').first.get_attribute('data-rank') == '86'
@@ -295,6 +371,14 @@ with sync_playwright() as playwright:
                 if width in (375, 1440):
                     page.locator('[data-work="documentaries-fog-of-war"]').evaluate("el => el.scrollIntoView({block:'start', behavior:'instant'})")
                     page.screenshot(path=str(output / f'{name}-evidence-{width}.png'))
+            if name == 'themes':
+                theme = page.locator('#theme-science-sky-as-heat-sink')
+                theme.locator('[data-theme-reader] > summary').click()
+                theme.locator('.theme-evidence > summary').click()
+                assert not page.evaluate('document.documentElement.scrollWidth > window.innerWidth'), (name, width, 'evidence')
+                if width in (375, 1440):
+                    theme.evaluate("el => el.scrollIntoView({block:'start', behavior:'instant'})")
+                    page.screenshot(path=str(output / f'{name}-reading-{width}.png'))
 
     page.emulate_media(reduced_motion='reduce')
     assert page.locator('html').evaluate('el => getComputedStyle(el).scrollBehavior') == 'auto'
@@ -304,6 +388,17 @@ with sync_playwright() as playwright:
     assert not errors, errors
 
     plain = browser.new_context(java_script_enabled=False, viewport={'width': 375, 'height': 900})
+    static = plain.new_page()
+    response = static.goto(urljoin(base, 'hn/interesting-themes/'), wait_until='networkidle')
+    assert response.status == 200
+    expect(static.locator('[data-theme]:visible')).to_have_count(30)
+    expect(static.locator('[data-themes-controls]')).to_be_hidden()
+    static.locator('[data-theme-reader] > summary').first.click()
+    expect(static.locator('[data-theme-reader]').first).to_have_attribute('open', '')
+    static.locator('.theme-evidence > summary').first.click()
+    assert static.locator('blockquote:visible').count() > 0
+    assert not static.evaluate('document.documentElement.scrollWidth > window.innerWidth')
+    static.close()
     static = plain.new_page()
     response = static.goto(urljoin(base, 'hn/history-documentaries/'), wait_until='networkidle')
     assert response.status == 200
@@ -332,4 +427,4 @@ with sync_playwright() as playwright:
         static.close()
     plain.close()
     browser.close()
-    print(f'PASS: 6 pages, {len(internal)} internal assets/links, two rankings, 109 student books and 197 history/documentary works; view/age/category/search intersections, URL/history restore, downloads/ZIP, quotes, keyboard, no-JS, reduced motion, 9 viewport sizes; no script errors.')
+    print(f'PASS: 7 pages, {len(internal)} internal assets/links, two rankings, 109 student books, 197 history/documentary works and 30 themes/106 quotations; view/age/category/group/search intersections, URL/history/deep-link restore, downloads/ZIP, quotes, keyboard, no-JS, reduced motion, 9 viewport sizes; no script errors.')

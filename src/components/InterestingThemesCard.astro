@@ -1,0 +1,17 @@
+---
+import Icon from './Icon.astro';
+import { getInterestingThemes } from '../lib/interesting-themes.mjs';
+import { href } from '../lib/paths';
+import '../styles/interesting-themes.css';
+const project = getInterestingThemes();
+const previews = [
+  { label: '学习与认知', title: '刷题熟练，换题却不会？', id: 'cognition_02' },
+  { label: '自然与科学', title: '阳光下，也能被动降温', id: 'science-sky-as-heat-sink' },
+  { label: '社会与制度', title: '效率更高，消耗反而更多？', id: 'efficiency-expands-demand' },
+];
+---
+<article class="project-card project-themes">
+  <div class="card-eyebrow"><span class="eyebrow">05 / ANOTHER WAY TO SEE</span><span class="card-icon"><Icon name="spark" size={25} /></span></div>
+  <div class="themes-card-layout"><div><h3><a href={href(`${project.path}/`)}>{project.title}<Icon name="arrow-up" size={24} /></a></h3><p class="card-description">换个角度，理解世界。从 HN 全部下载档案中，沿着具体问题寻找新见解。读解释机制，也读反对意见，给熟悉的事物多一个理解的入口。</p><div class="themes-card-tags">{project.groups.map(group => <span>{group.label}</span>)}</div></div><div class="themes-card-preview" aria-label="主题举例">{previews.map(theme => <a href={href(`${project.path}/#theme-${theme.id}`)}><span>{theme.label}</span><b>{theme.title}</b><Icon name="arrow" size={16} /></a>)}</div></div>
+  <div class="card-footer"><span>30 个主题 · 62 篇来源 · 2006—2026</span><a href={href(`${project.path}/`)}>从一个问题开始<Icon name="arrow" size={19} /></a></div>
+</article>

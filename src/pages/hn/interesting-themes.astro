@@ -1,0 +1,57 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import Icon from '../../components/Icon.astro';
+import { getInterestingThemes } from '../../lib/interesting-themes.mjs';
+import { href } from '../../lib/paths';
+import '../../styles/interesting-themes.css';
+
+const project = getInterestingThemes();
+const { entries, groups, metadata } = project;
+const download = (file: string) => href(`${project.dataPath}/${file}`);
+const permalink = (id: string) => href(`${project.path}/#theme-${id}`);
+const jsonData = JSON.stringify(entries.map(({ id, domain, starter, searchText }) => ({ id, domain, starter, searchText }))).replaceAll('<', '\\u003c');
+---
+<SiteLayout title="值得深挖的 30 个主题 · Data Lab" description={project.description} active="interesting-themes">
+  <section class="ranking-hero themes-hero" id="top" aria-labelledby="themes-title">
+    <div class="breadcrumb"><a href={href()}>全部项目</a><span aria-hidden="true">/</span><span>Hacker News</span><span aria-hidden="true">/</span><span>深挖主题</span></div>
+    <div class="ranking-hero-grid">
+      <div><p class="eyebrow">05 / ANOTHER WAY TO SEE</p><h1 id="themes-title">换个角度，<br /><span class="green-text">理解世界。</span></h1><p class="ranking-intro">好玩的讨论，会让熟悉的事物露出另一面。为什么刷题熟练，换道题却不会？效率提高，消耗为何反而增加？沿着 30 个具体问题，读见主张、机制，也读见不同意见。</p><a class="text-link themes-hero-link" href="#themes-explore">从一个问题开始<Icon name="arrow" size={19} /></a></div>
+      <aside class="themes-overview" aria-label="专题概要"><p class="eyebrow">来自全量档案的主题选读</p><div class="themes-overview-number"><b>{entries.length}</b><span>个值得<br />继续追问的主题</span></div><div class="themes-overview-groups">{groups.map(group => <div><span>{group.label}</span><b class="mono">{String(group.count).padStart(2, '0')}</b></div>)}</div><p class="themes-period mono">2006.10 — 2026.08<span>HACKER NEWS</span></p></aside>
+    </div>
+    <div class="ranking-hero-bottom"><p>全库检索 <b class="mono">475.6 万</b> 篇主帖 · 保留 <b class="mono">62</b> 篇来源与 <b class="mono">106</b> 条引文。<a href="#themes-methodology">了解发现与整理方法 ↗</a></p><div class="download-links"><a href={download('themes.csv')} download><Icon name="download" size={15} />CSV</a><a href={download('hn-interesting-themes.zip')} download>完整 ZIP<Icon name="download" size={15} /></a></div></div>
+  </section>
+
+  <section class="themes-explorer" id="themes-explore" data-themes-collection aria-labelledby="explore-title">
+    <div class="themes-section-heading"><div><p class="eyebrow">FOLLOW A QUESTION</p><h2 id="explore-title">哪一个问题，让你好奇？</h2></div><p>从一个见解，读到它背后的理由。</p></div>
+    <form class="themes-controls" data-themes-controls role="search" aria-label="查找值得深挖的主题" hidden>
+      <div class="themes-group-buttons" role="group" aria-label="按领域浏览"><button type="button" data-theme-group="" aria-pressed="true">全部主题<span class="mono">30</span></button>{groups.map(group => <button type="button" data-theme-group={group.id} aria-pressed="false">{group.label}<span class="mono">{group.count}</span></button>)}</div>
+      <div class="themes-search-row"><div class="themes-search"><label for="themes-search" class="sr-only">搜索问题、机制或原帖标题</label><div class="input-wrap"><Icon name="search" size={18} /><input type="search" id="themes-search" name="q" placeholder="搜索问题、机制或原帖标题…" autocomplete="off" /></div></div><label class="themes-starter-toggle" for="themes-starters"><input type="checkbox" id="themes-starters" name="view" value="starters" /><span>先读精选 <b class="mono">12</b> 个</span></label></div>
+    </form>
+    <noscript><p class="themes-static-note">以下完整列出 30 个主题。点击任一问题，即可展开说明与原文。</p></noscript>
+    <div class="list-utility themes-utility"><p role="status" aria-live="polite" aria-atomic="true">显示 <b class="mono" data-result-count>30</b> / 30 个主题<span class="utility-note"> · 按领域整理，编号用于导航</span></p><div class="list-actions" data-themes-actions hidden><button type="button" data-themes-reset disabled>清空条件</button></div></div>
+    {groups.map((group, index) => <section class="themes-group" data-theme-section={group.id} aria-labelledby={`group-${group.id}`}>
+      <header class="themes-group-heading"><div><p class="eyebrow">{String(index + 1).padStart(2, '0')} / {group.id.toUpperCase()}</p><h2 id={`group-${group.id}`}>{group.label}<span class="mono" data-group-count>{group.count}</span></h2><p>{group.intro}</p></div></header>
+      <div class="themes-list">{group.entries.map(theme => <article class="theme-item" id={`theme-${theme.id}`} data-theme={theme.id}>
+        <span class="theme-number mono" aria-hidden="true">{String(theme.number).padStart(2, '0')}</span>
+        <div class="theme-main"><div class="theme-item-top"><div><span>{theme.category}</span>{theme.starter && <span class="theme-starter-label">先读精选</span>}</div><a class="theme-permalink" href={permalink(theme.id)} aria-label={`分享主题：${theme.title_zh}`}><span>主题链接</span><Icon name="arrow-up" size={13} /></a></div>
+          <details class="theme-reader" data-theme-reader>
+            <summary><h3>{theme.title_zh}</h3><p class="theme-one-sentence">{theme.one_sentence_zh}</p><span class="theme-read-toggle"><span class="when-closed">展开理解与原文</span><span class="when-open">收起阅读</span><Icon name="chevron" size={14} /><small>{theme.sources.length} 篇原帖</small></span></summary>
+            <div class="theme-body"><div class="theme-explanation"><p class="theme-insight">{theme.insight_zh}</p><h4>它是怎样发生的</h4><p>{theme.mechanism_zh}</p><h4>边界与不同意见</h4><p>{theme.caveat_zh}</p><aside class="theme-question"><span class="eyebrow">KEEP ASKING</span><p>{theme.further_question_zh}</p></aside></div>
+              <section class="theme-sources" aria-label="原始讨论与证据"><h4>沿着原帖继续读</h4><ul>{theme.sources.map(source => <li><time datetime={source.time_utc.slice(0, 10)}>{source.time_utc.slice(0, 10)}</time><a href={source.url}>{source.title}<Icon name="arrow-up" size={13} /></a></li>)}</ul>
+                <details class="theme-evidence"><summary>查看 {theme.sources.reduce((n, source) => n + source.evidence.length, 0)} 条原文与异议<Icon name="chevron" size={14} /></summary><ol>{theme.sources.flatMap(source => source.evidence.map(evidence => <li><p class="theme-evidence-heading"><a href={evidence.url}>评论 {evidence.comment_id}<Icon name="arrow-up" size={12} /></a><span>{evidence.archive_author}</span></p>{evidence.archive_author !== evidence.api_author && <p class="theme-source-note">档案显示名：{evidence.archive_author}；API 显示名：{evidence.api_author}。同一评论 ID 与引文一致，两边名称分别保留。</p>}<blockquote lang="en">{evidence.quote}</blockquote><p class="theme-attribution">{evidence.stance_zh || evidence.attribution_zh || evidence.role}</p><a class="theme-thread-link" href={source.url}>{source.title}<Icon name="arrow-up" size={12} /></a></li>))}</ol>{theme.sources.filter(source => source.thread_context_note_zh).map(source => <p class="theme-source-note">{source.thread_context_note_zh}</p>)}{theme.epistemic_status_zh && <p class="theme-source-note">依据与范围：{theme.epistemic_status_zh}</p>}</details>
+              </section>
+            </div>
+          </details>
+        </div>
+      </article>)}</div>
+    </section>)}
+    <div class="empty-state themes-empty" data-themes-empty hidden><Icon name="search" size={30} /><h3>还没有找到这个问题</h3><p>试试更短的关键词，或清空条件，沿其他线索看看。</p><button class="button" type="button" data-themes-reset>查看全部主题<Icon name="arrow" size={18} /></button></div>
+    <div class="list-end"><span class="mono">KEEP YOUR QUESTIONS OPEN</span><a href="#top">回到顶部 ↑</a></div>
+    <script type="application/json" id="interesting-themes-data" set:html={jsonData} />
+  </section>
+
+  <section class="themes-downloads" id="themes-downloads" aria-labelledby="downloads-title"><p class="eyebrow">TAKE AN IDEA WITH YOU</p><h2 id="downloads-title">留一份，慢慢想。</h2><p>每份主题都包含中文解释、机制、边界与来源。适合读，也适合留作下一次探索的起点。</p><div class="themes-download-grid">{project.downloadFiles.map(item => <a href={download(item.file)} download><span>{item.label}<small>{item.format}</small></span><Icon name="download" size={19} /></a>)}</div><div class="themes-extra-downloads"><a href={download('evidence.json')} download>逐条原文证据<Icon name="download" size={14} /></a><a href={download('sources.json')} download>原帖记录<Icon name="download" size={14} /></a><a href={download('verification.json')} download>引用核验记录<Icon name="download" size={14} /></a><a href={download('reading-audit.json')} download>阅读范围记录<Icon name="download" size={14} /></a></div></section>
+
+  <aside class="methodology-note themes-methodology" id="themes-methodology" aria-labelledby="method-title"><span class="note-index mono">BEHIND<br />THE IDEAS</span><div><h2 id="method-title">从全库发现，在具体讨论里求证。</h2><p>检索覆盖 2006.10.09 至 2026.08.23 UTC 的完整本地档案，主帖标题与自帖正文索引包含 4,755,791 篇可检索主帖。按年份、高讨论量、解释性问题和较低热度抽样形成候选，再围绕发现的机制继续检索全库。主题选择关注清晰主张、解释机制、可迁移的问题，以及有力的反对意见。</p><p>阅读记录覆盖 72 个讨论串中的 1,391 条评论或片段。本页最终选取 {metadata.selected_unique_story_count} 篇主帖、{metadata.selected_quote_reference_count} 条评论引文，引用正文均已与保存的公开评论树和原始下载档案核对。检索覆盖全库，随后对候选精读；这不等于读完全部主帖、评论与外链文章。</p><p>一句话洞见与中文说明是本次编辑整理，评论中的自述、类比和因果解释仍有各自的适用条件。每个主题保留边界与异议，部分自然科学主题另外核对了论文或摘要，详见完整报告。精选 12 个用于提供阅读入口，编号用于导航。</p><p>历史档案与 API 在两条评论的显示名称上存在差异，页面保留双边记录。出处匹配证明引文来自何处，具体主张还需结合证据与限制判断。整理于 2026.11.18。</p></div></aside>
+  <script src="../../scripts/interesting-themes.ts"></script>
+</SiteLayout>

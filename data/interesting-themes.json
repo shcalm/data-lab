@@ -1,0 +1,14 @@
+{
+  "id": "interesting-themes",
+  "number": "05",
+  "title": "值得深挖的 30 个主题",
+  "path": "hn/interesting-themes",
+  "dataPath": "downloads/hn-interesting-themes",
+  "description": "从 Hacker News 全部下载档案中，沿着学习、社会、自然与计算机系统，整理 30 个能带来新理解的主题。每项有机制、异议、原帖与引文。",
+  "groups": [
+    { "id": "cognition", "label": "学习与认知", "intro": "我们怎样学习，又怎样理解自己的思考。" },
+    { "id": "institutions", "label": "社会与制度", "intro": "规则改变行为，行为又重新塑造系统。" },
+    { "id": "science", "label": "自然与科学", "intro": "从反直觉现象出发，追问能量、反馈与证据。" },
+    { "id": "computing", "label": "计算机系统", "intro": "在看似成功的操作里，辨清真正得到的保证。" }
+  ]
+}

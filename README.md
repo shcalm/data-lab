@@ -4,7 +4,7 @@ shcalm 的个人数据实验室：用一个仓库持续整理有意思的榜单�
 
 站点地址：**https://shcalm.github.io/data-lab/**
 
-目前包含 Hacker News 十年讨论中的[书籍 Top 100](https://shcalm.github.io/data-lab/hn/books/)、[电影 Top 100](https://shcalm.github.io/data-lab/hn/movies/)、[学生阅读书目](https://shcalm.github.io/data-lab/hn/school-reading/)，以及[历史书目与纪录片](https://shcalm.github.io/data-lab/hn/history-documentaries/)。两份榜单提供搜索、主题筛选和排序；学生书目提供 109 部作品及年龄与类别交叉筛选；历史专题收录100项书目、97部纪录片／系列，其中64部为历史题材。所有项目均有完整简介与数据下载。
+目前包含 Hacker News 十年讨论中的[书籍 Top 100](https://shcalm.github.io/data-lab/hn/books/)、[电影 Top 100](https://shcalm.github.io/data-lab/hn/movies/)、[学生阅读书目](https://shcalm.github.io/data-lab/hn/school-reading/)、[历史书目与纪录片](https://shcalm.github.io/data-lab/hn/history-documentaries/)，以及从2006—2026全档案发现的[30个深挖主题](https://shcalm.github.io/data-lab/hn/interesting-themes/)。两份榜单提供搜索、主题筛选和排序；学生书目提供109部作品及年龄与类别交叉筛选；历史专题收录100项书目、97部纪录片／系列，其中64部为历史题材；深挖主题提供机制、边界、异议和原文，支持领域与精选阅读筛选。所有项目均有内容说明与数据下载。
 
 ## 本地运行
 
@@ -92,6 +92,14 @@ src/
 已核验的结果完整保存在 `public/downloads/hn-history-documentaries/`，共18个文件（含ZIP）。`src/lib/history-documentaries.mjs` 直接读取其中的历史书目、纪录片单和讨论来源JSON；元数据在 `data/history-documentaries.json`，过滤函数在 `src/lib/history-documentaries-filter.mjs`，不引入文件系统依赖。
 
 更新时从上游 `hacker_news/reports/history-books-documentaries/results/` 完整同步此目录，同时更新元数据、100／97／64数量与形式分布、404条证据、来源说明和验收。网页使用原始简介和逐条语气；不要把已核查证据条数展示成全站提及量。历史纪录片为策展子集，不能简单由题材类别推算。下载ZIP与独立JSON／CSV／Markdown必须保持一致。
+
+## 深挖主题维护
+
+`/hn/interesting-themes/` 从完整下载档案的4,755,791篇可检索主帖发现主题，范围为2006-10-09至2026-08-23 UTC。精选30个主题、四组7／9／7／7、62篇来源及106条引文；阅读记录覆盖72个讨论串中的1,391条评论或片段。主题内容和阅读顺序属于编辑选择，保留适用条件和异议。
+
+`public/downloads/hn-interesting-themes/` 保存上游 `hacker_news/reports/interesting-themes/` 的8个已核验文件（含ZIP）。网页通过 `src/lib/interesting-themes.mjs` 直接读取同一份 `themes.json`；分类元数据在 `data/interesting-themes.json`，纯筛选逻辑在 `src/lib/interesting-themes-filter.mjs`。更新时完整同步导出文件，检查JSON、CSV、Markdown和ZIP的一致性，并更新页面数量、时间范围与验收。原始全库索引与讨论树留在研究项目中。
+
+参数为 `group`（`cognition`／`institutions`／`science`／`computing`）、`q`和`view=starters`。主题永久链接为 `#theme-<id>`，分享入口使用清除筛选的完整路径；访问主题锚点时自动展开，若查询条件隐藏该主题则清空筛选再定位。关闭JavaScript时完整渲染30个主题、原生展开内容及下载入口。历史档案与API的两处作者显示名差异保留双边字段。
 
 ## GitHub Pages 发布
 

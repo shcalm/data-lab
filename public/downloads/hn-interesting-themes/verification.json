@@ -1,0 +1,44 @@
+{
+  "checks": "Story existence/title/type; quote contiguous substring in saved API tree AND original archive; API author exact, archive author matched or difference explicitly recorded; API containment; archive parent preserved.",
+  "truth_check": false,
+  "archive_precedence": "Monthly snapshots authoritative; incremental data only for IDs not in monthly snapshots.",
+  "normalization": {
+    "html_blocks": "Parse HTML, separate block tags, collapse whitespace.",
+    "legacy_strip_tags": "Remove tags, decode entities, collapse whitespace. Retained for researcher quotation compatibility."
+  },
+  "input_result_sha256": {
+    "institutions": "24604bb51f6009118e07a61215498413501e9f325046534b39da10c12f058727",
+    "cognition": "710a980838e4f372705afb897b6e10ffa4251618c7aaf0bc41e8f843d2c5f04a",
+    "science": "ebd712af200eea9f75cbddf2e8a625ad3a01a3f4c1becd84177e88d1c14c992a",
+    "computing": "64488f3e8e27d8118300f0ce02b43a8245d83c6e54d134b26f2dd87b9feed475"
+  },
+  "theme_count": 30,
+  "selected_unique_story_count": 62,
+  "selected_quote_reference_count": 106,
+  "selected_unique_comment_count": 106,
+  "api_and_archive_quote_match_count": 106,
+  "cross_snapshot_author_difference_count": 2,
+  "archive_files_read": 56,
+  "failure_count": 0,
+  "failures": [],
+  "parent_difference_notes": [],
+  "author_difference_notes": [
+    {
+      "id": 10729132,
+      "archive_author": "drudru11",
+      "api_author": "80x86",
+      "story_id": 10725859,
+      "quote_matches_both_snapshots": true,
+      "identity_resolution": "Unresolved display-name difference; both labels retained."
+    },
+    {
+      "id": 10726164,
+      "archive_author": "jorangreef",
+      "api_author": "_urga",
+      "story_id": 10725859,
+      "quote_matches_both_snapshots": true,
+      "identity_resolution": "Unresolved display-name difference; both labels retained."
+    }
+  ],
+  "parent_difference_interpretation": "HN can move or merge discussions between snapshots. A parent mismatch is preserved rather than treated as a quote-text failure; the archived ID and quote still have to match, and both author labels are retained."
+}
