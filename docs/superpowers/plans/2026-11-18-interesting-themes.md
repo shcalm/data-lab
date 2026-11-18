@@ -30,8 +30,8 @@
 - [x] Add meaningful browser scenarios in `tests/browser_smoke.py`: new page discovery; filtering and URL restore; deep links across filters; expanded full evidence; archive/API author difference; no-JS;320–1440px and existing-page regression. Validate JSON, CSV and ZIP contents.
 - [x] Run production preview and `tests/browser_smoke.py`, inspect desktop/mobile screenshots, and compare8 copied files with source SHA-256.
 - [x] Request independent code review under requesting-code-review; resolve substantive findings and run affected checks.
-- [ ] Commit implementation, fast-forward into main, push main, wait for GitHub Pages workflow success, then check live page and downloads.
-- [ ] Record verification, remove merged feature worktree/branch, stop preview, and return the live URL.
+- [x] Commit implementation, fast-forward into main, push main, wait for GitHub Pages workflow success, then check live page and downloads.
+- [x] Record verification, remove merged feature worktree/branch, stop preview, and return the live URL.
 
 ## Local acceptance — 2026-11-18
 
@@ -40,3 +40,11 @@
 - All8 public files match upstream SHA-256; built HTML contains30 themes and106 quotations.
 - Desktop1440px and mobile375px hero and expanded reading screenshots inspected.
 - Independent review found no substantive issues; separately checked all8 export files, full explanation/quote preservation, permalink/history behavior and additional navigation widths901–1100px.
+
+## Publication acceptance — 2026-11-18
+
+- Fast-forwarded implementation `ee1d11d9655da1de6f9503a9b03e56a7cb31845e` into `main`; merged-tree `npm run build` passed all 10 tests and generated 7 pages.
+- Pushed `main`; [Publish Data Lab run 44266891886](https://github.com/shcalm/data-lab/actions/runs/44266891886) completed successfully for that exact implementation SHA.
+- [Live collection](https://shcalm.github.io/data-lab/hn/interesting-themes/) returned HTTP 200. Verified homepage/navigation entry, all 30 themes and 106 quotations, group/search/selected-reading intersections, refresh and history restoration, conflicting hash reveal, both author-display differences, and 375px expanded reading without horizontal overflow.
+- All 8 live downloads are byte-identical to the reviewed exports. ZIP integrity and its 7 members passed. No-JavaScript reading worked; no browser script errors occurred.
+- Preserved reviewed screenshots and live screenshots under ignored `test-results/`. Stopped the feature preview and removed the merged feature worktree and branch.
