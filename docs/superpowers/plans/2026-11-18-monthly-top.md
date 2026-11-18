@@ -35,8 +35,8 @@
 - [x] Add `tests/monthly_top_browser.py`: compare every built month with canonical data; production-browser first/last/empty/sparse/corrected-score months, search/URL/keyboard, UTC dates, month navigation, no-JavaScript, downloads/ZIP and responsive screenshots.
 - [x] Run dedicated acceptance and existing `tests/browser_smoke.py`; inspect desktop/mobile screenshots and source/download hashes.
 - [x] Request independent review, fix substantive findings, run affected checks.
-- [ ] Commit, fast-forward into main, build merged tree, push and wait for exact implementationSHA Pages success.
-- [ ] Verify live new routes/navigation/search/downloads, record results, stop preview, remove merged worktree/branch and leave main clean/synced.
+- [x] Commit, fast-forward into main, build merged tree, push and wait for exact implementationSHA Pages success.
+- [x] Verify live new routes/navigation/search/downloads, record results, stop preview, remove merged worktree/branch and leave main clean/synced.
 
 ## Local acceptance — 2026-11-18
 
@@ -62,3 +62,11 @@
 - Legacy smoke passed7pages/73links and all existing collections, downloads, filters, keyboard/noJS and9viewportwidths.
 - Final1440px/375px reading/hero screenshots inspected; typography, spacing and mobile layout accepted.
 - Independent reviewer rechecked4,721rankings/source fields, Chinese-guide coverage in all exports/built pages,484copies and238APIresponse hashes. Both P2 findings fixed; final verdict: ready to publish, no substantive outstanding findings. External-index coverage limitation remains documented.
+
+## Publication and live verification — 2026-11-18
+
+- Implementation commit: `a9223924709498b85b8786ec7769bba48cb364f0` (`Add all-time and monthly HN Top20 archive`). Fast-forwarded into cleanmain; merged build passed13tests and247pages, then pushed toorigin/main.
+- Exact-SHA Pages workflow succeeded: https://github.com/shcalm/data-lab/actions/runs/44295451261 (completed2026-11-18T11:32:12Z).
+- Live entry: https://shcalm.github.io/data-lab/hn/monthly-top/
+- Live command: `python3 -u tests/monthly_top_browser.py --base-url https://shcalm.github.io/data-lab/ --skip-full-archive`. Passed downloads byte-for-byte (including ZIP and representative monthly files), homepage/nav, all-time IDs, guide search, filtered rank20 accessibility, Firebase score/status/comment provenance, URL/query/history/hash, sparse/empty/partial months, keyboard, noJS and16viewportwidths with no script errors. The option skips239live HTTP requests; all239built month pages and4,721rows were still compared exactly, and representative live monthly routes passed. Full239HTTPmonth check had already passed against the production preview.
+- Final screenshots retained in main's ignoredtest-results directory. Preview4325 stopped; merged feature worktree and branch removed. Final documentation records the verified implementation without changing deployed assets.
