@@ -1,0 +1,10 @@
+{
+  "id": "history-documentaries",
+  "title": "历史书目与纪录片",
+  "path": "hn/history-documentaries",
+  "description": "从 Hacker News 专题讨论中整理100项历史书目、97部纪录片与纪录系列，按题材查找，阅读完整简介与原文来源；其中64部属于历史题材纪录片。",
+  "dataPath": "downloads/hn-history-documentaries",
+  "reviewedAt": "2026-11-18",
+  "periodStart": "2016-08-23T08:44:12Z",
+  "periodEnd": "2026-08-23T08:44:12Z"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "history_books": 100,
+  "documentaries": 97,
+  "historical_documentaries": 64,
+  "history_discussions": 11,
+  "documentary_discussions": 7,
+  "unique_discussions": 18,
+  "verified_work_comment_pairs": 404,
+  "local_snapshot_exact_quote_matches": 404,
+  "checks": [
+    "discussion IDs, titles and dates match source trees and local archive",
+    "every evidence quote is an exact normalized-source substring",
+    "every discussion and cited comment is inside the ten-year window",
+    "work IDs and per-work comment evidence are unique",
+    "documentary formats and historical-subset flags are explicit"
+  ]
+}

@@ -15,7 +15,7 @@ base = args.base_url.rstrip('/') + '/'
 root = Path(__file__).resolve().parents[1]
 output = root / 'test-results'
 output.mkdir(exist_ok=True)
-pages = {'home': '', 'books': 'hn/books/', 'movies': 'hn/movies/', 'reading': 'hn/school-reading/', 'about': 'about/'}
+pages = {'home': '', 'books': 'hn/books/', 'movies': 'hn/movies/', 'reading': 'hn/school-reading/', 'history': 'hn/history-documentaries/', 'about': 'about/'}
 
 with sync_playwright() as playwright:
     browser = playwright.chromium.launch(headless=True)
@@ -188,13 +188,94 @@ with sync_playwright() as playwright:
         assert archive.testzip() is None
         assert len(json.loads(archive.read('书目总表.json'))) == 109
 
+    page.goto(urljoin(base, 'hn/history-documentaries/'), wait_until='networkidle')
+    works = page.locator('[data-work]:visible')
+    catalogue = json.loads(page.locator('#history-documentaries-data').text_content())
+    assert len(catalogue) == 197
+    expect(page.locator('[data-work]')).to_have_count(197)
+    expect(works).to_have_count(100)
+    assert page.locator('[data-work] p.reading-summary').count() == 197
+    for view, count in [('books', 100), ('documentaries', 97), ('history-documentaries', 64)]:
+        page.locator(f'[data-view="{view}"]').click()
+        expect(works).to_have_count(count)
+        expect(page.locator('[data-result-count]')).to_have_text(str(count))
+        expect(page.locator(f'[data-view="{view}"]')).to_have_attribute('aria-pressed', 'true')
+    page.locator('#history-category').select_option('战争与大屠杀')
+    expect(works).to_have_count(12)
+    page.locator('#history-search').fill('ＦＯＧ　ＭＯＲＲＩＳ')
+    expect(works).to_have_count(1)
+    assert works.first.get_attribute('data-work') == 'documentaries-fog-of-war'
+    assert 'view=history-documentaries' in page.url and 'category=' in page.url and 'q=' in page.url
+    filtered_url = page.url
+    page.reload(wait_until='networkidle')
+    expect(works).to_have_count(1)
+    page.goto(urljoin(base, 'hn/history-documentaries/?view=documentaries'), wait_until='networkidle')
+    expect(works).to_have_count(97)
+    page.go_back(wait_until='networkidle')
+    assert page.url == filtered_url
+    expect(works).to_have_count(1)
+    details = works.first.locator('details')
+    details.locator('summary').focus()
+    page.keyboard.press('Enter')
+    expect(details).to_have_attribute('open', '')
+    assert details.locator('blockquote').count() > 0
+    assert details.locator('a[href*="news.ycombinator.com/item?id="]').count() > 0
+    page.locator('[data-history-reset]').first.click()
+    expect(works).to_have_count(64)
+    expect(page.locator('#history-search')).to_be_focused()
+    page.locator('#history-search').fill('不存在的影片-998877')
+    expect(works).to_have_count(0)
+    expect(page.locator('[data-history-empty]')).to_be_visible()
+    page.locator('[data-history-empty] [data-history-reset]').click()
+    expect(works).to_have_count(64)
+    page.locator('#history-search').fill('AlphaGo')
+    expect(works).to_have_count(0)
+    page.locator('[data-view="documentaries"]').click()
+    expect(works).to_have_count(1)
+    assert 'AlphaGo' in works.first.locator('h4').inner_text()
+    page.locator('[data-history-reset]').first.click()
+    page.locator('#history-category').select_option('文化与艺术')
+    page.locator('[data-view="books"]').click()
+    expect(page.locator('#history-category')).to_have_value('')
+    expect(works).to_have_count(100)
+    page.locator('#history-search').fill('丝绸之路 欧亚')
+    expect(works).to_have_count(1)
+    page.locator('#history-search').focus()
+    page.keyboard.press('Tab')
+    expect(page.locator('#history-category')).to_be_focused()
+    page.goto(urljoin(base, 'hn/history-documentaries/?view=wrong&category=不存在'), wait_until='networkidle')
+    expect(works).to_have_count(100)
+    page.goto(urljoin(base, 'hn/history-documentaries/?view=history-documentaries#work-documentaries-fog-of-war'), wait_until='networkidle')
+    expect(page.locator('#work-documentaries-fog-of-war')).to_be_visible()
+    page.locator('.history-discussions summary').click()
+    expect(page.locator('.history-discussions li')).to_have_count(18)
+
+    history_download_root = 'downloads/hn-history-documentaries/'
+    for name, count in [('历史书目', 100), ('纪录片单', 97), ('历史题材纪录片', 64)]:
+        response = context.request.get(urljoin(base, history_download_root + name + '.json'))
+        assert response.status == 200
+        data = response.json()
+        assert len(data) == count
+        for work in data:
+            assert work['summary_zh'] and work['mentions']
+        csv_response = context.request.get(urljoin(base, history_download_root + name + '.csv'))
+        exported = list(csv.DictReader(io.StringIO(csv_response.body().decode('utf-8-sig'))))
+        assert len(exported) == count
+        assert [row['英文名'] for row in exported] == [work['title'] for work in data]
+    response = context.request.get(urljoin(base, history_download_root + '历史书目与纪录片.zip'))
+    with zipfile.ZipFile(io.BytesIO(response.body())) as archive:
+        assert archive.testzip() is None
+        assert len(json.loads(archive.read('历史书目.json'))) == 100
+        assert len(json.loads(archive.read('纪录片单.json'))) == 97
+        assert len(json.loads(archive.read('历史题材纪录片.json'))) == 64
+
     page.goto(urljoin(base, 'hn/movies/?q=Dune&sort=year'), wait_until='networkidle')
     expect(page.locator('[data-rank]:visible')).to_have_count(2)
     assert page.locator('[data-rank]:visible').first.get_attribute('data-rank') == '86'
     page.goto(urljoin(base, 'hn/movies/?category=不存在&sort=wrong'), wait_until='networkidle')
     expect(page.locator('[data-rank]:visible')).to_have_count(100)
 
-    for width, height in [(320, 740), (375, 900), (768, 1024), (844, 390), (1440, 1080)]:
+    for width, height in [(320, 740), (375, 900), (620, 900), (621, 900), (768, 1024), (800, 900), (801, 900), (1080, 900), (1440, 1080)]:
         page.set_viewport_size({'width': width, 'height': height})
         for name, path in pages.items():
             page.goto(urljoin(base, path), wait_until='networkidle')
@@ -207,6 +288,13 @@ with sync_playwright() as playwright:
                 if width == 375:
                     page.locator('[data-rank="1"]').evaluate("el => el.scrollIntoView({block:'start', behavior:'instant'})")
                     page.screenshot(path=str(output / f'{name}-reading-{width}.png'))
+            if name == 'history':
+                page.locator('[data-view="history-documentaries"]').click()
+                page.locator('[data-work="documentaries-fog-of-war"] summary').click()
+                assert not page.evaluate('document.documentElement.scrollWidth > window.innerWidth'), (name, width, 'evidence')
+                if width in (375, 1440):
+                    page.locator('[data-work="documentaries-fog-of-war"]').evaluate("el => el.scrollIntoView({block:'start', behavior:'instant'})")
+                    page.screenshot(path=str(output / f'{name}-evidence-{width}.png'))
 
     page.emulate_media(reduced_motion='reduce')
     assert page.locator('html').evaluate('el => getComputedStyle(el).scrollBehavior') == 'auto'
@@ -216,6 +304,15 @@ with sync_playwright() as playwright:
     assert not errors, errors
 
     plain = browser.new_context(java_script_enabled=False, viewport={'width': 375, 'height': 900})
+    static = plain.new_page()
+    response = static.goto(urljoin(base, 'hn/history-documentaries/'), wait_until='networkidle')
+    assert response.status == 200
+    expect(static.locator('[data-work]:visible')).to_have_count(197)
+    expect(static.locator('[data-history-controls]')).to_be_hidden()
+    static.locator('[data-work] summary').first.click()
+    expect(static.locator('[data-work] details').first).to_have_attribute('open', '')
+    assert not static.evaluate('document.documentElement.scrollWidth > window.innerWidth')
+    static.close()
     static = plain.new_page()
     static.goto(urljoin(base, 'hn/school-reading/'), wait_until='networkidle')
     expect(static.locator('[data-book]:visible')).to_have_count(109)
@@ -235,4 +332,4 @@ with sync_playwright() as playwright:
         static.close()
     plain.close()
     browser.close()
-    print(f'PASS: 5 pages, {len(internal)} internal assets/links, two rankings and 109 reading books; age/category/search intersections, URL/history restore, downloads/ZIP, keyboard, no-JS, reduced motion, 5 viewport sizes; no script errors.')
+    print(f'PASS: 6 pages, {len(internal)} internal assets/links, two rankings, 109 student books and 197 history/documentary works; view/age/category/search intersections, URL/history restore, downloads/ZIP, quotes, keyboard, no-JS, reduced motion, 9 viewport sizes; no script errors.')

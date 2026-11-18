@@ -1,0 +1,9 @@
+{
+  "dataset": "/mnt/data/airdrop/HackerNews",
+  "unique_cited_items": 288,
+  "local_cited_items_found": 288,
+  "work_comment_pairs": 404,
+  "exact_quote_matches_in_local_snapshot": 404,
+  "missing_from_local_snapshot": [],
+  "quotes_differing_from_local_snapshot": []
+}

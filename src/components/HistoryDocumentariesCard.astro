@@ -1,0 +1,18 @@
+---
+import Icon from './Icon.astro';
+import { getHistoryDocumentaries } from '../lib/history-documentaries.mjs';
+import { href } from '../lib/paths';
+import '../styles/school-reading.css';
+import '../styles/history-documentaries.css';
+const project = getHistoryDocumentaries();
+const previews = [
+  { category: '世界史 · 书', title: '丝绸之路', view: 'books', id: 'books-silk-roads' },
+  { category: '战争史 · 书', title: '普通人', view: 'books', id: 'books-ordinary-men' },
+  { category: '纪录片', title: '战争迷雾', view: 'history-documentaries', id: 'documentaries-fog-of-war' },
+];
+---
+<article class="project-card project-reading">
+  <div class="card-eyebrow"><span class="eyebrow">04 / THROUGH TIME &amp; STORIES</span><span class="card-icon"><Icon name="film" size={25} /></span></div>
+  <div class="reading-card-layout"><div><h3><a href={href(`${project.path}/`)}>{project.title}<Icon name="arrow-up" size={24} /></a></h3><p class="card-description">翻开历史，也看看真实的影像。从专题讨论里挑出具体作品，按地区、人物、战争与科技分类，留住简介和原文。</p><div class="reading-card-ages"><span>100 项历史书目</span><span>97 部纪录片</span><span>64 部历史题材</span></div></div><div class="reading-card-preview history-card-preview" aria-label="专题作品举例">{previews.map(work => <a href={href(`${project.path}/?view=${work.view}#work-${work.id}`)}><span>{work.category}</span><b>{work.title}</b><Icon name="arrow" size={16} /></a>)}</div></div>
+  <div class="card-footer"><span>18 篇讨论 · 每部有简介与来源</span><a href={href(`${project.path}/`)}>打开历史与纪录片<Icon name="arrow" size={19} /></a></div>
+</article>

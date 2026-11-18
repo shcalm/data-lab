@@ -1,0 +1,2601 @@
+[
+  {
+    "id": "shoah",
+    "title": "Shoah",
+    "title_zh": "浩劫",
+    "year": 1985,
+    "format": "documentary film",
+    "category": "战争与大屠杀",
+    "history_related": true,
+    "creators": [
+      "Claude Lanzmann"
+    ],
+    "summary_zh": "通过幸存者、目击者及参与者访谈追问纳粹对犹太人的灭绝。影片着重当代证词与历史现场，而非依赖战争时期的档案影像。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18085835,
+        "quote": "'Shoah', by Claude Lanzmann, who passed away earlier this year after a career of excellent documentary filmmaking. Review by Roger Ebert when it was first released: https://www.rogerebert.com/reviews/great-movie-shoah-1985",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18085835",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T16:12:14.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32802964,
+        "quote": "Secret History of silicon valley, more a presentation. It gave insight into the collaboration of astrophysics and the military. Shoah: An documentary about the holocaust 11 hours long, but without any archive footage. The maker interviews all kinds of people. Farmers living next to train emplacements used, train drivers, perpetrators and more.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32802964",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T20:25:14.000Z"
+      },
+      {
+        "discussion_id": 39157097,
+        "item_id": 39161057,
+        "quote": "Shoah (1985) by Claude Lanzmann.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=39161057",
+        "discussion_url": "https://news.ycombinator.com/item?id=39157097",
+        "discussion_title": "Best Documentaries You've Ever Seen",
+        "created_at": "2024-01-27T23:50:16.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 3,
+    "source_discussion_count": 3
+  },
+  {
+    "id": "world-at-war",
+    "title": "The World at War",
+    "title_zh": "",
+    "year": 1973,
+    "format": "documentary series",
+    "category": "战争与大屠杀",
+    "history_related": true,
+    "creators": [
+      "Jeremy Isaacs"
+    ],
+    "summary_zh": "以档案影像和亲历者访谈叙述第二次世界大战。该系列由英国 Thames Television 制作，Laurence Olivier 担任旁白。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18085934,
+        "quote": "The World at War https://en.wikipedia.org/wiki/The_World_at_War It's a BBC series that chronicles the second world war. It was made in the 1970s and features interviews with the people who were actually there. I really recommend everybody watch it at least once in their life. I think you can find it on YouTube.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18085934",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T16:19:41.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32800200,
+        "quote": "The World at War - BBC documentary series about WWII. Shows humanity simultaneously at it's best and worst. The Vietnam War - Ken Burns documentary series. Very balanced and sobering take on the Vietnam war, events leading to the Vietnam war, and unrest in the US during that period. The Fog of War - Errol Morris doc about Robert McNamara. The Salt of the Earth - Doc about photographer Sebastião Salgado Alone in the Wilderness - Dick Proenneke films himself building and living in a remote cabin in Alaska Also can't go wrong with Adam Curtis.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32800200",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T15:05:08.000Z"
+      },
+      {
+        "discussion_id": 45567701,
+        "item_id": 45577142,
+        "quote": "\"The World at War\" with Lawrence Olivier narrating and interviews with people that lived thru the war on both sides",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=45577142",
+        "discussion_url": "https://news.ycombinator.com/item?id=45567701",
+        "discussion_title": "Ask HN: What are some of your favorite documentaries?",
+        "created_at": "2025-10-14T07:18:25.000Z"
+      }
+    ],
+    "note_zh": "原评论有时误称BBC作品；实际制作为Thames Television。1973为首播年。",
+    "identity_sources": [
+      "https://en.wikipedia.org/wiki/The_World_at_War"
+    ],
+    "source_comment_count": 3,
+    "source_discussion_count": 3
+  },
+  {
+    "id": "vietnam-war",
+    "title": "The Vietnam War",
+    "title_zh": "",
+    "year": 2017,
+    "format": "documentary series",
+    "category": "战争与大屠杀",
+    "history_related": true,
+    "creators": [
+      "Ken Burns",
+      "Lynn Novick"
+    ],
+    "summary_zh": "叙述越南战争的背景、进程及其社会后果。系列结合美国人与越南不同立场亲历者的证词和档案材料。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18085935,
+        "quote": "The Vietnam War: A film by Ken Burns & Lynn Novick I watch it on Netflix. It is an even handed look of the war from both sides. It was so good. Be prepared to get angry and to cry.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18085935",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T16:19:50.000Z"
+      },
+      {
+        "discussion_id": 25624456,
+        "item_id": 25625657,
+        "quote": "Ken Burns' Vietnam. Understanding the conflict in Indo-China is to understand America Recently felt shook by the American Masters: Keith Haring episode. Died way too young. And that creative energy of Downtown NYC 1981 is just a memory now ;) https://www.pbs.org/wnet/americanmasters/keith-haring-docume...",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=25625657",
+        "discussion_url": "https://news.ycombinator.com/item?id=25624456",
+        "discussion_title": "Ask HN: What is the most inspiring documentary film in your opinion?",
+        "created_at": "2021-01-03T22:01:58.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32800200,
+        "quote": "The World at War - BBC documentary series about WWII. Shows humanity simultaneously at it's best and worst. The Vietnam War - Ken Burns documentary series. Very balanced and sobering take on the Vietnam war, events leading to the Vietnam war, and unrest in the US during that period. The Fog of War - Errol Morris doc about Robert McNamara. The Salt of the Earth - Doc about photographer Sebastião Salgado Alone in the Wilderness - Dick Proenneke films himself building and living in a remote cabin in Alaska Also can't go wrong with Adam Curtis.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32800200",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T15:05:08.000Z"
+      },
+      {
+        "discussion_id": 39157097,
+        "item_id": 39166580,
+        "quote": "Chiming in a second time to throw in just about every Ken Burns and Rick Burns episodic docs on PBS -— they have so much depth that it’s crazy. “The Vietnam War” is like 18 hours long. This is a bit hyperbolic and reductive but if you want to understand why an older person in your life is the way they are, pick a Burns documentary set during their formative adult years and so many puzzles get solved haha. I’m terrified to see Ken Burns’ “The Internet” in 20 years lol",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=39166580",
+        "discussion_url": "https://news.ycombinator.com/item?id=39157097",
+        "discussion_title": "Best Documentaries You've Ever Seen",
+        "created_at": "2024-01-28T15:20:33.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 4,
+    "source_discussion_count": 4
+  },
+  {
+    "id": "civil-war",
+    "title": "The Civil War",
+    "title_zh": "",
+    "year": 1990,
+    "format": "documentary series",
+    "category": "战争与大屠杀",
+    "history_related": true,
+    "creators": [
+      "Ken Burns"
+    ],
+    "summary_zh": "叙述美国南北战争的经过及其对美国社会的影响。影片使用照片、书信、日记与历史学者的解说组织叙事。",
+    "mentions": [
+      {
+        "discussion_id": 32799789,
+        "item_id": 32801203,
+        "quote": "\"The Civil War\" by Ken Burns https://en.wikipedia.org/wiki/The_Civil_War_(miniseries) Detailed. Unagitated text. No reenactment. Based on contemporary documents only (almost). Competent experts, some quite characters. Reserved but impressive music.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32801203",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T16:51:52.000Z"
+      },
+      {
+        "discussion_id": 45567701,
+        "item_id": 45597035,
+        "quote": "- 20 Days in Mariupol : https://en.wikipedia.org/wiki/20_Days_in_Mariupola - Icarus : https://en.wikipedia.org/wiki/Icarus_(2017_film) - The Civil War : https://en.wikipedia.org/wiki/The_Civil_War_(miniseries) - The Contestant : https://en.wikipedia.org/wiki/The_Contestant_(2023_film)",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=45597035",
+        "discussion_url": "https://news.ycombinator.com/item?id=45567701",
+        "discussion_title": "Ask HN: What are some of your favorite documentaries?",
+        "created_at": "2025-10-15T19:07:08.000Z"
+      }
+    ],
+    "note_zh": "此处为Ken Burns的1990年纪录系列。",
+    "identity_sources": [
+      "https://en.wikipedia.org/wiki/The_Civil_War_(miniseries)"
+    ],
+    "source_comment_count": 2,
+    "source_discussion_count": 2
+  },
+  {
+    "id": "war-ken-burns",
+    "title": "The War",
+    "title_zh": "",
+    "year": 2007,
+    "format": "documentary series",
+    "category": "战争与大屠杀",
+    "history_related": true,
+    "creators": [
+      "Ken Burns",
+      "Lynn Novick"
+    ],
+    "summary_zh": "从四座美国城镇居民的经历切入第二次世界大战。系列把前线作战与美国国内生活的变化相联系。",
+    "mentions": [
+      {
+        "discussion_id": 32799789,
+        "item_id": 32801214,
+        "quote": "The War by Ken Burns, a WWII documentary. My favorite documentary of all time. It is so exceptionally made. https://imdb.com/title/tt0996994/",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32801214",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T16:54:20.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "fog-of-war",
+    "title": "The Fog of War",
+    "title_zh": "战争迷雾",
+    "year": 2003,
+    "format": "documentary film",
+    "category": "战争与大屠杀",
+    "history_related": true,
+    "creators": [
+      "Errol Morris"
+    ],
+    "summary_zh": "通过 Robert McNamara 的访谈回顾其军政生涯。影片讨论第二次世界大战、古巴导弹危机、越南战争及战争决策。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18086024,
+        "quote": "Grizzly Man: https://www.imdb.com/title/tt0427312/ -- the folly of humans when it comes to interacting with wild animals well illustrated The Fog of War: https://www.imdb.com/title/tt0317910/ -- whoa. Just: whoa. The Thin Blue Line: https://en.wikipedia.org/wiki/The_Thin_Blue_Line_(1988_film) -- when a conviction goes wrong. I guess I really like Errol Morris and Herzog? Probably.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18086024",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T16:26:25.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32801040,
+        "quote": "\"Fog of war\" about the life of Robert McNamara. He is quite candid about some of the mistakes he made.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32801040",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T16:33:30.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32804004,
+        "quote": "Well, comparison to Rumsfeld is just setting the bar too low. Don't take me as saying that Fog of War is bad or that McNamara is completely missing self reflection. Far from it. On first seeing some 15 years ago I have been impressed as well. It's only over the years as I kept finding more and more about just how much responsibility for Vietnam does McNamara bear that I found that he's somehow trying to present himself as a technocrat without much in the way of a moral responsibility. Sort of a Nuremberg defense by steering clear of the ethical aspects almost altogether.",
+        "stance": "有保留",
+        "note_zh": "认为McNamara仍回避了部分道德责任；评论明确说不是认为影片差。",
+        "item_url": "https://news.ycombinator.com/item?id=32804004",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T22:47:40.000Z"
+      },
+      {
+        "discussion_id": 39157097,
+        "item_id": 39159793,
+        "quote": "I'd have to say my favorites are 1. The Up series 2. Fog of War 3. The Act of Killing There's several on that list that I want to see now, though.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=39159793",
+        "discussion_url": "https://news.ycombinator.com/item?id=39157097",
+        "discussion_title": "Best Documentaries You've Ever Seen",
+        "created_at": "2024-01-27T21:01:43.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 4,
+    "source_discussion_count": 3
+  },
+  {
+    "id": "act-of-killing",
+    "title": "The Act of Killing",
+    "title_zh": "杀戮演绎",
+    "year": 2012,
+    "format": "documentary film",
+    "category": "战争与大屠杀",
+    "history_related": true,
+    "creators": [
+      "Joshua Oppenheimer"
+    ],
+    "summary_zh": "让参与印度尼西亚1965—1966年大规模杀戮的人以电影形式重演其行为。作品观察施暴者如何叙述过去以及暴力在当代社会留下的痕迹。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18086074,
+        "quote": "The Act of Killing - https://www.imdb.com/title/tt2375605/ \"A documentary which challenges former Indonesian death-squad leaders to reenact their mass-killings in whichever cinematic genres they wish, including classic Hollywood crime scenarios and lavish musical numbers.\"",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18086074",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T16:29:55.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32800882,
+        "quote": "The Act of Killing - it's hard to even describe the premise. Its a present-day (2012) profile on participants in the 1960s mass killings in Indonesia. An absolutely brutal look into human nature.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32800882",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T16:15:05.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32803853,
+        "quote": "the children living in the North-Western city of Peshawar in Pakistan. A tough watch, comparably tough to An Act of Killing. I cried Also I can recommended everything by Louis Theroux and to some degree Channel 5, if that qualifies as a documentary. I'd say that kind of content are more reportages, if I were to make a distinction",
+        "stance": "提及",
+        "note_zh": "用于说明另一部影片同样难以观看，并非针对本片给出新的独立推荐。",
+        "item_url": "https://news.ycombinator.com/item?id=32803853",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T22:25:31.000Z"
+      },
+      {
+        "discussion_id": 39157097,
+        "item_id": 39159793,
+        "quote": "I'd have to say my favorites are 1. The Up series 2. Fog of War 3. The Act of Killing There's several on that list that I want to see now, though.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=39159793",
+        "discussion_url": "https://news.ycombinator.com/item?id=39157097",
+        "discussion_title": "Best Documentaries You've Ever Seen",
+        "created_at": "2024-01-27T21:01:43.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 4,
+    "source_discussion_count": 3
+  },
+  {
+    "id": "look-of-silence",
+    "title": "The Look of Silence",
+    "title_zh": "沉默之像",
+    "year": 2014,
+    "format": "documentary film",
+    "category": "战争与大屠杀",
+    "history_related": true,
+    "creators": [
+      "Joshua Oppenheimer"
+    ],
+    "summary_zh": "跟随一名印度尼西亚验光师面对杀害其兄长的人。影片从受害者家庭的视角讨论1965—1966年杀戮与持续的恐惧。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18086076,
+        "quote": "1. The Look of Silence 2. Let the Fire Burn 3. Koyaanisqatsi 4. Samsara 5. Baraka 6. Vernon, Florida 7. Art and Craft 8. Black Panthers 9. F for Fake 10. Du Côté de la côte",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18086076",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T16:30:12.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "s21",
+    "title": "S-21: The Khmer Rouge Killing Machine",
+    "title_zh": "",
+    "year": 2003,
+    "format": "documentary film",
+    "category": "战争与大屠杀",
+    "history_related": true,
+    "creators": [
+      "Rithy Panh"
+    ],
+    "summary_zh": "围绕柬埔寨红色高棉时期的S-21监狱展开。影片让幸存者与原看守回到现场，讨论和重现监狱运作中的行为。",
+    "mentions": [
+      {
+        "discussion_id": 32799789,
+        "item_id": 32801794,
+        "quote": "\"S21: The Khmer Rouge Killing Machine\" It's a great documentary in its own way. It circles around the S21 Tuol Sleng prison/interrogation center/extermination center where a small cadre of Khmer Rouge soldiers were responsible for, mostly using torture, extracting a confession out of the prisoner. The",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32801794",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T18:03:54.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "shall-not-grow-old",
+    "title": "They Shall Not Grow Old",
+    "title_zh": "他们已不再变老",
+    "year": 2018,
+    "format": "documentary film",
+    "category": "战争与大屠杀",
+    "history_related": true,
+    "creators": [
+      "Peter Jackson"
+    ],
+    "summary_zh": "使用修复和部分上色的第一次世界大战档案影像。英国老兵的录音将观众带入征募、战壕生活与战争结束后的经历。",
+    "mentions": [
+      {
+        "discussion_id": 32799789,
+        "item_id": 32800134,
+        "quote": "They Shall Not Grow Old https://en.wikipedia.org/wiki/They_Shall_Not_Grow_Old",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32800134",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T14:57:33.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [
+      "https://en.wikipedia.org/wiki/They_Shall_Not_Grow_Old"
+    ],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "death-of-yugoslavia",
+    "title": "The Death of Yugoslavia",
+    "title_zh": "",
+    "year": 1995,
+    "format": "documentary series",
+    "category": "战争与大屠杀",
+    "history_related": true,
+    "creators": [
+      "Norma Percy",
+      "Brian Lapping"
+    ],
+    "summary_zh": "叙述南斯拉夫解体以及随后的战争。系列通过政治领导人和其他当事人的访谈重建关键决策及事件。",
+    "mentions": [
+      {
+        "discussion_id": 32799789,
+        "item_id": 32802796,
+        "quote": "The Death of Yugoslavia (1996) [1] [2]. Won the BAFTA and Peabody awards that year. It's a BBC documentary in six episodes about the conflict that caused the dissolution of Yugoslavia and the wars in the Balkans. It stands out among many documentaries for being a truly dispassionate",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32802796",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T20:05:23.000Z"
+      }
+    ],
+    "note_zh": "32802796将年份写为1996；本表采用1995年首播年。",
+    "identity_sources": [
+      "https://en.wikipedia.org/wiki/The_Death_of_Yugoslavia"
+    ],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "untold-history-us",
+    "title": "The Untold History of the United States",
+    "title_zh": "",
+    "year": 2012,
+    "format": "documentary series",
+    "category": "政治与社会",
+    "history_related": true,
+    "creators": [
+      "Oliver Stone",
+      "Peter Kuznick"
+    ],
+    "summary_zh": "从第二次世界大战至近现代回顾美国外交与政治史。该系列以 Oliver Stone 与 Peter Kuznick 的批判性历史解释组织材料。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18086064,
+        "quote": "Recently, I really like \"The Untold History of the United States\".",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18086064",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T16:28:54.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32801950,
+        "quote": "Oliver Stone's The Untold History of the United States An eye opening tour through lots of stuff I didn't previously know about the US (and UK to some extent): corporate nazi collaboration, CIA coups, Vietnam, Hiroshima, that kind of thing.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32801950",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T18:20:05.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 2,
+    "source_discussion_count": 2
+  },
+  {
+    "id": "century-of-self",
+    "title": "The Century of the Self",
+    "title_zh": "",
+    "year": 2002,
+    "format": "documentary series",
+    "category": "政治与社会",
+    "history_related": true,
+    "creators": [
+      "Adam Curtis"
+    ],
+    "summary_zh": "追踪精神分析思想与20世纪公共关系、广告及政治传播的联系。系列着重 Edward Bernays 等人物如何参与塑造大众消费与政治认同。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18087420,
+        "quote": "If you like Hypernormalisation you should definitely look into his other documentaries, especially Century of the Self. It explores the rise of advertising in the 20th century, revealing how it emerged from propaganda during the wars and deeply wove itself into social norms. It might be the most powerful documentary that I've seen, because I watched it as an advertising undergrad and",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18087420",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T18:39:37.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32800759,
+        "quote": "“The Century of the Self” by Adam Curtis. https://youtu.be/eJ3RzGoQC4s It goes through each decade of the 1900s and explains how Freud’s psychology and the new field of marketing completely reshaped society. For the first time in my life I feel like I understood the “why” of how things work in American society. This film is probably best if you’re age 40+ and actually remember some of the events.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32800759",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T16:01:55.000Z"
+      }
+    ],
+    "note_zh": "Adam Curtis的论述性系列；历史解释是作者观点，不等于论坛或本整理确认其全部因果判断。",
+    "identity_sources": [],
+    "source_comment_count": 2,
+    "source_discussion_count": 2
+  },
+  {
+    "id": "power-of-nightmares",
+    "title": "The Power of Nightmares",
+    "title_zh": "",
+    "year": 2004,
+    "format": "documentary series",
+    "category": "政治与社会",
+    "history_related": true,
+    "creators": [
+      "Adam Curtis"
+    ],
+    "summary_zh": "比较美国新保守主义与激进伊斯兰主义的发展。系列讨论政治运动如何使用恐惧与集体叙事争取支持。",
+    "mentions": [
+      {
+        "discussion_id": 32799789,
+        "item_id": 32800298,
+        "quote": "The Power of Nightmares (BBC / Adam Curtis) [ https://www.imdb.com/title/tt0430484/ ] - https://www.youtube.com/watch?v=yK3wz-OyR1U",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32800298",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T15:14:41.000Z"
+      }
+    ],
+    "note_zh": "带有鲜明作者立场的政治历史论述。",
+    "identity_sources": [],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "hypernormalisation",
+    "title": "HyperNormalisation",
+    "title_zh": "",
+    "year": 2016,
+    "format": "documentary film",
+    "category": "政治与社会",
+    "history_related": true,
+    "creators": [
+      "Adam Curtis"
+    ],
+    "summary_zh": "串联20世纪后期以来的国际政治、金融与媒体事件。影片提出以简化叙事维持社会秩序的解释，属于带有鲜明作者观点的历史论述。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18087420,
+        "quote": "If I could ask every human to watch a documentary, it would be this one followed by Hypernormalisation. You can watch most of Curtis' work for free at https://thoughtmaybe.com/by/adam-curtis/",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18087420",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T18:39:37.000Z"
+      },
+      {
+        "discussion_id": 25624456,
+        "item_id": 25625043,
+        "quote": "So many, but in recent years 'Hypernormalisation' by Adam Curtis. Curtis's style and tone and bias can grate, and is not for everyone, but in this documentary his typical format gels. It describes a bunch of seemingly disparate world events that eventually appear integrated. No one comes out a hero. It subtly reminded me to not take 'positive change' for granted and for that there is no final victory, nor final defeat. The same arguments must continue to be put forward to each generation.",
+        "stance": "推荐（有保留）",
+        "note_zh": "肯定此片，同时指出作者风格、语气与偏见不适合所有观众。",
+        "item_url": "https://news.ycombinator.com/item?id=25625043",
+        "discussion_url": "https://news.ycombinator.com/item?id=25624456",
+        "discussion_title": "Ask HN: What is the most inspiring documentary film in your opinion?",
+        "created_at": "2021-01-03T20:43:13.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32802852,
+        "quote": "F for Fake by Orson Welles. Documentaries on art forgers (not 'how this art forger was caught!' which is of secondary importance) all tend to be interesting, but this is transcendent. The Pervert's Guide to Ideology' by Slavoj zizek/Sophie Fiennes. Hypernormalization* is an Adam Curtis doc so you'll love or hate it, but I think it's his best one.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32802852",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T20:12:04.000Z"
+      }
+    ],
+    "note_zh": "带有鲜明作者立场的历史散文，评论中的褒贬分别记录。",
+    "identity_sources": [],
+    "source_comment_count": 3,
+    "source_discussion_count": 3
+  },
+  {
+    "id": "bitter-lake",
+    "title": "Bitter Lake",
+    "title_zh": "",
+    "year": 2015,
+    "format": "documentary film",
+    "category": "政治与社会",
+    "history_related": true,
+    "creators": [
+      "Adam Curtis"
+    ],
+    "summary_zh": "以阿富汗为重要线索回顾西方、中东和沙特阿拉伯的政治关系。影片把档案影像与作者对政治叙事简化的评论结合起来。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18087366,
+        "quote": "and is a critique of the failings of television news media in the late 20th century. My favorite of his is \"Bitter Lake\" ( https://thoughtmaybe.com/bitter-lake/ ), a haunting \"how did we get here\" view of the middle east. His 3 part miniseries \"All Watched Over By Machines of Loving Grace\" ( https://thoughtmaybe.com/all-watched-over-by-machines-of-lov... ) is a pretty good examination",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18087366",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T18:32:50.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32800306,
+        "quote": "'Bitter Lake' and 'Hypernormalisation' - both by Adam Curtis, and both blew me away. Loved 'Cave of Forgotten Dreams' by Werner Herzog",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32800306",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T15:14:56.000Z"
+      }
+    ],
+    "note_zh": "带有鲜明作者立场的政治历史散文。",
+    "identity_sources": [],
+    "source_comment_count": 2,
+    "source_discussion_count": 2
+  },
+  {
+    "id": "machines-loving-grace",
+    "title": "All Watched Over by Machines of Loving Grace",
+    "title_zh": "",
+    "year": 2011,
+    "format": "documentary series",
+    "category": "科技与思想",
+    "history_related": true,
+    "creators": [
+      "Adam Curtis"
+    ],
+    "summary_zh": "追踪计算机、控制论与生态系统观念在政治及社会思想中的影响。系列质疑把人类社会理解为自动平衡系统的设想。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18087366,
+        "quote": "), a haunting \"how did we get here\" view of the middle east. His 3 part miniseries \"All Watched Over By Machines of Loving Grace\" ( https://thoughtmaybe.com/all-watched-over-by-machines-of-lov... ) is a pretty good examination of 1970s silicon valley ruh-roh cybernetics culture and how it collided with the rest of the world vis-a-vis objectivism, finance, etc. Somebody in this thread mentioned",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18087366",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T18:32:50.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32802287,
+        "quote": "All Watched Over by Machines of Loving Grace by Adam Curtis",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32802287",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T19:00:41.000Z"
+      }
+    ],
+    "note_zh": "带有鲜明作者立场的科技与政治思想史论述。",
+    "identity_sources": [],
+    "source_comment_count": 2,
+    "source_discussion_count": 2
+  },
+  {
+    "id": "ascent-of-man",
+    "title": "The Ascent of Man",
+    "title_zh": "",
+    "year": 1973,
+    "format": "documentary series",
+    "category": "科技与思想",
+    "history_related": true,
+    "creators": [
+      "Jacob Bronowski"
+    ],
+    "summary_zh": "以科学与文化发展的关键节点叙述人类历史。Jacob Bronowski 将数学、技术、艺术及伦理问题联系起来。",
+    "mentions": [
+      {
+        "discussion_id": 32799789,
+        "item_id": 32802807,
+        "quote": "The greatest documentary to me is not a film but a series - The Ascent of Man by Jacob Bronowski. It charts the cultural and technological milestones that brought humanity to where it is today. Well, the 1970s rather than today, since it is quite old. However don't let that put you off! It is a BBC documentary of the highest calibre. David",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32802807",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T20:06:19.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [
+      "https://en.wikipedia.org/wiki/The_Ascent_of_Man"
+    ],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "connections",
+    "title": "Connections",
+    "title_zh": "",
+    "year": 1978,
+    "format": "documentary series",
+    "category": "科技与思想",
+    "history_related": true,
+    "creators": [
+      "James Burke"
+    ],
+    "summary_zh": "追踪看似无关的发明、社会变化与历史事件之间的联系。James Burke 借此解释技术如何在复杂条件下逐步形成。",
+    "mentions": [
+      {
+        "discussion_id": 17204467,
+        "item_id": 17207120,
+        "quote": "As a sort of counterpoint to the suggestions you're going to get, I really like the series Connections [1] by science historian James Burke. He takes a step back to show how interconnected and interdependent technological progress is. I think it's a valuable perspective that is easy to ignore when you're focused on the stories of individual companies or inventors. The first series is available on the Internet Archive [2], as well. [1] https://en.wikipedia.org/wiki/Connections_(TV_series) [2] https://archive.org/search.php?query=subject%3A%22connection...",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=17207120",
+        "discussion_url": "https://news.ycombinator.com/item?id=17204467",
+        "discussion_title": "Ask HN: Recommendations on books and documentaries on tech companies/people?",
+        "created_at": "2018-06-01T16:38:49.000Z"
+      },
+      {
+        "discussion_id": 18085765,
+        "item_id": 18086631,
+        "quote": "Carl Sagan’s Cosmos , first and foremost. Much of Adam Curtis’ work is fantastic. Hypernormalization and The Trap were as fascinating as they were frightening. If I had the authority, I would mandate every child see A Century of the Self in school, and then again in college. James Burke’s Connections was also excellent. Kind of like a link between Carl Sagan and Adam Curtis. I personally loved the History Channel’s Engineering an Empire , not least because of the hilariously hyper-American host, Peter Weller (best known as RoboCop).",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18086631",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T17:20:24.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [
+      "https://en.wikipedia.org/wiki/Connections_(TV_series)"
+    ],
+    "source_comment_count": 2,
+    "source_discussion_count": 2
+  },
+  {
+    "id": "atomic-cafe",
+    "title": "The Atomic Cafe",
+    "title_zh": "",
+    "year": 1982,
+    "format": "documentary film",
+    "category": "科技与思想",
+    "history_related": true,
+    "creators": [
+      "Kevin Rafferty",
+      "Jayne Loader",
+      "Pierce Rafferty"
+    ],
+    "summary_zh": "以美国冷战初期的宣传片、新闻片和教育材料拼贴核时代生活。作品利用材料自身的语气呈现核武器宣传中的荒诞与恐惧。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18089730,
+        "quote": "Riding Solo to the Top of the World (2006) https://www.imdb.com/title/tt0903013/ The Atomic Cafe (1982) https://www.imdb.com/title/tt0083590/ At Sea (2007) https://www.imdb.com/title/tt1829648/ The Vietnam War (2017) https://www.imdb.com/title/tt1877514/ Lessons of Darkness (1992) https://www.imdb.com/title/tt0104706/ Tim's Vermeer (2013)",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18089730",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T23:19:18.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "trinity-and-beyond",
+    "title": "Trinity and Beyond: The Atomic Bomb Movie",
+    "title_zh": "",
+    "year": 1995,
+    "format": "documentary film",
+    "category": "科技与思想",
+    "history_related": true,
+    "creators": [
+      "Peter Kuran"
+    ],
+    "summary_zh": "通过解密和修复的影像回顾早期核武器试验。影片涉及美国及其他国家的核试验，由 William Shatner 担任旁白。",
+    "mentions": [
+      {
+        "discussion_id": 32799789,
+        "item_id": 32803262,
+        "quote": "“Trinity and Beyond: the Atomic Bomb Movie” Narrated by William Shatner, using declassified, high quality footage of nuclear tests.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32803262",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T21:06:07.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "command-and-control",
+    "title": "Command and Control",
+    "title_zh": "",
+    "year": 2016,
+    "format": "documentary film",
+    "category": "科技与思想",
+    "history_related": true,
+    "creators": [
+      "Robert Kenner"
+    ],
+    "summary_zh": "重建1980年美国阿肯色州 Damascus 附近 Titan II 导弹设施的事故。影片把当事人证词与核武器安全和管理问题联系起来。",
+    "mentions": [
+      {
+        "discussion_id": 32799789,
+        "item_id": 32801053,
+        "quote": "Command and Control Details the events of the 1980 deadly and nearly disastrous accident at the Titan II nuclear missile complex in Damascus, Arkansas. https://www.pbs.org/wgbh/americanexperience/films/command-an... Maybe a little older than 4 years, but posting because it's really well done.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32801053",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T16:34:58.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "for-all-mankind",
+    "title": "For All Mankind",
+    "title_zh": "",
+    "year": 1989,
+    "format": "documentary film",
+    "category": "航天",
+    "history_related": true,
+    "creators": [
+      "Al Reinert"
+    ],
+    "summary_zh": "利用阿波罗计划的原始影像呈现登月旅程。影片以宇航员录音和 Brian Eno 的音乐组织经验性的叙事。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18099099,
+        "quote": "at the time of the missions, as well as NASA films and materials which had not been opened in over 30 years. For All Mankind [1] A 1989 documentary film drawn from original footage of NASA's Apollo program which successfully landed the first humans on the Moon from 1969 to 1972. Moon Machines [2] The miniseries features interviews with around 70 of the 400,000 engineers who worked on the",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18099099",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-29T07:10:22.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32802228,
+        "quote": "A few people have mentioned Apollo 11 but I prefer (and my favorite documentary of all time is) For All Mankind (1989). They’re similar, iirc they share a lot of the same footage, but For All Mankind gives you a great sense of what it was like for those early astronauts to take that trip to the Moon. It has all the best footage of the moon we have ever taken. For All Mankind is a must, but both are worth a watch if you’re a space fan. Crumb is also pretty good. It’s about an offbeat artist and gives you the look into the mind of someone that wouldn’t normally be in the spot light.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32802228",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T18:52:58.000Z"
+      }
+    ],
+    "note_zh": "此处是1989年阿波罗档案纪录片；32800303明确谈及同名虚构架空历史剧，未收为本作证据。",
+    "identity_sources": [
+      "https://en.wikipedia.org/wiki/For_All_Mankind"
+    ],
+    "source_comment_count": 2,
+    "source_discussion_count": 2
+  },
+  {
+    "id": "shadow-of-moon",
+    "title": "In the Shadow of the Moon",
+    "title_zh": "",
+    "year": 2007,
+    "format": "documentary film",
+    "category": "航天",
+    "history_related": true,
+    "creators": [
+      "David Sington"
+    ],
+    "summary_zh": "通过阿波罗宇航员访谈回顾美国载人登月计划。访谈与任务影像共同呈现参与者的个人体验。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18099099,
+        "quote": "If you have any interest in the Apollo missions... In the Shadow of the Moon [0] The film follows the manned missions to the Moon made by the United States in the late 1960s and early 1970s. The documentary reviews both the footage and media available to the public at the time of the missions, as well as NASA films and materials which had not",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18099099",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-29T07:10:22.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [
+      "https://en.wikipedia.org/wiki/In_the_Shadow_of_the_Moon_(film)"
+    ],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "apollo-11",
+    "title": "Apollo 11",
+    "title_zh": "阿波罗11号",
+    "year": 2019,
+    "format": "documentary film",
+    "category": "航天",
+    "history_related": true,
+    "creators": [
+      "Todd Douglas Miller"
+    ],
+    "summary_zh": "以修复的任务影像及当时录音重现1969年的首次载人登月。影片以档案材料推进叙事，基本不依赖事后访谈。",
+    "mentions": [
+      {
+        "discussion_id": 32799789,
+        "item_id": 32801345,
+        "quote": "If you like exploring outer space: Apollo 11 (2019). A feature-length documentary telling the story of the first people to land on the moon, told entirely without narration, using gloriously high definition archival footage. If you like that and want more NASA history, I also loved When We Left Earth (2008),",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32801345",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T17:09:29.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "moon-machines",
+    "title": "Moon Machines",
+    "title_zh": "",
+    "year": 2008,
+    "format": "documentary series",
+    "category": "航天",
+    "history_related": true,
+    "creators": [],
+    "summary_zh": "从工程角度回顾阿波罗计划的关键硬件。每集聚焦火箭、计算机、登月舱等系统及其研发人员。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18099099,
+        "quote": "footage of NASA's Apollo program which successfully landed the first humans on the Moon from 1969 to 1972. Moon Machines [2] The miniseries features interviews with around 70 of the 400,000 engineers who worked on the Apollo program during the 1960s and early 70s. These are variously available on DVD and YouTube. [0] https://en.wikipedia.org/wiki/In_the_Shadow_of_the_Moon_(fil... [1]",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18099099",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-29T07:10:22.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [
+      "https://en.wikipedia.org/wiki/Moon_Machines"
+    ],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "when-we-left-earth",
+    "title": "When We Left Earth: The NASA Missions",
+    "title_zh": "",
+    "year": 2008,
+    "format": "documentary series",
+    "category": "航天",
+    "history_related": true,
+    "creators": [],
+    "summary_zh": "通过任务影像和参与者访谈回顾NASA载人航天计划。内容涵盖水星、双子星、阿波罗与航天飞机等阶段。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18092187,
+        "quote": "Nobody else has mentioned this, so I will: When We Left Earth: The NASA Missions https://www.imdb.com/title/tt1233514/ Pretty great, with high quality historical footage as well. I think you can buy the HD streaming version on Amazon for $10 (258 minutes long, broken into six segments). Silicon Valley (by PBS) is another: https://www.imdb.com/title/tt2547530/",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18092187",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-28T10:08:09.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32801345,
+        "quote": "using gloriously high definition archival footage. If you like that and want more NASA history, I also loved When We Left Earth (2008), which is a six-part series covering the history of NASA's manned spaceflight programs: Mercury, Gemini, Apollo, and then on to the space shuttle, ISS, etc. If you like exploring our planet: The Rescue (2021). The story of the kids soccer team who was trapped",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32801345",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T17:09:29.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 2,
+    "source_discussion_count": 2
+  },
+  {
+    "id": "farthest",
+    "title": "The Farthest",
+    "title_zh": "",
+    "year": 2017,
+    "format": "documentary film",
+    "category": "航天",
+    "history_related": true,
+    "creators": [
+      "Emer Reynolds"
+    ],
+    "summary_zh": "回顾旅行者一号与二号探测器的任务。影片采访参与任务的科学家及工程师，并介绍金唱片等项目。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18085885,
+        "quote": "Netflix: \"The Farthest: Voyager in Space\" (2017) - \"This documentary chronicles NASA's 1977 launch of twin space probes, sent to capture images of remote planets and bear messages from Earth.\" https://www.netflix.com/title/80204377",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18085885",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T16:16:24.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32801183,
+        "quote": "them out of millions of dollars.\" Surprisingly good https://www.imdb.com/title/tt14992922/?ref_=rt_li_tt \"The Farthest\", about first human made object leaving our Solar system https://www.imdb.com/title/tt6223974/?ref_=rt_li_tt \"Our Planet\", https://www.imdb.com/title/tt9253866/?ref_=rt_li_tt \"Cartel land\" https://www.imdb.com/title/tt4126304/?ref_=rt_li_tt",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32801183",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T16:49:20.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 2,
+    "source_discussion_count": 2
+  },
+  {
+    "id": "internets-own-boy",
+    "title": "The Internet's Own Boy: The Story of Aaron Swartz",
+    "title_zh": "",
+    "year": 2014,
+    "format": "documentary film",
+    "category": "计算机与互联网",
+    "history_related": true,
+    "creators": [
+      "Brian Knappenberger"
+    ],
+    "summary_zh": "回顾程序员与网络活动家 Aaron Swartz 的生平。影片把其技术工作、开放获取行动与遭受的司法追诉联系起来。",
+    "mentions": [
+      {
+        "discussion_id": 17204467,
+        "item_id": 17205835,
+        "quote": "'The Internet's Own Boy: The Story of Aaron Swartz' https://www.imdb.com/title/tt3268458/ https://topdocumentaryfilms.com/internet-own-boy-story-aaron...",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=17205835",
+        "discussion_url": "https://news.ycombinator.com/item?id=17204467",
+        "discussion_title": "Ask HN: Recommendations on books and documentaries on tech companies/people?",
+        "created_at": "2018-06-01T14:58:50.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32800199,
+        "quote": "The Internet's Own Boy.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32800199",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T15:04:56.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 2,
+    "source_discussion_count": 2
+  },
+  {
+    "id": "bbs-documentary",
+    "title": "BBS: The Documentary",
+    "title_zh": "",
+    "year": 2005,
+    "format": "documentary series",
+    "category": "计算机与互联网",
+    "history_related": true,
+    "creators": [
+      "Jason Scott"
+    ],
+    "summary_zh": "通过大量参与者访谈记录拨号BBS文化。内容涉及早期在线社区、软件、网络连接与相关亚文化。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18086859,
+        "quote": "Some of my favourite nerdy documentaries: BBS: The Documentary https://youtu.be/nO5vjmDFZaI The KGB, the Computer, and Me https://youtu.be/EcKxaq1FTac 8 Bit Generation: The Commodore Wars https://youtu.be/Jq_t-v0bDZ8",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18086859",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T17:43:01.000Z"
+      },
+      {
+        "discussion_id": 25624456,
+        "item_id": 25624789,
+        "quote": "`BBS - The Documentary' not only documents the early days of computer communications but in most cases it contains interviews with the individuals responsible for many of the important steps taken along the way. https://en.wikipedia.org/wiki/BBS:_The_Documentary",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=25624789",
+        "discussion_url": "https://news.ycombinator.com/item?id=25624456",
+        "discussion_title": "Ask HN: What is the most inspiring documentary film in your opinion?",
+        "created_at": "2021-01-03T20:10:45.000Z"
+      }
+    ],
+    "note_zh": "八集纪录系列，2005为发行年。",
+    "identity_sources": [
+      "https://en.wikipedia.org/wiki/BBS:_The_Documentary"
+    ],
+    "source_comment_count": 2,
+    "source_discussion_count": 2
+  },
+  {
+    "id": "triumph-nerds",
+    "title": "Triumph of the Nerds: The Rise of Accidental Empires",
+    "title_zh": "",
+    "year": 1996,
+    "format": "documentary series",
+    "category": "计算机与互联网",
+    "history_related": true,
+    "creators": [
+      "Robert X. Cringely"
+    ],
+    "summary_zh": "回顾个人计算机产业的兴起。系列通过创业者与工程师访谈讲述Apple、IBM、Microsoft等公司的竞争。",
+    "mentions": [
+      {
+        "discussion_id": 17204467,
+        "item_id": 17205124,
+        "quote": "For a college \"ethics in computers\" course, our professor had us watch \"Triumph of the Nerds\" by Robert Cringely. It's from 1996, so not the most recent history, but it was still an interesting watch. There was another documentary about the dot-com bubble we watched, but I can't recall the name. Overall a very interesting class because the professor had a lot of industry experience and watched companies rise and fall.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=17205124",
+        "discussion_url": "https://news.ycombinator.com/item?id=17204467",
+        "discussion_title": "Ask HN: Recommendations on books and documentaries on tech companies/people?",
+        "created_at": "2018-06-01T13:35:25.000Z"
+      },
+      {
+        "discussion_id": 18085765,
+        "item_id": 18086700,
+        "quote": "Lots of good ones already mentioned, but here's a few nobody's brought up yet: Orson Welles' F for Fake : https://www.imdb.com/title/tt0072962/ Robert X. Cringely's Triumph of the Nerds : https://en.wikipedia.org/wiki/Triumph_of_the_Nerds The Maysles Brothers' Gimme Shelter : https://www.imdb.com/title/tt0065780/ Randy Olson's Flock of Dodos : https://www.imdb.com/title/tt0800334/ Les Blank's Burden of Dreams : https://www.imdb.com/title/tt0083702/ Steve James' Hoop Dreams : https://www.imdb.com/title/tt0110057/ Chris Hegedus and D.A. Pennebaker's The War Room : https://www.imdb.com/title/tt0108515/",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18086700",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T17:27:31.000Z"
+      },
+      {
+        "discussion_id": 25624456,
+        "item_id": 25631640,
+        "quote": "Triumph of the Nerds. https://en.wikipedia.org/wiki/Triumph_of_the_Nerds",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=25631640",
+        "discussion_url": "https://news.ycombinator.com/item?id=25624456",
+        "discussion_title": "Ask HN: What is the most inspiring documentary film in your opinion?",
+        "created_at": "2021-01-04T14:22:21.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32801095,
+        "quote": "\"Triumph of the Nerds\" Discusses the history of computing and the rise and fall of tech companies as the industry changed. It's old but worth it imo https://www.youtube.com/watch?v=MNVbmzVCyLU",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32801095",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T16:39:16.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [
+      "https://en.wikipedia.org/wiki/Triumph_of_the_Nerds"
+    ],
+    "source_comment_count": 4,
+    "source_discussion_count": 4
+  },
+  {
+    "id": "revolution-os",
+    "title": "Revolution OS",
+    "title_zh": "",
+    "year": 2001,
+    "format": "documentary film",
+    "category": "计算机与互联网",
+    "history_related": true,
+    "creators": [
+      "J. T. S. Moore"
+    ],
+    "summary_zh": "回顾自由软件运动、GNU与Linux的发展。影片采访 Richard Stallman、Linus Torvalds 等参与者。",
+    "mentions": [
+      {
+        "discussion_id": 17204467,
+        "item_id": 17205190,
+        "quote": "Recommended documentary: Revolution OS - https://en.wikipedia.org/wiki/Revolution_OS",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=17205190",
+        "discussion_url": "https://news.ycombinator.com/item?id=17204467",
+        "discussion_title": "Ask HN: Recommendations on books and documentaries on tech companies/people?",
+        "created_at": "2018-06-01T13:42:05.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [
+      "https://en.wikipedia.org/wiki/Revolution_OS"
+    ],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "silicon-cowboys",
+    "title": "Silicon Cowboys",
+    "title_zh": "",
+    "year": 2016,
+    "format": "documentary film",
+    "category": "计算机与互联网",
+    "history_related": true,
+    "creators": [
+      "Jason Cohen"
+    ],
+    "summary_zh": "讲述Compaq的创立、成长及其与IBM的竞争。影片重点涉及兼容个人计算机市场及公司发展中的转折。",
+    "mentions": [
+      {
+        "discussion_id": 17204467,
+        "item_id": 17206106,
+        "quote": "There’s a ton of great suggestions here. Here are a couple I haven’t seen mentioned. Documentaries: - Silicon Cowboys - https://www.imdb.com/title/tt4938484/ It covers the creation of Compaq - American Experience: Silicon Velley - http://www.pbs.org/wgbh/americanexperience/films/silicon/ About how Silicon Valley came to be. - Naughty Dog 30th Anniversary -",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=17206106",
+        "discussion_url": "https://news.ycombinator.com/item?id=17204467",
+        "discussion_title": "Ask HN: Recommendations on books and documentaries on tech companies/people?",
+        "created_at": "2018-06-01T15:20:22.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "silicon-valley-pbs",
+    "title": "Silicon Valley (American Experience)",
+    "title_zh": "",
+    "year": 2013,
+    "format": "documentary film",
+    "category": "计算机与互联网",
+    "history_related": true,
+    "creators": [
+      "Randall MacLowry"
+    ],
+    "summary_zh": "回顾 William Shockley、Robert Noyce 与早期半导体产业。影片讨论 Fairchild Semiconductor 等企业与硅谷形成的关系。",
+    "mentions": [
+      {
+        "discussion_id": 17204467,
+        "item_id": 17206106,
+        "quote": "Documentaries: - Silicon Cowboys - https://www.imdb.com/title/tt4938484/ It covers the creation of Compaq - American Experience: Silicon Velley - http://www.pbs.org/wgbh/americanexperience/films/silicon/ About how Silicon Valley came to be. - Naughty Dog 30th Anniversary - https://m.youtube.com/watch?v=cdr7THH0zo8 Kind of a PR video, but interesting and free. Covers the history of Naughty Dog games. Books: -",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=17206106",
+        "discussion_url": "https://news.ycombinator.com/item?id=17204467",
+        "discussion_title": "Ask HN: Recommendations on books and documentaries on tech companies/people?",
+        "created_at": "2018-06-01T15:20:22.000Z"
+      },
+      {
+        "discussion_id": 18085765,
+        "item_id": 18092187,
+        "quote": "Nobody else has mentioned this, so I will: When We Left Earth: The NASA Missions https://www.imdb.com/title/tt1233514/ Pretty great, with high quality historical footage as well. I think you can buy the HD streaming version on Amazon for $10 (258 minutes long, broken into six segments). Silicon Valley (by PBS) is another: https://www.imdb.com/title/tt2547530/",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18092187",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-28T10:08:09.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32804101,
+        "quote": "with this structure [# in the list ] Comment... . i.e. [1] Loved learning about Noyce. What a guy. 1. Silicon Valley: Where the Future | PBS: American Experience [1:23:19] [2013] History of the how Silicon Valley came to be. William Shockley. Robert Noyce. Fairchild Semiconductor, The Traitorous Eight. Homepage: https://www.pbs.org/wgbh/americanexperience/films/silicon/ Kanopy:",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32804101",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T23:05:32.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 3,
+    "source_discussion_count": 3
+  },
+  {
+    "id": "from-bedrooms-billions",
+    "title": "From Bedrooms to Billions",
+    "title_zh": "",
+    "year": 2014,
+    "format": "documentary film",
+    "category": "计算机与互联网",
+    "history_related": true,
+    "creators": [
+      "Anthony Caulfield",
+      "Nicola Caulfield"
+    ],
+    "summary_zh": "回顾英国电子游戏产业从早期家庭计算机时代开始的发展。影片通过开发者等从业者访谈呈现创作与商业环境。",
+    "mentions": [
+      {
+        "discussion_id": 17204467,
+        "item_id": 17236432,
+        "quote": "Recommendations in this area; Books 'The Making of Karateka' by Jordan Mechner http://amzn.eu/5iUrxxo 'The Making of Prince of Persia' by Jordan Mechner http://amzn.eu/fJ0Nfr2 Documentaries 'From Bedrooms to Billions' http://www.frombedroomstobillions.com/about-the-film https://www.imdb.com/title/tt2404567/ 'From Bedrooms to Billions: The Amiga Years!' http://www.frombedroomstobillions.com/amiga https://www.imdb.com/title/tt4603210/ Blog Posts https://arstechnica.com/series/history-of-the-amiga/ Hope ^ these prove interesting, will update comment if I think of others ツ",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=17236432",
+        "discussion_url": "https://news.ycombinator.com/item?id=17204467",
+        "discussion_title": "Ask HN: Recommendations on books and documentaries on tech companies/people?",
+        "created_at": "2018-06-05T10:41:30.000Z"
+      },
+      {
+        "discussion_id": 18085765,
+        "item_id": 18115433,
+        "quote": "A few that have not been mentioned yet- We Are Legion - The Story of the Hacktivists (about Anonymous) https://www.youtube.com/watch?v=-zwDhoXpk90 The Commodore Story https://thecommodorestory.com/ From Bedrooms to Billions http://www.frombedroomstobillions.com/",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18115433",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-10-01T18:28:16.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 2,
+    "source_discussion_count": 2
+  },
+  {
+    "id": "amiga-years",
+    "title": "From Bedrooms to Billions: The Amiga Years!",
+    "title_zh": "",
+    "year": 2016,
+    "format": "documentary film",
+    "category": "计算机与互联网",
+    "history_related": true,
+    "creators": [
+      "Anthony Caulfield",
+      "Nicola Caulfield"
+    ],
+    "summary_zh": "聚焦Commodore Amiga及其对游戏和数字创作的影响。影片采访硬件、软件与创意领域的参与者。",
+    "mentions": [
+      {
+        "discussion_id": 17204467,
+        "item_id": 17236432,
+        "quote": "Recommendations in this area; Books 'The Making of Karateka' by Jordan Mechner http://amzn.eu/5iUrxxo 'The Making of Prince of Persia' by Jordan Mechner http://amzn.eu/fJ0Nfr2 Documentaries 'From Bedrooms to Billions' http://www.frombedroomstobillions.com/about-the-film https://www.imdb.com/title/tt2404567/ 'From Bedrooms to Billions: The Amiga Years!' http://www.frombedroomstobillions.com/amiga https://www.imdb.com/title/tt4603210/ Blog Posts https://arstechnica.com/series/history-of-the-amiga/ Hope ^ these prove interesting, will update comment if I think of others ツ",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=17236432",
+        "discussion_url": "https://news.ycombinator.com/item?id=17204467",
+        "discussion_title": "Ask HN: Recommendations on books and documentaries on tech companies/people?",
+        "created_at": "2018-06-05T10:41:30.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "we-live-public",
+    "title": "We Live in Public",
+    "title_zh": "",
+    "year": 2009,
+    "format": "documentary film",
+    "category": "计算机与互联网",
+    "history_related": true,
+    "creators": [
+      "Ondi Timoner"
+    ],
+    "summary_zh": "回顾互联网企业家 Josh Harris 的事业与社会实验。影片借其项目讨论网络可见性、隐私与公众生活。",
+    "mentions": [
+      {
+        "discussion_id": 17204467,
+        "item_id": 17214228,
+        "quote": "I found the documentary on Josh Harris and the first internet television network fascinating https://en.m.wikipedia.org/wiki/We_Live_in_Public",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=17214228",
+        "discussion_url": "https://news.ycombinator.com/item?id=17204467",
+        "discussion_title": "Ask HN: Recommendations on books and documentaries on tech companies/people?",
+        "created_at": "2018-06-02T12:19:35.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [
+      "https://en.m.wikipedia.org/wiki/We_Live_in_Public"
+    ],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "general-magic",
+    "title": "General Magic",
+    "title_zh": "",
+    "year": 2018,
+    "format": "documentary film",
+    "category": "计算机与互联网",
+    "history_related": true,
+    "creators": [
+      "Sarah Kerruish",
+      "Matt Maude"
+    ],
+    "summary_zh": "回顾General Magic公司在1990年代尝试开发个人通信设备的过程。影片使用当年影像和事后访谈呈现技术愿景与商业失败。",
+    "mentions": [
+      {
+        "discussion_id": 39157097,
+        "item_id": 39166599,
+        "quote": "Enron: The Smartest Guys in the Room https://www.youtube.com/watch?v=-w6duQhWuVk General Magic https://www.youtube.com/watch?v=uTdyb-RWNKo Class Action Park https://www.youtube.com/watch?v=mqg48h_uKYM",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=39166599",
+        "discussion_url": "https://news.ycombinator.com/item?id=39157097",
+        "discussion_title": "Best Documentaries You've Ever Seen",
+        "created_at": "2024-01-28T15:22:59.000Z"
+      },
+      {
+        "discussion_id": 45567701,
+        "item_id": 45587456,
+        "quote": "1. Bill Cunningham New York 2. General Magic(2018) 3. The Armstrong Lie 4. Icarus (2017 film) 5. Man on Wire 6. Baraka & Samsara 7. BBC Planet Earth 8. Finding Vivian Maier",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=45587456",
+        "discussion_url": "https://news.ycombinator.com/item?id=45567701",
+        "discussion_title": "Ask HN: What are some of your favorite documentaries?",
+        "created_at": "2025-10-15T02:28:51.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 2,
+    "source_discussion_count": 2
+  },
+  {
+    "id": "something-ventured",
+    "title": "Something Ventured",
+    "title_zh": "",
+    "year": 2011,
+    "format": "documentary film",
+    "category": "计算机与互联网",
+    "history_related": true,
+    "creators": [
+      "Daniel Geller",
+      "Dayna Goldfine"
+    ],
+    "summary_zh": "通过投资人与创业者访谈回顾早期美国风险投资。内容涉及半导体、个人计算机及其他科技企业的融资故事。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18088827,
+        "quote": "Something ventured and silicon valley are two great ones.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18088827",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T21:22:57.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "kgb-computer-me",
+    "title": "The KGB, the Computer and Me",
+    "title_zh": "",
+    "year": 1990,
+    "format": "documentary film",
+    "category": "计算机与互联网",
+    "history_related": true,
+    "creators": [
+      "David Dugan"
+    ],
+    "summary_zh": "讲述 Clifford Stoll 追查计算机入侵与网络间谍的经历。该作品作为NOVA节目播出，与《The Cuckoo's Egg》涉及同一调查。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18086859,
+        "quote": "Some of my favourite nerdy documentaries: BBS: The Documentary https://youtu.be/nO5vjmDFZaI The KGB, the Computer, and Me https://youtu.be/EcKxaq1FTac 8 Bit Generation: The Commodore Wars https://youtu.be/Jq_t-v0bDZ8",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18086859",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T17:43:01.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32801327,
+        "quote": "I worked on food safety policy fir years, and “Our Daily Bread”[1] rocked my world. It profoundly changed how I thought about food policy, its transportation, handling, and overall safety from farm to fork. As a kid, the nova documentary on Andrew Wiles[2] solving Fermat’s last theorem not only inspired me to study science, but I too wept with joy.. Honorable mention: “The KGB, the Computer and Me“ about my childhood hero Clifford Stoll [3] 1} https://youtu.be/zG7q1NQJz7E 2} https://youtu.be/6ymTZEeTjI8 3} https://youtu.be/4gHNVNRQTJg",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32801327",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T17:08:20.000Z"
+      }
+    ],
+    "note_zh": "NOVA系列的一集，以单部电视纪录片收录。",
+    "identity_sources": [],
+    "source_comment_count": 2,
+    "source_discussion_count": 2
+  },
+  {
+    "id": "bit-player",
+    "title": "The Bit Player",
+    "title_zh": "",
+    "year": 2018,
+    "format": "documentary film",
+    "category": "科技与思想",
+    "history_related": true,
+    "creators": [
+      "Mark Levinson"
+    ],
+    "summary_zh": "回顾信息论先驱 Claude Shannon 的生平与思想。影片把采访、档案材料及表演重构结合起来呈现其工作与兴趣。",
+    "mentions": [
+      {
+        "discussion_id": 32799789,
+        "item_id": 32801324,
+        "quote": "I really enjoyed the The Bit Player (2018) about Claude Shannon, it uses an actor to play Shannon. I thought More Than Robots (2022) seemed really cool too, about teams of teenagers building robots for a competition. https://www.youtube.com/watch?v=EsIo57pH-pA - is an interesting short documentary on the making of neon signs. Birdmen: The Original Dream of Human Flight (2012) was pretty fascinating on the history of wingsuit flying And also Jiro Dreams of Sushi.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32801324",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T17:08:03.000Z"
+      }
+    ],
+    "note_zh": "2018为首次电影节放映年；部分发行资料使用2019年。含表演重构，仍属纪录片。",
+    "identity_sources": [],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "enron",
+    "title": "Enron: The Smartest Guys in the Room",
+    "title_zh": "",
+    "year": 2005,
+    "format": "documentary film",
+    "category": "经济与商业",
+    "history_related": true,
+    "creators": [
+      "Alex Gibney"
+    ],
+    "summary_zh": "回顾Enron的崛起与倒闭。影片关注财务操作、公司文化及监管失灵如何共同作用。",
+    "mentions": [
+      {
+        "discussion_id": 18035665,
+        "item_id": 18035665,
+        "quote": "recently I had to admit that it can be as well very interesting => therefore yesterday I watched: - \"Enron - The smartest guys in the room\" (https://www.imdb.com/title/tt1016268/?ref_=nv_sr_1): kind of funny&scary at the same time. It shows the capitalism pushed to its limits; e.g. very interesting and/or crazy the fact that (if I understood correctly) they put their \"future estimated revenues\" into",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18035665",
+        "discussion_url": "https://news.ycombinator.com/item?id=18035665",
+        "discussion_title": "Ask HN: Good documentaries about finance?",
+        "created_at": "2018-09-20T21:35:34.000Z"
+      },
+      {
+        "discussion_id": 18085765,
+        "item_id": 18086819,
+        "quote": "Enron: The Smartest Guys in the Room",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18086819",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T17:39:09.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32800939,
+        "quote": "Inside job. The smartest guys in the room. Two excellent documentaries. One about the financial crisis two about the fall of Enron.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32800939",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T16:21:45.000Z"
+      },
+      {
+        "discussion_id": 39157097,
+        "item_id": 39166599,
+        "quote": "Enron: The Smartest Guys in the Room https://www.youtube.com/watch?v=-w6duQhWuVk General Magic https://www.youtube.com/watch?v=uTdyb-RWNKo Class Action Park https://www.youtube.com/watch?v=mqg48h_uKYM",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=39166599",
+        "discussion_url": "https://news.ycombinator.com/item?id=39157097",
+        "discussion_title": "Best Documentaries You've Ever Seen",
+        "created_at": "2024-01-28T15:22:59.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 4,
+    "source_discussion_count": 4
+  },
+  {
+    "id": "inside-job",
+    "title": "Inside Job",
+    "title_zh": "",
+    "year": 2010,
+    "format": "documentary film",
+    "category": "经济与商业",
+    "history_related": true,
+    "creators": [
+      "Charles Ferguson"
+    ],
+    "summary_zh": "分析2008年金融危机的成因及其制度背景。影片通过访谈讨论金融业、监管机构与学术界之间的联系。",
+    "mentions": [
+      {
+        "discussion_id": 18035665,
+        "item_id": 18035665,
+        "quote": "generate returns only in the future\" the foundations for the estimation can be only purely speculative). - \"Inside Job\" (https://www.imdb.com/title/tt1645089/?ref_=nv_sr_1): the explanation about the \"Credit Default Swaps\" (never heard of CDS until now) was very nice, and the interviews are probably a master example about how things look like when \"ethics\" don't exist. Maybe a bit too",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18035665",
+        "discussion_url": "https://news.ycombinator.com/item?id=18035665",
+        "discussion_title": "Ask HN: Good documentaries about finance?",
+        "created_at": "2018-09-20T21:35:34.000Z"
+      },
+      {
+        "discussion_id": 18085765,
+        "item_id": 18086547,
+        "quote": "The Venus Project: Future by Design The Corporation Inside Job HBO's documentary on Warren Buffet Who Killed The Electric Car?",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18086547",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T17:13:17.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32801183,
+        "quote": "about animal life on earth with extraordinary scenes https://www.imdb.com/title/tt5491994/?ref_=rt_li_tt \"Inside Job\", documentary about 2008 crisis, masterpiece, narrated by Matt Damon. https://www.imdb.com/title/tt1645089/ \"The Last Dance\", I'm not a fan of basketball, it's a doc about Michael Jordan, one of the best docs I've seen, sounds boring but you can't wait to watch the",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32801183",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T16:49:20.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 3,
+    "source_discussion_count": 3
+  },
+  {
+    "id": "ascent-money",
+    "title": "The Ascent of Money",
+    "title_zh": "",
+    "year": 2008,
+    "format": "documentary series",
+    "category": "经济与商业",
+    "history_related": true,
+    "creators": [
+      "Niall Ferguson"
+    ],
+    "summary_zh": "以历史案例介绍银行、债券、股票、保险与房地产金融。Niall Ferguson 把金融工具的发展与政治及社会变化联系起来。",
+    "mentions": [
+      {
+        "discussion_id": 18035665,
+        "item_id": 18048871,
+        "quote": "Neil Ferguson's \"The Ascent of Money\" (book and mini-series) is a good primer.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18048871",
+        "discussion_url": "https://news.ycombinator.com/item?id=18035665",
+        "discussion_title": "Ask HN: Good documentaries about finance?",
+        "created_at": "2018-09-23T01:10:25.000Z"
+      }
+    ],
+    "note_zh": "18048871把作者写成Neil Ferguson；本表归一为Niall Ferguson。",
+    "identity_sources": [],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "commanding-heights",
+    "title": "Commanding Heights: The Battle for the World Economy",
+    "title_zh": "",
+    "year": 2002,
+    "format": "documentary series",
+    "category": "经济与商业",
+    "history_related": true,
+    "creators": [
+      "Daniel Yergin",
+      "William Cran"
+    ],
+    "summary_zh": "追踪20世纪关于国家干预与自由市场的争论。系列将经济思想、政策转向和全球化进程联系起来。",
+    "mentions": [
+      {
+        "discussion_id": 32799789,
+        "item_id": 32801046,
+        "quote": "I really enjoyed \"Commanding Heights\" (PBS?). Its more of a series, but in documentary style.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32801046",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T16:34:29.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "13th",
+    "title": "13th",
+    "title_zh": "",
+    "year": 2016,
+    "format": "documentary film",
+    "category": "政治与社会",
+    "history_related": true,
+    "creators": [
+      "Ava DuVernay"
+    ],
+    "summary_zh": "讨论美国宪法第十三修正案、种族与大规模监禁之间的历史联系。影片使用档案和访谈追踪刑事司法与政治话语的变化。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18096258,
+        "quote": "“13th” kind of a history of about the 13th Amendment and mass incarceration.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18096258",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-28T19:22:12.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32800086,
+        "quote": "Sushi - The Cove - Project Nim - Alone in the Wilderness - Behind the Curve - The Dawn Wall - Grizzly Man - 13th - Winnebago Man - Man vs Snake: The Long and Twisted Tale of Nibbler - Get Me Roger Stone - Icarus - 13th - Koyaanisqatsi - The Thin Blue Line - An Inconvenient Truth - Oklahoma City - Virunga - The Staircase - Evil Genius - Undefeated - Betting on zero",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32800086",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T14:53:20.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 2,
+    "source_discussion_count": 2
+  },
+  {
+    "id": "not-your-negro",
+    "title": "I Am Not Your Negro",
+    "title_zh": "",
+    "year": 2016,
+    "format": "documentary film",
+    "category": "政治与社会",
+    "history_related": true,
+    "creators": [
+      "Raoul Peck"
+    ],
+    "summary_zh": "以 James Baldwin 未完成的书稿为基础回顾美国种族关系。影片围绕 Medgar Evers、Malcolm X 和 Martin Luther King Jr. 等人的历史展开。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18088148,
+        "quote": "I used to distribute docs and produce them for a living. It's awesome that docs are in the spotlight again, but it's pretty remarkable how limited the selection can be on streaming services, in terms of critically acclaimed work. If there's a hole in the marketplace, this might be it. Some of my favorites: Hoop Dreams Jesus Camp Salesman Lost in la Mancha Stranded Anvil: the Story of Anvil When We Were Kings Sherman's March F is for Fake The Thin Blue Line Sans Soleil Don't Look Back Up the Yangtze I Am Not Your Negro",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18088148",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T20:15:14.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32801208,
+        "quote": "Cobain: Montage of Heck https://www.imdb.com/title/tt4229236 I am Not Your Negro https://www.imdb.com/title/tt5804038/ Q: Into the Storm https://www.imdb.com/title/tt14215442/",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32801208",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T16:53:11.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 2,
+    "source_discussion_count": 2
+  },
+  {
+    "id": "sugar-man",
+    "title": "Searching for Sugar Man",
+    "title_zh": "寻找小糖人",
+    "year": 2012,
+    "format": "documentary film",
+    "category": "文化与艺术",
+    "history_related": true,
+    "creators": [
+      "Malik Bendjelloul"
+    ],
+    "summary_zh": "跟随南非歌迷寻找美国音乐人 Sixto Rodriguez 的下落。影片回顾其唱片在不同国家获得的迥异命运。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18087226,
+        "quote": "A few more great musical documentaries: Searching for Sugarman: https://www.imdb.com/title/tt2125608 Don't Think I've Forgotten: https://www.imdb.com/title/tt2634200",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18087226",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T18:16:47.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32801553,
+        "quote": "\"Searching for Sugar Man\" (2012) took the Oscar that year and for good reason. If you like cultural/arts/music stuff, just go watch it. protip: don't read up on it before since nearly any write-up may include spoilers. Not even the liner notes on whatever streaming platform you find it. Just hit play.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32801553",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T17:34:54.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 2,
+    "source_discussion_count": 2
+  },
+  {
+    "id": "jodorowsky-dune",
+    "title": "Jodorowsky's Dune",
+    "title_zh": "",
+    "year": 2013,
+    "format": "documentary film",
+    "category": "文化与艺术",
+    "history_related": true,
+    "creators": [
+      "Frank Pavich"
+    ],
+    "summary_zh": "回顾 Alejandro Jodorowsky 在1970年代筹备《Dune》电影的计划。影片通过访谈和设计材料呈现这部未完成作品的构想。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18092215,
+        "quote": "Jodorowsky's Dune (2013) https://www.imdb.com/title/tt1935156/",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18092215",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-28T10:14:51.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32803441,
+        "quote": "Jodorowsky's Dune - not only is it the best dune movie never made, but it gives you a really good look at how hard it is to do Dune and give it justice, as well as giving a new perspective on Star Wars: Lucas had pretty much everything handed to him due to Jodorowsky's attempt to make Dune.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32803441",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T21:27:07.000Z"
+      },
+      {
+        "discussion_id": 39157097,
+        "item_id": 39157749,
+        "quote": "The Act of Killing JODOROWSKY’S Dune Burden of Dreams",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=39157749",
+        "discussion_url": "https://news.ycombinator.com/item?id=39157097",
+        "discussion_title": "Best Documentaries You've Ever Seen",
+        "created_at": "2024-01-27T17:38:18.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 3,
+    "source_discussion_count": 3
+  },
+  {
+    "id": "hearts-darkness",
+    "title": "Hearts of Darkness: A Filmmaker's Apocalypse",
+    "title_zh": "",
+    "year": 1991,
+    "format": "documentary film",
+    "category": "文化与艺术",
+    "history_related": true,
+    "creators": [
+      "Fax Bahr",
+      "George Hickenlooper",
+      "Eleanor Coppola"
+    ],
+    "summary_zh": "回顾《Apocalypse Now》在菲律宾的艰难拍摄。影片结合 Eleanor Coppola 的现场素材、录音与参与者访谈。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18088509,
+        "quote": "Hearts of Darkness: A Filmmaker's Apocalypse It's all about the making of Apocalypse Now. It's really great, I'd say it's almost as good as Apocalypse Now the movie itself. The mental state of the characters and what it took to make this movie blew my mind. https://en.wikipedia.org/wiki/Hearts_of_Darkness:_A_Filmmake...",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18088509",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T20:49:53.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32804366,
+        "quote": "So many great suggestions. I'll add Hearts of Darkness: A Filmmaker's Apocalypse. It documents the filming of Francis Ford Coppola's Apocalypse Now. The film's footage was shot by Coppola's wife, Eleanor Coppola. A really remarkable look behind the making of an iconic film. https://en.wikipedia.org/wiki/Hearts_of_Darkness%3A_A_Filmma...",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32804366",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T23:49:58.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [
+      "https://en.wikipedia.org/wiki/Hearts_of_Darkness:_A_Filmmaker%27s_Apocalypse",
+      "https://en.wikipedia.org/wiki/Hearts_of_Darkness%3A_A_Filmmaker's_Apocalypse"
+    ],
+    "source_comment_count": 2,
+    "source_discussion_count": 2
+  },
+  {
+    "id": "valley-uprising",
+    "title": "Valley Uprising",
+    "title_zh": "",
+    "year": 2014,
+    "format": "documentary film",
+    "category": "文化与艺术",
+    "history_related": true,
+    "creators": [
+      "Peter Mortimer",
+      "Nick Rosen"
+    ],
+    "summary_zh": "回顾优胜美地山谷的攀岩文化及其代表人物。影片把攀登技术、反主流生活与代际变化结合起来。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18089093,
+        "quote": "to have an interest in swimming or sport at all. It's just a really well-made documentary with many layers. \"Valley Uprising\" - https://www.imdb.com/title/tt3784160/ Rock climbing in Yosemite. The story begins innocently enough but as it proceeds through history of the climbs, it becomes more and more astonishing. Well worth a watch! Again, you don't need to be interesting in climbing at",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18089093",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T21:50:42.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32800722,
+        "quote": "Valley Uprising is about the history of rock climbing in Yosemite Valley: https://www.imdb.com/title/tt3784160/ I've rewatched it several times and love how they blend archival footage, interviews, and illustration to show the history of rock climbing.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32800722",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T15:57:17.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 2,
+    "source_discussion_count": 2
+  },
+  {
+    "id": "national-parks",
+    "title": "The National Parks: America's Best Idea",
+    "title_zh": "",
+    "year": 2009,
+    "format": "documentary series",
+    "category": "政治与社会",
+    "history_related": true,
+    "creators": [
+      "Ken Burns"
+    ],
+    "summary_zh": "回顾美国国家公园体系的形成与扩展。系列关注自然保护观念、关键人物与公共土地政策。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18092414,
+        "quote": "So many Ken Burns documentaries come to mind but I think the National Parks one is my favorite. The Vietnam War, his latest work, was excellent too. \"Lo and Behold\" by Herzog depressed the hell out of me. It gives me the impression that society is being torn apart by the independence that technology enables. Farenheit 9/11. Michal Pollan's Cooked series.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18092414",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-28T11:00:24.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32803768,
+        "quote": "Ken Burns's documentaries on America's National Parks, The Civil War, The Vietnam War, and The War Herzog's \"Lo and Behold\"",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32803768",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T22:11:46.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 2,
+    "source_discussion_count": 2
+  },
+  {
+    "id": "baseball",
+    "title": "Baseball",
+    "title_zh": "",
+    "year": 1994,
+    "format": "documentary series",
+    "category": "文化与艺术",
+    "history_related": true,
+    "creators": [
+      "Ken Burns"
+    ],
+    "summary_zh": "通过棒球的发展讲述美国的体育与社会变化。系列涉及种族隔离、劳资关系以及球员和球队的历史。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18085954,
+        "quote": "A movie about the wine industry and fraud, Sour Grapes: https://www.rottentomatoes.com/m/sour_grapes_2016/ If you want to do long dives anything by Ken Burns, baseball is a classic: http://www.pbs.org/kenburns/baseball/ A documentary about Napster directed by not Keanu of Bill and Ted's Excellent adventure, Downloaded: https://www.imdb.com/title/tt2033981/",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18085954",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T16:21:02.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "jazz",
+    "title": "Jazz",
+    "title_zh": "",
+    "year": 2001,
+    "format": "documentary series",
+    "category": "文化与艺术",
+    "history_related": true,
+    "creators": [
+      "Ken Burns"
+    ],
+    "summary_zh": "回顾爵士乐在美国的产生与发展。系列将音乐家的创作与种族、城市和大众文化相联系。",
+    "mentions": [
+      {
+        "discussion_id": 32799789,
+        "item_id": 32802696,
+        "quote": "Civil War by Ken Burns. Also The West, Jazz and a few others.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32802696",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T19:55:06.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "west",
+    "title": "The West",
+    "title_zh": "",
+    "year": 1996,
+    "format": "documentary series",
+    "category": "政治与社会",
+    "history_related": true,
+    "creators": [
+      "Stephen Ives"
+    ],
+    "summary_zh": "回顾美国西部地区的历史与扩张。系列并置原住民、移民及其他群体在土地与权力变动中的经历。",
+    "mentions": [
+      {
+        "discussion_id": 32799789,
+        "item_id": 32802696,
+        "quote": "Civil War by Ken Burns. Also The West, Jazz and a few others.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32802696",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T19:55:06.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "king-leopold-ghost",
+    "title": "King Leopold's Ghost",
+    "title_zh": "",
+    "year": 2006,
+    "format": "documentary film",
+    "category": "政治与社会",
+    "history_related": true,
+    "creators": [
+      "Pippa Scott"
+    ],
+    "summary_zh": "回顾利奥波德二世统治下刚果的殖民暴力。影片把殖民统治与此后刚果历史中的政治及资源问题联系起来。",
+    "mentions": [
+      {
+        "discussion_id": 32799789,
+        "item_id": 32802201,
+        "quote": "\"King Leopold's Ghost\" An honest, brutal account of colonialism and the attempt to cover up it's effects on the people suffering under it. https://en.wikipedia.org/wiki/King_Leopold%27s_Ghost",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32802201",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T18:49:58.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [
+      "https://en.wikipedia.org/wiki/King_Leopold%27s_Ghost"
+    ],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "once-upon-iraq",
+    "title": "Once Upon a Time in Iraq",
+    "title_zh": "",
+    "year": 2020,
+    "format": "documentary series",
+    "category": "战争与大屠杀",
+    "history_related": true,
+    "creators": [
+      "James Bluemel"
+    ],
+    "summary_zh": "通过伊拉克平民、记者与军人访谈回顾2003年入侵及其后果。系列延伸至叛乱、萨达姆被捕及ISIS兴起。",
+    "mentions": [
+      {
+        "discussion_id": 32799789,
+        "item_id": 32802554,
+        "quote": "Once Upon A Time In Iraq (BBC). Documentary mini series. 1 \"War\" Iraqi civilians recall their initial hopes before the realities of war become clear. 2 \"Insurgency\" Lt Colonel Nathan Sassaman and Iraqi civilian Alaa Adel reflect on the Iraqi insurgency. 3 \"Fallujah\" The Battle of Fallujah is",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32802554",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T19:35:01.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [
+      "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Iraq"
+    ],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "pruitt-igoe",
+    "title": "The Pruitt-Igoe Myth",
+    "title_zh": "",
+    "year": 2011,
+    "format": "documentary film",
+    "category": "政治与社会",
+    "history_related": true,
+    "creators": [
+      "Chad Freidrichs"
+    ],
+    "summary_zh": "回顾圣路易斯Pruitt-Igoe公共住宅的兴建、生活与拆除。影片通过居民证词和城市史材料讨论把其失败简单归因于建筑设计的问题。",
+    "mentions": [
+      {
+        "discussion_id": 32799789,
+        "item_id": 32801490,
+        "quote": "The Pruitt-Igoe Myth - about a large scale 1950s public housing project in Saint Louis (Missouri, US). Built in the mid-50s, riddled with problems pretty much from the start, torn down in 1972. Interesting insight into the failure of post-war public housing policy in the US.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32801490",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T17:27:45.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "civilisation",
+    "title": "Civilisation",
+    "title_zh": "",
+    "year": 1969,
+    "format": "documentary series",
+    "category": "文化与艺术",
+    "history_related": true,
+    "creators": [
+      "Kenneth Clark"
+    ],
+    "summary_zh": "通过欧洲建筑、绘画、雕塑与思想回顾西方文化史。Kenneth Clark 的叙述带有明确的个人审美与历史视角。",
+    "mentions": [
+      {
+        "discussion_id": 32799789,
+        "item_id": 32818597,
+        "quote": "The Ascent of Man by Jacob Bronowski. Civilisation - Kenneth Clark Cosmos - Carl Sagan Cosmos - Not Carl Sagan All pretty good.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32818597",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-12T23:16:44.000Z"
+      }
+    ],
+    "note_zh": "这是Kenneth Clark的1969年系列，区别于2018年的《Civilisations》。",
+    "identity_sources": [],
+    "source_comment_count": 1,
+    "source_discussion_count": 1
+  },
+  {
+    "id": "helvetica",
+    "title": "Helvetica",
+    "title_zh": "",
+    "year": 2007,
+    "format": "documentary film",
+    "category": "文化与艺术",
+    "history_related": true,
+    "creators": [
+      "Gary Hustwit"
+    ],
+    "summary_zh": "以Helvetica字体为线索回顾现代平面设计中的观念与争论。影片采访字体与视觉设计师，并观察文字在公共空间中的使用。",
+    "mentions": [
+      {
+        "discussion_id": 32799789,
+        "item_id": 32801793,
+        "quote": "Gary Hustwits design trilogy: Helvetica - https://en.m.wikipedia.org/wiki/Helvetica_(film) “about typography and graphic design, centered on the eponymous typeface.” Objectified - https://en.m.wikipedia.org/wiki/Objectified “examining the role of everyday non-living objects, and the people who design them,",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32801793",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T18:03:51.000Z"
+      },
+      {
+        "discussion_id": 39157097,
+        "item_id": 39162673,
+        "quote": "For something a bit different but still closer to tech: Helvetica (2007) https://www.hustwit.com/helvetica",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=39162673",
+        "discussion_url": "https://news.ycombinator.com/item?id=39157097",
+        "discussion_title": "Best Documentaries You've Ever Seen",
+        "created_at": "2024-01-28T04:49:35.000Z"
+      },
+      {
+        "discussion_id": 45567701,
+        "item_id": 45604804,
+        "quote": "The trilogy of design-related documentaries by Gary Hustwit! https://en.wikipedia.org/wiki/Design_Trilogy 1. Objectified (on the design of objects) 2. Helvetica (on the design of typefaces) 3. Urbanized (on the design of cities and urban spaces)",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=45604804",
+        "discussion_url": "https://news.ycombinator.com/item?id=45567701",
+        "discussion_title": "Ask HN: What are some of your favorite documentaries?",
+        "created_at": "2025-10-16T13:02:07.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [
+      "https://en.m.wikipedia.org/wiki/Helvetica_(film)",
+      "https://www.hustwit.com/helvetica"
+    ],
+    "source_comment_count": 3,
+    "source_discussion_count": 3
+  },
+  {
+    "id": "corporation",
+    "title": "The Corporation",
+    "title_zh": "",
+    "year": 2003,
+    "format": "documentary film",
+    "category": "经济与商业",
+    "history_related": true,
+    "creators": [
+      "Mark Achbar",
+      "Jennifer Abbott"
+    ],
+    "summary_zh": "回顾公司作为法律和经济组织的发展。影片通过案例和访谈批判公司逐利机制及其社会影响。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18086019,
+        "quote": "The Corporation http://thecorporation.com/",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18086019",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T16:25:51.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32801319,
+        "quote": "I am going to post some of my favorites ones that are not commonly mentioned in these threads: * The Corporation (2003) * For Sama (2019) [WARNING: GRAPHIC!] * Tickled (2016) * Of Fathers and Sons (2017) [WARNING: GRAPHIC!]",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32801319",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T17:07:47.000Z"
+      },
+      {
+        "discussion_id": 39157097,
+        "item_id": 39159561,
+        "quote": "Everything and Nothing: the Amazing Science of Empty Space: https://www.imdb.com/title/tt2071460/ The Corporation: https://www.imdb.com/title/tt0379225/",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=39159561",
+        "discussion_url": "https://news.ycombinator.com/item?id=39157097",
+        "discussion_title": "Best Documentaries You've Ever Seen",
+        "created_at": "2024-01-27T20:35:41.000Z"
+      }
+    ],
+    "note_zh": "具有明确批判立场的公司史与经济纪录片；简介不把其论点当作无争议事实。",
+    "identity_sources": [],
+    "source_comment_count": 3,
+    "source_discussion_count": 3
+  },
+  {
+    "id": "man-on-wire",
+    "title": "Man on Wire",
+    "title_zh": "",
+    "year": 2008,
+    "format": "documentary film",
+    "category": "文化与艺术",
+    "history_related": true,
+    "creators": [
+      "James Marsh"
+    ],
+    "summary_zh": "重建Philippe Petit在1974年于纽约世贸中心双塔间走钢丝的行动。影片结合当年素材、参与者访谈及重演呈现筹备过程。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18093875,
+        "quote": "For me this was life changing. The story of a deaf percussionist. https://www.imdb.com/title/tt0424509/ Man on Wire. Also life changing. https://www.imdb.com/title/tt1155592/?ref_=nv_sr_1 Winnebago Man. Fascinating!You've probably seen his vids on youtube. https://www.imdb.com/title/tt1396557/?ref_=nv_sr_1 Anvil: The Story of Anvil. I worked in the music scene in the 80s and heard",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18093875",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-28T14:56:41.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32802150,
+        "quote": "“Streetwise” by Martin Bell follows the lives of a few homeless youths on the streets of Seattle in the 80s (I think it was the 80s, at least). I heard about it via a song by The Avalanches that sampled part of the film. Just pretty interesting to see how some people’s lives are. I also think it’s interesting to get a raw look at how people talked, behaved, dressed, etc in the past. Also enjoyed “Man on Wire”. First saw it when I was in high school and just remembered feeling really inspired by it. To have a goal and overcome the odds to try and achieve it, etc.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32802150",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T18:43:08.000Z"
+      },
+      {
+        "discussion_id": 45567701,
+        "item_id": 45596459,
+        "quote": "If you're not afraid of heights (or maybe if you are): - Free Solo: https://en.wikipedia.org/wiki/Free_Solo - Man on Wire: https://en.wikipedia.org/wiki/Man_on_Wire And one with the greatest ever road cyclist in the greatest one day race: - A Sunday in Hell: https://en.wikipedia.org/wiki/A_Sunday_in_Hell",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=45596459",
+        "discussion_url": "https://news.ycombinator.com/item?id=45567701",
+        "discussion_title": "Ask HN: What are some of your favorite documentaries?",
+        "created_at": "2025-10-15T18:15:21.000Z"
+      }
+    ],
+    "note_zh": "以1974年特定行动的事后重建为主，因此列入文化史。",
+    "identity_sources": [
+      "https://en.wikipedia.org/wiki/Man_on_Wire"
+    ],
+    "source_comment_count": 3,
+    "source_discussion_count": 3
+  },
+  {
+    "id": "wild-wild-country",
+    "title": "Wild Wild Country",
+    "title_zh": "",
+    "year": 2018,
+    "format": "documentary series",
+    "category": "政治与社会",
+    "history_related": true,
+    "creators": [
+      "Chapman Way",
+      "Maclain Way"
+    ],
+    "summary_zh": "回顾Rajneesh追随者在1980年代俄勒冈州建立社群的过程。系列讨论其与当地居民及政府的冲突和相关犯罪事件。",
+    "mentions": [
+      {
+        "discussion_id": 18085765,
+        "item_id": 18085975,
+        "quote": "Wild Wild Country on Netflix is outstanding: https://www.netflix.com/title/80145240/ I'm also a big fan of BBC Horizon's episodes, they cover a wide range of topics and generally are quite excellent and well researched. https://www.bbc.co.uk/programmes/b006mgxf",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=18085975",
+        "discussion_url": "https://news.ycombinator.com/item?id=18085765",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2018-09-27T16:22:33.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32801735,
+        "quote": "A couple of recent Netflix docu-series I liked are Evil Genius and Wild Wild Country.",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32801735",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-11T17:56:57.000Z"
+      },
+      {
+        "discussion_id": 45567701,
+        "item_id": 45567954,
+        "quote": "My second favorite “Wild, Wild, Country”, but it was mentioned already at the top of the first list. I enjoy it as a cautionary tale, but I also unironically find it an inspiring tale of building, even if it turns out to bad. My favorite documentary is “The Barkley Marathons, the race that eats it’s young”",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=45567954",
+        "discussion_url": "https://news.ycombinator.com/item?id=45567701",
+        "discussion_title": "Ask HN: What are some of your favorite documentaries?",
+        "created_at": "2025-10-13T13:12:05.000Z"
+      }
+    ],
+    "note_zh": "",
+    "identity_sources": [],
+    "source_comment_count": 3,
+    "source_discussion_count": 3
+  },
+  {
+    "id": "cold-case-hammarskjold",
+    "title": "Cold Case Hammarskjöld",
+    "title_zh": "",
+    "year": 2019,
+    "format": "documentary film",
+    "category": "政治与社会",
+    "history_related": true,
+    "creators": [
+      "Mads Brügger"
+    ],
+    "summary_zh": "调查联合国秘书长Dag Hammarskjöld于1961年空难身亡的疑点。影片将调查推进至更广泛的秘密行动指控，其中部分推论存在争议。",
+    "mentions": [
+      {
+        "discussion_id": 25624456,
+        "item_id": 25629872,
+        "quote": "about people doing stuff, usually investigating something - makes me want to get up and get stuff done [1] Cold Case Hammarskjöld - IMDB: https://www.imdb.com/title/tt9352780/?ref_=nv_sr_srsg_0 [2] Tickled - Trailer: https://www.youtube.com/watch?v=iOBXuCYB4jQ [3] Resurrect Dead: The Mystery of the Toynbee Tiles - Trailer: https://www.youtube.com/watch?v=VIWpJ5Jl4fE (full movie is on Youtube,",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=25629872",
+        "discussion_url": "https://news.ycombinator.com/item?id=25624456",
+        "discussion_title": "Ask HN: What is the most inspiring documentary film in your opinion?",
+        "created_at": "2021-01-04T11:14:12.000Z"
+      },
+      {
+        "discussion_id": 32799789,
+        "item_id": 32804637,
+        "quote": "Cold Case Hammarskjöld (2019)",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=32804637",
+        "discussion_url": "https://news.ycombinator.com/item?id=32799789",
+        "discussion_title": "Ask HN: What are some of the best documentaries you've seen?",
+        "created_at": "2022-09-12T00:50:29.000Z"
+      },
+      {
+        "discussion_id": 45567701,
+        "item_id": 45572101,
+        "quote": "movie by Allan Sekula, featured at documenta14. Trailer: https://www.youtube.com/watch?v=rY0ZSlhoKiY [3] \"Cold Case Hammarskjöld\" by Danish film maker Mads Brugger about the death of former UN Secretary General Dag Hammarskjöld; absolutely wild ride. https://en.wikipedia.org/wiki/Cold_Case_Hammarskj%C3%B6ld",
+        "stance": "推荐",
+        "note_zh": "",
+        "item_url": "https://news.ycombinator.com/item?id=45572101",
+        "discussion_url": "https://news.ycombinator.com/item?id=45567701",
+        "discussion_title": "Ask HN: What are some of your favorite documentaries?",
+        "created_at": "2025-10-13T19:04:35.000Z"
+      }
+    ],
+    "note_zh": "涉及1961年历史事件；部分关于秘密组织与公共卫生的指控受到质疑，推荐记录不表示认可其推论。",
+    "identity_sources": [
+      "https://en.wikipedia.org/wiki/Cold_Case_Hammarskj%C3%B6ld"
+    ],
+    "source_comment_count": 3,
+    "source_discussion_count": 3
+  }
+]

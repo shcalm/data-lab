@@ -1,0 +1,62 @@
+{
+  "README.md": {
+    "bytes": 3258,
+    "sha256": "363d92020fb3ddf42bb1ea7429d4dca80b920be0c8c4ad0116fef671712982a1"
+  },
+  "作品原文证据.json": {
+    "bytes": 320556,
+    "sha256": "40347914653d4945687be176eeea9492988cdcd5cf10cbf46ac018c1ecf40c59"
+  },
+  "历史书目.csv": {
+    "bytes": 41308,
+    "sha256": "29f94c4f8588bb3c41c49579e5cc24db83d9e0215c2255ab15eaaad10f8440f4"
+  },
+  "历史书目.json": {
+    "bytes": 206707,
+    "sha256": "b6507cc54eee7029c05d8ef0f02097f62de1271386de8385825e6ba64e9a9bdd"
+  },
+  "历史书目.md": {
+    "bytes": 48014,
+    "sha256": "d7c3252296b334bf315b5d645b00bd2d2414fd822e23d1750f4952fcda2adc2b"
+  },
+  "历史题材纪录片.csv": {
+    "bytes": 22962,
+    "sha256": "7b739c1f2c7e53da16090c9f18b96952422621569154d8d98fe00d75b9728398"
+  },
+  "历史题材纪录片.json": {
+    "bytes": 125025,
+    "sha256": "697384ca37f17814c1b7d9a6dcc3b96bf5f7fd301cc33bdbad4b1e319cdd7c59"
+  },
+  "历史题材纪录片.md": {
+    "bytes": 26815,
+    "sha256": "9ac101c3a954e20ebdc7307e41d7b7ca346765527917b0fafadd12d6a674bdd3"
+  },
+  "本地数据核验.json": {
+    "bytes": 271,
+    "sha256": "13babaf4287ef3ee7e465351846358a5110bc0324dc44b2995fa2e3af1686ddb"
+  },
+  "筛选说明.json": {
+    "bytes": 27101,
+    "sha256": "ff4f18e26566b9c72d69dc6a1f2973d04854ae343231882576d5136b5ef0db7c"
+  },
+  "纪录片单.csv": {
+    "bytes": 37220,
+    "sha256": "13fffbf68687cbade190ba5e941545a53852a15f1a090f4dbfff6715788b7e67"
+  },
+  "纪录片单.json": {
+    "bytes": 208252,
+    "sha256": "55562de46300101a1ca08b4dc632314de0e674e0be282fc02ee9a89870d03fea"
+  },
+  "纪录片单.md": {
+    "bytes": 43610,
+    "sha256": "db0d1f92981cd790c02994214f3c770d9ffcb36b7b6864f083f26bd15553172a"
+  },
+  "讨论来源.json": {
+    "bytes": 8058,
+    "sha256": "9fa8a14a56f97e9b706b6e93f35a9911ae53f0ed07f4ad3958183b99d4fd0487"
+  },
+  "讨论来源.md": {
+    "bytes": 5381,
+    "sha256": "5332d73e06a280a140acc4c4481665fc86af9d7767764e7ab1dca8553cbe344e"
+  }
+}

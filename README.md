@@ -4,7 +4,7 @@ shcalm 的个人数据实验室：用一个仓库持续整理有意思的榜单�
 
 站点地址：**https://shcalm.github.io/data-lab/**
 
-目前包含 Hacker News 十年讨论中的[书籍 Top 100](https://shcalm.github.io/data-lab/hn/books/)、[电影 Top 100](https://shcalm.github.io/data-lab/hn/movies/)，以及[学生阅读书目](https://shcalm.github.io/data-lab/hn/school-reading/)。两份榜单提供搜索、主题筛选和排序；学生书目提供 109 部作品的作者、完整简介及年龄与类别交叉筛选。所有项目均提供数据下载。
+目前包含 Hacker News 十年讨论中的[书籍 Top 100](https://shcalm.github.io/data-lab/hn/books/)、[电影 Top 100](https://shcalm.github.io/data-lab/hn/movies/)、[学生阅读书目](https://shcalm.github.io/data-lab/hn/school-reading/)，以及[历史书目与纪录片](https://shcalm.github.io/data-lab/hn/history-documentaries/)。两份榜单提供搜索、主题筛选和排序；学生书目提供 109 部作品及年龄与类别交叉筛选；历史专题收录100项书目、97部纪录片／系列，其中64部为历史题材。所有项目均有完整简介与数据下载。
 
 ## 本地运行
 
@@ -84,6 +84,14 @@ src/
 `src/lib/school-reading.mjs` 从 `public/downloads/hn-school-reading/` 读取书目、数据说明和来源；网页与下载共用同一份 JSON。更新时从已核验的书目导出目录完整同步此目录（包括年龄、类别和 ZIP），并更新 `data/school-reading.json` 的版本、时间窗口和对应说明。不要单独修改网页内容或把旧 ZIP 与新主表混用。
 
 页面支持 `?age=6-8&category=科普与自然&q=万物` 等可分享查询。关闭 JavaScript 时仍显示完整 109 部书目和所有下载链接。简介保持展开，分龄依据与来源使用原生 `details`。
+
+## 历史书目与纪录片维护
+
+页面 `/hn/history-documentaries/` 提供历史书目、全部纪录片、历史纪录片三个视图，支持题材与关键词交叉筛选，参数为 `view`（`books`／`documentaries`／`history-documentaries`）、`category`、`q`。默认显示100项历史书目。关闭 JavaScript 时完整显示197项作品与来源、下载链接。
+
+已核验的结果完整保存在 `public/downloads/hn-history-documentaries/`，共18个文件（含ZIP）。`src/lib/history-documentaries.mjs` 直接读取其中的历史书目、纪录片单和讨论来源JSON；元数据在 `data/history-documentaries.json`，过滤函数在 `src/lib/history-documentaries-filter.mjs`，不引入文件系统依赖。
+
+更新时从上游 `hacker_news/reports/history-books-documentaries/results/` 完整同步此目录，同时更新元数据、100／97／64数量与形式分布、404条证据、来源说明和验收。网页使用原始简介和逐条语气；不要把已核查证据条数展示成全站提及量。历史纪录片为策展子集，不能简单由题材类别推算。下载ZIP与独立JSON／CSV／Markdown必须保持一致。
 
 ## GitHub Pages 发布
 
