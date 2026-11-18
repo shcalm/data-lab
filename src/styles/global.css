@@ -59,7 +59,7 @@
   .brand-mark span { opacity: .65; margin-inline: 2px; }
   .brand-type { display: block; font-size: 21px; font-weight: 650; line-height: 1.15; letter-spacing: -.04em; }
   .brand-type small { display: block; font-family: var(--mono); font-size: 8px; letter-spacing: .17em; font-weight: 400; margin-top: 6px; }
-  .main-nav { display: flex; gap: 29px; margin-inline: auto; padding-left: 8%; }
+  .main-nav { display: flex; gap: 23px; margin-inline: auto; padding-left: 2%; }
   .main-nav a { display: flex; align-items: center; min-height: 48px; position: relative; font-size: .875rem; color: var(--muted); white-space: nowrap; }
   .main-nav a[aria-current] { color: var(--green); font-weight: 600; }
   .main-nav a[aria-current]::after { content: ''; position: absolute; bottom: 3px; height: 2px; width: 16px; left: calc(50% - 8px); background: var(--green); }
@@ -455,7 +455,7 @@
     .footer-brand span { padding-left: 3px; }
     .footer-links { gap: 20px !important; margin-top: 9px; }
   }
-  @media (max-width: 900px) {
+  @media (max-width: 1150px) {
     .site-header { flex-wrap: wrap; gap: 10px 25px; padding-top: 19px; padding-bottom: 8px; }
     .main-nav { order: 3; flex-basis: 100%; min-width: 0; width: 100%; max-width: 100%; margin: 0; padding: 0; overflow-x: auto; justify-content: space-between; gap: 12px; }
     .main-nav a { flex-shrink: 0; }

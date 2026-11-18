@@ -1,0 +1,11 @@
+---
+import { getMonthlyTop } from '../lib/monthly-top.mjs';
+import { formatNumber } from '../lib/data.mjs';
+import { href } from '../lib/paths';
+import Icon from './Icon.astro';
+const project = getMonthlyTop();
+const meta = project.metadata;
+const download = file => href(`${project.dataPath}/${file}`);
+---
+<section class="monthly-downloads" id="downloads" aria-labelledby="downloads-title"><div><p class="eyebrow">KEEP THE WHOLE ARCHIVE</p><h2 id="downloads-title">把这些年月，留在手边。</h2><p>完整收录全时段与逐月榜单，附原始数值、补查数值和出处。</p></div><div class="monthly-download-buttons"><a href={download('rankings.csv')} download>完整 CSV<Icon name="download" size={17} /></a><a href={download('rankings.json')} download>JSON<Icon name="download" size={17} /></a><a href={download('rankings.md')} download>Markdown<Icon name="download" size={17} /></a><a href={download('hn-monthly-top20.zip')} download>全部 ZIP<Icon name="download" size={17} /></a></div></section>
+<aside class="methodology-note monthly-method" id="methodology" aria-labelledby="method-title"><span class="note-index mono">BEHIND<br />THE RANKS</span><div><h2 id="method-title">按得分整理，按来源复核。</h2><p>范围为本地档案中的 {formatNumber(meta.eligible_story_count)} 篇有效主帖，2006.10.09 至 2026.08.23 UTC；排除当时已标记删除、dead 与无标题记录。按发帖时间的 UTC 自然月分组，得分降序，同分按发布时间升序、ID 升序，取前 20。评论数单独展示，不参与排序。</p><p>原始快照部分月份得分偏低，因此从 <a href="https://hn.algolia.com/">HN Algolia 搜索索引</a>补查每月高分候选，与本地帖子 ID 和精确发帖时间匹配，再按同一规则排序。另扫描全库中原始得分达到入选门槛、却未出现在搜索候选中的帖子，用 <a href="https://github.com/HackerNews/API">HN 官方 API</a>补核，共补入 {meta.official_selected_count} 篇，并注明当前状态；官方缺少评论总数时沿用原始快照，单独标注。补查于 {meta.api_checked_from_utc.slice(0, 10)} UTC。原始分数与补查分数分别保留，每条可展开核对。{meta.archive_only_months.length > 0 && `搜索索引没有候选的月份（${meta.archive_only_months.join('、')}）明确标为原始存档榜单。`}</p><p>这份榜单使用查询时的得分，不能还原 HN 首页的时间衰减排名，也不是月末或最终得分。搜索索引仍可能遗漏帖子，原始得分偏低也可能使漏项未被发现。首月与末月仅含数据实际覆盖的日期，零帖或不足 20 篇的月份如实保留。</p><p>每篇保留原始标题，并配一句中文导读。导读由模型依据原题和已有的自帖正文节选撰写，帮助判断阅读兴趣；未据此概括外链全文或评论区。原题中的观点、质疑与指控仍属于原作者的表达。</p><p>原始数据来自 <a href={meta.dataset_url}>open-index/hacker-news</a>，ODC-By-1.0；原内容权利归各作者。<a href={download('README.md')} download>完整口径与复现说明<Icon name="download" size={13} /></a> · <a href={download('verification.json')} download>核验记录<Icon name="download" size={13} /></a>。</p></div></aside>

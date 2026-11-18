@@ -1,0 +1,7 @@
+{
+  "id": "monthly-top",
+  "title": "HN 每月 Top 20",
+  "path": "hn/monthly-top",
+  "dataPath": "downloads/hn-monthly-top20",
+  "description": "从完整 HN 下载档案出发，按得分整理全时段与每月 Top 20 帖子。每篇保留原始标题，配一句中文导读，逐月浏览得分、评论数与出处。"
+}

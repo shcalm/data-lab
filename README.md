@@ -4,7 +4,7 @@ shcalm 的个人数据实验室：用一个仓库持续整理有意思的榜单�
 
 站点地址：**https://shcalm.github.io/data-lab/**
 
-目前包含 Hacker News 十年讨论中的[书籍 Top 100](https://shcalm.github.io/data-lab/hn/books/)、[电影 Top 100](https://shcalm.github.io/data-lab/hn/movies/)、[学生阅读书目](https://shcalm.github.io/data-lab/hn/school-reading/)、[历史书目与纪录片](https://shcalm.github.io/data-lab/hn/history-documentaries/)，以及从2006—2026全档案发现的[30个深挖主题](https://shcalm.github.io/data-lab/hn/interesting-themes/)。两份榜单提供搜索、主题筛选和排序；学生书目提供109部作品及年龄与类别交叉筛选；历史专题收录100项书目、97部纪录片／系列，其中64部为历史题材；深挖主题提供机制、边界、异议和原文，支持领域与精选阅读筛选。所有项目均有内容说明与数据下载。
+目前包含 Hacker News 十年讨论中的[书籍 Top 100](https://shcalm.github.io/data-lab/hn/books/)、[电影 Top 100](https://shcalm.github.io/data-lab/hn/movies/)、[学生阅读书目](https://shcalm.github.io/data-lab/hn/school-reading/)、[历史书目与纪录片](https://shcalm.github.io/data-lab/hn/history-documentaries/)，以及从2006—2026全档案发现的[30个深挖主题](https://shcalm.github.io/data-lab/hn/interesting-themes/)、[HN 每月 Top 20](https://shcalm.github.io/data-lab/hn/monthly-top/)。两份榜单提供搜索、主题筛选和排序；学生书目提供109部作品及年龄与类别交叉筛选；历史专题收录100项书目、97部纪录片／系列，其中64部为历史题材；深挖主题提供机制、边界、异议和原文，支持领域与精选阅读筛选。每月Top20覆盖239个日历月，提供4,721条月榜记录和全时段Top20，可按月翻阅。所有项目均有内容说明与数据下载。
 
 ## 本地运行
 
@@ -100,6 +100,26 @@ src/
 `public/downloads/hn-interesting-themes/` 保存上游 `hacker_news/reports/interesting-themes/` 的8个已核验文件（含ZIP）。网页通过 `src/lib/interesting-themes.mjs` 直接读取同一份 `themes.json`；分类元数据在 `data/interesting-themes.json`，纯筛选逻辑在 `src/lib/interesting-themes-filter.mjs`。更新时完整同步导出文件，检查JSON、CSV、Markdown和ZIP的一致性，并更新页面数量、时间范围与验收。原始全库索引与讨论树留在研究项目中。
 
 参数为 `group`（`cognition`／`institutions`／`science`／`computing`）、`q`和`view=starters`。主题永久链接为 `#theme-<id>`，分享入口使用清除筛选的完整路径；访问主题锚点时自动展开，若查询条件隐藏该主题则清空筛选再定位。关闭JavaScript时完整渲染30个主题、原生展开内容及下载入口。历史档案与API的两处作者显示名差异保留双边字段。
+
+## HN 每月 Top 20 维护
+
+`/hn/monthly-top/` 提供全时段得分 Top 20 和完整年月档案。`/hn/monthly-top/YYYY-MM/` 是可独立分享的月页。覆盖 2006-10 至 2026-08，共 239 个连续日历月，237 个月有有效主帖，月榜合计 4,721 条；2006-11、2007-01 无有效主帖，2006-12 只有1篇。按UTC发帖月份划分，score降序、发帖时间升序、ID升序取前20，评论数不参与排名。
+
+原始存档部分月份得分偏低，已于2026-11-18补查HN Algolia搜索索引的高分候选，与本地有效主帖ID和精确发帖时间匹配。每月取100个候选，必要时翻页至末尾得分低于入选第20名；再扫描全部本地档案中得分达到各月入选门槛却不在候选池中的记录，用官方Firebase核对后重排。本次补入1篇（ID36860065），明确保存其补查时dead状态，官方缺少评论总数时单独注明沿用原始快照。保留本地原始数值和查询数值，分别记录score_source/comments_source。网页显示查询时得分，不代表月末得分、最终得分或历史HN首页排名。搜索索引本身仍可能遗漏帖子，原始低分也可能使其他漏项未被发现。
+
+每篇保留原题，并配一句中文导读，供读者选择感兴趣的讨论。导读由模型依据标题与已有自帖节选逐条撰写，不概括未读的外链全文或评论区，原题中的主张与指控保留归属。编辑源在 `data/monthly-top-guides.json`，通过 `guide_zh` 字段合入规范数据，不参与排名；中文导读同样可以在当前榜单搜索。
+
+规范数据为 `public/downloads/hn-monthly-top20/rankings.json`，页面通过 `src/lib/monthly-top.mjs` 读取。目录内保留完整JSON／CSV／Markdown、239个月的JSON／CSV、核验及ZIP，共484个文件。网页只加载当前20条的筛选字段；静态页在关闭JavaScript时仍可完整浏览和翻月。`?q=`仅搜索当前榜单，保留原始排名，`#story-ID`为帖子定位链接。
+
+重跑脚本和合成边界测试在 `scripts/hn-monthly-top20/`，需要Python3和DuckDB。显式传入本地去重索引、结果目录和API缓存目录：
+
+```sh
+python3 scripts/hn-monthly-top20/build_results.py --index /path/to/all-stories.parquet --output /path/to/results --cache /path/to/api-cache --guides data/monthly-top-guides.json
+python3 -m unittest discover -s scripts/hn-monthly-top20 -p 'test_*.py'
+python3 tests/monthly_top_browser.py --base-url http://127.0.0.1:4321/data-lab/
+```
+
+完整同步导出后核对连续月份、排名、全部中文导读、JSON／CSV／ZIP的一致性、补查时间和哈希。刷新查询值时使用新的缓存目录，保留旧版研究记录，不与旧快照混用。出现新入选条目时先补齐导读，否则指定 `--guides` 的导出会报错。原始API响应仅保存在研究项目中，发布目录保留其哈希和复核记录。
 
 ## GitHub Pages 发布
 

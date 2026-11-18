@@ -1,0 +1,30 @@
+---
+import SiteLayout from '../../../layouts/SiteLayout.astro';
+import MonthlyTopList from '../../../components/MonthlyTopList.astro';
+import MonthlyTopArchive from '../../../components/MonthlyTopArchive.astro';
+import MonthlyTopMethod from '../../../components/MonthlyTopMethod.astro';
+import Icon from '../../../components/Icon.astro';
+import { getMonthlyTop } from '../../../lib/monthly-top.mjs';
+import { formatNumber } from '../../../lib/data.mjs';
+import { href } from '../../../lib/paths';
+import '../../../styles/monthly-top.css';
+export function getStaticPaths() {
+  const project = getMonthlyTop();
+  return project.months.map((month, index) => ({params: { month: month.month }, props: { month, previous: project.months[index - 1], next: project.months[index + 1] }}));
+}
+const { month, previous, next } = Astro.props;
+const project = getMonthlyTop();
+const [year, number] = month.month.split('-');
+const label = `${year} 年 ${Number(number)} 月`;
+const pagePath = href(`${project.path}/${month.month}/`);
+const partial = ['2006-10','2026-08'].includes(month.month);
+---
+<SiteLayout title={`${label} · HN Top 20 · Data Lab`} description={`${label} 的 HN 得分 Top 20。原始标题、得分、评论数和讨论入口，保留完整来源。`} active="monthly-top">
+  <section class="monthly-month-hero" id="top"><div class="breadcrumb"><a href={href()}>全部项目</a><span aria-hidden="true">/</span><a href={href(`${project.path}/`)}>每月 Top 20</a><span aria-hidden="true">/</span><span>{month.month}</span></div><div class="monthly-month-title"><div><p class="eyebrow">HACKER NEWS / MONTHLY TOP 20</p><h1>{year}<span>年</span> <span class="green-text">{number}</span><span>月</span></h1><p>这个月发布的帖子，哪些获得了高分？</p></div><div class="monthly-month-stat"><b class="mono">{formatNumber(month.eligible_story_count)}</b><span>篇有效主帖 · 入选 {month.entries.length} 篇</span></div></div><div class="monthly-month-note"><p>按得分降序 · 日期使用 UTC{partial && ' · 本月仅覆盖档案实际日期'}{month.ranking_basis === 'archive' && ' · 本月使用原始存档得分'}</p><div class="download-links"><a href={href(`${project.dataPath}/months/${month.month}.csv`)} download>本月 CSV<Icon name="download" size={15} /></a><a href={href(`${project.dataPath}/months/${month.month}.json`)} download>JSON<Icon name="download" size={15} /></a></div></div></section>
+  <nav class="monthly-neighbors" aria-label="按月翻阅">{previous ? <a rel="prev" href={href(`${project.path}/${previous.month}/`)}><span aria-hidden="true">←</span><span>上一个月<b class="mono">{previous.month}</b></span></a> : <span class="monthly-end">档案起点 · 2006-10</span>}<a class="monthly-archive-link" href={href(`${project.path}/#year-${year}`)}>全部月份<Icon name="calendar" size={17} /></a>{next ? <a rel="next" href={href(`${project.path}/${next.month}/`)}><span>下一个月<b class="mono">{next.month}</b></span><span aria-hidden="true">→</span></a> : <span class="monthly-end">档案末月 · 2026-08</span>}</nav>
+  {month.ranking_basis === 'archive' && <p class="monthly-source-notice">这个月的搜索索引没有候选结果，以下保留本地原始存档得分。{month.entries.length < 20 && `仅有 ${month.entries.length} 篇有效主帖，如实列出。`}</p>}
+  <MonthlyTopList entries={month.entries} label={`${label} Top ${month.entries.length || '20'}`} pagePath={pagePath} />
+  <MonthlyTopArchive current={month.month} />
+  <MonthlyTopMethod />
+  <script src="../../../scripts/monthly-top.ts"></script>
+</SiteLayout>

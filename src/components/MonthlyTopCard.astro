@@ -1,0 +1,8 @@
+---
+import Icon from './Icon.astro';
+import { getMonthlyTop } from '../lib/monthly-top.mjs';
+import { href } from '../lib/paths';
+import '../styles/monthly-top.css';
+const project = getMonthlyTop();
+---
+<article class="project-card project-monthly"><div class="card-eyebrow"><span class="eyebrow">06 / A MONTH AT A TIME</span><span class="card-icon"><Icon name="calendar" size={25} /></span></div><div class="monthly-card-layout"><div><h3><a href={href(`${project.path}/`)}>{project.title}<Icon name="arrow-up" size={24} /></a></h3><p class="card-description">每个月，大家在关注什么？从 2006 到 2026，按得分整理每月的 20 篇帖子。保留原题，配一句中文导读，带着兴趣逐月翻阅。</p></div><div class="monthly-card-years"><span class="mono">2006</span><span aria-hidden="true">⟶</span><span class="mono">2026</span><small>{project.metadata.calendar_month_count} 个月 · {project.metadata.monthly_entry_count.toLocaleString('en-US')} 条月榜记录</small></div></div><div class="card-footer"><span>全时段 Top 20 ＋ 逐月档案</span><a href={href(`${project.path}/#archive`)}>选择一个月份<Icon name="arrow" size={19} /></a></div></article>

@@ -1,0 +1,20 @@
+---
+import SiteLayout from '../../../layouts/SiteLayout.astro';
+import MonthlyTopList from '../../../components/MonthlyTopList.astro';
+import MonthlyTopArchive from '../../../components/MonthlyTopArchive.astro';
+import MonthlyTopMethod from '../../../components/MonthlyTopMethod.astro';
+import Icon from '../../../components/Icon.astro';
+import { getMonthlyTop } from '../../../lib/monthly-top.mjs';
+import { formatNumber } from '../../../lib/data.mjs';
+import { href } from '../../../lib/paths';
+import '../../../styles/monthly-top.css';
+const project = getMonthlyTop();
+---
+<SiteLayout title="HN 全时段与每月 Top 20 · Data Lab" description={project.description} active="monthly-top">
+  <section class="ranking-hero monthly-hero" id="top"><div class="breadcrumb"><a href={href()}>全部项目</a><span aria-hidden="true">/</span><span>Hacker News</span><span aria-hidden="true">/</span><span>每月 Top 20</span></div><div class="ranking-hero-grid"><div><p class="eyebrow">06 / A MONTH AT A TIME</p><h1>每个月，<br /><span class="green-text">大家在关注什么？</span></h1><p class="ranking-intro">把时间拨回某一个月，看技术社区当时发布的哪些帖子获得了高分。从产品、代码，到科学与日常，逐月浏览，自己发现值得读的讨论。</p><div class="monthly-hero-actions"><a class="text-link" href="#archive">选择一个月份<Icon name="arrow" size={18} /></a><a href="#stories">先看全时段 Top 20 ↓</a></div></div><aside class="monthly-overview"><p class="eyebrow">2006.10 — 2026.08 / UTC</p><div><b>{project.metadata.calendar_month_count}</b><span>个月，<br />一条阅读时间线。</span></div><p><span class="mono">{formatNumber(project.metadata.monthly_entry_count)}</span> 条月榜记录 · 每月最多 <span class="mono">20</span> 篇</p><small>按发帖月份归档 · 按得分排列</small></aside></div><div class="ranking-hero-bottom"><p>全档案 <b class="mono">{formatNumber(project.metadata.eligible_story_count)}</b> 篇有效主帖 · 得分补查于 {project.metadata.api_checked_from_utc.slice(0,10)} UTC。<a href="#methodology">了解排名口径 ↗</a></p><div class="download-links"><a href={href(`${project.dataPath}/rankings.csv`)} download>CSV<Icon name="download" size={15} /></a><a href={href(`${project.dataPath}/hn-monthly-top20.zip`)} download>完整 ZIP<Icon name="download" size={15} /></a></div></div></section>
+  <MonthlyTopArchive full />
+  <div class="monthly-alltime-intro"><p class="eyebrow">ACROSS THE ARCHIVE</p><p>下面这 20 篇，是整个可用档案中补查得分最高的帖子。原题下配一句中文导读，依据标题与已有的原帖正文节选撰写。跨年份的得分受社区规模、索引覆盖与查询时间影响；逐月榜单提供另一种观察尺度。</p></div>
+  <MonthlyTopList entries={project.allTime} label="全时段 Top 20" pagePath={href(`${project.path}/`)} />
+  <MonthlyTopMethod />
+  <script src="../../../scripts/monthly-top.ts"></script>
+</SiteLayout>

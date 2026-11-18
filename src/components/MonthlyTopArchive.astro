@@ -1,0 +1,15 @@
+---
+import { getMonthlyTop } from '../lib/monthly-top.mjs';
+import { href } from '../lib/paths';
+import Icon from './Icon.astro';
+interface Props { current?: string; full?: boolean }
+const { current = '', full = false } = Astro.props;
+const project = getMonthlyTop();
+const year = current.slice(0, 4) || project.years[0].year;
+const yearMonths = project.months.filter(month => month.month.startsWith(year));
+---
+<section class="monthly-archive" id="archive" aria-labelledby="archive-title">
+  <header class="monthly-archive-heading"><div><p class="eyebrow">A MONTH AT A TIME</p><h2 id="archive-title">{full ? '沿着年月，慢慢看。' : `${year} 年的每个月`}</h2></div>{!full && <a href={href(`${project.path}/#year-${year}`)}>全部年份<Icon name="arrow" size={16} /></a>}</header>
+  <form class="monthly-jump" data-monthly-jump data-path={href(`${project.path}/`)} hidden><label for="jump-month">跳转到月份</label><select id="jump-month" name="month">{project.years.map(group => <optgroup label={`${group.year} 年`}>{group.months.map(month => <option value={month.month} selected={month.month === (current || project.months.at(-1).month)}>{month.month} · {month.entries.length} 篇</option>)}</optgroup>)}</select><button type="submit">查看榜单<Icon name="arrow" size={15} /></button></form>
+  {full ? <div class="monthly-years">{project.years.map(group => <details class="monthly-year" id={`year-${group.year}`} open={group.year === year}><summary><span>{group.year}<small class="mono">{group.months.filter(month => month.entries.length).length} MONTHS WITH STORIES</small></span><Icon name="chevron" size={18} /></summary><div class="monthly-calendar">{group.months.map(month => <a href={href(`${project.path}/${month.month}/`)}><span><b class="mono">{month.month.slice(5)}</b>月</span><small>{month.entries.length ? `${month.entries.length} 篇` : '无有效主帖'}</small></a>)}</div></details>)}</div> : <div class="monthly-month-pills">{yearMonths.map(month => <a href={href(`${project.path}/${month.month}/`)} aria-current={month.month === current ? 'page' : undefined}>{Number(month.month.slice(5))} 月{!month.entries.length && <small>空</small>}</a>)}</div>}
+</section>
