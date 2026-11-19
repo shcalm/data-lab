@@ -11,6 +11,8 @@ from playwright.sync_api import sync_playwright, expect
 parser = argparse.ArgumentParser()
 parser.add_argument('--base-url', default='http://127.0.0.1:4326/data-lab/')
 parser.add_argument('--skip-full-archive', action='store_true')
+parser.add_argument('--download-timeout-ms', type=int, default=30000,
+                    help='Total timeout for each download; use a longer limit on slow remote connections.')
 args = parser.parse_args()
 base = args.base_url.rstrip('/') + '/'
 root = Path(__file__).resolve().parents[1]
@@ -115,7 +117,7 @@ with sync_playwright() as p:
                 r = context.request.get(urljoin(base,f"{channel['path']}/{month['month']}/"))
                 assert r.status == 200,(kind,month['month'])
     for name in ['rankings.json','rankings.csv','rankings.md','README.md','verification.json','hn-ask-show-top10.zip','ask/rankings.csv','show/rankings.json','ask/2006-10.csv','show/2009-03.json']:
-        r = context.request.get(urljoin(base,'downloads/hn-ask-show-top10/'+name))
+        r = context.request.get(urljoin(base,'downloads/hn-ask-show-top10/'+name), timeout=args.download_timeout_ms)
         assert r.status == 200 and r.body() == (exports / name).read_bytes(), name
     page.goto(base,wait_until='networkidle')
     assert page.locator('a[href="/data-lab/hn/ask-show/"]').count() >= 2

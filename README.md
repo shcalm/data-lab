@@ -133,6 +133,7 @@ Ask按原始无外链自帖识别，排除Show，因此包含Tell HN、Launch HN
 python3 scripts/hn-ask-show-top10/build_results.py --index /path/to/all-stories.parquet --output /path/to/results --cache /path/to/cache --guides data/ask-show-guides.json
 python3 -m unittest discover -s scripts/hn-ask-show-top10 -p 'test_*.py'
 python3 tests/ask_show_browser.py --base-url http://127.0.0.1:4326/data-lab/
+python3 tests/ask_show_browser.py --base-url https://shcalm.github.io/data-lab/ --skip-full-archive --download-timeout-ms 180000
 ```
 
 复用同级 `hn-monthly-top20` 的来源、文本与导出辅助函数。刷新时使用新缓存并保留旧快照，核对所有月份、导读、数据来源、CSV／JSON／ZIP与哈希。验收同时覆盖原有月榜，避免共享日历和榜单组件改变已有行为。
