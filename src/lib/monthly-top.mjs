@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs';
 const read = path => JSON.parse(readFileSync(path, 'utf8'));
 let cached;
 
-function enhance(entry) {
+export function enhance(entry) {
   let articleUrl = '';
   let domain = 'HN 自帖';
   try {

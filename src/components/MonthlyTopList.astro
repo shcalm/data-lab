@@ -1,8 +1,8 @@
 ---
 import Icon from './Icon.astro';
 import { formatNumber } from '../lib/data.mjs';
-interface Props { entries: any[]; label: string; pagePath: string }
-const { entries, label, pagePath } = Astro.props;
+interface Props { entries: any[]; label: string; pagePath: string; emptyMessage?: string }
+const { entries, label, pagePath, emptyMessage = '这个月，存档中没有有效主帖。' } = Astro.props;
 const json = JSON.stringify(entries.map(({ id, searchText }) => ({ id, searchText }))).replaceAll('<', '\\u003c');
 const sourceNames = { algolia: 'HN Algolia 搜索索引', firebase: 'HN 官方 API', archive: '本地原始快照' };
 ---
@@ -16,11 +16,11 @@ const sourceNames = { algolia: 'HN Algolia 搜索索引', firebase: 'HN 官方 A
       <span class="monthly-rank mono"><span aria-hidden="true">{String(entry.rank).padStart(2, '0')}</span><span class="sr-only">第{entry.rank}名</span></span>
       <div class="monthly-story-main"><p class="monthly-story-meta"><time datetime={entry.time_utc}>{entry.time_utc.slice(0, 10)}</time><span>{entry.domain}</span>{entry.author && <span>by {entry.author}</span>}{entry.current_dead && <span>补查时已标记 dead</span>}{entry.current_deleted && <span>补查时已标记删除</span>}</p><h3 lang="en"><a href={entry.hn_url}>{entry.title}<Icon name="arrow-up" size={15} /></a></h3>{entry.guide_zh && <p class="monthly-story-guide">{entry.guide_zh}</p>}<div class="monthly-story-links"><a href={entry.hn_url}>HN 讨论<Icon name="arrow-up" size={12} /></a>{entry.articleUrl && <a href={entry.articleUrl}>打开原文<Icon name="arrow-up" size={12} /></a>}<a href={`${pagePath}#story-${entry.id}`} aria-label={`分享帖子：${entry.title}`}>帖子链接<Icon name="arrow" size={12} /></a></div>
         {entry.excerpt && <details class="monthly-excerpt"><summary>原帖正文节选<Icon name="chevron" size={12} /></summary><p lang="en">{entry.excerpt}{entry.excerpt.length === 480 && '…'}</p></details>}
-        <details class="monthly-values"><summary>查看数据记录<Icon name="chevron" size={12} /></summary><p>得分 / 评论数：<span class="mono">{entry.score} / {entry.comments}</span>；本地原始快照：<span class="mono">{entry.archive_score} / {entry.archive_comments}</span>。</p><p>得分来源：{sourceNames[entry.score_source]}；评论数来源：{sourceNames[entry.comments_source]}。{entry.checked_at && `补查时间：${entry.checked_at}。`}发帖时间：<span class="mono">{entry.time_utc}</span>。</p>{entry.score_source === 'firebase' && <p>搜索索引缺少这篇本地高分帖，已按 ID 与精确时间核对官方记录。{entry.current_dead && '补查时官方已标记 dead；标题与原文地址保留本地记录。'}{entry.comments_source === 'archive' && '官方记录未提供评论总数，评论数沿用原始快照。'}</p>}</details>
+        <details class="monthly-values"><summary>查看数据记录<Icon name="chevron" size={12} /></summary><p>得分 / 评论数：<span class="mono">{entry.score} / {entry.comments}</span>；本地原始快照：<span class="mono">{entry.archive_score} / {entry.archive_comments}</span>。</p><p>得分来源：{sourceNames[entry.score_source]}；评论数来源：{sourceNames[entry.comments_source]}。{entry.checked_at && `补查时间：${entry.checked_at}。`}发帖时间：<span class="mono">{entry.time_utc}</span>。</p>{entry.channel && entry.category_source === 'archive' && <p>频道按原始记录识别；补查时未能用对应的搜索索引频道标签核对。</p>}{entry.channel && entry.current_title && entry.current_title !== entry.title && <p>补查时标题：<span lang="en">{entry.current_title}</span>。</p>}{entry.score_source === 'firebase' && <p>搜索索引缺少这篇本地高分帖，已按 ID 与精确时间核对官方记录。{entry.current_dead && '补查时官方已标记 dead；标题与原文地址保留本地记录。'}{entry.comments_source === 'archive' && '官方记录未提供评论总数，评论数沿用原始快照。'}</p>}</details>
       </div>
       <div class="monthly-story-numbers"><div><b class="mono" data-story-score>{formatNumber(entry.score)}</b><span>得分</span></div><a href={entry.hn_url} aria-label={`${entry.comments_source === 'archive' ? '原始快照 ' : ''}${entry.comments} 条评论`}><b class="mono" data-story-comments>{formatNumber(entry.comments)}</b><span>评论{entry.comments_source === 'archive' && ' · 存档'}</span></a></div>
     </li>)}</ol>
     <div class="monthly-empty-search" data-monthly-empty hidden><p>这份榜单里没有匹配的帖子。</p><button type="button" data-monthly-reset>清空搜索</button></div>
     <script type="application/json" id="monthly-search-data" set:html={json} />
-  </> : <div class="monthly-no-data"><span class="eyebrow">NO ELIGIBLE STORIES</span><h3>这个月，存档中没有有效主帖。</h3><p>保留月份的位置，方便按时间浏览。你可以查看上一个月或下一个月。</p></div>}
+  </> : <div class="monthly-no-data"><span class="eyebrow">NO ELIGIBLE STORIES</span><h3>{emptyMessage}</h3><p>保留月份的位置，方便按时间浏览。你可以查看上一个月或下一个月。</p></div>}
 </section>

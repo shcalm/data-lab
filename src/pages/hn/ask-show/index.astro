@@ -1,0 +1,19 @@
+---
+import SiteLayout from '../../../layouts/SiteLayout.astro';
+import AskShowMethod from '../../../components/AskShowMethod.astro';
+import Icon from '../../../components/Icon.astro';
+import { getAskShow } from '../../../lib/ask-show.mjs';
+import { formatNumber } from '../../../lib/data.mjs';
+import { href } from '../../../lib/paths';
+import '../../../styles/ask-show.css';
+const project = getAskShow();
+const descriptions = {
+  ask: '一个好问题，可以打开一段长谈。这里收集提问、经验分享与社区交流，也包含 Tell HN、Launch HN 等自帖。',
+  show: '从一个想法，到一个能用的作品。看看开发者把什么做了出来，以及社区如何回应。',
+};
+---
+<SiteLayout title="Ask / Show 每月 Top 10 · Data Lab" description={project.description} active="ask-show">
+  <section class="ranking-hero monthly-hero" id="top"><div class="breadcrumb"><a href={href()}>全部项目</a><span aria-hidden="true">/</span><span>Hacker News</span><span aria-hidden="true">/</span><span>Ask / Show</span></div><div class="ranking-hero-grid"><div><p class="eyebrow">07 / QUESTIONS & CREATIONS</p><h1>有什么好问题，<br /><span class="green-text">又有什么新作品？</span></h1><p class="ranking-intro ask-show-intro">每个月，从 Ask 和 Show 各选得分最高的 10 篇。保留原始标题，配一句中文导读，顺着问题与作品，看看社区如何思考、如何创造。</p></div><aside class="monthly-overview"><p class="eyebrow">2006.10 — 2026.08 / UTC</p><div><b>{project.metadata.calendar_month_count}</b><span>个月，<br />两条时间线。</span></div><p><span class="mono">{formatNumber(project.metadata.monthly_entry_count)}</span> 条记录 · 每频道每月最多 <span class="mono">10</span> 篇</p><small>按发帖月份归档 · 按得分排列</small></aside></div><div class="ranking-hero-bottom"><p>中文导读依据原题与已有自帖节选撰写。<a href="#methodology">了解频道与排名口径 ↗</a></p><div class="download-links"><a href={href(`${project.dataPath}/rankings.csv`)} download>CSV<Icon name="download" size={15} /></a><a href={href(`${project.dataPath}/hn-ask-show-top10.zip`)} download>完整 ZIP<Icon name="download" size={15} /></a></div></div></section>
+  <div class="ask-show-grid">{Object.values(project.channels).map(channel => <article class="ask-show-channel"><p class="eyebrow">{channel.id === 'ask' ? 'QUESTIONS & CONVERSATIONS' : 'PROJECTS & EXPERIMENTS'}</p><h2><a href={href(`${channel.path}/`)}>{channel.title}<Icon name="arrow-up" size={26} /></a></h2><p>{descriptions[channel.id]}</p><div class="ask-show-channel-links"><a href={href(`${channel.path}/#archive`)}>按年月浏览 →</a><a href={href(`${channel.path}/${channel.months.at(-1).month}/`)}>档案末月 · {channel.months.at(-1).month} →</a></div><footer><span>{channel.nonempty_month_count} 个有记录的月份 · {formatNumber(channel.monthly_entry_count)} 篇</span><a href={href(`${project.dataPath}/${channel.id}/rankings.csv`)} download>频道 CSV ↓</a></footer></article>)}</div>
+  <AskShowMethod />
+</SiteLayout>

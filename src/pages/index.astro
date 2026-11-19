@@ -5,12 +5,13 @@ import SchoolReadingCard from '../components/SchoolReadingCard.astro';
 import HistoryDocumentariesCard from '../components/HistoryDocumentariesCard.astro';
 import InterestingThemesCard from '../components/InterestingThemesCard.astro';
 import MonthlyTopCard from '../components/MonthlyTopCard.astro';
+import AskShowCard from '../components/AskShowCard.astro';
 import Icon from '../components/Icon.astro';
 import { projects, formatNumber } from '../lib/data.mjs';
 import { getInterestingThemes } from '../lib/interesting-themes.mjs';
 import { href } from '../lib/paths';
 const archive = getInterestingThemes().metadata.archive;
-const collectionCount = projects.length + 4;
+const collectionCount = projects.length + 5;
 ---
 <SiteLayout active="home">
   <section class="home-hero" id="top" aria-labelledby="home-title">
@@ -31,7 +32,7 @@ const collectionCount = projects.length + 4;
 
   <section id="projects" class="projects-section" aria-labelledby="projects-title">
     <div class="section-heading"><div><span class="eyebrow">THE COLLECTION</span><h2 id="projects-title">数据里的发现<span class="section-index">{String(collectionCount).padStart(2, '0')}</span></h2></div><p>每份发现，都有内容、来源与方法。</p></div>
-    <div class="projects-grid">{projects.map((project) => <ProjectCard id={project.id} />)}<SchoolReadingCard /><HistoryDocumentariesCard /><InterestingThemesCard /><MonthlyTopCard /></div>
+    <div class="projects-grid">{projects.map((project) => <ProjectCard id={project.id} />)}<SchoolReadingCard /><HistoryDocumentariesCard /><InterestingThemesCard /><MonthlyTopCard /><AskShowCard /></div>
   </section>
 
   <section class="home-note" aria-labelledby="note-title"><span class="note-index mono">A NOTE<br />ON DATA</span><div><h2 id="note-title">一个观察的入口。</h2><p>被提及的次数，记录的是讨论的痕迹。它不是评分，也不代表推荐。<br class="desktop-break" />比起把名次当成答案，我更想把这些榜单当作探索的起点。</p></div><a class="text-link" href={href('about/')}>关于这个实验室<Icon name="arrow" size={18} /></a></section>

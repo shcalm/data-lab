@@ -2,9 +2,8 @@
 import { getMonthlyTop } from '../lib/monthly-top.mjs';
 import { href } from '../lib/paths';
 import Icon from './Icon.astro';
-interface Props { current?: string; full?: boolean }
-const { current = '', full = false } = Astro.props;
-const project = getMonthlyTop();
+interface Props { current?: string; full?: boolean; project?: any }
+const { current = '', full = false, project = getMonthlyTop() } = Astro.props;
 const year = current.slice(0, 4) || project.years[0].year;
 const yearMonths = project.months.filter(month => month.month.startsWith(year));
 ---

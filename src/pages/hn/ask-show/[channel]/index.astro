@@ -1,0 +1,27 @@
+---
+import SiteLayout from '../../../../layouts/SiteLayout.astro';
+import MonthlyTopList from '../../../../components/MonthlyTopList.astro';
+import MonthlyTopArchive from '../../../../components/MonthlyTopArchive.astro';
+import AskShowMethod from '../../../../components/AskShowMethod.astro';
+import AskShowTabs from '../../../../components/AskShowTabs.astro';
+import Icon from '../../../../components/Icon.astro';
+import { getAskShow } from '../../../../lib/ask-show.mjs';
+import { formatNumber } from '../../../../lib/data.mjs';
+import { href } from '../../../../lib/paths';
+import '../../../../styles/ask-show.css';
+export function getStaticPaths() { return Object.values(getAskShow().channels).map(channel => ({params:{channel:channel.id},props:{channel}})); }
+const { channel } = Astro.props;
+const project = getAskShow();
+const latest = channel.months.at(-1);
+const ask = channel.id === 'ask';
+---
+<SiteLayout title={`${channel.title} 每月 Top 10 · Data Lab`} description={`${channel.title} 每月得分前 10 篇，原始标题与一句中文导读。`} active="ask-show">
+  <section class="ranking-hero monthly-hero" id="top"><div class="breadcrumb"><a href={href()}>全部项目</a><span aria-hidden="true">/</span><a href={href(`${project.path}/`)}>Ask / Show</a><span aria-hidden="true">/</span><span>{channel.title}</span></div><div class="ranking-hero-grid"><div><p class="eyebrow">HACKER NEWS / {channel.title.toUpperCase()} MONTHLY TOP 10</p><h1>{ask ? '带着问题，' : '把想法，'}<br /><span class="green-text">{ask ? '走进社区。' : '做成作品。'}</span></h1><p class="ranking-intro">{ask ? '从技术困惑，到工作与生活的经验。看看社区每个月提出了哪些值得谈的问题，分享了哪些亲身经历。' : '新工具、个人项目、开源实验，以及一个个从零开始的尝试。看看社区每个月关注了哪些创造。'}</p><div class="monthly-hero-actions"><a class="text-link" href="#archive">选择一个月份<Icon name="arrow" size={18} /></a><a href="#stories">先看档案末月 ↓</a></div></div><aside class="monthly-overview"><p class="eyebrow">2006.10 — 2026.08 / UTC</p><div><b>10</b><span>篇，<br />每个月的阅读起点。</span></div><p><span class="mono">{formatNumber(channel.monthly_entry_count)}</span> 条记录 · <span class="mono">{channel.nonempty_month_count}</span> 个有记录的月份</p><small>按得分排列 · 每篇一句中文导读</small></aside></div></section>
+  <AskShowTabs channel={channel.id} />
+  <p class="ask-show-scope">{ask ? 'Ask 包含原始无外链自帖，含 Tell HN、Launch HN 等自帖，排除 Show。' : 'Show 按原始标题的 Show HN 与早期 Show YC 前缀识别。'} <a href="#methodology">完整口径 ↗</a></p>
+  <MonthlyTopArchive project={channel} full />
+  <div class="monthly-alltime-intro"><p class="eyebrow">THE LAST MONTH IN THIS ARCHIVE</p><p>先看看档案末月 {latest.month} 的 {channel.title} Top 10。这个月仅覆盖截至 2026 年 8 月 23 日的存档日期；选择其他月份可继续往前翻。</p></div>
+  <MonthlyTopList entries={latest.entries} label={`${latest.month} · ${channel.title} Top 10`} pagePath={href(`${channel.path}/${latest.month}/`)} />
+  <AskShowMethod channel={channel.id} />
+  <script src="../../../../scripts/monthly-top.ts"></script>
+</SiteLayout>

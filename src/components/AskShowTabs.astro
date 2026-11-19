@@ -1,0 +1,9 @@
+---
+import { href } from '../lib/paths';
+interface Props { channel?: string; month?: string }
+const { channel = '', month = '' } = Astro.props;
+---
+<nav class="ask-show-tabs" aria-label="切换 Ask 或 Show 频道">
+  <a href={href(`hn/ask-show/ask/${month ? `${month}/` : ''}`)} aria-current={channel === 'ask' ? 'page' : undefined}><span class="mono">ASK</span><span>提问与交流</span></a>
+  <a href={href(`hn/ask-show/show/${month ? `${month}/` : ''}`)} aria-current={channel === 'show' ? 'page' : undefined}><span class="mono">SHOW</span><span>作品与创造</span></a>
+</nav>

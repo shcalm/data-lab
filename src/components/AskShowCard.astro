@@ -1,0 +1,8 @@
+---
+import Icon from './Icon.astro';
+import { getAskShow } from '../lib/ask-show.mjs';
+import { href } from '../lib/paths';
+import '../styles/ask-show.css';
+const project = getAskShow();
+---
+<article class="project-card project-monthly project-ask-show"><div class="card-eyebrow"><span class="eyebrow">07 / QUESTIONS & CREATIONS</span><span class="card-icon"><Icon name="calendar" size={25} /></span></div><div class="monthly-card-layout"><div><h3><a href={href(`${project.path}/`)}>{project.title}<Icon name="arrow-up" size={24} /></a></h3><p class="card-description">社区在问什么，又做出了什么？从提问、经验交流，到独立作品与新工具，每月各选 10 篇，沿着时间慢慢读。</p></div><div class="monthly-card-years"><span class="mono">ASK</span><span aria-hidden="true">＋</span><span class="mono">SHOW</span><small>{project.metadata.calendar_month_count} 个月 · {project.metadata.monthly_entry_count.toLocaleString('en-US')} 条记录</small></div></div><div class="card-footer"><span>原始标题 ＋ 一句中文导读</span><a href={href(`${project.path}/`)}>选择一个频道<Icon name="arrow" size={19} /></a></div></article>

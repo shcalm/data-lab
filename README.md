@@ -121,6 +121,22 @@ python3 tests/monthly_top_browser.py --base-url http://127.0.0.1:4321/data-lab/
 
 完整同步导出后核对连续月份、排名、全部中文导读、JSON／CSV／ZIP的一致性、补查时间和哈希。刷新查询值时使用新的缓存目录，保留旧版研究记录，不与旧快照混用。出现新入选条目时先补齐导读，否则指定 `--guides` 的导出会报错。原始API响应仅保存在研究项目中，发布目录保留其哈希和复核记录。
 
+## Ask / Show 每月 Top 10 维护
+
+`/hn/ask-show/` 提供两个频道入口，`/hn/ask-show/ask/` 与 `/hn/ask-show/show/` 各自提供完整年月档案，月页为 `/hn/ask-show/<频道>/YYYY-MM/`。每个频道覆盖2006-10至2026-08的239个连续UTC自然月，独立按score降序、时间升序、ID升序取前10。频道切换保留月份；空月与不足10篇的月份如实保留。
+
+Ask按原始无外链自帖识别，排除Show，因此包含Tell HN、Launch HN及其他自帖。Show按原始标题的Show HN／早期Show YC前缀识别，忽略大小写。Algolia频道标签与不限频道的story查询合并召回高分候选，与本地ID、精确时间、原始类别匹配；不限频道的检索继续到得分低于各频道入选门槛，以覆盖同分边界及标题／标签被修改的原始类别帖子。原始高分记录未被召回时用官方Firebase核对；保留当前状态与各字段来源。使用查询时分数，原始与当前分类可能不同，索引仍可能遗漏。
+
+共4,351篇不同主帖（Ask 2,348篇、Show 2,003篇），各配一句中文导读。规范数据位于 `public/downloads/hn-ask-show-top10/rankings.json`，由 `src/lib/ask-show.mjs` 直接读取。元数据为 `data/ask-show.json`，逐条中文导读编辑源为 `data/ask-show-guides.json`，与每条 `guide_zh` 一致。导读依据原题与已有自帖节选撰写，不概括外链全文或评论区。导出共966个文件，ZIP内含其余965个文件；两个频道、各月及ZIP须完整同步，网页与导出使用同一份数据；更新入选记录先补齐导读。
+
+```sh
+python3 scripts/hn-ask-show-top10/build_results.py --index /path/to/all-stories.parquet --output /path/to/results --cache /path/to/cache --guides data/ask-show-guides.json
+python3 -m unittest discover -s scripts/hn-ask-show-top10 -p 'test_*.py'
+python3 tests/ask_show_browser.py --base-url http://127.0.0.1:4326/data-lab/
+```
+
+复用同级 `hn-monthly-top20` 的来源、文本与导出辅助函数。刷新时使用新缓存并保留旧快照，核对所有月份、导读、数据来源、CSV／JSON／ZIP与哈希。验收同时覆盖原有月榜，避免共享日历和榜单组件改变已有行为。
+
 ## GitHub Pages 发布
 
 首次在仓库 **Settings → Pages → Build and deployment → Source** 中选择 **GitHub Actions**。随后向 `main` 推送提交，或在 Actions 页手动运行 **Publish Data Lab**。

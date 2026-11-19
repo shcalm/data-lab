@@ -1,0 +1,31 @@
+---
+import SiteLayout from '../../../../layouts/SiteLayout.astro';
+import MonthlyTopList from '../../../../components/MonthlyTopList.astro';
+import MonthlyTopArchive from '../../../../components/MonthlyTopArchive.astro';
+import AskShowTabs from '../../../../components/AskShowTabs.astro';
+import AskShowMethod from '../../../../components/AskShowMethod.astro';
+import Icon from '../../../../components/Icon.astro';
+import { getAskShow } from '../../../../lib/ask-show.mjs';
+import { formatNumber } from '../../../../lib/data.mjs';
+import { href } from '../../../../lib/paths';
+import '../../../../styles/ask-show.css';
+export function getStaticPaths() {
+  return Object.values(getAskShow().channels).flatMap(channel => channel.months.map((month,index) => ({params:{channel:channel.id,month:month.month},props:{channel,month,previous:channel.months[index-1],next:channel.months[index+1]}})));
+}
+const { channel, month, previous, next } = Astro.props;
+const project = getAskShow();
+const [year, number] = month.month.split('-');
+const label = `${year} 年 ${Number(number)} 月`;
+const pagePath = href(`${channel.path}/${month.month}/`);
+const partial = ['2006-10','2026-08'].includes(month.month);
+---
+<SiteLayout title={`${label} · ${channel.title} Top 10 · Data Lab`} description={`${label} 的 ${channel.title} 得分 Top 10，原始标题、一句中文导读与讨论入口。`} active="ask-show">
+  <section class="monthly-month-hero" id="top"><div class="breadcrumb"><a href={href()}>全部项目</a><span aria-hidden="true">/</span><a href={href(`${project.path}/`)}>Ask / Show</a><span aria-hidden="true">/</span><a href={href(`${channel.path}/`)}>{channel.title}</a><span aria-hidden="true">/</span><span>{month.month}</span></div><div class="monthly-month-title"><div><p class="eyebrow">{channel.title.toUpperCase()} / MONTHLY TOP 10</p><h1>{year}<span>年</span> <span class="green-text">{number}</span><span>月</span></h1><p>{channel.id === 'ask' ? '这个月，社区在问什么、聊什么？' : '这个月，社区做出了什么新作品？'}</p></div><div class="monthly-month-stat"><b class="mono">{formatNumber(month.eligible_story_count)}</b><span>篇本类有效主帖 · 入选 {month.entries.length} 篇</span></div></div><div class="monthly-month-note"><p>按得分降序 · 日期使用 UTC{partial && ' · 本月仅覆盖档案实际日期'}</p><div class="download-links"><a href={href(`${project.dataPath}/${channel.id}/${month.month}.csv`)} download>本月 CSV<Icon name="download" size={15} /></a><a href={href(`${project.dataPath}/${channel.id}/${month.month}.json`)} download>JSON<Icon name="download" size={15} /></a></div></div></section>
+  <AskShowTabs channel={channel.id} month={month.month} />
+  <nav class="monthly-neighbors" aria-label="按月翻阅">{previous ? <a rel="prev" href={href(`${channel.path}/${previous.month}/`)}><span aria-hidden="true">←</span><span>上一个月<b class="mono">{previous.month}</b></span></a> : <span class="monthly-end">档案起点 · 2006-10</span>}<a class="monthly-archive-link" href={href(`${channel.path}/#year-${year}`)}>全部月份<Icon name="calendar" size={17} /></a>{next ? <a rel="next" href={href(`${channel.path}/${next.month}/`)}><span>下一个月<b class="mono">{next.month}</b></span><span aria-hidden="true">→</span></a> : <span class="monthly-end">档案末月 · 2026-08</span>}</nav>
+  {month.entries.length > 0 && month.entries.length < 10 && <p class="ask-show-sparse">本月原始档案只有 {month.entries.length} 篇本类有效主帖，全部列出。</p>}
+  <MonthlyTopList entries={month.entries} label={`${label} · ${channel.title} Top 10`} pagePath={pagePath} emptyMessage="这个月，存档中没有本频道的有效主帖。" />
+  <MonthlyTopArchive project={channel} current={month.month} />
+  <AskShowMethod channel={channel.id} />
+  <script src="../../../../scripts/monthly-top.ts"></script>
+</SiteLayout>

@@ -1,0 +1,16 @@
+---
+import { getAskShow } from '../lib/ask-show.mjs';
+import { formatNumber } from '../lib/data.mjs';
+import { href } from '../lib/paths';
+import Icon from './Icon.astro';
+interface Props { channel?: string }
+const { channel = '' } = Astro.props;
+const project = getAskShow();
+const meta = project.metadata;
+const checkedFrom = meta.api_checked_from_utc.slice(0,10);
+const checkedTo = meta.api_checked_to_utc.slice(0,10);
+const checkedDates = checkedFrom === checkedTo ? checkedFrom : `${checkedFrom} 至 ${checkedTo}`;
+const download = file => href(`${project.dataPath}/${file}`);
+---
+<section class="monthly-downloads" id="downloads" aria-labelledby="downloads-title"><div><p class="eyebrow">QUESTIONS & CREATIONS / TO KEEP</p><h2 id="downloads-title">把好问题与好作品，留在手边。</h2><p>两个频道、全部月份，附中文导读与原始数据记录。</p></div><div class="monthly-download-buttons">{channel && <a href={download(`${channel}/rankings.csv`)} download>本频道 CSV<Icon name="download" size={17} /></a>}<a href={download('rankings.csv')} download>双频道 CSV<Icon name="download" size={17} /></a><a href={download('rankings.json')} download>JSON<Icon name="download" size={17} /></a><a href={download('rankings.md')} download>Markdown<Icon name="download" size={17} /></a><a href={download('hn-ask-show-top10.zip')} download>全部 ZIP<Icon name="download" size={17} /></a></div></section>
+<aside class="methodology-note monthly-method" id="methodology" aria-labelledby="method-title"><span class="note-index mono">BEHIND<br />THE RANKS</span><div><h2 id="method-title">同一个月，两种阅读方向。</h2><p>从本地档案的 {formatNumber(meta.eligible_story_count)} 篇有效主帖中，分别取 Ask、Show 的每月前 10 篇。范围为 2006.10.09 至 2026.08.23 UTC，按 UTC 发帖月份归档，得分降序，同分按发帖时间、ID 升序。评论数单独展示，不参与排名。</p><p>Ask 按原始记录中的无外链自帖识别，排除 Show，因而也包含 Tell HN、Launch HN 等自帖。Show 按原始标题的 Show HN 或早期 Show YC 前缀识别，忽略大小写。用 <a href="https://hn.algolia.com/">HN Algolia</a> 的频道标签与不限频道的主帖检索合并高分候选，与本地 ID、精确时间和原始类别匹配；不限频道的候选检索到低于各频道入选门槛，覆盖同分边界，也覆盖后来修改标题、移除标签的帖子。原始高分记录未被召回时，另用 <a href="https://github.com/HackerNews/API">HN 官方 API</a>核对，共补入 {meta.official_selected_count} 篇。</p><p>得分补查于 {checkedDates} UTC，使用查询时分数，不能还原月末得分或历史首页排名。原始与当前频道分类可能不同，搜索索引也可能遗漏；原始低分可能掩盖漏项。标题、外链和自帖节选保留原始记录，分数与评论来源各自列明。首末月仅含档案实际日期，空月与不足 10 篇的月份如实保留。</p><p>每篇配一句模型依据原题与已有自帖节选逐条撰写的中文导读，帮助选择阅读。导读不概括外链全文或评论区，原题中的观点与疑问保留作者归属。</p><p>数据来自 <a href={meta.dataset_url}>open-index/hacker-news</a>，ODC-By-1.0；内容权利归原作者。<a href={download('README.md')} download>完整口径与复现说明<Icon name="download" size={13} /></a> · <a href={download('verification.json')} download>核验记录<Icon name="download" size={13} /></a>。</p></div></aside>

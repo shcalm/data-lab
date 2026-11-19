@@ -1,0 +1,7 @@
+{
+  "id": "ask-show",
+  "title": "Ask / Show 每月 Top 10",
+  "description": "每月十个问题，十个创造。按得分整理 Hacker News 的 Ask 与 Show 频道，保留原题、中文导读和讨论入口。",
+  "path": "hn/ask-show",
+  "dataPath": "downloads/hn-ask-show-top10"
+}
