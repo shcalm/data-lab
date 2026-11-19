@@ -1,0 +1,349 @@
+{
+  "topic": {
+    "id": "course-discovery",
+    "title_zh": "到哪里找完整大学课程与MOOC",
+    "question_zh": "除了算法推荐的短视频，怎样找到成体系的讲座、作业与阅读材料？",
+    "description_zh": "整理被网友明确推荐的课程目录，区分大学资料库、学科视频索引和跨平台选课站。",
+    "source_story_ids": [
+      22826722,
+      23722680,
+      25245125,
+      27782300,
+      34591291,
+      35536042
+    ],
+    "resource_ids": [
+      "mit-ocw",
+      "open-yale",
+      "nptel",
+      "class-central",
+      "developer-y-course-index",
+      "helsinki-mooc-directory"
+    ],
+    "resource_count": 6
+  },
+  "resources": [
+    {
+      "id": "mit-ocw",
+      "title": "MIT OpenCourseWare",
+      "provider": "Massachusetts Institute of Technology",
+      "format": "course_directory",
+      "topics": [
+        "course-discovery"
+      ],
+      "summary_zh": "MIT开放的大学课程资料库，可按课程编号寻找讲座、讲义、阅读和作业。适合愿意按完整课程节奏学习、而非只挑零散视频的人。",
+      "prerequisites_zh": "因课程而异；按课程页检查先修知识及材料是否齐全。",
+      "why_recommended_zh": "网友把它作为深入学习大学课程的入口，同时提醒课程资料的完整程度不同。",
+      "resource_url": "https://ocw.mit.edu/",
+      "evidence": [
+        {
+          "resource_id": "mit-ocw",
+          "resource_title": "MIT OpenCourseWare",
+          "story_id": 22826722,
+          "item_id": 22833320,
+          "quote": "If you want classes that are more advanced or that go into greater depth, I recommend the courses offered by edX or Stanford-online or MIT OpenCourseware.",
+          "stance": "recommendation",
+          "reason_zh": "寻找更深入的课程时，评论者推荐MIT OCW等大学入口。",
+          "item_url": "https://news.ycombinator.com/item?id=22833320",
+          "story_url": "https://news.ycombinator.com/item?id=22826722",
+          "author": "randcraw",
+          "created_at_utc": "2020-04-10T14:26:27.000Z",
+          "cache_file": "research/stem/threads/22826722.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "mit-ocw",
+          "resource_title": "MIT OpenCourseWare",
+          "story_id": 27782300,
+          "item_id": 27783155,
+          "quote": "It helps to learn a specific school's curriculum (Stanford and Berkeley also have great resources) and target specific courses.",
+          "stance": "qualified_recommendation",
+          "reason_zh": "建议先了解大学课程表，再按具体课程定向查找资料。",
+          "item_url": "https://news.ycombinator.com/item?id=27783155",
+          "story_url": "https://news.ycombinator.com/item?id=27782300",
+          "author": "PennRobotics",
+          "created_at_utc": "2021-07-09T12:49:25.000Z",
+          "cache_file": "research/routes/threads/27782300.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "mit-ocw",
+          "resource_title": "MIT OpenCourseWare",
+          "story_id": 23722680,
+          "item_id": 23728309,
+          "quote": "I'm currently frustrated because I'm working through the text, lecture notes and problem sets for MIT 6.045J: Automata, Computability and Complexity[0]. But there are no solutions to the problem sets!",
+          "stance": "criticism",
+          "reason_zh": "一个具体自学案例：所用历史课程缺少习题解答，难以获得证明反馈。",
+          "item_url": "https://news.ycombinator.com/item?id=23728309",
+          "story_url": "https://news.ycombinator.com/item?id=23722680",
+          "author": "bhntr3",
+          "created_at_utc": "2020-07-03T22:51:41.000Z",
+          "cache_file": "research/general/threads/23722680.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "这是资料库入口，不作为单门课程；不保证每门都有视频、答案或在线评分。",
+      "research_area": "general",
+      "source_story_count": 3,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://ocw.mit.edu/",
+        "checked_at_utc": "2026-11-19T03:52:59.121163+00:00",
+        "status": 206,
+        "final_url": "https://ocw.mit.edu/",
+        "page_title": "MIT OpenCourseWare | Free Online Course Materials",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "open-yale",
+      "title": "Open Yale Courses",
+      "provider": "Yale University",
+      "format": "course_directory",
+      "topics": [
+        "course-discovery"
+      ],
+      "summary_zh": "耶鲁的完整课程目录，适合从哲学、历史、经济等方向寻找连续讲座。可以先试听一讲，再选择某门课持续学习。",
+      "prerequisites_zh": "因课程而异，许多内容为大学通识或导论课。",
+      "why_recommended_zh": "评论者赞赏课程的筛选与组织，认为它有别于随意堆放的新课堂录影。",
+      "resource_url": "https://oyc.yale.edu/courses",
+      "evidence": [
+        {
+          "resource_id": "open-yale",
+          "resource_title": "Open Yale Courses",
+          "story_id": 34591291,
+          "item_id": 34596669,
+          "quote": "Anything I have watched from Open Yale has been fantastic too. I feel like they have done a great job of curation and not just creating a list of random new class recordings.",
+          "stance": "recommendation",
+          "reason_zh": "评论者认为课程经过了有质量的筛选。",
+          "item_url": "https://news.ycombinator.com/item?id=34596669",
+          "story_url": "https://news.ycombinator.com/item?id=34591291",
+          "author": "epistemer",
+          "created_at_utc": "2023-01-31T15:52:06.000Z",
+          "cache_file": "research/cs/newer/threads/34591291.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "具体课程另列；目录本身不是一门课。",
+      "research_area": "general",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 1,
+      "link_check": {
+        "url": "https://oyc.yale.edu/courses",
+        "checked_at_utc": "2026-11-19T03:53:00.101584+00:00",
+        "status": 206,
+        "final_url": "https://oyc.yale.edu/courses",
+        "page_title": "Courses | Open Yale Courses",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "nptel",
+      "title": "NPTEL",
+      "provider": "Indian Institutes of Technology / Indian Institute of Science",
+      "format": "course_directory",
+      "topics": [
+        "course-discovery"
+      ],
+      "summary_zh": "印度高校开放的理工课程入口，既有基础课，也能找到一些较冷门的高级专题。适合在常见MOOC平台之外寻找大学层次材料的人。",
+      "prerequisites_zh": "随学科与课程层次变化；需适应授课语言与口音。",
+      "why_recommended_zh": "网友看重其大量理工内容，尤其是其他平台较难找到的高级课程。",
+      "resource_url": "https://nptel.ac.in/",
+      "evidence": [
+        {
+          "resource_id": "nptel",
+          "resource_title": "NPTEL",
+          "story_id": 34591291,
+          "item_id": 34596283,
+          "quote": "For those not in the know NPTEL has a boatload of high quality STEM content. Often they will be the only place you can find the more advanced courses on certain less popular STEM courses.",
+          "stance": "recommendation",
+          "reason_zh": "高级和较冷门理工课程的补充入口。",
+          "item_url": "https://news.ycombinator.com/item?id=34596283",
+          "story_url": "https://news.ycombinator.com/item?id=34591291",
+          "author": "arisbe__",
+          "created_at_utc": "2023-01-31T15:28:23.000Z",
+          "cache_file": "research/cs/newer/threads/34591291.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "nptel",
+          "resource_title": "NPTEL",
+          "story_id": 23722680,
+          "item_id": 23737185,
+          "quote": "If you don't have problem understanding Indian accent, India's NPTEL publishes University level courses on this site:",
+          "stance": "qualified_recommendation",
+          "reason_zh": "推荐大学层次课程，同时提醒口音适应问题。",
+          "item_url": "https://news.ycombinator.com/item?id=23737185",
+          "story_url": "https://news.ycombinator.com/item?id=23722680",
+          "author": "yogeshp",
+          "created_at_utc": "2020-07-05T07:42:55.000Z",
+          "cache_file": "research/general/threads/23722680.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "使用门户首页替代原评论的旧course.html入口；证书、考试和授课安排按具体课程查询。",
+      "research_area": "general",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://nptel.ac.in/",
+        "checked_at_utc": "2026-11-19T03:52:59.121030+00:00",
+        "status": 206,
+        "final_url": "https://nptel.ac.in/",
+        "page_title": "NPTEL | Learn from the IITs and IISc",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "class-central",
+      "title": "Class Central",
+      "provider": "Class Central",
+      "format": "course_directory",
+      "topics": [
+        "course-discovery"
+      ],
+      "summary_zh": "跨平台查找MOOC与大学在线课程的目录，可按主题和平台继续筛选。适合尚未确定具体课程、想先比较选择的人。",
+      "prerequisites_zh": "无统一先修要求；由所选课程决定。",
+      "why_recommended_zh": "原帖读者将其作为寻找被忽略的好课程和跨平台选课的入口。",
+      "resource_url": "https://www.classcentral.com/collection/top-free-online-courses",
+      "evidence": [
+        {
+          "resource_id": "class-central",
+          "resource_title": "Class Central",
+          "story_id": 35536042,
+          "item_id": 35542950,
+          "quote": "There's also a website dedicated to MOOCs, and some underrated gems are there: Class Central.",
+          "stance": "recommendation",
+          "reason_zh": "寻找较少被注意的课程。",
+          "item_url": "https://news.ycombinator.com/item?id=35542950",
+          "story_url": "https://news.ycombinator.com/item?id=35536042",
+          "author": "rg111",
+          "created_at_utc": "2023-04-12T17:03:46.000Z",
+          "cache_file": "research/cs/newer/threads/35536042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "class-central",
+          "resource_title": "Class Central",
+          "story_id": 25245125,
+          "item_id": 25245801,
+          "quote": "(Not just on Coursera, but also others. You can filter for the Coursera ones.)",
+          "stance": "recommendation",
+          "reason_zh": "不限于Coursera，也可按平台筛选。",
+          "item_url": "https://news.ycombinator.com/item?id=25245801",
+          "story_url": "https://news.ycombinator.com/item?id=25245125",
+          "author": "jschulenklopper",
+          "created_at_utc": "2020-11-29T15:49:39.000Z",
+          "cache_file": "research/general/threads/25245125.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "目录推荐不表示每个收录课程都经本次核验，也不代表其历史“free”分类等于当前全部免费。",
+      "research_area": "general",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://www.classcentral.com/collection/top-free-online-courses",
+        "checked_at_utc": "2026-11-19T03:53:01.042527+00:00",
+        "status": 403,
+        "final_url": "https://www.classcentral.com/collection/top-free-online-courses",
+        "result": "http_error",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "id": "developer-y-course-index",
+      "title": "CS Video Courses",
+      "provider": "Developer-Y / GitHub contributors",
+      "format": "course_directory",
+      "topics": [
+        "course-discovery"
+      ],
+      "summary_zh": "按计算机学科整理大学视频课程的开源索引，适合围绕一个知识缺口寻找不同学校的讲法。评论还同时推荐了同系列的数学、科学和工程课程目录。",
+      "prerequisites_zh": "依具体课程要求而定。",
+      "why_recommended_zh": "在读者请求大学层次课程时，评论者直接提供这一按学科收集的入口。",
+      "resource_url": "https://github.com/Developer-Y/cs-video-courses",
+      "evidence": [
+        {
+          "resource_id": "developer-y-course-index",
+          "resource_title": "CS Video Courses",
+          "story_id": 23722680,
+          "item_id": 23737185,
+          "quote": "If you want University level courses, then here are few links: CS Video courses: https://github.com/Developer-Y/cs-video-courses",
+          "stance": "recommendation",
+          "reason_zh": "大学课程资源索引推荐。",
+          "item_url": "https://news.ycombinator.com/item?id=23737185",
+          "story_url": "https://news.ycombinator.com/item?id=23722680",
+          "author": "yogeshp",
+          "created_at_utc": "2020-07-05T07:42:55.000Z",
+          "cache_file": "research/general/threads/23722680.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "证据是对目录的推荐，没有声称完成目录内全部课程。",
+      "research_area": "general",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 1,
+      "link_check": {
+        "url": "https://github.com/Developer-Y/cs-video-courses",
+        "checked_at_utc": "2026-11-19T03:52:59.120682+00:00",
+        "status": 206,
+        "final_url": "https://github.com/Developer-Y/cs-video-courses",
+        "page_title": "GitHub - Developer-Y/cs-video-courses: List of Computer Science courses with video lectures. · GitHub",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "helsinki-mooc-directory",
+      "title": "University of Helsinki MOOCs",
+      "provider": "University of Helsinki",
+      "format": "course_directory",
+      "topics": [
+        "course-discovery"
+      ],
+      "summary_zh": "赫尔辛基大学的开放课程入口，原评论特别提到Python、Java与数据分析。适合优先寻找大学维护、以编程练习配合学习的课程。",
+      "prerequisites_zh": "依所选课程而定。",
+      "why_recommended_zh": "在“哪些大学课程可在线学习”的讨论里，被直接作为选课入口推荐。",
+      "resource_url": "https://www.mooc.fi/en/",
+      "evidence": [
+        {
+          "resource_id": "helsinki-mooc-directory",
+          "resource_title": "University of Helsinki MOOCs",
+          "story_id": 35536042,
+          "item_id": 35539239,
+          "quote": "University of Helsinki provides free courses on Python, Java, Data Analysis and so on: https://www.mooc.fi/en/",
+          "stance": "recommendation",
+          "reason_zh": "推荐赫尔辛基大学的开放课程集合。",
+          "item_url": "https://news.ycombinator.com/item?id=35539239",
+          "story_url": "https://news.ycombinator.com/item?id=35536042",
+          "author": "asicsp",
+          "created_at_utc": "2023-04-12T13:24:12.000Z",
+          "cache_file": "research/cs/newer/threads/35536042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "“free”为原评论的历史描述，当前规则以课程页为准；没有据此认定评论者完成过具体课程。",
+      "research_area": "general",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 1,
+      "link_check": {
+        "url": "https://www.mooc.fi/en/",
+        "checked_at_utc": "2026-11-19T03:53:01.282225+00:00",
+        "status": 200,
+        "final_url": "https://www.mooc.fi/en/",
+        "page_title": "",
+        "result": "reachable"
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "topic": {
+    "id": "hum-classical-languages",
+    "title_zh": "古典语言与原文阅读",
+    "question_zh": "自学拉丁语时，有什么能逐步引向原文阅读的完整材料？",
+    "description_zh": "优先有多人推荐、难度逐步上升的教材，并保留购买与学习顺序的限制。",
+    "source_story_ids": [
+      26609397
+    ],
+    "resource_ids": [
+      "hum-lingua-latina"
+    ],
+    "resource_count": 1
+  },
+  "resources": [
+    {
+      "id": "hum-lingua-latina",
+      "title": "Lingua Latina per se Illustrata: Familia Romana",
+      "provider": "Hans H. Ørberg / Hackett、Focus",
+      "format": "book",
+      "format_detail_zh": "渐进读本 / 自学教材系列",
+      "topics": [
+        "hum-classical-languages"
+      ],
+      "summary_zh": "通过完全以拉丁文写成、难度逐步增加的故事学习拉丁语，第一册为Familia Romana。适合以阅读原文为目标、愿意反复阅读并配合语法练习的人。",
+      "prerequisites_zh": "评论把它用于自学；不同学习者对是否先背词形表意见不同，可按自身基础配合练习册和语法表。",
+      "why_recommended_zh": "不同评论者都明确推荐其渐进阅读方式；一位学过配套练习的人认为第一册就能支持继续读中世纪拉丁文，不必起步时购买整套。",
+      "resource_url": "https://hackettpublishing.com/lingua-latina-per-se-illustrata-series",
+      "resource_url_basis": {
+        "type": "official_navigation",
+        "from_url": "https://hackettpublishing.com/",
+        "href": "https://hackettpublishing.com/lingua-latina-per-se-illustrata-series",
+        "record": "official-page-checks.json: llpsi-publisher-home"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-lingua-latina",
+          "resource_title": "Lingua Latina per se Illustrata: Familia Romana",
+          "story_id": 26609397,
+          "item_id": 26619820,
+          "quote": "For self study I also suggest reading Lingua Latina Per Se Illustrata, it's a book completely written in Latin that gets progressively more complex and guides you through the language in an utilitarian way.",
+          "stance": "recommendation",
+          "reason_zh": "明确推荐教材，并解释其渐进、全拉丁文方法。",
+          "author": "tomcooks",
+          "item_url": "https://news.ycombinator.com/item?id=26619820",
+          "story_url": "https://news.ycombinator.com/item?id=26609397",
+          "created_at_utc": "2021-03-29T10:49:19.000Z",
+          "cache_file": "research/humanities/threads/26609397.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-lingua-latina",
+          "resource_title": "Lingua Latina per se Illustrata: Familia Romana",
+          "story_id": 26609397,
+          "item_id": 26621761,
+          "quote": "I think Lingua Latina is an amazing book! PSA: you only need the first book. The second is pretty much a reader.",
+          "stance": "qualified_recommendation",
+          "reason_zh": "另一位评论者强烈推荐，且提醒不必一开始购买整套。",
+          "author": "teataster",
+          "item_url": "https://news.ycombinator.com/item?id=26621761",
+          "story_url": "https://news.ycombinator.com/item?id=26609397",
+          "created_at_utc": "2021-03-29T14:07:22.000Z",
+          "cache_file": "research/humanities/threads/26609397.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-lingua-latina",
+          "resource_title": "Lingua Latina per se Illustrata: Familia Romana",
+          "story_id": 26609397,
+          "item_id": 26622303,
+          "quote": "I am happy I have Roma Aeterna, but I did not finish it, and I read medieval works quite fluently.",
+          "stance": "qualified_recommendation",
+          "reason_zh": "配套教材使用者说明第二册并非自己读中世纪作品的必要前提。",
+          "author": "teataster",
+          "item_url": "https://news.ycombinator.com/item?id=26622303",
+          "story_url": "https://news.ycombinator.com/item?id=26609397",
+          "created_at_utc": "2021-03-29T14:37:27.000Z",
+          "cache_file": "research/humanities/threads/26609397.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "这是商业教材，不承诺免费。发布Show HN项目的作者也赞同本书，但这里的主要证据取自其他评论者；不把项目作者自推当成独立背书。",
+      "related_resource_urls": [],
+      "research_area": "humanities",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 3,
+      "link_check": {
+        "url": "https://hackettpublishing.com/lingua-latina-per-se-illustrata-series",
+        "checked_at_utc": "2026-11-19T03:58:43.999359+00:00",
+        "status": 200,
+        "final_url": "https://hackettpublishing.com/lingua-latina-per-se-illustrata-series",
+        "page_title": "Lingua Latina per se illustrata series",
+        "result": "reachable"
+      }
+    }
+  ]
+}

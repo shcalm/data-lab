@@ -1,0 +1,169 @@
+{
+  "topic": {
+    "id": "cs-study-paths",
+    "title_zh": "怎样把计算机课程排成学习路线",
+    "question_zh": "会写代码之后，怎样系统补齐基础；零基础又该怎样起步？",
+    "description_zh": "比较主题式书课配对与完整MOOC课程表，结合已有基础和学习目标选择路线。",
+    "source_story_ids": [
+      23588896,
+      21062799
+    ],
+    "resource_ids": [
+      "teach-yourself-cs",
+      "ossu-cs"
+    ],
+    "resource_count": 2
+  },
+  "resources": [
+    {
+      "id": "teach-yourself-cs",
+      "title": "Teach Yourself Computer Science",
+      "provider": "Bradfield / Teach Yourself CS",
+      "format": "study_path",
+      "topics": [
+        "cs-study-paths"
+      ],
+      "summary_zh": "按计算机核心主题配对教材与视频课程，帮助已有编程经验的人补齐知识结构。适合想深入理解系统原理、希望按主题安排学习的人。",
+      "prerequisites_zh": "更适合已有编程接触或软件工作经验者。",
+      "why_recommended_zh": "推荐者看重每个主题同时提供书籍和视频，以及对核心知识范围的明确划分。",
+      "resource_url": "https://teachyourselfcs.com/",
+      "evidence": [
+        {
+          "resource_id": "teach-yourself-cs",
+          "resource_title": "Teach Yourself Computer Science",
+          "story_id": 21062799,
+          "item_id": 21067697,
+          "quote": "I prefer TeachYourSelfCS. - Because (a) they provide both Book AND Video/MOOC resource for each topic and (b) its a lot more apparent what the 'core' knowledge you need to attain to get a solid undergrad level knowledge base is.",
+          "stance": "recommendation",
+          "reason_zh": "按主题给出书籍与视频，并明确核心知识范围。",
+          "item_url": "https://news.ycombinator.com/item?id=21067697",
+          "story_url": "https://news.ycombinator.com/item?id=21062799",
+          "author": "Osiris30",
+          "created_at_utc": "2019-09-25T04:49:48.000Z",
+          "cache_file": "research/cs/threads/21062799.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "teach-yourself-cs",
+          "resource_title": "Teach Yourself Computer Science",
+          "story_id": 23588896,
+          "item_id": 23589429,
+          "quote": "Teachyourselfcs.com is definitely in the conversation - in general I recommend it to friends who have a pre-existing \"gateway\" to the field (software engineer or otherwise).",
+          "stance": "recommendation",
+          "reason_zh": "评论者把它推荐给已经接触计算机领域的人。",
+          "item_url": "https://news.ycombinator.com/item?id=23589429",
+          "story_url": "https://news.ycombinator.com/item?id=23588896",
+          "author": "seven4",
+          "created_at_utc": "2020-06-21T03:10:25.000Z",
+          "cache_file": "research/cs/threads/23588896.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "teach-yourself-cs",
+          "resource_title": "Teach Yourself Computer Science",
+          "story_id": 23588896,
+          "item_id": 23589816,
+          "quote": "The problem was a lot of it wasn’t job relevant and it felt very rigid, and sometimes even more complex than it needed to be.",
+          "stance": "criticism",
+          "reason_zh": "一位以尽快转行做软件为目标的读者认为大学式路线不够贴近其目标。",
+          "item_url": "https://news.ycombinator.com/item?id=23589816",
+          "story_url": "https://news.ycombinator.com/item?id=23588896",
+          "author": "hckr_news",
+          "created_at_utc": "2020-06-21T04:42:18.000Z",
+          "cache_file": "research/cs/threads/23588896.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "路线与单门课分开统计；按主题深入学习，与尽快掌握某个应用技术的目标不同。评论针对当时版本。",
+      "research_area": "general",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://teachyourselfcs.com/",
+        "checked_at_utc": "2026-11-19T03:53:00.127713+00:00",
+        "status": 206,
+        "final_url": "https://teachyourselfcs.com/",
+        "page_title": "Teach Yourself Computer Science",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "ossu-cs",
+      "title": "OSSU Computer Science",
+      "provider": "Open Source Society University",
+      "format": "study_path",
+      "topics": [
+        "cs-study-paths"
+      ],
+      "summary_zh": "把MOOC和教材组织成较完整的计算机科学自学课程表，适合愿意持续投入、希望有明确结构的学习者。可用它规划顺序，再按自己的基础取舍。",
+      "prerequisites_zh": "需要长期学习投入，具体先修要求按所选课程确认。",
+      "why_recommended_zh": "推荐者看重MOOC提供的进度、练习和结构，也有人认为路线过长、不同课程质量不一致。",
+      "resource_url": "https://github.com/ossu/computer-science",
+      "evidence": [
+        {
+          "resource_id": "ossu-cs",
+          "resource_title": "OSSU Computer Science",
+          "story_id": 23588896,
+          "item_id": 23589845,
+          "quote": "I strongly recommend OSSU! Both books and MOOCs have their place, and sometimes a MOOC is easier to stay motivated, provided a schedule, and exercises of appropriate number and difficulty.",
+          "stance": "recommendation",
+          "reason_zh": "更容易靠安排与适当练习维持学习动力。",
+          "item_url": "https://news.ycombinator.com/item?id=23589845",
+          "story_url": "https://news.ycombinator.com/item?id=23588896",
+          "author": "pretzell",
+          "created_at_utc": "2020-06-21T04:47:42.000Z",
+          "cache_file": "research/cs/threads/23588896.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "ossu-cs",
+          "resource_title": "OSSU Computer Science",
+          "story_id": 23588896,
+          "item_id": 23589429,
+          "quote": "For people who are more \"virgin\" and fresh but are willing to put in the work - I recommend OSSU (\"open source curriculum\") - and i've found for whatever reason that structure has let them gradient in with more success.",
+          "stance": "recommendation",
+          "reason_zh": "评论者更愿意把有结构的路线推荐给愿意投入的新人。",
+          "item_url": "https://news.ycombinator.com/item?id=23589429",
+          "story_url": "https://news.ycombinator.com/item?id=23588896",
+          "author": "seven4",
+          "created_at_utc": "2020-06-21T03:10:25.000Z",
+          "cache_file": "research/cs/threads/23588896.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "ossu-cs",
+          "resource_title": "OSSU Computer Science",
+          "story_id": 21062799,
+          "item_id": 21063123,
+          "quote": "This has some good courses, but in general seems overly long and is of inconsistent quality.",
+          "stance": "criticism",
+          "reason_zh": "另一位读者认为总路线过长，课程选择质量参差。",
+          "item_url": "https://news.ycombinator.com/item?id=21063123",
+          "story_url": "https://news.ycombinator.com/item?id=21062799",
+          "author": "jamestimmins",
+          "created_at_utc": "2019-09-24T18:20:52.000Z",
+          "cache_file": "research/cs/threads/21062799.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "自学课程表持续更新，讨论指向历史版本；页面不等于大学授予的学历。",
+      "research_area": "general",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://github.com/ossu/computer-science",
+        "checked_at_utc": "2026-11-19T03:52:59.120861+00:00",
+        "status": 206,
+        "final_url": "https://github.com/ossu/computer-science",
+        "page_title": "GitHub - ossu/computer-science: 🎓 Path to a free self-taught education in Computer Science! · GitHub",
+        "result": "reachable"
+      }
+    }
+  ]
+}

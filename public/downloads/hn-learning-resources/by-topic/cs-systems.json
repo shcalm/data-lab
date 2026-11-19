@@ -1,0 +1,498 @@
+{
+  "topic": {
+    "id": "cs-systems",
+    "title_zh": "从逻辑门走到操作系统",
+    "question_zh": "代码下面究竟发生了什么，怎样通过实验理解硬件、内存和内核？",
+    "description_zh": "讨论反复推荐可运行的项目与实验：Nand2Tetris连起层次，CS:APP补系统视角，OSTEP与ops-class分别提供解释与内核动手训练。",
+    "source_story_ids": [
+      12773649,
+      23588896,
+      16745042,
+      43056456,
+      40037324
+    ],
+    "resource_ids": [
+      "cs-nand2tetris",
+      "cs-csapp",
+      "cs-ostep",
+      "cs-ops-class",
+      "cs-mit-distributed",
+      "cs-cornell-compilers"
+    ],
+    "resource_count": 6
+  },
+  "resources": [
+    {
+      "id": "cs-nand2tetris",
+      "title": "Nand2Tetris / The Elements of Computing Systems",
+      "provider": "Noam Nisan、Shimon Schocken",
+      "format": "online_course",
+      "format_detail_zh": "项目课程 / 教材 / 模拟器",
+      "topics": [
+        "cs-systems",
+        "cs-language-implementation",
+        "cs-foundations"
+      ],
+      "summary_zh": "从逻辑门搭建CPU，再写汇编器、虚拟机、编译器和运行库，最后在自己构建的栈上运行程序。适合希望把硬件到软件各层连起来、喜欢持续动手的人。",
+      "prerequisites_zh": "建议有基本编程经验；涉及多个层次，不能把前半段完成等同于整套课程完成。",
+      "why_recommended_zh": "跨2018与2025年的独立学习者反复推荐；最具体的收益是理解层次如何连接、在模拟器中得到可工作的系统。",
+      "resource_url": "https://www.nand2tetris.org/course",
+      "source_type": "community_recommendation",
+      "evidence": [
+        {
+          "resource_id": "cs-nand2tetris",
+          "resource_title": "Nand2Tetris / The Elements of Computing Systems",
+          "story_id": 16745042,
+          "item_id": 16746368,
+          "quote": "As the name suggests, they teach the necessary to build your own computer, assembler, language and finally a simple game. I would say it goes to an \"appropriate\" level of detail.",
+          "stance": "recommendation",
+          "reason_zh": "修课者明确描述整栈项目与合适的教学粒度。",
+          "author": "kroltan",
+          "source_type": "community_comment",
+          "parent_item_id": 16745042,
+          "source_url": "https://news.ycombinator.com/item?id=16746368",
+          "item_url": "https://news.ycombinator.com/item?id=16746368",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T16:34:10.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "cs-nand2tetris",
+          "resource_title": "Nand2Tetris / The Elements of Computing Systems",
+          "story_id": 43056456,
+          "item_id": 43087867,
+          "quote": "Both the course and the book are phenomenal. In my opinion they are up there as one of the best CS resources. I finished it two years ago and still think about it fairly often. The compiler exercise is beyond excellent and cracking it feels like a milestone.",
+          "stance": "recommendation",
+          "reason_zh": "2025年独立完课者特别肯定编译器练习与长期记忆。",
+          "author": "lordviet",
+          "source_type": "community_comment",
+          "parent_item_id": 43056456,
+          "source_url": "https://news.ycombinator.com/item?id=43087867",
+          "item_url": "https://news.ycombinator.com/item?id=43087867",
+          "story_url": "https://news.ycombinator.com/item?id=43056456",
+          "created_at_utc": "2025-02-18T09:50:14.000Z",
+          "cache_file": "research/cs/extra/threads/43056456.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "cs-nand2tetris",
+          "resource_title": "Nand2Tetris / The Elements of Computing Systems",
+          "story_id": 16745042,
+          "item_id": 16745842,
+          "quote": "The courses are definitely very challenging and some previous exposure to the topics is desired.",
+          "stance": "qualified_recommendation",
+          "reason_zh": "对第二部分给出明确难度和既有接触经验的条件。",
+          "author": "dmytrish",
+          "source_type": "community_comment",
+          "parent_item_id": 16745588,
+          "source_url": "https://news.ycombinator.com/item?id=16745842",
+          "item_url": "https://news.ycombinator.com/item?id=16745842",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T15:50:46.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "2025年项目8进行中的读者报告：官网前6个项目附相关书章，之后购买了教材；这是当时个人经历，不保证今后的授权条件。",
+      "resource_url_provenance": {
+        "story_id": 43056456,
+        "item_id": 43086810,
+        "location": "comment href"
+      },
+      "research_area": "cs",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 3,
+      "link_check": {
+        "url": "https://www.nand2tetris.org/course",
+        "checked_at_utc": "2026-11-19T03:59:02.178845+00:00",
+        "status": 200,
+        "final_url": "https://www.nand2tetris.org/course",
+        "page_title": "",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "cs-csapp",
+      "title": "Computer Systems: A Programmer's Perspective (CS:APP) + labs",
+      "provider": "Carnegie Mellon / Randal E. Bryant、David R. O’Hallaron",
+      "format": "book",
+      "format_detail_zh": "教材 / 系统编程实验",
+      "topics": [
+        "cs-systems"
+      ],
+      "summary_zh": "从程序员视角理解数据表示、汇编、内存、缓存、并发及系统调用相关行为。配套实验让学习者练习拆解程序、实现内存分配器和代理服务器。",
+      "prerequisites_zh": "建议已能写C程序，并准备阅读汇编和调试内存问题。",
+      "why_recommended_zh": "修课者具体肯定选题、解释和有趣的实验；另一位CMU学生逐项描述了实验如何覆盖系统基础。",
+      "resource_url": "http://csapp.cs.cmu.edu/3e/home.html",
+      "source_type": "community_recommendation",
+      "evidence": [
+        {
+          "resource_id": "cs-csapp",
+          "resource_title": "Computer Systems: A Programmer's Perspective (CS:APP) + labs",
+          "story_id": 23588896,
+          "item_id": 23595803,
+          "quote": "It is really well written, has a great choice of topics, and phenomenal exercises [0] for practice (some are legitimately fun).",
+          "stance": "recommendation",
+          "reason_zh": "读者明确针对CS:APP的行文、主题选择和练习给出正面评价。",
+          "author": "doctorsher",
+          "source_type": "community_comment",
+          "parent_item_id": 23592983,
+          "source_url": "https://news.ycombinator.com/item?id=23595803",
+          "item_url": "https://news.ycombinator.com/item?id=23595803",
+          "story_url": "https://news.ycombinator.com/item?id=23588896",
+          "created_at_utc": "2020-06-21T22:10:30.000Z",
+          "cache_file": "research/cs/threads/23588896.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "cs-csapp",
+          "resource_title": "Computer Systems: A Programmer's Perspective (CS:APP) + labs",
+          "story_id": 12773649,
+          "item_id": 12774258,
+          "quote": "I took 213 at CMU. Can't recommend it highly enough. A lot of other intro systems courses are based off that. It is a prerequisite for most classes moving forward at CMU.",
+          "stance": "recommendation",
+          "reason_zh": "另一位CMU213修课者强烈推荐；后文具体列出位操作、缓存、malloc及线程代理实验。",
+          "author": "bitwiseand",
+          "source_type": "community_comment",
+          "parent_item_id": 12774076,
+          "source_url": "https://news.ycombinator.com/item?id=12774258",
+          "item_url": "https://news.ycombinator.com/item?id=12774258",
+          "story_url": "https://news.ycombinator.com/item?id=12773649",
+          "created_at_utc": "2016-10-23T16:49:16.000Z",
+          "cache_file": "research/cs/threads/12773649.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "本条将教材与公开自学版labs作为一个资源包；不保证CMU校内作业、参考解答或账号权限对外开放。公开labs入口也在原评论中直接出现。",
+      "resource_url_provenance": {
+        "page": "pages/teachyourselfcs.html",
+        "source_url": "https://teachyourselfcs.com",
+        "location": "article href; labs exact URL in comment 23595803"
+      },
+      "research_area": "cs",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "http://csapp.cs.cmu.edu/3e/home.html",
+        "checked_at_utc": "2026-11-19T03:58:38.544776+00:00",
+        "status": 206,
+        "final_url": "https://csapp.cs.cmu.edu/3e/home.html",
+        "page_title": "CS:APP3e, Bryant and O'Hallaron",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "cs-ostep",
+      "title": "Operating Systems: Three Easy Pieces (OSTEP)",
+      "provider": "University of Wisconsin–Madison / Remzi H. Arpaci-Dusseau、Andrea C. Arpaci-Dusseau",
+      "format": "online_book",
+      "format_detail_zh": "公开教材 / 练习",
+      "topics": [
+        "cs-systems"
+      ],
+      "summary_zh": "围绕虚拟化、并发和持久化解释操作系统，连接CPU调度、内存管理和文件存储。适合读过程序设计基础、希望把OS概念讲清楚的自学者。",
+      "prerequisites_zh": "建议具备C和基础计算机系统知识；配合练习阅读。",
+      "why_recommended_zh": "一位因原教材难懂而换书的学习者称赞其清楚、简洁且保留必要细节；2024年另一位读者也主动推荐。",
+      "resource_url": "http://pages.cs.wisc.edu/~remzi/OSTEP/",
+      "source_type": "community_recommendation",
+      "evidence": [
+        {
+          "resource_id": "cs-ostep",
+          "resource_title": "Operating Systems: Three Easy Pieces (OSTEP)",
+          "story_id": 23588896,
+          "item_id": 23595803,
+          "quote": "OSTEP has incredibly clear and concise descriptions without skimping on necessary details. It's wonderfully written.",
+          "stance": "recommendation",
+          "reason_zh": "修课者对比自己OS课原教材后的具体阅读体验。",
+          "author": "doctorsher",
+          "source_type": "community_comment",
+          "parent_item_id": 23592983,
+          "source_url": "https://news.ycombinator.com/item?id=23595803",
+          "item_url": "https://news.ycombinator.com/item?id=23595803",
+          "story_url": "https://news.ycombinator.com/item?id=23588896",
+          "created_at_utc": "2020-06-21T22:10:30.000Z",
+          "cache_file": "research/cs/threads/23588896.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "cs-ostep",
+          "resource_title": "Operating Systems: Three Easy Pieces (OSTEP)",
+          "story_id": 40037324,
+          "item_id": 40048872,
+          "quote": "Operating Systems: Three Easy Pieces is very good",
+          "stance": "recommendation",
+          "reason_zh": "另一位评论者在有人寻求不太学术化OS书时直接推荐。",
+          "author": "dondraper36",
+          "source_type": "community_comment",
+          "parent_item_id": 40048609,
+          "source_url": "https://news.ycombinator.com/item?id=40048872",
+          "item_url": "https://news.ycombinator.com/item?id=40048872",
+          "story_url": "https://news.ycombinator.com/item?id=40037324",
+          "created_at_utc": "2024-04-16T06:16:20.000Z",
+          "cache_file": "research/cs/threads/40037324.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "第一位评论者后来向作者提交过勘误，并说明被列入致谢；不是作者本人，但该参与关系应保留。官网说明PDF免费。",
+      "resource_url_provenance": {
+        "page": "pages/teachyourselfcs.html",
+        "source_url": "https://teachyourselfcs.com",
+        "location": "article exact href; official page cached as pages/ostep.html"
+      },
+      "research_area": "cs",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "http://pages.cs.wisc.edu/~remzi/OSTEP/",
+        "checked_at_utc": "2026-11-19T03:58:38.545699+00:00",
+        "status": 206,
+        "final_url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+        "page_title": "Operating Systems: Three Easy Pieces",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "cs-ops-class",
+      "title": "ops-class.org — Hack the Kernel",
+      "provider": "University at Buffalo / Geoffrey Challen",
+      "format": "university_course",
+      "format_detail_zh": "大学课程 / 内核编程实验",
+      "topics": [
+        "cs-systems"
+      ],
+      "summary_zh": "配合操作系统讲座、试题和OS/161编程作业，把概念落实到内核实现。适合已经会C、想亲自完成OS实验的人。",
+      "prerequisites_zh": "需要C基础和调试耐心；多位评论者强调作业强度很高。",
+      "why_recommended_zh": "实际修课者肯定有趣且有挑战的作业；另一个课程征集帖也出现正在学最后几周的正向体验。",
+      "resource_url": "https://www.ops-class.org/",
+      "source_type": "community_recommendation",
+      "evidence": [
+        {
+          "resource_id": "cs-ops-class",
+          "resource_title": "ops-class.org — Hack the Kernel",
+          "story_id": 12773649,
+          "item_id": 12775433,
+          "quote": "I have taken this course and the assignments are fun and challenging. Learnt a lot.",
+          "stance": "recommendation",
+          "reason_zh": "实际修课者明确推荐编程作业。",
+          "author": "melvin0008",
+          "source_type": "community_comment",
+          "parent_item_id": 12773649,
+          "source_url": "https://news.ycombinator.com/item?id=12775433",
+          "item_url": "https://news.ycombinator.com/item?id=12775433",
+          "story_url": "https://news.ycombinator.com/item?id=12773649",
+          "created_at_utc": "2016-10-23T21:07:44.000Z",
+          "cache_file": "research/cs/threads/12773649.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "cs-ops-class",
+          "resource_title": "ops-class.org — Hack the Kernel",
+          "story_id": 16745042,
+          "item_id": 16752481,
+          "quote": "ops-class (Operating Systems) [3]: This is by far the toughest MOOC I've taken. The Assignments are really tough. Although not impossible. Just the right amount of tough, I guess. I'm currently in the last few weeks and I've really enjoyed it every bit so far.",
+          "stance": "qualified_recommendation",
+          "reason_zh": "正在修读的学习者认为强度高但可完成，尚不是完课报告。",
+          "author": "atomicnumber1",
+          "source_type": "community_comment",
+          "parent_item_id": 16745042,
+          "source_url": "https://news.ycombinator.com/item?id=16752481",
+          "item_url": "https://news.ycombinator.com/item?id=16752481",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-04T06:28:36.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "2018年评论的脚注[3]误链到了CS50，资源URL因此采用2016年原帖的ops-class官网，不能照抄该脚注。讲座与实验的年代较早，环境配置需自行核对。",
+      "resource_url_provenance": {
+        "story_id": 12773649,
+        "location": "story url"
+      },
+      "research_area": "cs",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://www.ops-class.org/",
+        "checked_at_utc": "2026-11-19T03:59:02.593249+00:00",
+        "status": 206,
+        "final_url": "https://ops-class.org/",
+        "page_title": "",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "cs-mit-distributed",
+      "title": "MIT 6.824 / Distributed Systems",
+      "provider": "MIT / Robert Morris及课程团队",
+      "format": "university_course",
+      "format_detail_zh": "大学课程 / 论文阅读 / Go实验",
+      "topics": [
+        "cs-data-systems",
+        "cs-systems"
+      ],
+      "summary_zh": "通过论文阅读和Go实验理解MapReduce、Raft、容错键值存储及分片。适合已掌握系统与网络基础、愿意为并发和故障调试投入时间的人。",
+      "prerequisites_zh": "建议先学操作系统与网络，并能用Go完成多阶段实验；课程较难。",
+      "why_recommended_zh": "多位完课或旁听者把实验视为理解细节的关键，尤其是必须通过测试的Raft实现；同时明确它不直接等于生产系统建设能力。",
+      "resource_url": "https://pdos.csail.mit.edu/6.824/",
+      "source_type": "community_recommendation",
+      "evidence": [
+        {
+          "resource_id": "cs-mit-distributed",
+          "resource_title": "MIT 6.824 / Distributed Systems",
+          "story_id": 23588896,
+          "item_id": 23590126,
+          "quote": "The labs were especially useful because they forced me to really understand the details of the topics I had learned (e.g., MapReduce, Raft, Raft’s log compaction) in order for my code to pass all the tests.",
+          "stance": "recommendation",
+          "reason_zh": "完成整门课的学习者说明实验怎样迫使理解协议细节。",
+          "author": "eddyerburgh",
+          "source_type": "community_comment",
+          "parent_item_id": 23589731,
+          "source_url": "https://news.ycombinator.com/item?id=23590126",
+          "item_url": "https://news.ycombinator.com/item?id=23590126",
+          "story_url": "https://news.ycombinator.com/item?id=23588896",
+          "created_at_utc": "2020-06-21T05:42:44.000Z",
+          "cache_file": "research/cs/threads/23588896.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "cs-mit-distributed",
+          "resource_title": "MIT 6.824 / Distributed Systems",
+          "story_id": 34591291,
+          "item_id": 34605038,
+          "quote": "In particular the Distributed Systems one has an amazing format (read a paper each week, the lecture goes into detail about the nuances). Also implementing raft was challenging and frustrating but incredibly fun.",
+          "stance": "recommendation",
+          "reason_zh": "另一位学习者具体推荐论文加讲解的安排与Raft实现。",
+          "author": "valzam",
+          "source_type": "community_comment",
+          "parent_item_id": 34592173,
+          "source_url": "https://news.ycombinator.com/item?id=34605038",
+          "item_url": "https://news.ycombinator.com/item?id=34605038",
+          "story_url": "https://news.ycombinator.com/item?id=34591291",
+          "created_at_utc": "2023-02-01T01:24:29.000Z",
+          "cache_file": "research/cs/newer/threads/34591291.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "cs-mit-distributed",
+          "resource_title": "MIT 6.824 / Distributed Systems",
+          "story_id": 40037324,
+          "item_id": 40048131,
+          "quote": "Of course this does not prepare you for building a production-ready system, but you can go very far with what you learn from the course.",
+          "stance": "qualified_recommendation",
+          "reason_zh": "明确区分课程知识与生产系统经验。",
+          "author": "pquki4",
+          "source_type": "community_comment",
+          "parent_item_id": 40047138,
+          "source_url": "https://news.ycombinator.com/item?id=40048131",
+          "item_url": "https://news.ycombinator.com/item?id=40048131",
+          "story_url": "https://news.ycombinator.com/item?id=40037324",
+          "created_at_utc": "2024-04-16T03:37:42.000Z",
+          "cache_file": "research/cs/threads/40037324.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "评论跨越2013、2020、2023、2024等课程版本，实验语言与内容历年有变化；按官网当前学期选用一整套材料。",
+      "resource_url_provenance": {
+        "story_id": 40037324,
+        "item_id": 40047138,
+        "location": "comment href"
+      },
+      "research_area": "cs",
+      "source_story_count": 3,
+      "positive_recommendation_item_count": 3,
+      "link_check": {
+        "url": "https://pdos.csail.mit.edu/6.824/",
+        "checked_at_utc": "2026-11-19T03:58:52.646225+00:00",
+        "status": 206,
+        "final_url": "https://pdos.csail.mit.edu/6.824/",
+        "page_title": "6.5840 Home Page: Spring 2026",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "cs-cornell-compilers",
+      "title": "CS 6120: Advanced Compilers — The Self-Guided Online Course",
+      "provider": "Cornell / Adrian Sampson",
+      "format": "university_course",
+      "format_detail_zh": "大学高级课程 / 论文 / LLVM与Bril实践",
+      "topics": [
+        "cs-language-implementation",
+        "cs-systems"
+      ],
+      "summary_zh": "从中间表示、数据流和经典优化进入并行化、JIT与垃圾回收，并做开放源码任务。适合已有编译器或系统基础、希望深入实现与研究主题的人。",
+      "prerequisites_zh": "建议先完成基础编译器或解释器项目；它是研究生层次的进阶材料。",
+      "why_recommended_zh": "2024年有真正在线学过课程的读者强烈推荐，并描述参与Bril修复的体验；另有学习者说明该课补强了编译器面试准备，但同时披露已有低层系统和开源背景。",
+      "resource_url": "https://www.cs.cornell.edu/courses/cs6120/2023fa/self-guided/",
+      "source_type": "community_recommendation",
+      "evidence": [
+        {
+          "resource_id": "cs-cornell-compilers",
+          "resource_title": "CS 6120: Advanced Compilers — The Self-Guided Online Course",
+          "story_id": 39577878,
+          "item_id": 39581518,
+          "quote": "I went through this course online a few summers ago, and learned a ton. I highly recommend it! It was very engaging to put up PRs for small issues in the Bril IR, and work with the professor to fix them.",
+          "stance": "recommendation",
+          "reason_zh": "实际在线学习者具体描述Bril IR实践和反馈。",
+          "author": "terrelln",
+          "source_type": "community_comment",
+          "parent_item_id": 39577878,
+          "source_url": "https://news.ycombinator.com/item?id=39581518",
+          "item_url": "https://news.ycombinator.com/item?id=39581518",
+          "story_url": "https://news.ycombinator.com/item?id=39577878",
+          "created_at_utc": "2024-03-03T15:40:21.000Z",
+          "cache_file": "research/cs/extra/threads/39577878.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "cs-cornell-compilers",
+          "resource_title": "CS 6120: Advanced Compilers — The Self-Guided Online Course",
+          "story_id": 39577878,
+          "item_id": 39580289,
+          "quote": "My University's (University of Waterloo) curriculum around low-level computing systems was already par excellent, and of'course I was also contributing to open source compiler projects. But this course really helped me answer some of the toughest questions during my interviews!",
+          "stance": "qualified_recommendation",
+          "reason_zh": "保留推荐者已有系统课程和开源编译器经验的条件，不能读作课程保证求职结果。",
+          "author": "mnafees",
+          "source_type": "community_comment",
+          "parent_item_id": 39577878,
+          "source_url": "https://news.ycombinator.com/item?id=39580289",
+          "item_url": "https://news.ycombinator.com/item?id=39580289",
+          "story_url": "https://news.ycombinator.com/item?id=39577878",
+          "created_at_utc": "2024-03-03T11:56:17.000Z",
+          "cache_file": "research/cs/extra/threads/39577878.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "官方自学页已缓存，涵盖LLVM及教学IR。引用2024讨论中的实际学习者；2020帖中仅表示喜欢材料外观的评论未替代完课经验。",
+      "resource_url_provenance": {
+        "story_id": 39577878,
+        "location": "story url"
+      },
+      "research_area": "cs",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://www.cs.cornell.edu/courses/cs6120/2023fa/self-guided/",
+        "checked_at_utc": "2026-11-19T03:59:00.763603+00:00",
+        "status": 206,
+        "final_url": "https://www.cs.cornell.edu/courses/cs6120/2023fa/self-guided/",
+        "page_title": "CS 6120: The Self-Guided Course",
+        "result": "reachable"
+      }
+    }
+  ]
+}

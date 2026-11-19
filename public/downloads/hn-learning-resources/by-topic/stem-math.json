@@ -1,0 +1,542 @@
+{
+  "topic": {
+    "id": "stem-math",
+    "title_zh": "重建数学基础与计算直觉",
+    "question_zh": "离校多年怎样补回数学，并接到线性代数、微积分和工程计算？",
+    "description_zh": "从补基础的习题路径，进入大学线性代数、微积分与计算数学；区分直觉视频与完整课程训练。",
+    "source_story_ids": [
+      16562173,
+      16745042,
+      17474646,
+      18939913,
+      22826722,
+      34591291,
+      35536042
+    ],
+    "resource_ids": [
+      "stem-khan-math",
+      "stem-3b1b-linear-algebra",
+      "stem-mit-linear-algebra",
+      "stem-mit-computational-science",
+      "stem-ghrist-calculus",
+      "stem-harvard-stat110",
+      "stem-boyd-linear-dynamical-systems"
+    ],
+    "resource_count": 7
+  },
+  "resources": [
+    {
+      "id": "stem-khan-math",
+      "title": "Khan Academy：数学课程与练习",
+      "provider": "Khan Academy / Sal Khan",
+      "format": "interactive_course",
+      "topics": [
+        "stem-math"
+      ],
+      "summary_zh": "从算术、代数逐步补到微积分的学习单元，适合离校多年或基础有缺口的成人。可按掌握情况选择起点并反复练习。",
+      "prerequisites_zh": "按当前单元分级；建议先查清代数、分数、函数等基础缺口。",
+      "why_recommended_zh": "rectang特别推荐稳定、可拆成小块的练习；komali2说它补上了频繁转学留下的概念缺口。",
+      "resource_url": "https://www.khanacademy.org/math",
+      "evidence": [
+        {
+          "resource_id": "stem-khan-math",
+          "resource_title": "Khan Academy：数学课程与练习",
+          "story_id": 16745042,
+          "item_id": 16745491,
+          "quote": "Khan Academy math, because of the exercises. They are consistent, not very buggy, gamified, and consumable in small or large amounts. Sal Khan is a good communicator and the videos are decent, but it's the exercises that make Khan Academy exceptional.",
+          "stance": "recommendation",
+          "reason_zh": "rectang把推荐重点放在练习设计，而不是只夸视频。",
+          "author": "rectang",
+          "item_url": "https://news.ycombinator.com/item?id=16745491",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T15:21:30.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "stem-khan-math",
+          "resource_title": "Khan Academy：数学课程与练习",
+          "story_id": 16745042,
+          "item_id": 16746558,
+          "quote": "Khan Academy filled the gaps from my inconsistent public schooling (moved a lot as a kid). Used to think I was just dumb (I might still be lol), but turns out missing some of the early math concepts is extremely destructive to later learning. Fill the gaps and everything else becomes so much easier .",
+          "stance": "recommendation",
+          "reason_zh": "komali2报告个人补基础的效果。",
+          "author": "komali2",
+          "item_url": "https://news.ycombinator.com/item?id=16746558",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T16:50:03.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "stem-khan-math",
+          "resource_title": "Khan Academy：数学课程与练习",
+          "story_id": 16562173,
+          "item_id": 16562503,
+          "quote": "I found Khan Academy really helped with high-school algebra, single-variable calculus, and especially multi-variable calculus (the visualizations were great). Khan Academy's linear algebra course was awful and I dropped out there.",
+          "stance": "qualified_recommendation",
+          "reason_zh": "alexdowad肯定代数和微积分，但表示在线性代数部分退出。",
+          "author": "alexdowad",
+          "item_url": "https://news.ycombinator.com/item?id=16562503",
+          "story_url": "https://news.ycombinator.com/item?id=16562173",
+          "created_at_utc": "2018-03-11T10:47:51.000Z",
+          "cache_file": "research/stem/threads/16562173.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "这是一组具体数学单元，不是单门大学课。不同分支体验有差异；基础练习不能替代高等数学的证明训练。",
+      "resource_url_source": {
+        "kind": "official_entry",
+        "url": "https://www.khanacademy.org/math",
+        "basis_zh": "Khan Academy 官方数学课程入口；原讨论另有官网首页链接。",
+        "verification_file": "official-entry-checks.json"
+      },
+      "format_detail_zh": "分级视频课程＋在线练习",
+      "research_area": "stem",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 3,
+      "link_check": {
+        "url": "https://www.khanacademy.org/math",
+        "checked_at_utc": "2026-11-19T03:59:01.768781+00:00",
+        "status": 206,
+        "final_url": "https://www.khanacademy.org/math",
+        "page_title": "Client Challenge",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "stem-3b1b-linear-algebra",
+      "title": "Essence of Linear Algebra",
+      "provider": "3Blue1Brown / Grant Sanderson",
+      "format": "video_series",
+      "topics": [
+        "stem-math"
+      ],
+      "summary_zh": "用几何动画解释向量、矩阵变换、行列式、特征向量等核心概念，适合先建立直觉或课后复习。",
+      "prerequisites_zh": "建议熟悉高中代数；可与正式线性代数课同时学习。",
+      "why_recommended_zh": "gringoDan称它对直觉理解很关键；nerusskyhigh说这些视频打开了思路、改善了自己的理解。",
+      "resource_url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+      "evidence": [
+        {
+          "resource_id": "stem-3b1b-linear-algebra",
+          "resource_title": "Essence of Linear Algebra",
+          "story_id": 16745042,
+          "item_id": 16745655,
+          "quote": "3b1b's series on Linear Algebra is essential for an intuitive understanding of the topic: https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2x... (Really anything by 3b1b)",
+          "stance": "recommendation",
+          "reason_zh": "gringoDan直接推荐具名线性代数系列。",
+          "author": "gringoDan",
+          "item_url": "https://news.ycombinator.com/item?id=16745655",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T15:35:48.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "stem-3b1b-linear-algebra",
+          "resource_title": "Essence of Linear Algebra",
+          "story_id": 34591291,
+          "item_id": 34593050,
+          "quote": "You probably already know about them, but just in case: have you watched 3b1b's videos about Linear Algebra? Those did open my mind and improved my understanding of linear algebra.",
+          "stance": "recommendation",
+          "reason_zh": "nerusskyhigh说明自己理解线性代数的变化。",
+          "author": "nerusskyhigh",
+          "item_url": "https://news.ycombinator.com/item?id=34593050",
+          "story_url": "https://news.ycombinator.com/item?id=34591291",
+          "created_at_utc": "2023-01-31T09:18:56.000Z",
+          "cache_file": "research/cs/newer/threads/34591291.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "stem-3b1b-linear-algebra",
+          "resource_title": "Essence of Linear Algebra",
+          "story_id": 16562173,
+          "item_id": 16563417,
+          "quote": "In particular, even extremely good video series like 3Blue1Brown's Linear Algebra have neither the breadth nor the depth to replace the material in any given chapter of e.g. Axler's Linear Algebra Done Right .",
+          "stance": "qualified_recommendation",
+          "reason_zh": "dsacco肯定其讲解，但指出广度与深度不足以替代教材。",
+          "author": "dsacco",
+          "item_url": "https://news.ycombinator.com/item?id=16563417",
+          "story_url": "https://news.ycombinator.com/item?id=16562173",
+          "created_at_utc": "2018-03-11T15:54:09.000Z",
+          "cache_file": "research/stem/threads/16562173.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "定位是直觉辅助；应另做习题。这里没有把“看懂动画”写成完成大学线性代数训练。",
+      "resource_url_source": {
+        "kind": "comment_href",
+        "story_id": 16745042,
+        "item_id": 16745655,
+        "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab"
+      },
+      "format_detail_zh": "可视化讲解视频系列",
+      "research_area": "stem",
+      "source_story_count": 3,
+      "positive_recommendation_item_count": 3,
+      "link_check": {
+        "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+        "checked_at_utc": "2026-11-19T03:59:07.075292+00:00",
+        "status": null,
+        "final_url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+        "result": "unconfirmed",
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
+      }
+    },
+    {
+      "id": "stem-mit-linear-algebra",
+      "title": "MIT 18.06 / 18.06SC Linear Algebra",
+      "provider": "MIT OpenCourseWare / Gilbert Strang",
+      "format": "university_course",
+      "topics": [
+        "stem-math"
+      ],
+      "summary_zh": "系统学习矩阵、向量空间、线性方程组、正交性及矩阵分解。18.06SC 的材料便于自学者跟着课程做题。",
+      "prerequisites_zh": "建议高中代数熟练；本科初学者可进入，复习者也可按需观看。",
+      "why_recommended_zh": "35536042里既有校内学生的推荐，也有用讲座撑过工程学位的体验；te_chris强调要按阅读与习题完整学习。",
+      "resource_url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/resource-index/",
+      "evidence": [
+        {
+          "resource_id": "stem-mit-linear-algebra",
+          "resource_title": "MIT 18.06 / 18.06SC Linear Algebra",
+          "story_id": 35536042,
+          "item_id": 35540507,
+          "quote": "Came here to say this. Go through the actual course methodically though - readings, summaries, problems solutions. It's incredible. Miles ahead of coursera equiv. https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011...",
+          "stance": "recommendation",
+          "reason_zh": "te_chris推荐按课程阅读、总结与习题系统学习。",
+          "author": "te_chris",
+          "item_url": "https://news.ycombinator.com/item?id=35540507",
+          "story_url": "https://news.ycombinator.com/item?id=35536042",
+          "created_at_utc": "2023-04-12T14:39:50.000Z",
+          "cache_file": "research/cs/newer/threads/35536042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "stem-mit-linear-algebra",
+          "resource_title": "MIT 18.06 / 18.06SC Linear Algebra",
+          "story_id": 35536042,
+          "item_id": 35553286,
+          "quote": "His lectures helped me through my engineering degree. My lecturers made it hard to understand, Gilbert's teaching made it easy to understand.",
+          "stance": "recommendation",
+          "reason_zh": "xupybd报告这些讲座帮助其完成工程学位。",
+          "author": "xupybd",
+          "item_url": "https://news.ycombinator.com/item?id=35553286",
+          "story_url": "https://news.ycombinator.com/item?id=35536042",
+          "created_at_utc": "2023-04-13T10:10:10.000Z",
+          "cache_file": "research/cs/newer/threads/35536042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "stem-mit-linear-algebra",
+          "resource_title": "MIT 18.06 / 18.06SC Linear Algebra",
+          "story_id": 34591291,
+          "item_id": 34592318,
+          "quote": "I haven't used his book, just watched the Youtude videos. His teaching went slowly with simple examples. He explained them really well. There're a lot of materials, much more than one would care. He covered many topics. I just jumped to the ones I needed to learn at the time. I had Linear Algebra background so most were just a refresher for me. As",
+          "stance": "qualified_recommendation",
+          "reason_zh": "ww520只看过视频并按需复习，肯定慢节奏和简单例子，未用过教材。",
+          "author": "ww520",
+          "item_url": "https://news.ycombinator.com/item?id=34592318",
+          "story_url": "https://news.ycombinator.com/item?id=34591291",
+          "created_at_utc": "2023-01-31T07:27:05.000Z",
+          "cache_file": "research/cs/newer/threads/34591291.json",
+          "archive_match_status": "different",
+          "evidence_source": "algolia"
+        },
+        {
+          "resource_id": "stem-mit-linear-algebra",
+          "resource_title": "MIT 18.06 / 18.06SC Linear Algebra",
+          "story_id": 34591291,
+          "item_id": 34592218,
+          "quote": "Can you articulate on the first one? In the last semester I tutored for a Linear algebra course which used his book and it was a nightmare. Ideas seems to be presented in reverse order and a lot of students ended up having trouble understanding basic concepts.",
+          "stance": "criticism",
+          "reason_zh": "nerusskyhigh批评的是配套教材的呈现顺序；这不是对讲座的完成者评价。",
+          "author": "nerusskyhigh",
+          "item_url": "https://news.ycombinator.com/item?id=34592218",
+          "story_url": "https://news.ycombinator.com/item?id=34591291",
+          "created_at_utc": "2023-01-31T07:12:08.000Z",
+          "cache_file": "research/cs/newer/threads/34591291.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "入口是2011年18.06SC自学版。讲座与Strang教材应区分；评论中的教材争议没有直接外推为视频课缺点。",
+      "resource_url_source": {
+        "kind": "comment_href",
+        "story_id": 35536042,
+        "item_id": 35540507,
+        "url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/resource-index/"
+      },
+      "format_detail_zh": "大学公开课：视频、阅读、题目及解答",
+      "research_area": "stem",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 3,
+      "link_check": {
+        "url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/resource-index/",
+        "checked_at_utc": "2026-11-19T03:58:48.733398+00:00",
+        "status": 206,
+        "final_url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/resource-index/",
+        "page_title": "Resource Index | Linear Algebra | Mathematics | MIT OpenCourseWare",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "stem-mit-computational-science",
+      "title": "MIT 18.085 Computational Science and Engineering I",
+      "provider": "MIT OpenCourseWare / Gilbert Strang",
+      "format": "university_course",
+      "topics": [
+        "stem-math",
+        "stem-electronics-signals"
+      ],
+      "summary_zh": "把线性代数、微分方程和数值计算用于科学及工程问题，适合想把数学接到实际建模上的学习者。",
+      "prerequisites_zh": "建议先学微积分和线性代数；微分方程基础有帮助。",
+      "why_recommended_zh": "philzook在列出个人最喜欢的讲座时，明确说Strang的这组工程计算课改变了自己。",
+      "resource_url": "https://ocw.mit.edu/courses/mathematics/18-085-computational-science-and-engineering-i-fall-2008/",
+      "evidence": [
+        {
+          "resource_id": "stem-mit-computational-science",
+          "resource_title": "MIT 18.085 Computational Science and Engineering I",
+          "story_id": 18939913,
+          "item_id": 18940357,
+          "quote": "Gilbert Strang's Computational Methods for engineers was life changing for me. It is a two part MIT opencourse.",
+          "stance": "recommendation",
+          "reason_zh": "philzook对这门课有明确个人评价；没有把同评论其余未看过的课都当成体验。",
+          "author": "philzook",
+          "item_url": "https://news.ycombinator.com/item?id=18940357",
+          "story_url": "https://news.ycombinator.com/item?id=18939913",
+          "created_at_utc": "2019-01-18T16:22:55.000Z",
+          "cache_file": "research/stem/threads/18939913.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "该评论称整个系列为两部分；这里链接、计数的是18.085第一部分，未把18.086额外凑成一条。旧OCW路径保留原帖href。",
+      "resource_url_source": {
+        "kind": "comment_href",
+        "story_id": 18939913,
+        "item_id": 18940357,
+        "url": "https://ocw.mit.edu/courses/mathematics/18-085-computational-science-and-engineering-i-fall-2008/"
+      },
+      "format_detail_zh": "大学公开课视频与习题",
+      "research_area": "stem",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 1,
+      "link_check": {
+        "url": "https://ocw.mit.edu/courses/mathematics/18-085-computational-science-and-engineering-i-fall-2008/",
+        "checked_at_utc": "2026-11-19T03:58:49.933116+00:00",
+        "status": 206,
+        "final_url": "https://ocw.mit.edu/courses/18-085-computational-science-and-engineering-i-fall-2008/",
+        "page_title": "Computational Science and Engineering I | Mathematics | MIT OpenCourseWare",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "stem-ghrist-calculus",
+      "title": "Calculus: Single Variable",
+      "provider": "University of Pennsylvania / Robert Ghrist；Coursera 托管",
+      "format": "mooc",
+      "topics": [
+        "stem-math"
+      ],
+      "summary_zh": "从单变量微积分进入泰勒级数等观点，适合重学微积分或想换一种讲法理解概念的人。",
+      "prerequisites_zh": "建议函数、三角函数及高中代数熟练。",
+      "why_recommended_zh": "cmsd2赞材料且指出考试并不简单；goose847特别喜欢通过泰勒级数理解微积分，并说课程使自己重新欣赏数学。",
+      "resource_url": "https://www.coursera.org/learn/single-variable-calculus",
+      "evidence": [
+        {
+          "resource_id": "stem-ghrist-calculus",
+          "resource_title": "Calculus: Single Variable",
+          "story_id": 16745042,
+          "item_id": 16746664,
+          "quote": "without a doubt: Calculus in a single variable with Robert Ghrist https://www.coursera.org/learn/single-variable-calculus for lots of people here it'll revisit some material you learnt at school but it does go further and the materials are fantastic and the exam at the end is no pushover either.",
+          "stance": "recommendation",
+          "reason_zh": "cmsd2明确推荐Ghrist的具名单变量微积分课。",
+          "author": "cmsd2",
+          "item_url": "https://news.ycombinator.com/item?id=16746664",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T16:58:11.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "stem-ghrist-calculus",
+          "resource_title": "Calculus: Single Variable",
+          "story_id": 22826722,
+          "item_id": 22830657,
+          "quote": "The reason it can be so challenging and the reason I find it so incredible is that it teaches Calculus through the lenses of Taylor Series.",
+          "stance": "recommendation",
+          "reason_zh": "goose847解释其泰勒级数视角为何吸引自己。",
+          "author": "goose847",
+          "item_url": "https://news.ycombinator.com/item?id=22830657",
+          "story_url": "https://news.ycombinator.com/item?id=22826722",
+          "created_at_utc": "2020-04-10T07:02:48.000Z",
+          "cache_file": "research/stem/threads/22826722.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "2020年评论把链接称作五门系列的第一门；不要把单个入口误写成整个系列全部已完成。",
+      "resource_url_source": {
+        "kind": "comment_href",
+        "story_id": 22826722,
+        "item_id": 22830657,
+        "url": "https://www.coursera.org/learn/single-variable-calculus"
+      },
+      "format_detail_zh": "大学MOOC／微积分系列",
+      "research_area": "stem",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://www.coursera.org/learn/single-variable-calculus",
+        "checked_at_utc": "2026-11-19T03:58:59.161739+00:00",
+        "status": 200,
+        "final_url": "https://www.coursera.org/learn/single-variable-calculus",
+        "page_title": "",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "stem-harvard-stat110",
+      "title": "Harvard Stat 110 / Introduction to Probability",
+      "provider": "Harvard University / Joe Blitzstein、Jessica Hwang",
+      "format": "university_course",
+      "topics": [
+        "stem-probability-statistics",
+        "stem-math"
+      ],
+      "summary_zh": "系统学习概率并训练识别问题结构、对称性等解题方法，适合想建立概率直觉的本科程度读者。可配套Introduction to Probability教材。",
+      "prerequisites_zh": "建议高中代数熟练，基础微积分有帮助。",
+      "why_recommended_zh": "dwohnitmok称它能训练看到问题就识别可用方法的直觉；in9喜欢有挑战但附有清楚解答的题目。",
+      "resource_url": "https://projects.iq.harvard.edu/stat110/home",
+      "evidence": [
+        {
+          "resource_id": "stem-harvard-stat110",
+          "resource_title": "Harvard Stat 110 / Introduction to Probability",
+          "story_id": 17474646,
+          "item_id": 17475986,
+          "quote": "As a first text, I really like Introduction to Probability by Blitzstein and Hwang.",
+          "stance": "recommendation",
+          "reason_zh": "dwohnitmok亲自解释为何适合作为第一本概率教材，并指出配套课程材料。",
+          "author": "dwohnitmok",
+          "item_url": "https://news.ycombinator.com/item?id=17475986",
+          "story_url": "https://news.ycombinator.com/item?id=17474646",
+          "created_at_utc": "2018-07-06T23:47:32.000Z",
+          "cache_file": "research/stem/threads/17474646.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "stem-harvard-stat110",
+          "resource_title": "Harvard Stat 110 / Introduction to Probability",
+          "story_id": 34591291,
+          "item_id": 34636547,
+          "quote": "Harvard Stat 110: awesome and somewhat challenging lecture series on probability. It goes into all the probability basics, but also goes into problem solving skill very often, so the problem sets tended to be hard as I recall it.",
+          "stance": "recommendation",
+          "reason_zh": "in9回忆概率课的解题训练与较难习题。",
+          "author": "in9",
+          "item_url": "https://news.ycombinator.com/item?id=34636547",
+          "story_url": "https://news.ycombinator.com/item?id=34591291",
+          "created_at_utc": "2023-02-03T02:51:18.000Z",
+          "cache_file": "research/cs/newer/threads/34591291.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "把书和同一Stat 110课程作为一组资源；不重复计数。不是测度论概率的替代。",
+      "resource_url_source": {
+        "kind": "comment_href",
+        "story_id": 17474646,
+        "item_id": 17475986,
+        "url": "https://projects.iq.harvard.edu/stat110/home"
+      },
+      "format_detail_zh": "大学概率课讲座、教材、习题与解答",
+      "research_area": "stem",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://projects.iq.harvard.edu/stat110/home",
+        "checked_at_utc": "2026-11-19T03:58:53.086379+00:00",
+        "status": 200,
+        "final_url": "https://stat110.hsites.harvard.edu/",
+        "page_title": "Statistics 110: Probability | Statistics 110: Probability",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "stem-boyd-linear-dynamical-systems",
+      "title": "Introduction to Linear Dynamical Systems / EE263",
+      "provider": "Stanford University / Stephen Boyd",
+      "format": "university_course",
+      "topics": [
+        "stem-electronics-signals",
+        "stem-math"
+      ],
+      "summary_zh": "用线性代数理解动态系统、建模与分析，适合想把数学用于控制、时间序列或工程系统的读者。",
+      "prerequisites_zh": "建议线性代数与微积分；微分方程基础有帮助。",
+      "why_recommended_zh": "siddboots多次看讲座后说自己在数据分析和预测中经常使用这些技术；gadiyar也说课程帮助其真正理解有关主题。",
+      "resource_url": "https://www.youtube.com/watch?v=bf1264iFr-w&list=PL06960BA52D0DB32B",
+      "evidence": [
+        {
+          "resource_id": "stem-boyd-linear-dynamical-systems",
+          "resource_title": "Introduction to Linear Dynamical Systems / EE263",
+          "story_id": 16745042,
+          "item_id": 16753266,
+          "quote": "I've also gone over those lectures a couple of times. I'm not even sure why I started watching them, since I knew absolutely nothing about linear dynamical systems before hand, but it really changed my life! It taught me techniques that I now use all the time, and I think are very neglected within my field (data analysis/forecasting).",
+          "stance": "recommendation",
+          "reason_zh": "siddboots报告反复学习及后续数据分析应用。",
+          "author": "siddboots",
+          "item_url": "https://news.ycombinator.com/item?id=16753266",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-04T09:35:31.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "stem-boyd-linear-dynamical-systems",
+          "resource_title": "Introduction to Linear Dynamical Systems / EE263",
+          "story_id": 34591291,
+          "item_id": 34593788,
+          "quote": "Some good ones from Stephen Boyd - helped me really grok the subjects.",
+          "stance": "recommendation",
+          "reason_zh": "gadiyar对Boyd两个具名系列给出正面体验；此条是其中Linear Dynamical Systems。",
+          "author": "gadiyar",
+          "item_url": "https://news.ycombinator.com/item?id=34593788",
+          "story_url": "https://news.ycombinator.com/item?id=34591291",
+          "created_at_utc": "2023-01-31T11:21:09.000Z",
+          "cache_file": "research/cs/newer/threads/34591291.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "评论提供的是Stanford讲座播放列表；不是已核验今天仍开放注册的MOOC。第二条是同时称赞两个系列，未声称单独完成EE263。",
+      "resource_url_source": {
+        "kind": "comment_href",
+        "story_id": 16745042,
+        "item_id": 16751103,
+        "url": "https://www.youtube.com/watch?v=bf1264iFr-w&list=PL06960BA52D0DB32B"
+      },
+      "format_detail_zh": "大学讲座录像与练习",
+      "research_area": "stem",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://www.youtube.com/watch?v=bf1264iFr-w&list=PL06960BA52D0DB32B",
+        "checked_at_utc": "2026-11-19T03:59:11.643098+00:00",
+        "status": null,
+        "final_url": "https://www.youtube.com/watch?v=bf1264iFr-w&list=PL06960BA52D0DB32B",
+        "result": "unconfirmed",
+        "error": "<urlopen error [Errno 101] Network is unreachable>"
+      }
+    }
+  ]
+}

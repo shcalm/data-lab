@@ -1,0 +1,161 @@
+[
+  {
+    "area": "cs",
+    "resource_id": "cs-sicp",
+    "reason_zh": "修正已确认的404旧路径，使用同一课程的官方视频目录。",
+    "before": {
+      "resource_url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/",
+      "resource_url_provenance": {
+        "story_id": 16745042,
+        "item_id": 16747999,
+        "location": "comment href"
+      },
+      "notes_zh": "资源指经典MIT讲座；旧OCW URL中的学期标签不意味着录影拍摄于2005年。应配合练习，不能仅凭观看获得编程熟练度。"
+    },
+    "after": {
+      "resource_url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/",
+      "resource_url_provenance": {
+        "story_id": 16745042,
+        "item_id": 16747999,
+        "location": "official replacement for obsolete comment href",
+        "original_url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/",
+        "verification_file": "research/cs/pages/sicp-current-video-gallery.html"
+      },
+      "notes_zh": "资源指经典MIT讲座；旧OCW URL中的学期标签不意味着录影拍摄于2005年。应配合练习，不能仅凭观看获得编程熟练度。 原评论的旧OCW路径本次返回404，入口已改为同一课程官方视频目录，已取得200及匹配标题。"
+    }
+  },
+  {
+    "area": "cs",
+    "resource_id": "cs-cs50",
+    "reason_zh": "将课程集合首页改为对应入门课的具体官方入口。",
+    "before": {
+      "resource_url": "https://cs50.harvard.edu",
+      "resource_url_provenance": {
+        "story_id": 35536042,
+        "item_id": 35594659,
+        "location": "comment href"
+      },
+      "notes_zh": "2023年的大学免费课程征集帖也反复出现此课。访问时官网跳转到edX的CS50入口；免费旁听、证书及账号条件以平台当前说明为准。"
+    },
+    "after": {
+      "resource_url": "https://cs50.harvard.edu/x/",
+      "resource_url_provenance": {
+        "story_id": 35536042,
+        "item_id": 35594659,
+        "location": "official specific course page",
+        "original_url": "https://cs50.harvard.edu",
+        "verification_file": "research/cs/pages/cs50x-current.html"
+      },
+      "notes_zh": "2023年的大学免费课程征集帖也反复出现此课。CS50官网首页当前指向edX课程集合，故入口改为官方CS50x具体课程页，本次标题为CS50x 2026。免费旁听、证书及账号条件以平台当前说明为准。"
+    }
+  },
+  {
+    "area": "cs",
+    "resource_id": "cs-discrete-optimization",
+    "reason_zh": "明确原始课程入口的404状态。",
+    "before": {
+      "notes_zh": "评论跨越早期课程版本；具体作业题和平台条件需要按当前页面核对。"
+    },
+    "after": {
+      "notes_zh": "评论跨越早期课程版本；具体作业题和平台条件需要按当前页面核对。 本次Coursera原入口返回404，保留为历史课程推荐；尚未确认同课程的有效现行入口。"
+    }
+  },
+  {
+    "area": "cs",
+    "resource_id": "cs-programming-languages",
+    "reason_zh": "明确ML指编程语言Standard ML。",
+    "before": {
+      "summary_zh": "借ML、Racket和Ruby比较语言特性、求值方式、作用域及编程范式，并实现小型解释器。适合会一种语言但想跳出语法记忆、理解语言取舍的人。"
+    },
+    "after": {
+      "summary_zh": "借Standard ML、Racket和Ruby比较语言特性、求值方式、作用域及编程范式，并实现小型解释器。适合会一种语言但想跳出语法记忆、理解语言取舍的人。"
+    }
+  },
+  {
+    "area": "stem",
+    "resource_id": "stem-statistical-rethinking",
+    "reason_zh": "HTTP连接未确认，HTTPS同址已成功访问，保存页面见research/current-entrances/。",
+    "before": {
+      "resource_url": "http://xcelab.net/rm/statistical-rethinking/",
+      "notes_zh": "同名书和不同年份讲座归为一条。2017年体验不能直接代表后来版本；保留评论中的姓名拼写错误于原文引文，正文使用正确姓名。"
+    },
+    "after": {
+      "resource_url": "https://xcelab.net/rm/statistical-rethinking/",
+      "notes_zh": "同名书和不同年份讲座归为一条。2017年体验不能直接代表后来版本；保留评论中的姓名拼写错误于原文引文，正文使用正确姓名。 原评论为HTTP入口，本次改为同域同路径的HTTPS入口并取得200响应。"
+    }
+  },
+  {
+    "area": "stem",
+    "resource_id": "stem-andrew-ng-ml-original",
+    "reason_zh": "使推荐理由中的作者与实际所引评论一致。",
+    "before": {
+      "why_recommended_zh": "blcArmadillo喜欢自己实现训练流程后形成的内部机制直觉；heifetz认为编程作业帮助掌握算法；jongraehl也明确称课很优秀。"
+    },
+    "after": {
+      "why_recommended_zh": "blcArmadillo喜欢自己实现训练流程后形成的内部机制直觉；heifetz认为编程作业帮助掌握算法；pvarangot在2020年认为基础内容仍有价值，同时提醒工具和影音已显旧。"
+    }
+  },
+  {
+    "area": "stem",
+    "resource_id": "stem-mit-circuits-electronics",
+    "reason_zh": "明确失效历史入口，补充可访问但版本不同的官方材料。",
+    "before": {
+      "notes_zh": "评论者早期上的单门课到2018年已拆为三个部分；入口保留原评论的第1部分历史edX链接，其余两部分在同一原评论中可查。没有把第1部分称作整个三部分都包含。",
+      "related_urls": null
+    },
+    "after": {
+      "notes_zh": "评论者早期上的单门课到2018年已拆为三个部分；入口保留原评论的第1部分历史edX链接，其余两部分在同一原评论中可查。没有把第1部分称作整个三部分都包含。 本次该历史edX入口返回404。下列MIT OCW 2007材料为另一个教学版本，可作延伸学习入口；不把它当成原edX课程仍然可报名的证明。",
+      "related_urls": [
+        {
+          "title_zh": "MIT 6.002 Circuits and Electronics（2007 OCW，另一个教学版本）",
+          "url": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/",
+          "note_zh": "官方页200，保存于research/current-entrances/mit-circuits-ocw.html。"
+        }
+      ]
+    }
+  },
+  {
+    "area": "humanities",
+    "resource_id": "hum-buddhism-modern-psychology",
+    "reason_zh": "HTTP 200实际是分类目录，不能作为原课程可用的证据。",
+    "before": {
+      "notes_zh": "评论者赞同课程中对佛教与科学关系的解释，不能据此把课程中的所有论点视为科学定论。"
+    },
+    "after": {
+      "notes_zh": "评论者赞同课程中对佛教与科学关系的解释，不能据此把课程中的所有论点视为科学定论。 本次原Coursera入口跳转至心理学分类目录，尚未确认原课程的有效现行学习入口。"
+    }
+  },
+  {
+    "area": "humanities",
+    "resource_id": "hum-first-nights-messiah",
+    "reason_zh": "用最新统一检查结果替代较早的网络不可达记录。",
+    "before": {
+      "notes_zh": "只把这门有具体推荐的课计为一项；不把系列另外四门分别扩充为独立推荐。本次旧edX链接网络不可达，未验证当前开放状态。"
+    },
+    "after": {
+      "notes_zh": "只把这门有具体推荐的课计为一项；不把系列另外四门分别扩充为独立推荐。本次统一检查时旧edX入口已跳转到匹配课名的现行课程页并返回200；未登录核验当前全部课程内容与评分权限。"
+    }
+  },
+  {
+    "area": "stem",
+    "resource_id": "stem-statistical-rethinking",
+    "reason_zh": "进一步确认旧路径是HTML meta刷新页，改用同作者已核对的实际教材与课程区块。",
+    "before": {
+      "resource_url": "https://xcelab.net/rm/statistical-rethinking/",
+      "notes_zh": "同名书和不同年份讲座归为一条。2017年体验不能直接代表后来版本；保留评论中的姓名拼写错误于原文引文，正文使用正确姓名。 原评论为HTTP入口，本次改为同域同路径的HTTPS入口并取得200响应。",
+      "related_urls": null
+    },
+    "after": {
+      "resource_url": "https://xcelab.net/rm/#statistical-rethinking",
+      "notes_zh": "同名书和不同年份讲座归为一条。2017年体验不能直接代表后来版本；保留评论中的姓名拼写错误于原文引文，正文使用正确姓名。原评论的旧路径当前通过页面跳转到作者主页，故入口改为主页的Statistical Rethinking书籍与课程区块；该官方页列有第二版教材和2024课程材料。历史评价与这些后续材料的版本差异保留。",
+      "related_urls": [
+        {
+          "title_zh": "作者提供的2024版讲座与课程材料（后续版本）",
+          "url": "https://github.com/rmcelreath/stat_rethinking_2024",
+          "note_zh": "由作者当前主页直接链接；不把历史2017体验当成2024版完课反馈。"
+        }
+      ]
+    },
+    "verification_file": "research/current-entrances/mcelreath-home.html"
+  }
+]

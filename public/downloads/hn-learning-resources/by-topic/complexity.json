@@ -1,0 +1,60 @@
+{
+  "topic": {
+    "id": "complexity",
+    "title_zh": "复杂系统怎样从简单规则中出现",
+    "question_zh": "物理、生物、社会系统之间，有哪些可以共享的理解方法？",
+    "description_zh": "从跨学科课程了解简单现象如何形成复杂行为。",
+    "source_story_ids": [
+      25245125
+    ],
+    "resource_ids": [
+      "introduction-to-complexity"
+    ],
+    "resource_count": 1
+  },
+  "resources": [
+    {
+      "id": "introduction-to-complexity",
+      "title": "Introduction to Complexity",
+      "provider": "Santa Fe Institute / Complexity Explorer",
+      "format": "online_course",
+      "topics": [
+        "complexity"
+      ],
+      "summary_zh": "介绍简单现象如何产生复杂系统，并展示这些思想如何跨越学科边界。适合想从单一技术或学科走向系统层面理解的人。",
+      "prerequisites_zh": "导论性质；具体数学要求以所选版本为准。",
+      "why_recommended_zh": "推荐者表示喜欢课程的广度，以及它把不同领域联系起来的方式。",
+      "resource_url": "https://www.complexityexplorer.org/courses/104-introduction-to-complexity",
+      "evidence": [
+        {
+          "resource_id": "introduction-to-complexity",
+          "resource_title": "Introduction to Complexity",
+          "story_id": 25245125,
+          "item_id": 25247264,
+          "quote": "It gives a broad overview of how complex systems emerge from simple phenomenon and shows how cross-disciplinary some of these insights are.",
+          "stance": "recommendation",
+          "reason_zh": "用跨学科方式理解复杂性。",
+          "item_url": "https://news.ycombinator.com/item?id=25247264",
+          "story_url": "https://news.ycombinator.com/item?id=25245125",
+          "author": "afarzad",
+          "created_at_utc": "2020-11-29T19:18:40.000Z",
+          "cache_file": "research/general/threads/25245125.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "链接保留2020年评论提供的具体班次；网站若已归档，请从该课程页寻找后续版本。",
+      "research_area": "general",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 1,
+      "link_check": {
+        "url": "https://www.complexityexplorer.org/courses/104-introduction-to-complexity",
+        "checked_at_utc": "2026-11-19T03:53:01.160934+00:00",
+        "status": 206,
+        "final_url": "https://www.complexityexplorer.org/courses/104-introduction-to-complexity",
+        "page_title": "Complexity Explorer",
+        "result": "reachable"
+      }
+    }
+  ]
+}

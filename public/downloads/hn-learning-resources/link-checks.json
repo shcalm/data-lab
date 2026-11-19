@@ -1,0 +1,702 @@
+[
+  {
+    "url": "http://csapp.cs.cmu.edu/3e/home.html",
+    "checked_at_utc": "2026-11-19T03:58:38.544776+00:00",
+    "status": 206,
+    "final_url": "https://csapp.cs.cmu.edu/3e/home.html",
+    "page_title": "CS:APP3e, Bryant and O'Hallaron",
+    "result": "reachable"
+  },
+  {
+    "url": "http://oyc.yale.edu/economics/econ-159",
+    "checked_at_utc": "2026-11-19T03:58:38.545449+00:00",
+    "status": 206,
+    "final_url": "https://oyc.yale.edu/economics/econ-159",
+    "page_title": "Game Theory | Open Yale Courses",
+    "result": "reachable"
+  },
+  {
+    "url": "http://pages.cs.wisc.edu/~remzi/OSTEP/",
+    "checked_at_utc": "2026-11-19T03:58:38.545699+00:00",
+    "status": 206,
+    "final_url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+    "page_title": "Operating Systems: Three Easy Pieces",
+    "result": "reachable"
+  },
+  {
+    "url": "http://xcelab.net/rm/statistical-rethinking/",
+    "checked_at_utc": "2026-11-19T03:58:38.545929+00:00",
+    "status": null,
+    "final_url": "http://xcelab.net/rm/statistical-rethinking/",
+    "result": "unconfirmed",
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "url": "https://15445.courses.cs.cmu.edu/fall2022/schedule.html",
+    "checked_at_utc": "2026-11-19T03:58:38.546779+00:00",
+    "status": 206,
+    "final_url": "https://15445.courses.cs.cmu.edu/fall2022/schedule.html",
+    "page_title": "Schedule | CMU 15-445/645 :: Intro to Database Systems (Fall 2022)",
+    "result": "reachable"
+  },
+  {
+    "url": "https://artofelectronics.net/",
+    "checked_at_utc": "2026-11-19T03:58:38.547059+00:00",
+    "status": 200,
+    "final_url": "https://artofelectronics.net/",
+    "page_title": "The Art of Electronics 3rd Edition | by Horowitz and Hill",
+    "result": "reachable"
+  },
+  {
+    "url": "https://course.fast.ai/",
+    "checked_at_utc": "2026-11-19T03:58:40.069760+00:00",
+    "status": 206,
+    "final_url": "https://course.fast.ai/",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://craftinginterpreters.com/",
+    "checked_at_utc": "2026-11-19T03:58:40.118664+00:00",
+    "status": 206,
+    "final_url": "https://craftinginterpreters.com/",
+    "page_title": "Crafting Interpreters",
+    "result": "reachable"
+  },
+  {
+    "url": "https://cs50.harvard.edu",
+    "checked_at_utc": "2026-11-19T03:58:40.492707+00:00",
+    "status": 200,
+    "final_url": "https://www.edx.org/cs50",
+    "page_title": "CS50: Harvard’s computer science courses and certificates | edX",
+    "result": "reachable"
+  },
+  {
+    "url": "https://cs50.harvard.edu/x/",
+    "checked_at_utc": "2026-11-19T04:04:36.688116+00:00",
+    "status": 206,
+    "final_url": "https://cs50.harvard.edu/x/",
+    "page_title": "CS50x 2026",
+    "result": "reachable"
+  },
+  {
+    "url": "https://dataintensive.net/",
+    "checked_at_utc": "2026-11-19T03:58:40.929755+00:00",
+    "status": 206,
+    "final_url": "https://dataintensive.net/",
+    "page_title": "Designing Data-Intensive Applications (DDIA) — an O’Reilly book by Martin Kleppmann (The Wild Boar Book)",
+    "result": "reachable"
+  },
+  {
+    "url": "https://fullstackopen.com/",
+    "checked_at_utc": "2026-11-19T03:52:59.120004+00:00",
+    "status": 206,
+    "final_url": "https://fullstackopen.com/",
+    "page_title": "Full stack open",
+    "result": "reachable"
+  },
+  {
+    "url": "https://github.com/Developer-Y/cs-video-courses",
+    "checked_at_utc": "2026-11-19T03:52:59.120682+00:00",
+    "status": 206,
+    "final_url": "https://github.com/Developer-Y/cs-video-courses",
+    "page_title": "GitHub - Developer-Y/cs-video-courses: List of Computer Science courses with video lectures. · GitHub",
+    "result": "reachable"
+  },
+  {
+    "url": "https://github.com/barbagroup/CFDPython",
+    "checked_at_utc": "2026-11-19T03:58:42.906739+00:00",
+    "status": 206,
+    "final_url": "https://github.com/barbagroup/CFDPython",
+    "page_title": "GitHub - barbagroup/CFDPython: A sequence of Jupyter notebooks featuring the \"12 Steps to Navier-Stokes\" http://lorenabarba.com/ · GitHub",
+    "result": "reachable"
+  },
+  {
+    "url": "https://github.com/ossu/computer-science",
+    "checked_at_utc": "2026-11-19T03:52:59.120861+00:00",
+    "status": 206,
+    "final_url": "https://github.com/ossu/computer-science",
+    "page_title": "GitHub - ossu/computer-science: 🎓 Path to a free self-taught education in Computer Science! · GitHub",
+    "result": "reachable"
+  },
+  {
+    "url": "https://groups.csail.mit.edu/mac/users/gjs/6946/sicm-html/book.html",
+    "checked_at_utc": "2026-11-19T03:58:43.495457+00:00",
+    "status": 206,
+    "final_url": "https://groups.csail.mit.edu/mac/users/gjs/6946/sicm-html/book.html",
+    "page_title": "Structure and Interpretation of Classical Mechanics",
+    "result": "reachable"
+  },
+  {
+    "url": "https://hackettpublishing.com/lingua-latina-per-se-illustrata-series",
+    "checked_at_utc": "2026-11-19T03:58:43.999359+00:00",
+    "status": 200,
+    "final_url": "https://hackettpublishing.com/lingua-latina-per-se-illustrata-series",
+    "page_title": "Lingua Latina per se illustrata series",
+    "result": "reachable"
+  },
+  {
+    "url": "https://historyofphilosophy.net/",
+    "checked_at_utc": "2026-11-19T03:58:44.897492+00:00",
+    "status": 200,
+    "final_url": "https://historyofphilosophy.net/",
+    "page_title": "Home | History of Philosophy without any gaps",
+    "result": "reachable"
+  },
+  {
+    "url": "https://javascript30.com",
+    "checked_at_utc": "2026-11-19T03:58:45.156292+00:00",
+    "status": 200,
+    "final_url": "https://javascript30.com",
+    "page_title": "JavaScript 30 — Build 30 things with vanilla JS in 30 days with 30 tutorials",
+    "result": "reachable"
+  },
+  {
+    "url": "https://karpathy.ai/zero-to-hero.html",
+    "checked_at_utc": "2026-11-19T03:58:45.643495+00:00",
+    "status": 206,
+    "final_url": "https://karpathy.ai/zero-to-hero.html",
+    "page_title": "Neural Networks: Zero To Hero",
+    "result": "reachable"
+  },
+  {
+    "url": "https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/about",
+    "checked_at_utc": "2026-11-19T03:58:45.818762+00:00",
+    "status": 202,
+    "final_url": "https://online.stanford.edu/lagunita-learning-platform/courses/Engineering/Compilers/Fall2014/about",
+    "page_title": "",
+    "result": "unconfirmed",
+    "content_note_zh": "返回202且未取得可辨认的课程页面，不能确认当前课程可用。"
+  },
+  {
+    "url": "https://learngitbranching.js.org/",
+    "checked_at_utc": "2026-11-19T03:58:45.857726+00:00",
+    "status": 206,
+    "final_url": "https://learngitbranching.js.org/",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://missing.csail.mit.edu/",
+    "checked_at_utc": "2026-11-19T03:58:47.711762+00:00",
+    "status": 206,
+    "final_url": "https://missing.csail.mit.edu/",
+    "page_title": "The Missing Semester of Your CS Education",
+    "result": "reachable"
+  },
+  {
+    "url": "https://nptel.ac.in/",
+    "checked_at_utc": "2026-11-19T03:52:59.121030+00:00",
+    "status": 206,
+    "final_url": "https://nptel.ac.in/",
+    "page_title": "NPTEL | Learn from the IITs and IISc",
+    "result": "reachable"
+  },
+  {
+    "url": "https://ocw.mit.edu/",
+    "checked_at_utc": "2026-11-19T03:52:59.121163+00:00",
+    "status": 206,
+    "final_url": "https://ocw.mit.edu/",
+    "page_title": "MIT OpenCourseWare | Free Online Course Materials",
+    "result": "reachable"
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/16-687-private-pilot-ground-school-january-iap-2019/",
+    "checked_at_utc": "2026-11-19T03:52:59.121329+00:00",
+    "status": 206,
+    "final_url": "https://ocw.mit.edu/courses/16-687-private-pilot-ground-school-january-iap-2019/",
+    "page_title": "Private Pilot Ground School | Aeronautics and Astronautics | MIT OpenCourseWare",
+    "result": "reachable"
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/resource-index/",
+    "checked_at_utc": "2026-11-19T03:58:48.733398+00:00",
+    "status": 206,
+    "final_url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/resource-index/",
+    "page_title": "Resource Index | Linear Algebra | Mathematics | MIT OpenCourseWare",
+    "result": "reachable"
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/",
+    "checked_at_utc": "2026-11-19T04:04:36.688831+00:00",
+    "status": 206,
+    "final_url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video_galleries/video-lectures/",
+    "page_title": "Video Lectures | Structure and Interpretation of Computer Programs | Electrical Engineering and Computer Science | MIT OpenCourseWare",
+    "result": "reachable"
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/",
+    "checked_at_utc": "2026-11-19T03:58:49.489867+00:00",
+    "status": 404,
+    "final_url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/pages/video-lectures/",
+    "result": "http_error",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/mathematics/18-085-computational-science-and-engineering-i-fall-2008/",
+    "checked_at_utc": "2026-11-19T03:58:49.933116+00:00",
+    "status": 206,
+    "final_url": "https://ocw.mit.edu/courses/18-085-computational-science-and-engineering-i-fall-2008/",
+    "page_title": "Computational Science and Engineering I | Mathematics | MIT OpenCourseWare",
+    "result": "reachable"
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/res-6-012-introduction-to-probability-spring-2018/",
+    "checked_at_utc": "2026-11-19T03:58:50.261976+00:00",
+    "status": 206,
+    "final_url": "https://ocw.mit.edu/courses/res-6-012-introduction-to-probability-spring-2018/",
+    "page_title": "Introduction to Probability | Electrical Engineering and Computer Science | MIT OpenCourseWare",
+    "result": "reachable"
+  },
+  {
+    "url": "https://online.stanford.edu/courses/soe-ydatabases-databases",
+    "checked_at_utc": "2026-11-19T03:58:51.262776+00:00",
+    "status": 202,
+    "final_url": "https://online.stanford.edu/courses/soe-ydatabases-databases",
+    "page_title": "",
+    "result": "unconfirmed",
+    "content_note_zh": "返回202且未取得可辨认的课程页面，不能确认当前课程可用。"
+  },
+  {
+    "url": "https://online.stanford.edu/courses/sohs-ystatslearning-statistical-learning",
+    "checked_at_utc": "2026-11-19T03:58:52.026858+00:00",
+    "status": 202,
+    "final_url": "https://online.stanford.edu/courses/sohs-ystatslearning-statistical-learning",
+    "page_title": "",
+    "result": "unconfirmed",
+    "content_note_zh": "返回202且未取得可辨认的课程页面，不能确认当前课程可用。"
+  },
+  {
+    "url": "https://oyc.yale.edu/courses",
+    "checked_at_utc": "2026-11-19T03:53:00.101584+00:00",
+    "status": 206,
+    "final_url": "https://oyc.yale.edu/courses",
+    "page_title": "Courses | Open Yale Courses",
+    "result": "reachable"
+  },
+  {
+    "url": "https://oyc.yale.edu/death/phil-176",
+    "checked_at_utc": "2026-11-19T03:58:52.082249+00:00",
+    "status": 206,
+    "final_url": "https://oyc.yale.edu/death/phil-176",
+    "page_title": "Death | Open Yale Courses",
+    "result": "reachable"
+  },
+  {
+    "url": "https://pdos.csail.mit.edu/6.824/",
+    "checked_at_utc": "2026-11-19T03:58:52.646225+00:00",
+    "status": 206,
+    "final_url": "https://pdos.csail.mit.edu/6.824/",
+    "page_title": "6.5840 Home Page: Spring 2026",
+    "result": "reachable"
+  },
+  {
+    "url": "https://projects.iq.harvard.edu/stat110/home",
+    "checked_at_utc": "2026-11-19T03:58:53.086379+00:00",
+    "status": 200,
+    "final_url": "https://stat110.hsites.harvard.edu/",
+    "page_title": "Statistics 110: Probability | Statistics 110: Probability",
+    "result": "reachable"
+  },
+  {
+    "url": "https://scholar.harvard.edu/sandel/justice",
+    "checked_at_utc": "2026-11-19T03:58:53.188155+00:00",
+    "status": 200,
+    "final_url": "https://sandel.scholars.harvard.edu/justice",
+    "page_title": "Justice | Michael J. Sandel",
+    "result": "reachable"
+  },
+  {
+    "url": "https://teachyourselfcs.com/",
+    "checked_at_utc": "2026-11-19T03:53:00.127713+00:00",
+    "status": 206,
+    "final_url": "https://teachyourselfcs.com/",
+    "page_title": "Teach Yourself Computer Science",
+    "result": "reachable"
+  },
+  {
+    "url": "https://theoreticalminimum.com/",
+    "checked_at_utc": "2026-11-19T03:58:53.780645+00:00",
+    "status": 206,
+    "final_url": "https://theoreticalminimum.com/",
+    "page_title": "The Theoretical Minimum |",
+    "result": "reachable"
+  },
+  {
+    "url": "https://use-the-index-luke.com/",
+    "checked_at_utc": "2026-11-19T03:58:53.832683+00:00",
+    "status": 206,
+    "final_url": "https://use-the-index-luke.com/",
+    "page_title": "SQL Indexing and Tuning e-Book for developers: Use The Index, Luke covers Oracle, MySQL, PostgreSQL, SQL Server, ...",
+    "result": "reachable"
+  },
+  {
+    "url": "https://work.caltech.edu/telecourse.html",
+    "checked_at_utc": "2026-11-19T03:58:53.838621+00:00",
+    "status": 206,
+    "final_url": "https://work.caltech.edu/telecourse.html",
+    "page_title": "Learning From Data - Online Course (MOOC)",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.amazon.com/Introduction-Algorithms-Thomas-H-Cormen/dp/0262531968",
+    "checked_at_utc": "2026-11-19T03:58:53.850463+00:00",
+    "status": 200,
+    "final_url": "https://www.amazon.com/Introduction-Algorithms-Thomas-H-Cormen/dp/0262531968",
+    "page_title": "Introduction to Algorithms: Cormen, Thomas H., Leiserson, Charles E.: 9780262531962: Amazon.com: Books",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.classcentral.com/collection/top-free-online-courses",
+    "checked_at_utc": "2026-11-19T03:53:01.042527+00:00",
+    "status": 403,
+    "final_url": "https://www.classcentral.com/collection/top-free-online-courses",
+    "result": "http_error",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.complexityexplorer.org/courses/104-introduction-to-complexity",
+    "checked_at_utc": "2026-11-19T03:53:01.160934+00:00",
+    "status": 206,
+    "final_url": "https://www.complexityexplorer.org/courses/104-introduction-to-complexity",
+    "page_title": "Complexity Explorer",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.coursera.org/learn/algorithms-part1",
+    "checked_at_utc": "2026-11-19T03:58:55.045378+00:00",
+    "status": 200,
+    "final_url": "https://www.coursera.org/learn/algorithms-part1",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.coursera.org/learn/audio-signal-processing",
+    "checked_at_utc": "2026-11-19T03:58:56.432357+00:00",
+    "status": 200,
+    "final_url": "https://www.coursera.org/learn/audio-signal-processing",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.coursera.org/learn/discrete-optimization",
+    "checked_at_utc": "2026-11-19T03:58:56.700159+00:00",
+    "status": 404,
+    "final_url": "https://www.coursera.org/learn/discrete-optimization",
+    "result": "http_error",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.coursera.org/learn/edinburgh-music-theory",
+    "checked_at_utc": "2026-11-19T03:58:56.807778+00:00",
+    "status": 200,
+    "final_url": "https://www.coursera.org/learn/edinburgh-music-theory",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.coursera.org/learn/financial-markets-global",
+    "checked_at_utc": "2026-11-19T03:58:57.193144+00:00",
+    "status": 200,
+    "final_url": "https://www.coursera.org/learn/financial-markets-global",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.coursera.org/learn/learning-how-to-learn",
+    "checked_at_utc": "2026-11-19T03:58:57.218697+00:00",
+    "status": 200,
+    "final_url": "https://www.coursera.org/learn/learning-how-to-learn",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.coursera.org/learn/machine-learning",
+    "checked_at_utc": "2026-11-19T03:58:57.258174+00:00",
+    "status": 200,
+    "final_url": "https://www.coursera.org/learn/machine-learning",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.coursera.org/learn/model-thinking",
+    "checked_at_utc": "2026-11-19T03:58:57.504154+00:00",
+    "status": 200,
+    "final_url": "https://www.coursera.org/learn/model-thinking",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.coursera.org/learn/modern-world",
+    "checked_at_utc": "2026-11-19T03:58:58.020492+00:00",
+    "status": 200,
+    "final_url": "https://www.coursera.org/learn/modern-world",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.coursera.org/learn/money-banking",
+    "checked_at_utc": "2026-11-19T03:58:58.234170+00:00",
+    "status": 200,
+    "final_url": "https://www.coursera.org/learn/money-banking",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.coursera.org/learn/progfun1",
+    "checked_at_utc": "2026-11-19T03:58:58.269991+00:00",
+    "status": 200,
+    "final_url": "https://www.coursera.org/learn/scala-functional-programming",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.coursera.org/learn/programming-languages",
+    "checked_at_utc": "2026-11-19T03:58:58.684643+00:00",
+    "status": 200,
+    "final_url": "https://www.coursera.org/learn/programming-languages",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.coursera.org/learn/science-of-meditation",
+    "checked_at_utc": "2026-11-19T03:58:59.020972+00:00",
+    "status": 200,
+    "final_url": "https://www.coursera.org/browse/health/psychology",
+    "page_title": "",
+    "result": "unconfirmed",
+    "content_note_zh": "原课程地址跳转至分类目录，未确认课程当前入口。"
+  },
+  {
+    "url": "https://www.coursera.org/learn/single-variable-calculus",
+    "checked_at_utc": "2026-11-19T03:58:59.161739+00:00",
+    "status": 200,
+    "final_url": "https://www.coursera.org/learn/single-variable-calculus",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.coursera.org/learn/songwriting-lyrics",
+    "checked_at_utc": "2026-11-19T03:58:59.844664+00:00",
+    "status": 200,
+    "final_url": "https://www.coursera.org/learn/songwriting-lyrics",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.coursera.org/learn/the-science-of-well-being",
+    "checked_at_utc": "2026-11-19T03:59:00.003452+00:00",
+    "status": 200,
+    "final_url": "https://www.coursera.org/learn/the-science-of-well-being",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.coursera.org/learn/understanding-arguments",
+    "checked_at_utc": "2026-11-19T03:59:00.251610+00:00",
+    "status": 200,
+    "final_url": "https://www.coursera.org/learn/understanding-arguments",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.coursera.org/specializations/algorithms",
+    "checked_at_utc": "2026-11-19T03:59:00.537409+00:00",
+    "status": 200,
+    "final_url": "https://www.coursera.org/specializations/algorithms",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.coursera.org/specializations/deep-learning",
+    "checked_at_utc": "2026-11-19T03:59:00.561926+00:00",
+    "status": 200,
+    "final_url": "https://www.coursera.org/specializations/deep-learning",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.cs.cornell.edu/courses/cs6120/2023fa/self-guided/",
+    "checked_at_utc": "2026-11-19T03:59:00.763603+00:00",
+    "status": 206,
+    "final_url": "https://www.cs.cornell.edu/courses/cs6120/2023fa/self-guided/",
+    "page_title": "CS 6120: The Self-Guided Course",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.edx.org/course/circuits-electronics-1-basic-circuit-mitx-6-002-1x-0",
+    "checked_at_utc": "2026-11-19T03:59:01.001668+00:00",
+    "status": 404,
+    "final_url": "https://www.edx.org/course/circuits-electronics-1-basic-circuit-mitx-6-002-1x-0",
+    "result": "http_error",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.edx.org/course/first-nights-messiah-harvardx-mus24-2x",
+    "checked_at_utc": "2026-11-19T03:59:01.005650+00:00",
+    "status": 200,
+    "final_url": "https://www.edx.org/learn/music-arts/harvard-university-first-nights-handel-s-messiah-and-baroque-oratorio",
+    "page_title": "HarvardX: First Nights - Handel's Messiah and Baroque Oratorio | edX",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.edx.org/course/global-history-architecture-mitx-4-605x3",
+    "checked_at_utc": "2026-11-19T03:59:01.394074+00:00",
+    "status": 308,
+    "final_url": "https://www.edx.org/learn/architecture-history/massachusetts-institute-of-technology-a-global-history-of-architecture",
+    "result": "http_error",
+    "error": "HTTP Error 308: Permanent Redirect"
+  },
+  {
+    "url": "https://www.feynmanlectures.caltech.edu/",
+    "checked_at_utc": "2026-11-19T03:59:01.702768+00:00",
+    "status": 403,
+    "final_url": "https://www.feynmanlectures.caltech.edu/",
+    "result": "http_error",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.khanacademy.org/math",
+    "checked_at_utc": "2026-11-19T03:59:01.768781+00:00",
+    "status": 206,
+    "final_url": "https://www.khanacademy.org/math",
+    "page_title": "Client Challenge",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.makershed.com/products/make-electronics-2ed",
+    "checked_at_utc": "2026-11-19T03:59:01.811897+00:00",
+    "status": 429,
+    "final_url": "https://www.makershed.com/products/make-electronics-2ed",
+    "result": "http_error",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "url": "https://www.mooc.fi/en/",
+    "checked_at_utc": "2026-11-19T03:53:01.282225+00:00",
+    "status": 200,
+    "final_url": "https://www.mooc.fi/en/",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.nand2tetris.org/course",
+    "checked_at_utc": "2026-11-19T03:59:02.178845+00:00",
+    "status": 200,
+    "final_url": "https://www.nand2tetris.org/course",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.ops-class.org/",
+    "checked_at_utc": "2026-11-19T03:59:02.593249+00:00",
+    "status": 206,
+    "final_url": "https://ops-class.org/",
+    "page_title": "",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.oreilly.com/library/view/sql-antipatterns/9781680500073/",
+    "checked_at_utc": "2026-11-19T03:59:03.707550+00:00",
+    "status": 403,
+    "final_url": "https://www.oreilly.com/library/view/sql-antipatterns/9781680500073/",
+    "result": "http_error",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.reasonandpersuasion.com/",
+    "checked_at_utc": "2026-11-19T03:59:05.041742+00:00",
+    "status": null,
+    "final_url": "https://www.reasonandpersuasion.com/",
+    "result": "unconfirmed",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.reasonandpersuasion.com'. (_ssl.c:1007)>"
+  },
+  {
+    "url": "https://www.stat.cmu.edu/~larry/all-of-statistics/",
+    "checked_at_utc": "2026-11-19T03:59:05.694171+00:00",
+    "status": 206,
+    "final_url": "https://www.stat.cmu.edu/~larry/all-of-statistics/",
+    "page_title": "All of Statistics",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.thegreatcourses.com/courses/einstein-s-relativity-and-the-quantum-revolution-modern-physics-for-non-scientists-2nd-edition",
+    "checked_at_utc": "2026-11-19T03:59:05.974173+00:00",
+    "status": 403,
+    "final_url": "https://www.thegreatcourses.com/courses/einstein-s-relativity-and-the-quantum-revolution-modern-physics-for-non-scientists-2nd-edition",
+    "result": "http_error",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.thegreatcourses.com/courses/the-philosopher-s-toolkit-how-to-be-the-most-rational-person-in-any-room.html",
+    "checked_at_utc": "2026-11-19T03:59:06.622383+00:00",
+    "status": 403,
+    "final_url": "https://www.thegreatcourses.com/courses/the-philosopher-s-toolkit-how-to-be-the-most-rational-person-in-any-room.html",
+    "result": "http_error",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.udacity.com/course/design-of-computer-programs--cs212",
+    "checked_at_utc": "2026-11-19T03:59:06.882613+00:00",
+    "status": 200,
+    "final_url": "https://www.udacity.com/course/design-of-computer-programs--cs212",
+    "page_title": "Design of Computer Programs | Udacity",
+    "result": "reachable"
+  },
+  {
+    "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+    "checked_at_utc": "2026-11-19T03:59:07.075292+00:00",
+    "status": null,
+    "final_url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+    "result": "unconfirmed",
+    "error": "<urlopen error [Errno 101] Network is unreachable>"
+  },
+  {
+    "url": "https://www.youtube.com/playlist?list=PLh9mgdi4rNewfxO7LhBoz_1Mx1MaO6sw_",
+    "checked_at_utc": "2026-11-19T03:59:07.585964+00:00",
+    "status": null,
+    "final_url": "https://www.youtube.com/playlist?list=PLh9mgdi4rNewfxO7LhBoz_1Mx1MaO6sw_",
+    "result": "unconfirmed",
+    "error": "<urlopen error [Errno 101] Network is unreachable>"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=LFOsw1Vccac&list=PLUl4u3cNGP63wurgwdJKo6UEYBWDLnmCj",
+    "checked_at_utc": "2026-11-19T03:59:07.851196+00:00",
+    "status": null,
+    "final_url": "https://www.youtube.com/watch?v=LFOsw1Vccac&list=PLUl4u3cNGP63wurgwdJKo6UEYBWDLnmCj",
+    "result": "unconfirmed",
+    "error": "<urlopen error [Errno 101] Network is unreachable>"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=bf1264iFr-w&list=PL06960BA52D0DB32B",
+    "checked_at_utc": "2026-11-19T03:59:11.643098+00:00",
+    "status": null,
+    "final_url": "https://www.youtube.com/watch?v=bf1264iFr-w&list=PL06960BA52D0DB32B",
+    "result": "unconfirmed",
+    "error": "<urlopen error [Errno 101] Network is unreachable>"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=nIoXOplUvAw",
+    "checked_at_utc": "2026-11-19T03:59:14.554130+00:00",
+    "status": null,
+    "final_url": "https://www.youtube.com/watch?v=nIoXOplUvAw",
+    "result": "unconfirmed",
+    "error": "<urlopen error [Errno 101] Network is unreachable>"
+  },
+  {
+    "url": "https://xcelab.net/rm/#statistical-rethinking",
+    "checked_at_utc": "2026-11-19T04:07:44.149153+00:00",
+    "status": null,
+    "final_url": "https://xcelab.net/rm/#statistical-rethinking",
+    "result": "unconfirmed",
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "url": "https://xcelab.net/rm/statistical-rethinking/",
+    "checked_at_utc": "2026-11-19T04:04:36.689004+00:00",
+    "status": null,
+    "final_url": "https://xcelab.net/rm/statistical-rethinking/",
+    "result": "unconfirmed",
+    "error": "Remote end closed connection without response"
+  }
+]

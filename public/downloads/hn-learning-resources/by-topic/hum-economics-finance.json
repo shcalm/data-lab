@@ -1,0 +1,295 @@
+{
+  "topic": {
+    "id": "hum-economics-finance",
+    "title_zh": "货币、金融与战略互动",
+    "question_zh": "如何理解货币和市场的机制，而不只记财经名词？",
+    "description_zh": "重点是资产负债表、金融制度与博弈思维；不把经济学理解等同于市场预测。",
+    "source_story_ids": [
+      10644518,
+      16745042,
+      22826722,
+      31219253,
+      34591291
+    ],
+    "resource_ids": [
+      "hum-model-thinking",
+      "hum-money-banking",
+      "hum-financial-markets",
+      "hum-yale-game-theory"
+    ],
+    "resource_count": 4
+  },
+  "resources": [
+    {
+      "id": "hum-model-thinking",
+      "title": "Model Thinking",
+      "provider": "University of Michigan / Scott E. Page / Coursera",
+      "format": "mooc",
+      "format_detail_zh": "MOOC",
+      "topics": [
+        "hum-learning-methods",
+        "hum-economics-finance"
+      ],
+      "summary_zh": "用多个简单模型分析社会现象、经济变化和决策问题，帮助学习者比较不同解释视角。适合希望为社会科学学习建立分析工具的人。",
+      "prerequisites_zh": "原帖所引课程介绍称深入部分需要代数，不要求微积分。课程较长。",
+      "why_recommended_zh": "推荐者特别肯定跨学科模型带来的理解力，以及把复杂模型讲得直观的能力；有学习者报告这些工具进入了日常和职业决策。",
+      "resource_url": "https://www.coursera.org/learn/model-thinking",
+      "resource_url_basis": {
+        "type": "comment_href",
+        "story_id": 22826722,
+        "item_id": 22827668,
+        "href": "https://www.coursera.org/learn/model-thinking"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-model-thinking",
+          "resource_title": "Model Thinking",
+          "story_id": 22826722,
+          "item_id": 22827668,
+          "quote": "It's designed to be a foundation course for subsequent social science classes, but I personally found the exposure to models from different fields of study to be quite insightful.",
+          "stance": "recommendation",
+          "reason_zh": "亲身选课者肯定跨领域模型作为社会科学基础的价值。",
+          "author": "bhaprayan",
+          "item_url": "https://news.ycombinator.com/item?id=22827668",
+          "story_url": "https://news.ycombinator.com/item?id=22826722",
+          "created_at_utc": "2020-04-09T22:02:31.000Z",
+          "cache_file": "research/stem/threads/22826722.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-model-thinking",
+          "resource_title": "Model Thinking",
+          "story_id": 22826722,
+          "item_id": 22829789,
+          "quote": "Scott is one of the best teachers on the topic, and makes complex models simple and intuitive to understand. It is a long course, but well worth it. Cannot recommend it enough.",
+          "stance": "qualified_recommendation",
+          "reason_zh": "另一位推荐者明确肯定讲解能力，也提醒课程较长。",
+          "author": "pmohun",
+          "item_url": "https://news.ycombinator.com/item?id=22829789",
+          "story_url": "https://news.ycombinator.com/item?id=22826722",
+          "created_at_utc": "2020-04-10T03:40:10.000Z",
+          "cache_file": "research/stem/threads/22826722.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "同帖22829545含大段课程介绍；其中历史免费表述不作为当前价格依据。",
+      "related_resource_urls": [],
+      "research_area": "humanities",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://www.coursera.org/learn/model-thinking",
+        "checked_at_utc": "2026-11-19T03:58:57.504154+00:00",
+        "status": 200,
+        "final_url": "https://www.coursera.org/learn/model-thinking",
+        "page_title": "",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "hum-money-banking",
+      "title": "Economics of Money and Banking",
+      "provider": "Perry Mehrling / Coursera",
+      "format": "mooc",
+      "format_detail_zh": "MOOC / 完整讲座系列",
+      "topics": [
+        "hum-economics-finance"
+      ],
+      "summary_zh": "用资产负债表和银行体系的运作机制解释货币、中央银行、利率及金融流动性，并结合金本位和战争融资等历史。适合想理解财经新闻背后机制的人。",
+      "prerequisites_zh": "2022年回复认为没有金融背景也容易进入；需愿意跟踪资产负债表，不应把它当作投资预测保证。",
+      "why_recommended_zh": "2018、2022和2023年的独立评论都集中赞赏它把复杂货币机制讲清楚；一位学习者说课程揭开了利率、央行和量化宽松的运作方式。",
+      "resource_url": "https://www.coursera.org/learn/money-banking",
+      "resource_url_basis": {
+        "type": "comment_href",
+        "story_id": 16745042,
+        "item_id": 16746093,
+        "href": "https://www.coursera.org/learn/money-banking"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-money-banking",
+          "resource_title": "Economics of Money and Banking",
+          "story_id": 16745042,
+          "item_id": 16746093,
+          "quote": "It's just fantastic. He explains what money really is from the perspective of treating everyone as a bank. Also, lots of good history here including the history of central banking, the gold standard, and war finance.",
+          "stance": "recommendation",
+          "reason_zh": "解释推荐的具体内容与历史视角。",
+          "author": "Suncho",
+          "item_url": "https://news.ycombinator.com/item?id=16746093",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T16:09:45.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-money-banking",
+          "resource_title": "Economics of Money and Banking",
+          "story_id": 31219253,
+          "item_id": 31247510,
+          "quote": "What I enjoyed about this course is that Mehrling focuses on how the economy works _mechanistically_, on what is actually happening on balance sheets throughout the economy.",
+          "stance": "recommendation",
+          "reason_zh": "独立学习者赞赏资产负债表与机制教学。",
+          "author": "yt-sdb",
+          "item_url": "https://news.ycombinator.com/item?id=31247510",
+          "story_url": "https://news.ycombinator.com/item?id=31219253",
+          "created_at_utc": "2022-05-03T12:35:05.000Z",
+          "cache_file": "research/humanities/threads/31219253.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-money-banking",
+          "resource_title": "Economics of Money and Banking",
+          "story_id": 34591291,
+          "item_id": 34594058,
+          "quote": "He helped me understand what money really is. He explains pretty complex things that most people have a hard time understanding, in a very simple way.",
+          "stance": "recommendation",
+          "reason_zh": "2023年评论再次肯定复杂概念的解释。",
+          "author": "lejoko",
+          "item_url": "https://news.ycombinator.com/item?id=34594058",
+          "story_url": "https://news.ycombinator.com/item?id=34591291",
+          "created_at_utc": "2023-01-31T12:06:16.000Z",
+          "cache_file": "research/cs/newer/threads/34591291.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "宏观经济学征集帖中也有人提醒，理解经济学与预测市场、获得投资收益是不同目标。",
+      "related_resource_urls": [],
+      "research_area": "humanities",
+      "source_story_count": 3,
+      "positive_recommendation_item_count": 3,
+      "link_check": {
+        "url": "https://www.coursera.org/learn/money-banking",
+        "checked_at_utc": "2026-11-19T03:58:58.234170+00:00",
+        "status": 200,
+        "final_url": "https://www.coursera.org/learn/money-banking",
+        "page_title": "",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "hum-financial-markets",
+      "title": "Financial Markets",
+      "provider": "Yale / Robert Shiller / Coursera、Open Yale Courses",
+      "format": "mooc",
+      "format_detail_zh": "MOOC / 大学公开课",
+      "topics": [
+        "hum-economics-finance"
+      ],
+      "summary_zh": "从风险、制度、市场历史与人类行为理解金融市场。适合没有金融训练、希望建立金融常识和制度视角的学习者。",
+      "prerequisites_zh": "2018年推荐者自述没有金融背景；未据此声称全部数学、金融工具或投资实务都适合零基础。",
+      "why_recommended_zh": "一位软件从业者报告掌握基础并改变了对金融社会作用的理解；2023年另一推荐者特别赞赏Shiller对金融历史和市场行为的讲解。",
+      "resource_url": "https://www.coursera.org/learn/financial-markets-global",
+      "resource_url_basis": {
+        "type": "comment_href",
+        "story_id": 16745042,
+        "item_id": 16746356,
+        "href": "https://www.coursera.org/learn/financial-markets-global"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-financial-markets",
+          "resource_title": "Financial Markets",
+          "story_id": 16745042,
+          "item_id": 16746356,
+          "quote": "After taking it, not only do I have the basics nailed down but have gained a massive appreciation of finance as a technology that, at its best, mitigates risk and advances society.",
+          "stance": "recommendation",
+          "reason_zh": "明确完成后的知识与视角变化。",
+          "author": "carusooneliner",
+          "item_url": "https://news.ycombinator.com/item?id=16746356",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T16:33:22.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-financial-markets",
+          "resource_title": "Financial Markets",
+          "story_id": 34591291,
+          "item_id": 34592617,
+          "quote": "In the category of finance, Bob Shiller’s enthusiasm for financial history and his amusement with the limitless quirks and excesses of markets.",
+          "stance": "recommendation",
+          "reason_zh": "另一推荐者解释Shiller系列的讲授特点。",
+          "author": "pgayed",
+          "item_url": "https://news.ycombinator.com/item?id=34592617",
+          "story_url": "https://news.ycombinator.com/item?id=34591291",
+          "created_at_utc": "2023-01-31T08:14:00.000Z",
+          "cache_file": "research/cs/newer/threads/34591291.json",
+          "archive_match_status": "different",
+          "evidence_source": "algolia"
+        }
+      ],
+      "notes_zh": "Coursera版与2008/2011年Yale课堂录像入口不同，不能把旧录像当成新版MOOC的作业或认证。课程教育价值不等于投资建议。",
+      "related_resource_urls": [
+        "https://youtube.com/playlist?list=PL8FB14A2200B87185"
+      ],
+      "research_area": "humanities",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://www.coursera.org/learn/financial-markets-global",
+        "checked_at_utc": "2026-11-19T03:58:57.193144+00:00",
+        "status": 200,
+        "final_url": "https://www.coursera.org/learn/financial-markets-global",
+        "page_title": "",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "hum-yale-game-theory",
+      "title": "Game Theory (ECON 159)",
+      "provider": "Open Yale Courses / Ben Polak",
+      "format": "university_course",
+      "format_detail_zh": "大学完整公开课",
+      "topics": [
+        "hum-economics-finance"
+      ],
+      "summary_zh": "介绍优势策略、逆向归纳、纳什均衡、承诺、信息不对称和信号等战略思维，并用课堂游戏及社会实例说明。适合希望从互动与激励分析问题的人。",
+      "prerequisites_zh": "官网要求入门微观经济学；课程会用单变量微积分、概率与期望，不宜当作完全无数学先修的通识课。",
+      "why_recommended_zh": "明确推荐者认为它提供了不同于常规计算机算法解题的视角。推荐强度来自这条具体评价，没有把其他同名课程的好评混进来。",
+      "resource_url": "http://oyc.yale.edu/economics/econ-159",
+      "resource_url_basis": {
+        "type": "comment_href",
+        "story_id": 10644518,
+        "item_id": 10647738,
+        "href": "http://oyc.yale.edu/economics/econ-159"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-yale-game-theory",
+          "resource_title": "Game Theory (ECON 159)",
+          "story_id": 10644518,
+          "item_id": 10647738,
+          "quote": "Yale has a great class on Game Theory. It provides some alternatives to solving problems from the normal CS algorithms.",
+          "stance": "recommendation",
+          "reason_zh": "直接推荐Yale这门课，并说明视角上的用途。",
+          "author": "thecolorblue",
+          "item_url": "https://news.ycombinator.com/item?id=10647738",
+          "story_url": "https://news.ycombinator.com/item?id=10644518",
+          "created_at_utc": "2015-11-30T04:39:11.000Z",
+          "cache_file": "research/cs/threads/10644518.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "官网为2007年秋季课堂存档；与Coursera上其他学校同名Game Theory课程区分。",
+      "related_resource_urls": [],
+      "research_area": "humanities",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 1,
+      "link_check": {
+        "url": "http://oyc.yale.edu/economics/econ-159",
+        "checked_at_utc": "2026-11-19T03:58:38.545449+00:00",
+        "status": 206,
+        "final_url": "https://oyc.yale.edu/economics/econ-159",
+        "page_title": "Game Theory | Open Yale Courses",
+        "result": "reachable"
+      }
+    }
+  ]
+}

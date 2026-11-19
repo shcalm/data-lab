@@ -1,0 +1,14 @@
+---
+import Icon from './Icon.astro';
+import { getLearningResources } from '../lib/learning-resources.mjs';
+import { href } from '../lib/paths';
+import '../styles/learning-resources.css';
+const project = getLearningResources();
+---
+<article class="project-card project-learning">
+  <div class="card-eyebrow"><span class="eyebrow">08 / FOLLOW YOUR CURIOSITY</span><span class="card-icon"><Icon name="book" size={25} /></span></div>
+  <h3><a href={href(`${project.path}/`)}>{project.title}<Icon name="arrow-up" size={24} /></a></h3>
+  <p class="card-description">从一个问题开始学习。沿着 25 个主题，寻找 HN 读者推荐的大学课、MOOC、讲座与教材，读内容，也读亲身体验。</p>
+  <div class="learning-card-preview"><a href={href(`${project.path}/?topic=hum-economics-finance#learning-results`)}><span>货币与金融</span><b>货币到底怎样运作？</b><Icon name="arrow" size={15} /></a><a href={href(`${project.path}/?topic=cs-systems#learning-results`)}><span>计算机系统</span><b>代码下面发生了什么？</b><Icon name="arrow" size={15} /></a><a href={href(`${project.path}/?topic=hum-visual-arts#learning-results`)}><span>艺术与创作</span><b>一部电影可以怎样读？</b><Icon name="arrow" size={15} /></a></div>
+  <div class="card-footer"><span>{project.entries.length} 项资源 · {project.topics.length} 个主题</span><a href={href(`${project.path}/`)}>找一门想学的课<Icon name="arrow" size={19} /></a></div>
+</article>

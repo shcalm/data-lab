@@ -1,0 +1,224 @@
+{
+  "topic": {
+    "id": "hum-music",
+    "title_zh": "乐理、歌词与音乐欣赏",
+    "question_zh": "非音乐专业者怎样系统理解、创作和欣赏音乐？",
+    "description_zh": "既有基础乐理与歌词训练，也有通过具体作品学习音乐史的课程。",
+    "source_story_ids": [
+      10644518,
+      16745042,
+      21822225
+    ],
+    "resource_ids": [
+      "hum-songwriting",
+      "hum-fundamentals-music-theory",
+      "hum-first-nights-messiah"
+    ],
+    "resource_count": 3
+  },
+  "resources": [
+    {
+      "id": "hum-songwriting",
+      "title": "Songwriting / Songwriting: Writing the Lyrics",
+      "provider": "Berklee College of Music / Pat Pattison / Coursera",
+      "format": "mooc",
+      "format_detail_zh": "MOOC",
+      "topics": [
+        "hum-music"
+      ],
+      "summary_zh": "把歌曲歌词写作拆成可练习的步骤，讨论词语、结构及表达效果。适合想写歌，也适合对文字和流行音乐创作过程好奇的人。",
+      "prerequisites_zh": "评论没有提出乐器或作曲先修要求；需要愿意写作并尝试给同学反馈。",
+      "why_recommended_zh": "2015、2018、2023年都有人具体称赞Pat Pattison把歌词写作讲透、拆解清楚。互评体验有分歧：有人认为反馈和同伴感很有价值，也有人因反馈质量而放弃。",
+      "resource_url": "https://www.coursera.org/learn/songwriting-lyrics",
+      "resource_url_basis": {
+        "type": "comment_href",
+        "story_id": 35536042,
+        "item_id": 35539810,
+        "href": "https://www.coursera.org/learn/songwriting-lyrics"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-songwriting",
+          "resource_title": "Songwriting / Songwriting: Writing the Lyrics",
+          "story_id": 16745042,
+          "item_id": 16745841,
+          "quote": "Most fun: Pat Pattison, Songwriting, Coursera. Very good lectures, very good material, very well presented. Teaches a lot about writing song lyrics in just 6 weeks, breaks it nicely down to steps and recipes.",
+          "stance": "recommendation",
+          "reason_zh": "给出授课组织、材料和步骤化训练的具体好评。",
+          "author": "sampo",
+          "item_url": "https://news.ycombinator.com/item?id=16745841",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T15:50:46.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-songwriting",
+          "resource_title": "Songwriting / Songwriting: Writing the Lyrics",
+          "story_id": 10644518,
+          "item_id": 10647894,
+          "quote": "Presented by Pat Pattison from Berklee College of Music, I started the course thinking who is this guy? By the end I was hanging off his every word.",
+          "stance": "recommendation",
+          "reason_zh": "另一位学习者给出从开课到结课的强烈正面体验。",
+          "author": "tagawa",
+          "item_url": "https://news.ycombinator.com/item?id=10647894",
+          "story_url": "https://news.ycombinator.com/item?id=10644518",
+          "created_at_utc": "2015-11-30T05:23:50.000Z",
+          "cache_file": "research/cs/threads/10644518.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-songwriting",
+          "resource_title": "Songwriting / Songwriting: Writing the Lyrics",
+          "story_id": 10644518,
+          "item_id": 10651313,
+          "quote": "I also started Songwriting and Jazz Improvisation, and while both had outstanding content and instruction, the peer-grading of assignments was a complete failure and forced me to quit the coursework timeline.",
+          "stance": "qualified_recommendation",
+          "reason_zh": "肯定内容与教学，同时明确批评互评质量并报告退课。",
+          "author": "makeset",
+          "item_url": "https://news.ycombinator.com/item?id=10651313",
+          "story_url": "https://news.ycombinator.com/item?id=10644518",
+          "created_at_utc": "2015-11-30T19:50:10.000Z",
+          "cache_file": "research/cs/threads/10644518.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "旧 /learn/songwriting 本次为404，改用2023年评论给出的 /learn/songwriting-lyrics，已取得200页面。历史六周结构和互评安排可能已变。",
+      "related_resource_urls": [],
+      "research_area": "humanities",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 3,
+      "link_check": {
+        "url": "https://www.coursera.org/learn/songwriting-lyrics",
+        "checked_at_utc": "2026-11-19T03:58:59.844664+00:00",
+        "status": 200,
+        "final_url": "https://www.coursera.org/learn/songwriting-lyrics",
+        "page_title": "",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "hum-fundamentals-music-theory",
+      "title": "Fundamentals of Music Theory",
+      "provider": "University of Edinburgh / Coursera",
+      "format": "mooc",
+      "format_detail_zh": "MOOC",
+      "topics": [
+        "hum-music"
+      ],
+      "summary_zh": "从音高、音阶、节奏和记谱进入西方乐理，进一步理解音程、和弦与基本和声。适合希望把零散音乐知识整理成体系的初学者。",
+      "prerequisites_zh": "官网说明从基本概念逐步进入较进阶概念；课程考试可能比入门视频更有挑战。",
+      "why_recommended_zh": "2015年在读评价具体肯定教师答疑、补充视频、测验与互评规则；2020年乐理专帖中又得到独立正面推荐。",
+      "resource_url": "https://www.coursera.org/learn/edinburgh-music-theory",
+      "resource_url_basis": {
+        "type": "observed_redirect",
+        "story_id": 21822225,
+        "item_id": 21823066,
+        "original_href": "https://www.coursera.org/learn/edinburgh-music-theory/home/welcome",
+        "record": "official-page-checks.json: fundamentals-music-theory"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-fundamentals-music-theory",
+          "resource_title": "Fundamentals of Music Theory",
+          "story_id": 10644518,
+          "item_id": 10648862,
+          "quote": "The instructors were really active in the facebook group, and took time to make extra videos to answer common questions. The quizzes were good and fairly marked, the exam was tough, but the peer-review guidelines for it were very clear and easy to follow.",
+          "stance": "qualified_recommendation",
+          "reason_zh": "具体评价教学支持和考核；也提醒考试较难。",
+          "author": "hrnnnnnn",
+          "item_url": "https://news.ycombinator.com/item?id=10648862",
+          "story_url": "https://news.ycombinator.com/item?id=10644518",
+          "created_at_utc": "2015-11-30T11:27:27.000Z",
+          "cache_file": "research/cs/threads/10644518.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-fundamentals-music-theory",
+          "resource_title": "Fundamentals of Music Theory",
+          "story_id": 21822225,
+          "item_id": 21823066,
+          "quote": "The University of Edinburgh has a decent free course on Coursera:",
+          "stance": "recommendation",
+          "reason_zh": "乐理征集帖中的独立正面推荐；免费只代表当时说法。",
+          "author": "anxtyinmgmt",
+          "item_url": "https://news.ycombinator.com/item?id=21823066",
+          "story_url": "https://news.ycombinator.com/item?id=21822225",
+          "created_at_utc": "2019-12-18T08:55:19.000Z",
+          "cache_file": "research/humanities/threads/21822225.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "现页说明2022年修订，页面已出现AI评分及付费访问提示；不能把2015年的教师社区互动和互评体验当作当前安排。",
+      "related_resource_urls": [],
+      "research_area": "humanities",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://www.coursera.org/learn/edinburgh-music-theory",
+        "checked_at_utc": "2026-11-19T03:58:56.807778+00:00",
+        "status": 200,
+        "final_url": "https://www.coursera.org/learn/edinburgh-music-theory",
+        "page_title": "",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "hum-first-nights-messiah",
+      "title": "First Nights: Handel's Messiah and Baroque Oratorio",
+      "provider": "HarvardX / Thomas Forrest Kelly / edX",
+      "format": "mooc",
+      "format_detail_zh": "MOOC / 音乐史系列的一部分",
+      "topics": [
+        "hum-music",
+        "hum-history-civilization"
+      ],
+      "summary_zh": "通过亨德尔《弥赛亚》理解巴洛克清唱剧、音乐结构及历史环境。适合想把音乐欣赏与历史背景联系起来的人。",
+      "prerequisites_zh": "评论未给出正式乐理先修；不将欣赏课程表述为器乐、作曲或音乐学学位训练。",
+      "why_recommended_zh": "完成过多门MOOC的推荐者说第一讲就被吸引，并把它列为First Nights五门系列中的最爱。",
+      "resource_url": "https://www.edx.org/course/first-nights-messiah-harvardx-mus24-2x",
+      "resource_url_basis": {
+        "type": "comment_href",
+        "story_id": 16745042,
+        "item_id": 16746727,
+        "href": "https://www.edx.org/course/first-nights-messiah-harvardx-mus24-2x"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-first-nights-messiah",
+          "resource_title": "First Nights: Handel's Messiah and Baroque Oratorio",
+          "story_id": 16745042,
+          "item_id": 16746727,
+          "quote": "taught by Thomas Forrest Kelly. Historical perspective and structure of the music. I was hooked from the first lecture. One of a series of 5 outstanding courses in the \"First Nights\" series, this is my favorite.",
+          "stance": "recommendation",
+          "reason_zh": "明确说明教学内容、吸引力及系列中偏好。",
+          "author": "drxyzzy",
+          "item_url": "https://news.ycombinator.com/item?id=16746727",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T17:03:43.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "只把这门有具体推荐的课计为一项；不把系列另外四门分别扩充为独立推荐。本次统一检查时旧edX入口已跳转到匹配课名的现行课程页并返回200；未登录核验当前全部课程内容与评分权限。",
+      "related_resource_urls": [],
+      "research_area": "humanities",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 1,
+      "link_check": {
+        "url": "https://www.edx.org/course/first-nights-messiah-harvardx-mus24-2x",
+        "checked_at_utc": "2026-11-19T03:59:01.005650+00:00",
+        "status": 200,
+        "final_url": "https://www.edx.org/learn/music-arts/harvard-university-first-nights-handel-s-messiah-and-baroque-oratorio",
+        "page_title": "HarvardX: First Nights - Handel's Messiah and Baroque Oratorio | edX",
+        "result": "reachable"
+      }
+    }
+  ]
+}

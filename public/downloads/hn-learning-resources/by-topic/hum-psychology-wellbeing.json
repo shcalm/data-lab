@@ -1,0 +1,173 @@
+{
+  "topic": {
+    "id": "hum-psychology-wellbeing",
+    "title_zh": "心理学与幸福感",
+    "question_zh": "如何理解情绪、幸福感与自我，并尝试相关练习？",
+    "description_zh": "包含心理学研究与实践导向课程；区分在读推荐、效果自述和对理论的赞同。",
+    "source_story_ids": [
+      10644518,
+      16745042,
+      22826722,
+      23427186
+    ],
+    "resource_ids": [
+      "hum-buddhism-modern-psychology",
+      "hum-science-wellbeing"
+    ],
+    "resource_count": 2
+  },
+  "resources": [
+    {
+      "id": "hum-buddhism-modern-psychology",
+      "title": "Buddhism and Modern Psychology",
+      "provider": "Princeton / Robert Wright / Coursera",
+      "format": "mooc",
+      "format_detail_zh": "MOOC",
+      "topics": [
+        "hum-philosophy-reasoning",
+        "hum-psychology-wellbeing"
+      ],
+      "summary_zh": "把佛教中关于情绪、冥想和自我的观点与进化心理学及认知科学研究联系起来。适合对哲学与心理学交叉问题感兴趣的人。",
+      "prerequisites_zh": "评论未提正式先修。推荐主要针对心理学解释和实践讨论，不是佛教宗教学全景。",
+      "why_recommended_zh": "不同年份的学习者都认为它拓展了理解幸福、意义及情绪的方式；推荐理由包括理论联系和可继续阅读的材料。",
+      "resource_url": "https://www.coursera.org/learn/science-of-meditation",
+      "resource_url_basis": {
+        "type": "comment_href",
+        "story_id": 10644518,
+        "item_id": 10648791,
+        "href": "https://www.coursera.org/learn/science-of-meditation"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-buddhism-modern-psychology",
+          "resource_title": "Buddhism and Modern Psychology",
+          "story_id": 10644518,
+          "item_id": 10648791,
+          "quote": "It includes interesting interviews and solid book/article recommendations. It's very eye-opening to me and gave me a whole new perspective about happiness and meaning in life.",
+          "stance": "recommendation",
+          "reason_zh": "亲身体验肯定访谈、延伸书目和对幸福及意义的启发。",
+          "author": "tianyicui",
+          "item_url": "https://news.ycombinator.com/item?id=10648791",
+          "story_url": "https://news.ycombinator.com/item?id=10644518",
+          "created_at_utc": "2015-11-30T11:00:13.000Z",
+          "cache_file": "research/cs/threads/10644518.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-buddhism-modern-psychology",
+          "resource_title": "Buddhism and Modern Psychology",
+          "story_id": 16745042,
+          "item_id": 16747873,
+          "quote": "This course was just mind-blowing for me. It talks a lot about how our evolutionary survival mechanisms prevent us from seeing the world clearly.",
+          "stance": "recommendation",
+          "reason_zh": "另一位学习者肯定进化心理学切入的启发。",
+          "author": "blocked_again",
+          "item_url": "https://news.ycombinator.com/item?id=16747873",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T18:51:26.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-buddhism-modern-psychology",
+          "resource_title": "Buddhism and Modern Psychology",
+          "story_id": 16745042,
+          "item_id": 16749261,
+          "quote": "Note that religious aspects are not addressed. Practical aspects of buddhism (such as a regular meditation practice, approach to emotions, etc) are discussed. I find it very useful in day to day life.",
+          "stance": "qualified_recommendation",
+          "reason_zh": "给出日常应用体验，并限制推荐范围为实践而非宗教内容。",
+          "author": "tra3",
+          "item_url": "https://news.ycombinator.com/item?id=16749261",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T21:09:00.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "评论者赞同课程中对佛教与科学关系的解释，不能据此把课程中的所有论点视为科学定论。 本次原Coursera入口跳转至心理学分类目录，尚未确认原课程的有效现行学习入口。",
+      "related_resource_urls": [],
+      "research_area": "humanities",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 3,
+      "link_check": {
+        "url": "https://www.coursera.org/learn/science-of-meditation",
+        "checked_at_utc": "2026-11-19T03:58:59.020972+00:00",
+        "status": 200,
+        "final_url": "https://www.coursera.org/browse/health/psychology",
+        "page_title": "",
+        "result": "unconfirmed",
+        "content_note_zh": "原课程地址跳转至分类目录，未确认课程当前入口。"
+      }
+    },
+    {
+      "id": "hum-science-wellbeing",
+      "title": "The Science of Well-Being",
+      "provider": "Yale / Laurie Santos / Coursera",
+      "format": "mooc",
+      "format_detail_zh": "MOOC",
+      "topics": [
+        "hum-psychology-wellbeing"
+      ],
+      "summary_zh": "围绕幸福感研究和日常行为改变学习心理学中的发现与练习。适合想系统检视自己关于幸福的直觉，并愿意尝试实践任务的人。",
+      "prerequisites_zh": "评论未提学科先修；2020年的推荐者中有人仍在学习，不能据此称为完成者效果报告。",
+      "why_recommended_zh": "两个不同的2020年征集帖都给出明确正面推荐，其中一位直接评价课程符合其声誉。",
+      "resource_url": "https://www.coursera.org/learn/the-science-of-well-being",
+      "resource_url_basis": {
+        "type": "comment_href",
+        "story_id": 22826722,
+        "item_id": 22827512,
+        "href": "https://www.coursera.org/learn/the-science-of-well-being"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-science-wellbeing",
+          "resource_title": "The Science of Well-Being",
+          "story_id": 22826722,
+          "item_id": 22827512,
+          "quote": "The Science of Wellbeing[1] taught by Yale’s Dr. Laurie Santos lives up to the hype.",
+          "stance": "recommendation",
+          "reason_zh": "命名具体教师和课程并明确肯定。",
+          "author": "elliekelly",
+          "item_url": "https://news.ycombinator.com/item?id=22827512",
+          "story_url": "https://news.ycombinator.com/item?id=22826722",
+          "created_at_utc": "2020-04-09T21:43:15.000Z",
+          "cache_file": "research/stem/threads/22826722.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-science-wellbeing",
+          "resource_title": "The Science of Well-Being",
+          "story_id": 23427186,
+          "item_id": 23429619,
+          "quote": "While not directly related to programming I'm currently doing The science of wellbeing https://www.coursera.org/lecture/the-science-of-well-being/b... and would definitely recommend it.",
+          "stance": "recommendation",
+          "reason_zh": "另一位在读者明确推荐；保留在读状态。",
+          "author": "spookyuser",
+          "item_url": "https://news.ycombinator.com/item?id=23429619",
+          "story_url": "https://news.ycombinator.com/item?id=23427186",
+          "created_at_utc": "2020-06-05T15:26:33.000Z",
+          "cache_file": "research/general/threads/23427186.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "22714203帖的YouTube替代入口被回复22723524纠正为只有第一讲，不能当成完整课程替代品；历史免费报道不代表当前完整访问或证书价格。",
+      "related_resource_urls": [],
+      "research_area": "humanities",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://www.coursera.org/learn/the-science-of-well-being",
+        "checked_at_utc": "2026-11-19T03:59:00.003452+00:00",
+        "status": 200,
+        "final_url": "https://www.coursera.org/learn/the-science-of-well-being",
+        "page_title": "",
+        "result": "reachable"
+      }
+    }
+  ]
+}

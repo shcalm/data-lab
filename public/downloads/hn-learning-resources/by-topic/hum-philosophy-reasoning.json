@@ -1,0 +1,508 @@
+{
+  "topic": {
+    "id": "hum-philosophy-reasoning",
+    "title_zh": "哲学、伦理与论证",
+    "question_zh": "没有哲学背景，怎样开始认真分析伦理、死亡与日常论证？",
+    "description_zh": "从具体问题和可讨论的论证进入哲学，也保留原典导读和长期哲学史路径。",
+    "source_story_ids": [
+      10644518,
+      16745042,
+      22826722,
+      25312681,
+      34591291,
+      35536042
+    ],
+    "resource_ids": [
+      "hum-justice",
+      "hum-think-again",
+      "hum-buddhism-modern-psychology",
+      "hum-yale-death",
+      "hum-philosophers-toolkit",
+      "hum-reason-persuasion",
+      "hum-philosophy-without-gaps"
+    ],
+    "resource_count": 7
+  },
+  "resources": [
+    {
+      "id": "hum-justice",
+      "title": "Justice: What's the Right Thing to Do?",
+      "provider": "Harvard / Michael Sandel",
+      "format": "university_course",
+      "format_detail_zh": "大学公开课 / MOOC",
+      "topics": [
+        "hum-philosophy-reasoning"
+      ],
+      "summary_zh": "通过具体道德困境讨论公正、权利与责任，介绍亚里士多德、康德、密尔和罗尔斯等思想。适合想从问题出发进入伦理与政治哲学的人。",
+      "prerequisites_zh": "评论将其作为入门材料；无需先系统读完哲学史。它聚焦伦理与公正，覆盖范围并非全部哲学。",
+      "why_recommended_zh": "多名评论者独立推荐，理由集中在课堂讨论引人入胜、不同公正理论讲解清晰，而非只因为哈佛品牌。",
+      "resource_url": "https://scholar.harvard.edu/sandel/justice",
+      "resource_url_basis": {
+        "type": "comment_href",
+        "story_id": 25312681,
+        "item_id": 25318356,
+        "href": "https://scholar.harvard.edu/sandel/justice"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-justice",
+          "resource_title": "Justice: What's the Right Thing to Do?",
+          "story_id": 16745042,
+          "item_id": 16751525,
+          "quote": "great course on moral reasoning, covers different theories of justice based on ideas from Aristotle, Kant, John Stuart Mill, John Rawls and many more, extremely well presented too.",
+          "stance": "recommendation",
+          "reason_zh": "指出课程具体涵盖的伦理理论，并肯定呈现方式。",
+          "author": "ljiljana",
+          "item_url": "https://news.ycombinator.com/item?id=16751525",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-04T02:59:19.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-justice",
+          "resource_title": "Justice: What's the Right Thing to Do?",
+          "story_id": 25312681,
+          "item_id": 25318356,
+          "quote": "I saw this years ago and I am still so impressed by how engaging these lectures are. Michael Sandel is great. Of course this is not holistic review of philosophy",
+          "stance": "qualified_recommendation",
+          "reason_zh": "另一讨论中的学习者肯定吸引力，并限定它不是哲学全景课程。",
+          "author": "patrykp",
+          "item_url": "https://news.ycombinator.com/item?id=25318356",
+          "story_url": "https://news.ycombinator.com/item?id=25312681",
+          "created_at_utc": "2020-12-05T21:06:09.000Z",
+          "cache_file": "research/humanities/threads/25312681.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-justice",
+          "resource_title": "Justice: What's the Right Thing to Do?",
+          "story_id": 34591291,
+          "item_id": 34593158,
+          "quote": "The Harvard Justice series (Michael Sandel) is one of the best ones I've seen. Very intriguing!",
+          "stance": "recommendation",
+          "reason_zh": "2023年讲座推荐帖再次出现独立正面推荐。",
+          "author": "piyush_soni",
+          "item_url": "https://news.ycombinator.com/item?id=34593158",
+          "story_url": "https://news.ycombinator.com/item?id=34591291",
+          "created_at_utc": "2023-01-31T09:34:53.000Z",
+          "cache_file": "research/cs/newer/threads/34591291.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "评论同时给出Harvard页面、YouTube系列和旧edX版；它们属于同一教学主题的不同入口，作业与认证安排可能不同。",
+      "related_resource_urls": [
+        "https://www.youtube.com/playlist?list=PL30C13C91CFFEFEA6"
+      ],
+      "research_area": "humanities",
+      "source_story_count": 3,
+      "positive_recommendation_item_count": 3,
+      "link_check": {
+        "url": "https://scholar.harvard.edu/sandel/justice",
+        "checked_at_utc": "2026-11-19T03:58:53.188155+00:00",
+        "status": 200,
+        "final_url": "https://sandel.scholars.harvard.edu/justice",
+        "page_title": "Justice | Michael J. Sandel",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "hum-think-again",
+      "title": "Think Again: How to Reason and Argue",
+      "provider": "Duke University / Ram Neta、Walter Sinnott-Armstrong / Coursera",
+      "format": "mooc",
+      "format_detail_zh": "MOOC系列",
+      "topics": [
+        "hum-philosophy-reasoning",
+        "hum-learning-methods"
+      ],
+      "summary_zh": "训练识别、理解和评估论证，作为哲学推理与日常争论的基础。适合希望超越凭直觉辩论、建立明确推理步骤的人。",
+      "prerequisites_zh": "评论未给出正式先修；链接指向 Understanding Arguments，不能据此声称一个入口囊括系列全部内容。",
+      "why_recommended_zh": "一位评论者认为其论证基础内容广且出色；另一位有多门MOOC经验的学习者也把它列为喜欢的非技术课程。",
+      "resource_url": "https://www.coursera.org/learn/understanding-arguments",
+      "resource_url_basis": {
+        "type": "comment_href",
+        "story_id": 16745042,
+        "item_id": 16746056,
+        "href": "https://www.coursera.org/learn/understanding-arguments"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-think-again",
+          "resource_title": "Think Again: How to Reason and Argue",
+          "story_id": 16745042,
+          "item_id": 16746056,
+          "quote": "the Coursera course Think Again: How to Reason and Argue , by Duke University's Ram Neta and Walter Sinnott-Armstrong [1] is exceptional.",
+          "stance": "recommendation",
+          "reason_zh": "明确命名授课者并给出强烈正面评价。",
+          "author": "rikkhill",
+          "item_url": "https://news.ycombinator.com/item?id=16746056",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T16:06:27.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-think-again",
+          "resource_title": "Think Again: How to Reason and Argue",
+          "story_id": 10644518,
+          "item_id": 10648295,
+          "quote": "For non-IT related courses I liked Think Again: How to Reason and Argue[8], Crafting an Effective Writer: Tools of the Trade (Fundamental English Writing)[9]",
+          "stance": "recommendation",
+          "reason_zh": "另一位多课程学习者也明确表示喜欢Think Again；不把其完成总数等同于本课完成证明。",
+          "author": "uulbiy",
+          "item_url": "https://news.ycombinator.com/item?id=10648295",
+          "story_url": "https://news.ycombinator.com/item?id=10644518",
+          "created_at_utc": "2015-11-30T07:48:37.000Z",
+          "cache_file": "research/cs/threads/10644518.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "旧课程名与现有子课入口可能不同；推荐依据保留历史原名。",
+      "related_resource_urls": [],
+      "research_area": "humanities",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://www.coursera.org/learn/understanding-arguments",
+        "checked_at_utc": "2026-11-19T03:59:00.251610+00:00",
+        "status": 200,
+        "final_url": "https://www.coursera.org/learn/understanding-arguments",
+        "page_title": "",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "hum-buddhism-modern-psychology",
+      "title": "Buddhism and Modern Psychology",
+      "provider": "Princeton / Robert Wright / Coursera",
+      "format": "mooc",
+      "format_detail_zh": "MOOC",
+      "topics": [
+        "hum-philosophy-reasoning",
+        "hum-psychology-wellbeing"
+      ],
+      "summary_zh": "把佛教中关于情绪、冥想和自我的观点与进化心理学及认知科学研究联系起来。适合对哲学与心理学交叉问题感兴趣的人。",
+      "prerequisites_zh": "评论未提正式先修。推荐主要针对心理学解释和实践讨论，不是佛教宗教学全景。",
+      "why_recommended_zh": "不同年份的学习者都认为它拓展了理解幸福、意义及情绪的方式；推荐理由包括理论联系和可继续阅读的材料。",
+      "resource_url": "https://www.coursera.org/learn/science-of-meditation",
+      "resource_url_basis": {
+        "type": "comment_href",
+        "story_id": 10644518,
+        "item_id": 10648791,
+        "href": "https://www.coursera.org/learn/science-of-meditation"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-buddhism-modern-psychology",
+          "resource_title": "Buddhism and Modern Psychology",
+          "story_id": 10644518,
+          "item_id": 10648791,
+          "quote": "It includes interesting interviews and solid book/article recommendations. It's very eye-opening to me and gave me a whole new perspective about happiness and meaning in life.",
+          "stance": "recommendation",
+          "reason_zh": "亲身体验肯定访谈、延伸书目和对幸福及意义的启发。",
+          "author": "tianyicui",
+          "item_url": "https://news.ycombinator.com/item?id=10648791",
+          "story_url": "https://news.ycombinator.com/item?id=10644518",
+          "created_at_utc": "2015-11-30T11:00:13.000Z",
+          "cache_file": "research/cs/threads/10644518.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-buddhism-modern-psychology",
+          "resource_title": "Buddhism and Modern Psychology",
+          "story_id": 16745042,
+          "item_id": 16747873,
+          "quote": "This course was just mind-blowing for me. It talks a lot about how our evolutionary survival mechanisms prevent us from seeing the world clearly.",
+          "stance": "recommendation",
+          "reason_zh": "另一位学习者肯定进化心理学切入的启发。",
+          "author": "blocked_again",
+          "item_url": "https://news.ycombinator.com/item?id=16747873",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T18:51:26.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-buddhism-modern-psychology",
+          "resource_title": "Buddhism and Modern Psychology",
+          "story_id": 16745042,
+          "item_id": 16749261,
+          "quote": "Note that religious aspects are not addressed. Practical aspects of buddhism (such as a regular meditation practice, approach to emotions, etc) are discussed. I find it very useful in day to day life.",
+          "stance": "qualified_recommendation",
+          "reason_zh": "给出日常应用体验，并限制推荐范围为实践而非宗教内容。",
+          "author": "tra3",
+          "item_url": "https://news.ycombinator.com/item?id=16749261",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T21:09:00.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "评论者赞同课程中对佛教与科学关系的解释，不能据此把课程中的所有论点视为科学定论。 本次原Coursera入口跳转至心理学分类目录，尚未确认原课程的有效现行学习入口。",
+      "related_resource_urls": [],
+      "research_area": "humanities",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 3,
+      "link_check": {
+        "url": "https://www.coursera.org/learn/science-of-meditation",
+        "checked_at_utc": "2026-11-19T03:58:59.020972+00:00",
+        "status": 200,
+        "final_url": "https://www.coursera.org/browse/health/psychology",
+        "page_title": "",
+        "result": "unconfirmed",
+        "content_note_zh": "原课程地址跳转至分类目录，未确认课程当前入口。"
+      }
+    },
+    {
+      "id": "hum-yale-death",
+      "title": "Death (PHIL 176)",
+      "provider": "Open Yale Courses / Shelly Kagan",
+      "format": "university_course",
+      "format_detail_zh": "大学完整公开课",
+      "topics": [
+        "hum-philosophy-reasoning"
+      ],
+      "summary_zh": "讨论灵魂与肉体、人格延续、死亡是否有害、不朽是否值得，以及死亡意识如何影响生活。适合愿意用论证检验人生直觉的哲学入门者。",
+      "prerequisites_zh": "官网课程材料包含柏拉图、John Perry、托尔斯泰等阅读；需要愿意持续阅读和思考抽象论证。",
+      "why_recommended_zh": "2023年的推荐者明确报告反复观看、完整听过且仍然喜欢；2018年另有不同作者的强烈推荐。",
+      "resource_url": "https://oyc.yale.edu/death/phil-176",
+      "resource_url_basis": {
+        "type": "comment_href",
+        "story_id": 35536042,
+        "item_id": 35539380,
+        "href": "https://oyc.yale.edu/death/phil-176"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-yale-death",
+          "resource_title": "Death (PHIL 176)",
+          "story_id": 35536042,
+          "item_id": 35538366,
+          "quote": "The one I've enjoyed watching more than once: Death with Shelly Kagan, Yale",
+          "stance": "recommendation",
+          "reason_zh": "明确说反复观看并喜欢。",
+          "author": "dusted",
+          "item_url": "https://news.ycombinator.com/item?id=35538366",
+          "story_url": "https://news.ycombinator.com/item?id=35536042",
+          "created_at_utc": "2023-04-12T12:10:18.000Z",
+          "cache_file": "research/cs/newer/threads/35536042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-yale-death",
+          "resource_title": "Death (PHIL 176)",
+          "story_id": 34591291,
+          "item_id": 34600609,
+          "quote": "I don't know why, I've listened it through more than once and enjoyed it a lot.",
+          "stance": "recommendation",
+          "reason_zh": "同一推荐者在另一征集帖明确报告不止一次完整听完；不重复计算为独立作者。",
+          "author": "dusted",
+          "item_url": "https://news.ycombinator.com/item?id=34600609",
+          "story_url": "https://news.ycombinator.com/item?id=34591291",
+          "created_at_utc": "2023-01-31T19:35:18.000Z",
+          "cache_file": "research/cs/newer/threads/34591291.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-yale-death",
+          "resource_title": "Death (PHIL 176)",
+          "story_id": 16745042,
+          "item_id": 16749725,
+          "quote": "Professor Kagan's class on Death from Yale is absolutely fantastic and should be general class taught imho.",
+          "stance": "recommendation",
+          "reason_zh": "2018年的独立强烈推荐。",
+          "author": "jadbox",
+          "item_url": "https://news.ycombinator.com/item?id=16749725",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T21:56:10.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "官网存档为2007年春季课堂。课程会讨论自杀的哲学与伦理问题；这是内容范围说明。",
+      "related_resource_urls": [
+        "https://www.youtube.com/watch?v=p2J7wSuFRl8&list=PLEA18FAF1AD9047B0"
+      ],
+      "research_area": "humanities",
+      "source_story_count": 3,
+      "positive_recommendation_item_count": 3,
+      "link_check": {
+        "url": "https://oyc.yale.edu/death/phil-176",
+        "checked_at_utc": "2026-11-19T03:58:52.082249+00:00",
+        "status": 206,
+        "final_url": "https://oyc.yale.edu/death/phil-176",
+        "page_title": "Death | Open Yale Courses",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "hum-philosophers-toolkit",
+      "title": "The Philosopher's Toolkit: How to Be the Most Rational Person in Any Room",
+      "provider": "The Great Courses",
+      "format": "lecture_series",
+      "format_detail_zh": "系统讲座 / 有声课程",
+      "topics": [
+        "hum-philosophy-reasoning",
+        "hum-learning-methods"
+      ],
+      "summary_zh": "介绍判断论证、选择启发式方法和解决问题的思考工具。适合希望训练日常推理、偏好长篇音频学习的人。",
+      "prerequisites_zh": "评论未提正式先修；音频版由视频课程改编，可能无法完整传达视觉材料。",
+      "why_recommended_zh": "推荐者认为它把各个思考工具背后的概念解释清楚，同时明确提醒音频与视频版的差别。",
+      "resource_url": "https://www.thegreatcourses.com/courses/the-philosopher-s-toolkit-how-to-be-the-most-rational-person-in-any-room.html",
+      "resource_url_basis": {
+        "type": "comment_href",
+        "story_id": 22826722,
+        "item_id": 22832946,
+        "href": "https://www.thegreatcourses.com/courses/the-philosopher-s-toolkit-how-to-be-the-most-rational-person-in-any-room.html"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-philosophers-toolkit",
+          "resource_title": "The Philosopher's Toolkit: How to Be the Most Rational Person in Any Room",
+          "story_id": 22826722,
+          "item_id": 22828911,
+          "quote": "It teaches you mental models on how to think and find a solution to a problem. It explains the concepts behind each model quite well. Topics include how to determine a valid argument, an iron clad argument, using heuristics to solve problems, among other things.",
+          "stance": "qualified_recommendation",
+          "reason_zh": "给出明确推荐以及论证和启发式问题求解的具体内容。",
+          "author": "accidentalrebel",
+          "item_url": "https://news.ycombinator.com/item?id=22828911",
+          "story_url": "https://news.ycombinator.com/item?id=22826722",
+          "created_at_utc": "2020-04-10T01:09:16.000Z",
+          "cache_file": "research/stem/threads/22826722.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "回复者提供视频版链接；来源没有证明当前订阅、购买或图书馆借阅条件。",
+      "related_resource_urls": [
+        "https://www.audible.com/pd/The-Philosophers-Toolkit-How-to-Be-the-Most-Rational-Person-in-Any-Room-Audiobook/1629976822"
+      ],
+      "research_area": "humanities",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 1,
+      "link_check": {
+        "url": "https://www.thegreatcourses.com/courses/the-philosopher-s-toolkit-how-to-be-the-most-rational-person-in-any-room.html",
+        "checked_at_utc": "2026-11-19T03:59:06.622383+00:00",
+        "status": 403,
+        "final_url": "https://www.thegreatcourses.com/courses/the-philosopher-s-toolkit-how-to-be-the-most-rational-person-in-any-room.html",
+        "result": "http_error",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "id": "hum-reason-persuasion",
+      "title": "Reason and Persuasion",
+      "provider": "Holbo、Waring",
+      "format": "online_book",
+      "format_detail_zh": "柏拉图哲学导读教材 / Coursera讲座系列",
+      "topics": [
+        "hum-philosophy-reasoning"
+      ],
+      "summary_zh": "从柏拉图进入哲学论证，提供教材与相应讲座。适合希望读哲学原典，又需要有结构的入门解释的人。",
+      "prerequisites_zh": "评论定位为可亲近而不浅薄的入门；需要实际阅读、思考论证。",
+      "why_recommended_zh": "哲学专题帖中直接推荐其作为有深度的入门路径，且给出书与课程的配套入口。来源未声称推荐者已经完整修完。",
+      "resource_url": "https://www.reasonandpersuasion.com/",
+      "resource_url_basis": {
+        "type": "comment_href",
+        "story_id": 25312681,
+        "item_id": 25322144,
+        "href": "https://www.reasonandpersuasion.com/"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-reason-persuasion",
+          "resource_title": "Reason and Persuasion",
+          "story_id": 25312681,
+          "item_id": 25322144,
+          "quote": "For an approachable but not shallow introduction to philosophy via Plato, try Holbo and Waring's Reason and Persuasion, available as a free book and Coursera lecture series:",
+          "stance": "recommendation",
+          "reason_zh": "针对柏拉图入门的明确正面推荐；不冒充完成者体验。",
+          "author": "aWidebrant",
+          "item_url": "https://news.ycombinator.com/item?id=25322144",
+          "story_url": "https://news.ycombinator.com/item?id=25312681",
+          "created_at_utc": "2020-12-06T08:54:21.000Z",
+          "cache_file": "research/humanities/threads/25312681.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "免费是2020年评论中的表述。原www入口本次TLS证书域名不匹配，保留原始推荐链接并记录访问限制。",
+      "related_resource_urls": [],
+      "research_area": "humanities",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 1,
+      "link_check": {
+        "url": "https://www.reasonandpersuasion.com/",
+        "checked_at_utc": "2026-11-19T03:59:05.041742+00:00",
+        "status": null,
+        "final_url": "https://www.reasonandpersuasion.com/",
+        "result": "unconfirmed",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.reasonandpersuasion.com'. (_ssl.c:1007)>"
+      }
+    },
+    {
+      "id": "hum-philosophy-without-gaps",
+      "title": "History of Philosophy Without Any Gaps",
+      "provider": "Peter Adamson",
+      "format": "podcast",
+      "format_detail_zh": "连续哲学史播客 / 讲座系列",
+      "topics": [
+        "hum-philosophy-reasoning",
+        "hum-history-civilization"
+      ],
+      "summary_zh": "按历史脉络讲解哲学思想的发展，并联系科学、政治、宗教与社会环境。适合愿意长期听讲、希望补足哲学史背景的人。",
+      "prerequisites_zh": "来源没有列学科先修；系列持续扩展，适合按阶段学习而非期待短期速成。",
+      "why_recommended_zh": "推荐者认为它兼顾简洁与必要深度，历史背景解释出色，而且持续保持信息量与趣味性。",
+      "resource_url": "https://historyofphilosophy.net/",
+      "resource_url_basis": {
+        "type": "comment_href",
+        "story_id": 34591291,
+        "item_id": 34592431,
+        "href": "https://historyofphilosophy.net/"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-philosophy-without-gaps",
+          "resource_title": "History of Philosophy Without Any Gaps",
+          "story_id": 34591291,
+          "item_id": 34592431,
+          "quote": "Peter Adamson does a fantastic job explaining the historical context and progression of philosophy along with the interplay between philosophy, science, politics, religion, and society. I find the episodes consistently both informative and amusing.",
+          "stance": "recommendation",
+          "reason_zh": "对历史背景、跨领域联系及持续听讲体验的具体正面评价。",
+          "author": "Fezzik",
+          "item_url": "https://news.ycombinator.com/item?id=34592431",
+          "story_url": "https://news.ycombinator.com/item?id=34591291",
+          "created_at_utc": "2023-01-31T07:41:50.000Z",
+          "cache_file": "research/cs/newer/threads/34591291.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "这是播客式系统学习资源，不能等同于有作业、批改与学分的大学MOOC；官网本次取得200页面。",
+      "related_resource_urls": [],
+      "research_area": "humanities",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 1,
+      "link_check": {
+        "url": "https://historyofphilosophy.net/",
+        "checked_at_utc": "2026-11-19T03:58:44.897492+00:00",
+        "status": 200,
+        "final_url": "https://historyofphilosophy.net/",
+        "page_title": "Home | History of Philosophy without any gaps",
+        "result": "reachable"
+      }
+    }
+  ]
+}

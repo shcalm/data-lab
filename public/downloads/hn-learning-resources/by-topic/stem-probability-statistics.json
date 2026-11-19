@@ -1,0 +1,411 @@
+{
+  "topic": {
+    "id": "stem-probability-statistics",
+    "title_zh": "概率、统计与贝叶斯建模",
+    "question_zh": "怎样从会套公式进到理解不确定性、统计推断与实际建模？",
+    "description_zh": "讨论集中推荐有题目和解答的概率课，以及统计推断、贝叶斯建模教材与讲座。",
+    "source_story_ids": [
+      16745042,
+      17474646,
+      34591291
+    ],
+    "resource_ids": [
+      "stem-harvard-stat110",
+      "stem-mit-probability",
+      "stem-all-of-statistics",
+      "stem-statistical-rethinking",
+      "stem-stanford-statistical-learning"
+    ],
+    "resource_count": 5
+  },
+  "resources": [
+    {
+      "id": "stem-harvard-stat110",
+      "title": "Harvard Stat 110 / Introduction to Probability",
+      "provider": "Harvard University / Joe Blitzstein、Jessica Hwang",
+      "format": "university_course",
+      "topics": [
+        "stem-probability-statistics",
+        "stem-math"
+      ],
+      "summary_zh": "系统学习概率并训练识别问题结构、对称性等解题方法，适合想建立概率直觉的本科程度读者。可配套Introduction to Probability教材。",
+      "prerequisites_zh": "建议高中代数熟练，基础微积分有帮助。",
+      "why_recommended_zh": "dwohnitmok称它能训练看到问题就识别可用方法的直觉；in9喜欢有挑战但附有清楚解答的题目。",
+      "resource_url": "https://projects.iq.harvard.edu/stat110/home",
+      "evidence": [
+        {
+          "resource_id": "stem-harvard-stat110",
+          "resource_title": "Harvard Stat 110 / Introduction to Probability",
+          "story_id": 17474646,
+          "item_id": 17475986,
+          "quote": "As a first text, I really like Introduction to Probability by Blitzstein and Hwang.",
+          "stance": "recommendation",
+          "reason_zh": "dwohnitmok亲自解释为何适合作为第一本概率教材，并指出配套课程材料。",
+          "author": "dwohnitmok",
+          "item_url": "https://news.ycombinator.com/item?id=17475986",
+          "story_url": "https://news.ycombinator.com/item?id=17474646",
+          "created_at_utc": "2018-07-06T23:47:32.000Z",
+          "cache_file": "research/stem/threads/17474646.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "stem-harvard-stat110",
+          "resource_title": "Harvard Stat 110 / Introduction to Probability",
+          "story_id": 34591291,
+          "item_id": 34636547,
+          "quote": "Harvard Stat 110: awesome and somewhat challenging lecture series on probability. It goes into all the probability basics, but also goes into problem solving skill very often, so the problem sets tended to be hard as I recall it.",
+          "stance": "recommendation",
+          "reason_zh": "in9回忆概率课的解题训练与较难习题。",
+          "author": "in9",
+          "item_url": "https://news.ycombinator.com/item?id=34636547",
+          "story_url": "https://news.ycombinator.com/item?id=34591291",
+          "created_at_utc": "2023-02-03T02:51:18.000Z",
+          "cache_file": "research/cs/newer/threads/34591291.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "把书和同一Stat 110课程作为一组资源；不重复计数。不是测度论概率的替代。",
+      "resource_url_source": {
+        "kind": "comment_href",
+        "story_id": 17474646,
+        "item_id": 17475986,
+        "url": "https://projects.iq.harvard.edu/stat110/home"
+      },
+      "format_detail_zh": "大学概率课讲座、教材、习题与解答",
+      "research_area": "stem",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://projects.iq.harvard.edu/stat110/home",
+        "checked_at_utc": "2026-11-19T03:58:53.086379+00:00",
+        "status": 200,
+        "final_url": "https://stat110.hsites.harvard.edu/",
+        "page_title": "Statistics 110: Probability | Statistics 110: Probability",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "stem-mit-probability",
+      "title": "Introduction to Probability — The Science of Uncertainty",
+      "provider": "MITx / John Tsitsiklis 等；历史 edX 课程",
+      "format": "mooc",
+      "topics": [
+        "stem-probability-statistics"
+      ],
+      "summary_zh": "从概率模型、随机变量进入推断所需的概率基础，适合愿意投入时间系统做题的学习者。",
+      "prerequisites_zh": "建议单变量微积分、求和及高中代数；需为习题预留时间。",
+      "why_recommended_zh": "harry8称它比自己在大学上的课更好；bdastous每周做题至少15小时仍觉得值得；antman对讲授、习题和实用性均给高评价。",
+      "resource_url": "https://ocw.mit.edu/courses/res-6-012-introduction-to-probability-spring-2018/",
+      "evidence": [
+        {
+          "resource_id": "stem-mit-probability",
+          "resource_title": "Introduction to Probability — The Science of Uncertainty",
+          "story_id": 16745042,
+          "item_id": 16750876,
+          "quote": "John Tsitsiklis' MITx edx Probability intro course is probably the best course I've taken anywhere and better than anything I did in person at university.",
+          "stance": "recommendation",
+          "reason_zh": "harry8明确评价Tsitsiklis的MITx概率入门课。",
+          "author": "harry8",
+          "item_url": "https://news.ycombinator.com/item?id=16750876",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-04T00:47:38.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "stem-mit-probability",
+          "resource_title": "Introduction to Probability — The Science of Uncertainty",
+          "story_id": 16745042,
+          "item_id": 16751117,
+          "quote": "I concur on the MIT edX Probability course. I spent at least 15 hours a week on the exercises but it was well worth it.",
+          "stance": "recommendation",
+          "reason_zh": "bdastous提供每周实际习题投入，而不是泛称容易。",
+          "author": "bdastous",
+          "item_url": "https://news.ycombinator.com/item?id=16751117",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-04T01:32:52.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "stem-mit-probability",
+          "resource_title": "Introduction to Probability — The Science of Uncertainty",
+          "story_id": 16745042,
+          "item_id": 16748258,
+          "quote": "Introduction to Probability - The Science of Uncertainty,math oriented MIT/EDX Difficulty:5/5 Videos:5/5 Material and exercises:5/5 Usefulness: 5/5",
+          "stance": "recommendation",
+          "reason_zh": "antman给具名概率MOOC的难度和质量评分。",
+          "author": "antman",
+          "item_url": "https://news.ycombinator.com/item?id=16748258",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T19:29:32.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "历史评论指MITx概率MOOC。原edX现行路径已跳转通用目录，故提供MIT OCW的RES.6-012材料入口：官网明确说它覆盖相同内容，使用为edX版本制作的视频。这个OCW公开材料页不等于今天仍可注册、自动评分的原MOOC。",
+      "resource_url_source": {
+        "kind": "official_entry",
+        "url": "https://ocw.mit.edu/courses/res-6-012-introduction-to-probability-spring-2018/",
+        "basis_zh": "MIT官方OCW页HTTP 200；课程说明明确写明使用为edX版本制作的视频。完整HTML缓存mit-res-6-012-official.html。",
+        "verification_file": "official-entry-checks.json"
+      },
+      "format_detail_zh": "历史大学MOOC；MIT OCW现提供讲座材料",
+      "research_area": "stem",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 3,
+      "link_check": {
+        "url": "https://ocw.mit.edu/courses/res-6-012-introduction-to-probability-spring-2018/",
+        "checked_at_utc": "2026-11-19T03:58:50.261976+00:00",
+        "status": 206,
+        "final_url": "https://ocw.mit.edu/courses/res-6-012-introduction-to-probability-spring-2018/",
+        "page_title": "Introduction to Probability | Electrical Engineering and Computer Science | MIT OpenCourseWare",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "stem-all-of-statistics",
+      "title": "All of Statistics",
+      "provider": "Larry Wasserman（Carnegie Mellon）；Springer 出版",
+      "format": "book",
+      "topics": [
+        "stem-probability-statistics"
+      ],
+      "summary_zh": "用紧凑篇幅串起概率、统计推断与相关方法，适合已掌握微积分和线性代数、想系统补统计的读者。",
+      "prerequisites_zh": "建议微积分、线性代数；初学者应逐题消化而非当成轻松读物。",
+      "why_recommended_zh": "johnmyleswhite明确按先修水平推荐；antognini希望自己早些读到；shoyer喜欢它紧凑、便于快速建立全貌。",
+      "resource_url": "https://www.stat.cmu.edu/~larry/all-of-statistics/",
+      "evidence": [
+        {
+          "resource_id": "stem-all-of-statistics",
+          "resource_title": "All of Statistics",
+          "story_id": 17474646,
+          "item_id": 17475551,
+          "quote": "All of Statistics by Larry Wasserman is the book I recommend for anyone who knows calculus and linear algebra and wants to learn statistics.",
+          "stance": "recommendation",
+          "reason_zh": "johnmyleswhite明确给出适用基础。",
+          "author": "johnmyleswhite",
+          "item_url": "https://news.ycombinator.com/item?id=17475551",
+          "story_url": "https://news.ycombinator.com/item?id=17474646",
+          "created_at_utc": "2018-07-06T22:20:17.000Z",
+          "cache_file": "research/stem/threads/17474646.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "stem-all-of-statistics",
+          "resource_title": "All of Statistics",
+          "story_id": 17474646,
+          "item_id": 17476215,
+          "quote": "Amazing book. It has an ambitious title, but it really lives up to it. I just wish I had read it years ago.",
+          "stance": "recommendation",
+          "reason_zh": "antognini对这本教材有鲜明阅读评价。",
+          "author": "antognini",
+          "item_url": "https://news.ycombinator.com/item?id=17476215",
+          "story_url": "https://news.ycombinator.com/item?id=17474646",
+          "created_at_utc": "2018-07-07T00:54:06.000Z",
+          "cache_file": "research/stem/threads/17474646.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "stem-all-of-statistics",
+          "resource_title": "All of Statistics",
+          "story_id": 17474646,
+          "item_id": 17477157,
+          "quote": "Yes, I loved this book! It’s compact enough that you can really get a flavor of things very quickly.",
+          "stance": "recommendation",
+          "reason_zh": "shoyer喜欢它紧凑的概览。",
+          "author": "shoyer",
+          "item_url": "https://news.ycombinator.com/item?id=17477157",
+          "story_url": "https://news.ycombinator.com/item?id=17474646",
+          "created_at_utc": "2018-07-07T05:15:58.000Z",
+          "cache_file": "research/stem/threads/17474646.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "这是教材，不是公开课。作者官方页已核对HTTP 200与All of Statistics标题；未验证整本当前是否可免费取得。",
+      "resource_url_source": {
+        "kind": "official_entry",
+        "url": "https://www.stat.cmu.edu/~larry/all-of-statistics/",
+        "basis_zh": "CMU作者官方教材页；HTTP 200并匹配书名。",
+        "verification_file": "official-entry-checks.json"
+      },
+      "format_detail_zh": "统计教材",
+      "research_area": "stem",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 3,
+      "link_check": {
+        "url": "https://www.stat.cmu.edu/~larry/all-of-statistics/",
+        "checked_at_utc": "2026-11-19T03:59:05.694171+00:00",
+        "status": 206,
+        "final_url": "https://www.stat.cmu.edu/~larry/all-of-statistics/",
+        "page_title": "All of Statistics",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "stem-statistical-rethinking",
+      "title": "Statistical Rethinking",
+      "provider": "Richard McElreath",
+      "format": "lecture_series",
+      "topics": [
+        "stem-probability-statistics"
+      ],
+      "summary_zh": "以建模、数据和参数估计来学习贝叶斯统计，适合想重新理解统计推断而不只会按公式检验的读者。",
+      "prerequisites_zh": "建议基础概率统计及少量R编程；历史配套材料使用R和Stan。",
+      "why_recommended_zh": "harry8正在看2017年讲座并购买教材；in9推荐它的贝叶斯建模视角，认为能改变以往学统计的方式。",
+      "resource_url": "https://xcelab.net/rm/#statistical-rethinking",
+      "evidence": [
+        {
+          "resource_id": "stem-statistical-rethinking",
+          "resource_title": "Statistical Rethinking",
+          "story_id": 16745042,
+          "item_id": 16750876,
+          "quote": "Currently enjoying the 2017 lectures (and I bought the text) for McElreath's bayesian stats course: http://xcelab.net/rm/statistical-rethinking/",
+          "stance": "qualified_recommendation",
+          "reason_zh": "harry8的体验限于正在观看2017讲座，未声称全课程完成。",
+          "author": "harry8",
+          "item_url": "https://news.ycombinator.com/item?id=16750876",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-04T00:47:38.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "stem-statistical-rethinking",
+          "resource_title": "Statistical Rethinking",
+          "story_id": 34591291,
+          "item_id": 34636547,
+          "quote": "Statistical Rethinking by Richard Malkreath: man this one will make you relearn statistics. And with a heavy bayesian flavor, which if you hadn't had the chance to learn, will bend your mind as well. You will learn to build models that can describe a lot of situations in the real world, and estimate the parameters from data. Cool stuff if you ask",
+          "stance": "recommendation",
+          "reason_zh": "in9推荐贝叶斯视角和从数据建立模型的能力。",
+          "author": "in9",
+          "item_url": "https://news.ycombinator.com/item?id=34636547",
+          "story_url": "https://news.ycombinator.com/item?id=34591291",
+          "created_at_utc": "2023-02-03T02:51:18.000Z",
+          "cache_file": "research/cs/newer/threads/34591291.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "同名书和不同年份讲座归为一条。2017年体验不能直接代表后来版本；保留评论中的姓名拼写错误于原文引文，正文使用正确姓名。原评论的旧路径当前通过页面跳转到作者主页，故入口改为主页的Statistical Rethinking书籍与课程区块；该官方页列有第二版教材和2024课程材料。历史评价与这些后续材料的版本差异保留。",
+      "resource_url_source": {
+        "kind": "comment_href",
+        "story_id": 16745042,
+        "item_id": 16750876,
+        "url": "http://xcelab.net/rm/statistical-rethinking/"
+      },
+      "format_detail_zh": "贝叶斯统计教材＋配套讲座",
+      "related_urls": [
+        {
+          "title_zh": "作者提供的2024版讲座与课程材料（后续版本）",
+          "url": "https://github.com/rmcelreath/stat_rethinking_2024",
+          "note_zh": "由作者当前主页直接链接；不把历史2017体验当成2024版完课反馈。"
+        }
+      ],
+      "research_area": "stem",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://xcelab.net/rm/#statistical-rethinking",
+        "checked_at_utc": "2026-11-19T04:07:44.149153+00:00",
+        "status": null,
+        "final_url": "https://xcelab.net/rm/#statistical-rethinking",
+        "result": "unconfirmed",
+        "error": "Remote end closed connection without response"
+      }
+    },
+    {
+      "id": "stem-stanford-statistical-learning",
+      "title": "Statistical Learning（Hastie / Tibshirani）",
+      "provider": "Stanford University / Trevor Hastie、Robert Tibshirani",
+      "format": "mooc",
+      "topics": [
+        "stem-machine-learning",
+        "stem-probability-statistics"
+      ],
+      "summary_zh": "从统计角度学习回归、分类及模型评估等方法，适合数据科学入门者；书籍和实验可补充讲座。",
+      "prerequisites_zh": "建议基础统计、概率与R；应配合实际数据练习。",
+      "why_recommended_zh": "anarchimedes喜欢两位教师的对话，并用配套书深入；ycombinator_usr明确推荐用R的课程。harry8则认为练习偏少且措辞含糊。",
+      "resource_url": "https://online.stanford.edu/courses/sohs-ystatslearning-statistical-learning",
+      "evidence": [
+        {
+          "resource_id": "stem-stanford-statistical-learning",
+          "resource_title": "Statistical Learning（Hastie / Tibshirani）",
+          "story_id": 16745042,
+          "item_id": 16745730,
+          "quote": "I like the dialogue between Hastie and Tibshirani in their statistical learning course from Stanford [1]. I found the accompanying ISL book and c-cran depositories helpful for when I wanted to go deeper beyond the lecture. [1] https://lagunita.stanford.edu/courses/HumanitiesandScience/S...",
+          "stance": "recommendation",
+          "reason_zh": "anarchimedes解释讲座对话及配套教材的帮助。",
+          "author": "anarchimedes",
+          "item_url": "https://news.ycombinator.com/item?id=16745730",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T15:41:18.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "stem-stanford-statistical-learning",
+          "resource_title": "Statistical Learning（Hastie / Tibshirani）",
+          "story_id": 16745042,
+          "item_id": 16747020,
+          "quote": "if you want to focus on Statistical Learning, I can recommend Introduction to Statistical Learning Using R[1] by Prof. Hastie and Tibshirani. [1]: https://lagunita.stanford.edu/courses/HumanitiesSciences/Sta...",
+          "stance": "recommendation",
+          "reason_zh": "ycombinator_usr明确推荐Hastie和Tibshirani的用R课程。",
+          "author": "ycombinator_usr",
+          "item_url": "https://news.ycombinator.com/item?id=16747020",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T17:32:50.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "stem-stanford-statistical-learning",
+          "resource_title": "Statistical Learning（Hastie / Tibshirani）",
+          "story_id": 16745042,
+          "item_id": 16750844,
+          "quote": "I found the lectures entertaining and the exercises of a much lower quality. Not enough of them, shallow and ambiguously worded. I got something like 90% on the edx MITx probability course and was barely getting 50% for the above mentioned Stanford stat learning course for the 5 weeks of it I completed.",
+          "stance": "criticism",
+          "reason_zh": "harry8只完成约五周，喜欢讲授但批评习题质量。",
+          "author": "harry8",
+          "item_url": "https://news.ycombinator.com/item?id=16750844",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-04T00:42:46.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "评论中的Lagunita链接是历史课程入口，这里使用另一条评论提供的Stanford官方入口。课程与配套ISLR教材归为同一条；不把后来Python版本混入原R版体验。",
+      "resource_url_source": {
+        "kind": "comment_href",
+        "story_id": 22826722,
+        "item_id": 22827691,
+        "url": "https://online.stanford.edu/courses/sohs-ystatslearning-statistical-learning"
+      },
+      "format_detail_zh": "统计学习公开课／MOOC，配套ISLR教材与R实验",
+      "research_area": "stem",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://online.stanford.edu/courses/sohs-ystatslearning-statistical-learning",
+        "checked_at_utc": "2026-11-19T03:58:52.026858+00:00",
+        "status": 202,
+        "final_url": "https://online.stanford.edu/courses/sohs-ystatslearning-statistical-learning",
+        "page_title": "",
+        "result": "unconfirmed",
+        "content_note_zh": "返回202且未取得可辨认的课程页面，不能确认当前课程可用。"
+      }
+    }
+  ]
+}

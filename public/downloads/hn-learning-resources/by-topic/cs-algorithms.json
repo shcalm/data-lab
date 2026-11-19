@@ -1,0 +1,330 @@
+{
+  "topic": {
+    "id": "cs-algorithms",
+    "title_zh": "把算法学到能分析、实现和选型",
+    "question_zh": "算法与数据结构应该选视频课、数学教材还是问题驱动的练习？",
+    "description_zh": "专门的算法征集帖把Stanford与Princeton讲法、CLRS的数学深度和亲自实现的必要性放在一起比较；离散优化把方法选择带入复杂问题。",
+    "source_story_ids": [
+      16428309,
+      10644518,
+      16745042,
+      34591291
+    ],
+    "resource_ids": [
+      "cs-roughgarden-algorithms",
+      "cs-princeton-algorithms",
+      "cs-clrs",
+      "cs-discrete-optimization"
+    ],
+    "resource_count": 4
+  },
+  "resources": [
+    {
+      "id": "cs-roughgarden-algorithms",
+      "title": "Algorithms: Design and Analysis / Algorithms specialization",
+      "provider": "Stanford / Tim Roughgarden",
+      "format": "mooc",
+      "format_detail_zh": "大学课程 / 系列MOOC",
+      "topics": [
+        "cs-algorithms"
+      ],
+      "summary_zh": "学习渐近分析、图算法和算法设计，把直觉与数学推导连起来。适合希望理解算法为何成立、并愿意完成有难度作业的人。",
+      "prerequisites_zh": "建议有编程与基本数学推理能力；修课者指出线性代数不是这套课的硬性先修。",
+      "why_recommended_zh": "多位学习者独立赞赏讲解清楚、算法被拆成易于理解的步骤，兼顾难度和学习动力。",
+      "resource_url": "https://www.coursera.org/specializations/algorithms",
+      "source_type": "community_recommendation",
+      "evidence": [
+        {
+          "resource_id": "cs-roughgarden-algorithms",
+          "resource_title": "Algorithms: Design and Analysis / Algorithms specialization",
+          "story_id": 10644518,
+          "item_id": 10648212,
+          "quote": "Tim's the best professor I've ever had either on or offline and he does a fantastic job explaining the concepts and breaking down the algorithms into digestible, intuitive pieces.",
+          "stance": "recommendation",
+          "reason_zh": "修课者具体称赞分解算法和建立直觉的讲法。",
+          "author": "ctoomey",
+          "source_type": "community_comment",
+          "parent_item_id": 10644518,
+          "source_url": "https://news.ycombinator.com/item?id=10648212",
+          "item_url": "https://news.ycombinator.com/item?id=10648212",
+          "story_url": "https://news.ycombinator.com/item?id=10644518",
+          "created_at_utc": "2015-11-30T07:13:20.000Z",
+          "cache_file": "research/cs/threads/10644518.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "cs-roughgarden-algorithms",
+          "resource_title": "Algorithms: Design and Analysis / Algorithms specialization",
+          "story_id": 16428309,
+          "item_id": 16429643,
+          "quote": "Tim Roughgarden is a fantastic teacher. I personally love his style and speed. He throws in some humor here and there and makes learning a lot of fun. His lectures on graphs are absolutely brilliant.",
+          "stance": "recommendation",
+          "reason_zh": "另一位修课者尤其推荐图算法讲授。",
+          "author": "deepGem",
+          "source_type": "community_comment",
+          "parent_item_id": 16428392,
+          "source_url": "https://news.ycombinator.com/item?id=16429643",
+          "item_url": "https://news.ycombinator.com/item?id=16429643",
+          "story_url": "https://news.ycombinator.com/item?id=16428309",
+          "created_at_utc": "2018-02-21T14:28:59.000Z",
+          "cache_file": "research/cs/threads/16428309.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "cs-roughgarden-algorithms",
+          "resource_title": "Algorithms: Design and Analysis / Algorithms specialization",
+          "story_id": 16428309,
+          "item_id": 16430298,
+          "quote": "I took both of Tim Roughgarden's algorithm courses on Coursera, and in my opinion you don't need to know linear algebra to complete them.",
+          "stance": "qualified_recommendation",
+          "reason_zh": "学习者明确限定数学先修中的线性代数要求。",
+          "author": "henrik_w",
+          "source_type": "community_comment",
+          "parent_item_id": 16429766,
+          "source_url": "https://news.ycombinator.com/item?id=16430298",
+          "item_url": "https://news.ycombinator.com/item?id=16430298",
+          "story_url": "https://news.ycombinator.com/item?id=16428309",
+          "created_at_utc": "2018-02-21T15:52:46.000Z",
+          "cache_file": "research/cs/threads/16428309.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "原评论主要谈历史Parts I/II；今天的Coursera系列是后续组织形式，不能据此假定每次课的作业与旁听权限完全相同。",
+      "resource_url_provenance": {
+        "page": "pages/roughgarden.html",
+        "source_url": "http://theory.stanford.edu/~tim/algorithmsilluminated.html",
+        "location": "official author page links exact Coursera specialization URL"
+      },
+      "research_area": "cs",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 3,
+      "link_check": {
+        "url": "https://www.coursera.org/specializations/algorithms",
+        "checked_at_utc": "2026-11-19T03:59:00.537409+00:00",
+        "status": 200,
+        "final_url": "https://www.coursera.org/specializations/algorithms",
+        "page_title": "",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "cs-princeton-algorithms",
+      "title": "Algorithms, Part I & Part II",
+      "provider": "Princeton / Robert Sedgewick、Kevin Wayne",
+      "format": "mooc",
+      "format_detail_zh": "大学课程 / MOOC",
+      "topics": [
+        "cs-algorithms"
+      ],
+      "summary_zh": "学习常用数据结构、排序与图算法，并通过自动评分的编程作业检查实现。适合更偏向从代码和应用建立算法基础的人。",
+      "prerequisites_zh": "建议有编程基础，愿意动手完成作业；讨论认为数学负担比Stanford系列轻。",
+      "why_recommended_zh": "2018与2023年的独立评论肯定其可读性、可跟随性及自动评分作业。",
+      "resource_url": "https://www.coursera.org/learn/algorithms-part1",
+      "source_type": "community_recommendation",
+      "evidence": [
+        {
+          "resource_id": "cs-princeton-algorithms",
+          "resource_title": "Algorithms, Part I & Part II",
+          "story_id": 16428309,
+          "item_id": 16429950,
+          "quote": "The princeton one on coursera is really great and easy to read. Buy the book and take the course. Sedgewick is my hero. It doesn't require a lot of math in contrast to the Stanford coursera one. It's much easier for the general person to follow IMO.",
+          "stance": "recommendation",
+          "reason_zh": "推荐者认为它更易跟随，并明确给出与另一系列的数学负担比较。",
+          "author": "ninjakeyboard",
+          "source_type": "community_comment",
+          "parent_item_id": 16428309,
+          "source_url": "https://news.ycombinator.com/item?id=16429950",
+          "item_url": "https://news.ycombinator.com/item?id=16429950",
+          "story_url": "https://news.ycombinator.com/item?id=16428309",
+          "created_at_utc": "2018-02-21T15:09:57.000Z",
+          "cache_file": "research/cs/threads/16428309.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "cs-princeton-algorithms",
+          "resource_title": "Algorithms, Part I & Part II",
+          "story_id": 34591291,
+          "item_id": 34591970,
+          "quote": "Algoritms I and II by Sedgewick, was offered on Coursera by Princeton University. Extremely good and interesting class on data structures and algorithms, with great auto-graded assignments as well.",
+          "stance": "recommendation",
+          "reason_zh": "另一位修课者具体肯定自动评分作业。",
+          "author": "alanfranz",
+          "source_type": "community_comment",
+          "parent_item_id": 34591291,
+          "source_url": "https://news.ycombinator.com/item?id=34591970",
+          "item_url": "https://news.ycombinator.com/item?id=34591970",
+          "story_url": "https://news.ycombinator.com/item?id=34591291",
+          "created_at_utc": "2023-01-31T06:34:34.000Z",
+          "cache_file": "research/cs/newer/threads/34591291.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "入口指向Part I；评论推荐的是I和II两门，学习图算法等后续内容要继续查Part II。原文拼写Algoritms保留。",
+      "resource_url_provenance": {
+        "story_id": 16428309,
+        "item_id": 16429950,
+        "location": "comment href"
+      },
+      "research_area": "cs",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://www.coursera.org/learn/algorithms-part1",
+        "checked_at_utc": "2026-11-19T03:58:55.045378+00:00",
+        "status": 200,
+        "final_url": "https://www.coursera.org/learn/algorithms-part1",
+        "page_title": "",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "cs-clrs",
+      "title": "Introduction to Algorithms (CLRS)",
+      "provider": "Thomas H. Cormen、Charles E. Leiserson、Ronald L. Rivest、Clifford Stein",
+      "format": "book",
+      "format_detail_zh": "教材 / 习题",
+      "topics": [
+        "cs-algorithms"
+      ],
+      "summary_zh": "以排序、图算法、动态规划和算法设计分析为主线，配合伪代码与习题建立严谨基础。适合愿意读证明并亲自实现算法的人。",
+      "prerequisites_zh": "需要基本数学推理与编程能力；不喜欢证明的读者可能更适合先选实践取向的课程。",
+      "why_recommended_zh": "推荐者强调实现和习题带来的深度，同时明确承认数学与证明是书的主要收益及门槛。",
+      "resource_url": "https://www.amazon.com/Introduction-Algorithms-Thomas-H-Cormen/dp/0262531968",
+      "source_type": "community_recommendation",
+      "evidence": [
+        {
+          "resource_id": "cs-clrs",
+          "resource_title": "Introduction to Algorithms (CLRS)",
+          "story_id": 16428309,
+          "item_id": 16429725,
+          "quote": "This book has great explanations and exercises for everything you could want to learn from the basics of sorting and algorithmic design and analysis, to graph algorithms, linear programming, and dynamic programming.",
+          "stance": "recommendation",
+          "reason_zh": "推荐的是书的解释与习题，并在上下文要求实际实现。",
+          "author": "jfaucett",
+          "source_type": "community_comment",
+          "parent_item_id": 16428309,
+          "source_url": "https://news.ycombinator.com/item?id=16429725",
+          "item_url": "https://news.ycombinator.com/item?id=16429725",
+          "story_url": "https://news.ycombinator.com/item?id=16428309",
+          "created_at_utc": "2018-02-21T14:38:04.000Z",
+          "cache_file": "research/cs/threads/16428309.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "cs-clrs",
+          "resource_title": "Introduction to Algorithms (CLRS)",
+          "story_id": 16428309,
+          "item_id": 16431147,
+          "quote": "If you don't like proofs or math then its probably not the best text to work through, on the other hand, if you like rigorously understanding the material I would highly recommend it.",
+          "stance": "qualified_recommendation",
+          "reason_zh": "同一推荐者澄清适用对象，保留学术性和数学门槛。",
+          "author": "jfaucett",
+          "source_type": "community_comment",
+          "parent_item_id": 16430307,
+          "source_url": "https://news.ycombinator.com/item?id=16431147",
+          "item_url": "https://news.ycombinator.com/item?id=16431147",
+          "story_url": "https://news.ycombinator.com/item?id=16428309",
+          "created_at_utc": "2018-02-21T17:28:41.000Z",
+          "cache_file": "research/cs/threads/16428309.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "两条证据出自同一位推荐者，不计作两位独立推荐。原帖链接是较旧版图书商品页；购买时应自行核对版本。",
+      "resource_url_provenance": {
+        "story_id": 16428309,
+        "item_id": 16429725,
+        "location": "comment href"
+      },
+      "research_area": "cs",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://www.amazon.com/Introduction-Algorithms-Thomas-H-Cormen/dp/0262531968",
+        "checked_at_utc": "2026-11-19T03:58:53.850463+00:00",
+        "status": 200,
+        "final_url": "https://www.amazon.com/Introduction-Algorithms-Thomas-H-Cormen/dp/0262531968",
+        "page_title": "Introduction to Algorithms: Cormen, Thomas H., Leiserson, Charles E.: 9780262531962: Amazon.com: Books",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "cs-discrete-optimization",
+      "title": "Discrete Optimization",
+      "provider": "University of Melbourne / Pascal Van Hentenryck",
+      "format": "mooc",
+      "format_detail_zh": "大学课程 / MOOC",
+      "topics": [
+        "cs-algorithms"
+      ],
+      "summary_zh": "围绕有难度的离散优化问题练习选择求解方法，例如用局部搜索处理问题。适合想把算法用于优化、并能投入时间反复尝试的人。",
+      "prerequisites_zh": "建议有算法与编程基础；这是挑战性作业驱动的课程。",
+      "why_recommended_zh": "两位独立修课者喜欢它的问题导向和方法选择空间；一位说明自己修的是2013年版本。",
+      "resource_url": "https://www.coursera.org/learn/discrete-optimization",
+      "source_type": "community_recommendation",
+      "evidence": [
+        {
+          "resource_id": "cs-discrete-optimization",
+          "resource_title": "Discrete Optimization",
+          "story_id": 10644518,
+          "item_id": 10647564,
+          "quote": "I really enjoyed this challenging class with a very dynamic teacher, and organized around a set of tough problems that you can tackle using a choice of optimization paradigms",
+          "stance": "recommendation",
+          "reason_zh": "修课者称赞有挑战的问题和选择优化范式的自由。",
+          "author": "cjauvin",
+          "source_type": "community_comment",
+          "parent_item_id": 10644518,
+          "source_url": "https://news.ycombinator.com/item?id=10647564",
+          "item_url": "https://news.ycombinator.com/item?id=10647564",
+          "story_url": "https://news.ycombinator.com/item?id=10644518",
+          "created_at_utc": "2015-11-30T03:44:17.000Z",
+          "cache_file": "research/cs/threads/10644518.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "cs-discrete-optimization",
+          "resource_title": "Discrete Optimization",
+          "story_id": 16745042,
+          "item_id": 16748044,
+          "quote": "I really enjoyed Discrete Optimization, Pascal Van Hentenryck, Coursera. [1] I did it in 2013 and it looks like it's changed a little: vehicle routing seems a good, practical topic right now.",
+          "stance": "recommendation",
+          "reason_zh": "另一位学习者推荐，同时提醒课程后来有调整。",
+          "author": "lowbloodsugar",
+          "source_type": "community_comment",
+          "parent_item_id": 16745042,
+          "source_url": "https://news.ycombinator.com/item?id=16748044",
+          "item_url": "https://news.ycombinator.com/item?id=16748044",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T19:08:09.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "评论跨越早期课程版本；具体作业题和平台条件需要按当前页面核对。 本次Coursera原入口返回404，保留为历史课程推荐；尚未确认同课程的有效现行入口。",
+      "resource_url_provenance": {
+        "story_id": 16745042,
+        "item_id": 16748044,
+        "location": "comment href"
+      },
+      "research_area": "cs",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://www.coursera.org/learn/discrete-optimization",
+        "checked_at_utc": "2026-11-19T03:58:56.700159+00:00",
+        "status": 404,
+        "final_url": "https://www.coursera.org/learn/discrete-optimization",
+        "result": "http_error",
+        "error": "HTTP Error 404: Not Found"
+      }
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "topic": {
+    "id": "hum-learning-methods",
+    "title_zh": "学习方法与分析工具",
+    "question_zh": "怎样先改善学习方式，再建立可迁移的思考工具？",
+    "description_zh": "从学习策略、记忆和多个模型入手，强调实际应用与练习。",
+    "source_story_ids": [
+      10644518,
+      16745042,
+      18566638,
+      22826722,
+      23427186
+    ],
+    "resource_ids": [
+      "hum-learning-how-to-learn",
+      "hum-model-thinking",
+      "hum-think-again",
+      "hum-philosophers-toolkit"
+    ],
+    "resource_count": 4
+  },
+  "resources": [
+    {
+      "id": "hum-learning-how-to-learn",
+      "title": "Learning How to Learn",
+      "provider": "Barbara Oakley、Terrence Sejnowski / Coursera",
+      "format": "mooc",
+      "format_detail_zh": "MOOC",
+      "topics": [
+        "hum-learning-methods"
+      ],
+      "summary_zh": "介绍间隔复习、专注与发散思维、睡眠与记忆等学习方法。适合开始长期自学、希望改掉临时突击习惯的人。",
+      "prerequisites_zh": "未见正式学科先修要求；收益取决于是否把技巧用到实际学习中。",
+      "why_recommended_zh": "有学习者明确报告，调整复习、思考和睡眠习惯后，后续课程更容易；另一位已完成者认为投入小而回报大。也有人学了两遍后只觉得间隔复习有用，评价存在分歧。",
+      "resource_url": "https://www.coursera.org/learn/learning-how-to-learn",
+      "resource_url_basis": {
+        "type": "comment_href",
+        "story_id": 18566638,
+        "item_id": 18568841,
+        "href": "https://www.coursera.org/learn/learning-how-to-learn"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-learning-how-to-learn",
+          "resource_title": "Learning How to Learn",
+          "story_id": 18566638,
+          "item_id": 18568841,
+          "quote": "I made it through college with a combination of cramming and bad sleep habits, but focusing on spaced repetition, the diffuse/active modes, and sleep has made classes I've taken since feel like easy mode.",
+          "stance": "recommendation",
+          "reason_zh": "描述采用课程中的具体方法后，后续学习体验改善。",
+          "author": "otras",
+          "item_url": "https://news.ycombinator.com/item?id=18568841",
+          "story_url": "https://news.ycombinator.com/item?id=18566638",
+          "created_at_utc": "2018-11-30T13:21:48.000Z",
+          "cache_file": "research/cs/threads/18566638.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-learning-how-to-learn",
+          "resource_title": "Learning How to Learn",
+          "story_id": 23427186,
+          "item_id": 23430470,
+          "quote": "Given how low it's time+energy requirements are, and how large the pay-off has been, I recommend Learning How to Learn by Dr. Barbara Oakley to everyone regardless.",
+          "stance": "recommendation",
+          "reason_zh": "完成课程的另一位评论者肯定投入与回报。",
+          "author": "vector_rotcev",
+          "item_url": "https://news.ycombinator.com/item?id=23430470",
+          "story_url": "https://news.ycombinator.com/item?id=23427186",
+          "created_at_utc": "2020-06-05T16:39:28.000Z",
+          "cache_file": "research/general/threads/23427186.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-learning-how-to-learn",
+          "resource_title": "Learning How to Learn",
+          "story_id": 23427186,
+          "item_id": 23431104,
+          "quote": "I did Learning How To Learn twice and I still not sure how helpful it is. The only thing I found useful/applicable is spaced repetition.",
+          "stance": "criticism",
+          "reason_zh": "已学两遍的评论者认为除间隔复习外，其他内容用处不明确。",
+          "author": "aynyc",
+          "item_url": "https://news.ycombinator.com/item?id=23431104",
+          "story_url": "https://news.ycombinator.com/item?id=23427186",
+          "created_at_utc": "2020-06-05T17:24:12.000Z",
+          "cache_file": "research/general/threads/23427186.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-learning-how-to-learn",
+          "resource_title": "Learning How to Learn",
+          "story_id": 18566638,
+          "item_id": 18573373,
+          "quote": "While the production quality is out of the 1990s and it starts off pretty dry, there is a lot of great content and applicable techniques here, if you stick with it a little bit.",
+          "stance": "qualified_recommendation",
+          "reason_zh": "肯定内容可应用，同时指出制作陈旧、开头枯燥。",
+          "author": "runjake",
+          "item_url": "https://news.ycombinator.com/item?id=18573373",
+          "story_url": "https://news.ycombinator.com/item?id=18566638",
+          "created_at_utc": "2018-11-30T22:34:57.000Z",
+          "cache_file": "research/cs/threads/18566638.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "推荐来自2018—2020年的历史体验；不据此承诺当前旁听、测验或证书免费。",
+      "related_resource_urls": [],
+      "research_area": "humanities",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 3,
+      "link_check": {
+        "url": "https://www.coursera.org/learn/learning-how-to-learn",
+        "checked_at_utc": "2026-11-19T03:58:57.218697+00:00",
+        "status": 200,
+        "final_url": "https://www.coursera.org/learn/learning-how-to-learn",
+        "page_title": "",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "hum-model-thinking",
+      "title": "Model Thinking",
+      "provider": "University of Michigan / Scott E. Page / Coursera",
+      "format": "mooc",
+      "format_detail_zh": "MOOC",
+      "topics": [
+        "hum-learning-methods",
+        "hum-economics-finance"
+      ],
+      "summary_zh": "用多个简单模型分析社会现象、经济变化和决策问题，帮助学习者比较不同解释视角。适合希望为社会科学学习建立分析工具的人。",
+      "prerequisites_zh": "原帖所引课程介绍称深入部分需要代数，不要求微积分。课程较长。",
+      "why_recommended_zh": "推荐者特别肯定跨学科模型带来的理解力，以及把复杂模型讲得直观的能力；有学习者报告这些工具进入了日常和职业决策。",
+      "resource_url": "https://www.coursera.org/learn/model-thinking",
+      "resource_url_basis": {
+        "type": "comment_href",
+        "story_id": 22826722,
+        "item_id": 22827668,
+        "href": "https://www.coursera.org/learn/model-thinking"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-model-thinking",
+          "resource_title": "Model Thinking",
+          "story_id": 22826722,
+          "item_id": 22827668,
+          "quote": "It's designed to be a foundation course for subsequent social science classes, but I personally found the exposure to models from different fields of study to be quite insightful.",
+          "stance": "recommendation",
+          "reason_zh": "亲身选课者肯定跨领域模型作为社会科学基础的价值。",
+          "author": "bhaprayan",
+          "item_url": "https://news.ycombinator.com/item?id=22827668",
+          "story_url": "https://news.ycombinator.com/item?id=22826722",
+          "created_at_utc": "2020-04-09T22:02:31.000Z",
+          "cache_file": "research/stem/threads/22826722.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-model-thinking",
+          "resource_title": "Model Thinking",
+          "story_id": 22826722,
+          "item_id": 22829789,
+          "quote": "Scott is one of the best teachers on the topic, and makes complex models simple and intuitive to understand. It is a long course, but well worth it. Cannot recommend it enough.",
+          "stance": "qualified_recommendation",
+          "reason_zh": "另一位推荐者明确肯定讲解能力，也提醒课程较长。",
+          "author": "pmohun",
+          "item_url": "https://news.ycombinator.com/item?id=22829789",
+          "story_url": "https://news.ycombinator.com/item?id=22826722",
+          "created_at_utc": "2020-04-10T03:40:10.000Z",
+          "cache_file": "research/stem/threads/22826722.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "同帖22829545含大段课程介绍；其中历史免费表述不作为当前价格依据。",
+      "related_resource_urls": [],
+      "research_area": "humanities",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://www.coursera.org/learn/model-thinking",
+        "checked_at_utc": "2026-11-19T03:58:57.504154+00:00",
+        "status": 200,
+        "final_url": "https://www.coursera.org/learn/model-thinking",
+        "page_title": "",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "hum-think-again",
+      "title": "Think Again: How to Reason and Argue",
+      "provider": "Duke University / Ram Neta、Walter Sinnott-Armstrong / Coursera",
+      "format": "mooc",
+      "format_detail_zh": "MOOC系列",
+      "topics": [
+        "hum-philosophy-reasoning",
+        "hum-learning-methods"
+      ],
+      "summary_zh": "训练识别、理解和评估论证，作为哲学推理与日常争论的基础。适合希望超越凭直觉辩论、建立明确推理步骤的人。",
+      "prerequisites_zh": "评论未给出正式先修；链接指向 Understanding Arguments，不能据此声称一个入口囊括系列全部内容。",
+      "why_recommended_zh": "一位评论者认为其论证基础内容广且出色；另一位有多门MOOC经验的学习者也把它列为喜欢的非技术课程。",
+      "resource_url": "https://www.coursera.org/learn/understanding-arguments",
+      "resource_url_basis": {
+        "type": "comment_href",
+        "story_id": 16745042,
+        "item_id": 16746056,
+        "href": "https://www.coursera.org/learn/understanding-arguments"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-think-again",
+          "resource_title": "Think Again: How to Reason and Argue",
+          "story_id": 16745042,
+          "item_id": 16746056,
+          "quote": "the Coursera course Think Again: How to Reason and Argue , by Duke University's Ram Neta and Walter Sinnott-Armstrong [1] is exceptional.",
+          "stance": "recommendation",
+          "reason_zh": "明确命名授课者并给出强烈正面评价。",
+          "author": "rikkhill",
+          "item_url": "https://news.ycombinator.com/item?id=16746056",
+          "story_url": "https://news.ycombinator.com/item?id=16745042",
+          "created_at_utc": "2018-04-03T16:06:27.000Z",
+          "cache_file": "research/cs/threads/16745042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "hum-think-again",
+          "resource_title": "Think Again: How to Reason and Argue",
+          "story_id": 10644518,
+          "item_id": 10648295,
+          "quote": "For non-IT related courses I liked Think Again: How to Reason and Argue[8], Crafting an Effective Writer: Tools of the Trade (Fundamental English Writing)[9]",
+          "stance": "recommendation",
+          "reason_zh": "另一位多课程学习者也明确表示喜欢Think Again；不把其完成总数等同于本课完成证明。",
+          "author": "uulbiy",
+          "item_url": "https://news.ycombinator.com/item?id=10648295",
+          "story_url": "https://news.ycombinator.com/item?id=10644518",
+          "created_at_utc": "2015-11-30T07:48:37.000Z",
+          "cache_file": "research/cs/threads/10644518.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "旧课程名与现有子课入口可能不同；推荐依据保留历史原名。",
+      "related_resource_urls": [],
+      "research_area": "humanities",
+      "source_story_count": 2,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://www.coursera.org/learn/understanding-arguments",
+        "checked_at_utc": "2026-11-19T03:59:00.251610+00:00",
+        "status": 200,
+        "final_url": "https://www.coursera.org/learn/understanding-arguments",
+        "page_title": "",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "hum-philosophers-toolkit",
+      "title": "The Philosopher's Toolkit: How to Be the Most Rational Person in Any Room",
+      "provider": "The Great Courses",
+      "format": "lecture_series",
+      "format_detail_zh": "系统讲座 / 有声课程",
+      "topics": [
+        "hum-philosophy-reasoning",
+        "hum-learning-methods"
+      ],
+      "summary_zh": "介绍判断论证、选择启发式方法和解决问题的思考工具。适合希望训练日常推理、偏好长篇音频学习的人。",
+      "prerequisites_zh": "评论未提正式先修；音频版由视频课程改编，可能无法完整传达视觉材料。",
+      "why_recommended_zh": "推荐者认为它把各个思考工具背后的概念解释清楚，同时明确提醒音频与视频版的差别。",
+      "resource_url": "https://www.thegreatcourses.com/courses/the-philosopher-s-toolkit-how-to-be-the-most-rational-person-in-any-room.html",
+      "resource_url_basis": {
+        "type": "comment_href",
+        "story_id": 22826722,
+        "item_id": 22832946,
+        "href": "https://www.thegreatcourses.com/courses/the-philosopher-s-toolkit-how-to-be-the-most-rational-person-in-any-room.html"
+      },
+      "evidence": [
+        {
+          "resource_id": "hum-philosophers-toolkit",
+          "resource_title": "The Philosopher's Toolkit: How to Be the Most Rational Person in Any Room",
+          "story_id": 22826722,
+          "item_id": 22828911,
+          "quote": "It teaches you mental models on how to think and find a solution to a problem. It explains the concepts behind each model quite well. Topics include how to determine a valid argument, an iron clad argument, using heuristics to solve problems, among other things.",
+          "stance": "qualified_recommendation",
+          "reason_zh": "给出明确推荐以及论证和启发式问题求解的具体内容。",
+          "author": "accidentalrebel",
+          "item_url": "https://news.ycombinator.com/item?id=22828911",
+          "story_url": "https://news.ycombinator.com/item?id=22826722",
+          "created_at_utc": "2020-04-10T01:09:16.000Z",
+          "cache_file": "research/stem/threads/22826722.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "回复者提供视频版链接；来源没有证明当前订阅、购买或图书馆借阅条件。",
+      "related_resource_urls": [
+        "https://www.audible.com/pd/The-Philosophers-Toolkit-How-to-Be-the-Most-Rational-Person-in-Any-Room-Audiobook/1629976822"
+      ],
+      "research_area": "humanities",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 1,
+      "link_check": {
+        "url": "https://www.thegreatcourses.com/courses/the-philosopher-s-toolkit-how-to-be-the-most-rational-person-in-any-room.html",
+        "checked_at_utc": "2026-11-19T03:59:06.622383+00:00",
+        "status": 403,
+        "final_url": "https://www.thegreatcourses.com/courses/the-philosopher-s-toolkit-how-to-be-the-most-rational-person-in-any-room.html",
+        "result": "http_error",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    }
+  ]
+}

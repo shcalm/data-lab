@@ -1,0 +1,480 @@
+[
+  {
+    "id": "cs-foundations",
+    "title_zh": "从零入门与补齐计算机基础",
+    "question_zh": "怎样从会用电脑或零散写代码，走到理解计算机与完整程序？",
+    "description_zh": "CS50的转行经历与Nand2Tetris的整栈项目反复出现；TYCS讨论则提醒先修、工作经验与学习次序会影响收益。",
+    "source_story_ids": [
+      18566638,
+      16745042,
+      23588896,
+      35536042,
+      43056456
+    ],
+    "resource_ids": [
+      "cs-cs50",
+      "cs-sicp",
+      "cs-nand2tetris"
+    ],
+    "resource_count": 3
+  },
+  {
+    "id": "cs-program-design",
+    "title_zh": "超越语言语法：程序设计与范式",
+    "question_zh": "已经会一种语言，怎样提高设计能力并更快理解其他语言？",
+    "description_zh": "Grossman课程的讨论最集中地提出“按共同特性理解语言”；SICP、Scala、Norvig与小项目练习分别提供抽象、范式和编码训练。",
+    "source_story_ids": [
+      10644518,
+      16745042,
+      18566638,
+      23588896,
+      34591291
+    ],
+    "resource_ids": [
+      "cs-sicp",
+      "cs-programming-languages",
+      "cs-scala-functional",
+      "cs-norvig-design",
+      "cs-javascript30",
+      "cs-crafting-interpreters"
+    ],
+    "resource_count": 6
+  },
+  {
+    "id": "cs-algorithms",
+    "title_zh": "把算法学到能分析、实现和选型",
+    "question_zh": "算法与数据结构应该选视频课、数学教材还是问题驱动的练习？",
+    "description_zh": "专门的算法征集帖把Stanford与Princeton讲法、CLRS的数学深度和亲自实现的必要性放在一起比较；离散优化把方法选择带入复杂问题。",
+    "source_story_ids": [
+      16428309,
+      10644518,
+      16745042,
+      34591291
+    ],
+    "resource_ids": [
+      "cs-roughgarden-algorithms",
+      "cs-princeton-algorithms",
+      "cs-clrs",
+      "cs-discrete-optimization"
+    ],
+    "resource_count": 4
+  },
+  {
+    "id": "cs-systems",
+    "title_zh": "从逻辑门走到操作系统",
+    "question_zh": "代码下面究竟发生了什么，怎样通过实验理解硬件、内存和内核？",
+    "description_zh": "讨论反复推荐可运行的项目与实验：Nand2Tetris连起层次，CS:APP补系统视角，OSTEP与ops-class分别提供解释与内核动手训练。",
+    "source_story_ids": [
+      12773649,
+      23588896,
+      16745042,
+      43056456,
+      40037324
+    ],
+    "resource_ids": [
+      "cs-nand2tetris",
+      "cs-csapp",
+      "cs-ostep",
+      "cs-ops-class",
+      "cs-mit-distributed",
+      "cs-cornell-compilers"
+    ],
+    "resource_count": 6
+  },
+  {
+    "id": "cs-language-implementation",
+    "title_zh": "用解释器和编译器理解语言运行",
+    "question_zh": "从第一次实现语言，到优化与运行时进阶，应选哪种资源？",
+    "description_zh": "评论明确区分语言设计思想、入门解释器项目、传统COOL编译器与高级优化课；难度和目标不同，不应当作互相替代。",
+    "source_story_ids": [
+      14721469,
+      15739877,
+      16745042,
+      23588896,
+      25386756,
+      39577878,
+      40950235
+    ],
+    "resource_ids": [
+      "cs-sicp",
+      "cs-programming-languages",
+      "cs-nand2tetris",
+      "cs-cornell-compilers",
+      "cs-crafting-interpreters",
+      "cs-stanford-compilers"
+    ],
+    "resource_count": 6
+  },
+  {
+    "id": "cs-data-systems",
+    "title_zh": "从SQL走向数据库与分布式系统",
+    "question_zh": "如何从写查询进入索引、事务、数据库内部与分布式一致性？",
+    "description_zh": "数据库求学帖首先区分“使用”与“构建”；大学课、索引指南和反模式图书提供不同入口，再由DDIA与MIT实验进入数据复制与故障。",
+    "source_story_ids": [
+      21033951,
+      20249946,
+      23588896,
+      34591291,
+      35536042,
+      40037324
+    ],
+    "resource_ids": [
+      "cs-mit-distributed",
+      "cs-ddia",
+      "cs-cmu-database",
+      "cs-stanford-databases",
+      "cs-sql-antipatterns",
+      "cs-index-luke"
+    ],
+    "resource_count": 6
+  },
+  {
+    "id": "cs-tools",
+    "title_zh": "补上命令行、Git与开发工具",
+    "question_zh": "会写程序却不熟悉开发环境，哪些练习能直接补齐工作能力？",
+    "description_zh": "Missing Semester讨论把工具空缺与实际工作联系起来；Learn Git Branching的正反体验提示互动练习仍要匹配已有知识。",
+    "source_story_ids": [
+      22226380,
+      18566638
+    ],
+    "resource_ids": [
+      "cs-missing-semester",
+      "cs-learn-git-branching"
+    ],
+    "resource_count": 2
+  },
+  {
+    "id": "stem-math",
+    "title_zh": "重建数学基础与计算直觉",
+    "question_zh": "离校多年怎样补回数学，并接到线性代数、微积分和工程计算？",
+    "description_zh": "从补基础的习题路径，进入大学线性代数、微积分与计算数学；区分直觉视频与完整课程训练。",
+    "source_story_ids": [
+      16562173,
+      16745042,
+      17474646,
+      18939913,
+      22826722,
+      34591291,
+      35536042
+    ],
+    "resource_ids": [
+      "stem-khan-math",
+      "stem-3b1b-linear-algebra",
+      "stem-mit-linear-algebra",
+      "stem-mit-computational-science",
+      "stem-ghrist-calculus",
+      "stem-harvard-stat110",
+      "stem-boyd-linear-dynamical-systems"
+    ],
+    "resource_count": 7
+  },
+  {
+    "id": "stem-probability-statistics",
+    "title_zh": "概率、统计与贝叶斯建模",
+    "question_zh": "怎样从会套公式进到理解不确定性、统计推断与实际建模？",
+    "description_zh": "讨论集中推荐有题目和解答的概率课，以及统计推断、贝叶斯建模教材与讲座。",
+    "source_story_ids": [
+      16745042,
+      17474646,
+      34591291
+    ],
+    "resource_ids": [
+      "stem-harvard-stat110",
+      "stem-mit-probability",
+      "stem-all-of-statistics",
+      "stem-statistical-rethinking",
+      "stem-stanford-statistical-learning"
+    ],
+    "resource_count": 5
+  },
+  {
+    "id": "stem-machine-learning",
+    "title_zh": "机器学习从基础到深度学习实作",
+    "question_zh": "先学理论还是先跑模型，哪些具体课程能把两者接起来？",
+    "description_zh": "把经典ML、泛化原理、统计学习、深度学习和从头实现语言模型区分开，并保留数学先行与实践先行的不同适合人群。",
+    "source_story_ids": [
+      3703782,
+      16745042,
+      21924298,
+      22826722,
+      34591291
+    ],
+    "resource_ids": [
+      "stem-andrew-ng-ml-original",
+      "stem-deep-learning-specialization",
+      "stem-fastai-practical-dl",
+      "stem-caltech-learning-from-data",
+      "stem-stanford-statistical-learning",
+      "stem-karpathy-zero-to-hero"
+    ],
+    "resource_count": 6
+  },
+  {
+    "id": "stem-physics",
+    "title_zh": "程序员自学物理",
+    "question_zh": "有编程背景怎样学习物理：概念、推导、习题和仿真各用什么？",
+    "description_zh": "分别呈现概念讲座、理论物理、书面讲义与可运行数值模拟；对Feynman是否适合作为第一教材保留相反体验。",
+    "source_story_ids": [
+      16745042,
+      22682837,
+      31549032,
+      34591291,
+      35536042
+    ],
+    "resource_ids": [
+      "stem-feynman-lectures",
+      "stem-theoretical-minimum",
+      "stem-sicm",
+      "stem-cfd-python",
+      "stem-wolfson-modern-physics"
+    ],
+    "resource_count": 5
+  },
+  {
+    "id": "stem-electronics-signals",
+    "title_zh": "电子工程、电路与信号系统",
+    "question_zh": "从软件转向电子学，怎样把大学理论与能动手的电路和信号实验接起来？",
+    "description_zh": "覆盖电路入门MOOC、动手教材、工程参考书与音频及动态系统应用；按数学背景和项目目标选择入口。",
+    "source_story_ids": [
+      16745042,
+      16775744,
+      18939913,
+      26525694,
+      34591291
+    ],
+    "resource_ids": [
+      "stem-mit-computational-science",
+      "stem-mit-circuits-electronics",
+      "stem-art-of-electronics",
+      "stem-make-electronics",
+      "stem-audio-signal-processing",
+      "stem-boyd-linear-dynamical-systems"
+    ],
+    "resource_count": 6
+  },
+  {
+    "id": "hum-learning-methods",
+    "title_zh": "学习方法与分析工具",
+    "question_zh": "怎样先改善学习方式，再建立可迁移的思考工具？",
+    "description_zh": "从学习策略、记忆和多个模型入手，强调实际应用与练习。",
+    "source_story_ids": [
+      10644518,
+      16745042,
+      18566638,
+      22826722,
+      23427186
+    ],
+    "resource_ids": [
+      "hum-learning-how-to-learn",
+      "hum-model-thinking",
+      "hum-think-again",
+      "hum-philosophers-toolkit"
+    ],
+    "resource_count": 4
+  },
+  {
+    "id": "hum-philosophy-reasoning",
+    "title_zh": "哲学、伦理与论证",
+    "question_zh": "没有哲学背景，怎样开始认真分析伦理、死亡与日常论证？",
+    "description_zh": "从具体问题和可讨论的论证进入哲学，也保留原典导读和长期哲学史路径。",
+    "source_story_ids": [
+      10644518,
+      16745042,
+      22826722,
+      25312681,
+      34591291,
+      35536042
+    ],
+    "resource_ids": [
+      "hum-justice",
+      "hum-think-again",
+      "hum-buddhism-modern-psychology",
+      "hum-yale-death",
+      "hum-philosophers-toolkit",
+      "hum-reason-persuasion",
+      "hum-philosophy-without-gaps"
+    ],
+    "resource_count": 7
+  },
+  {
+    "id": "hum-psychology-wellbeing",
+    "title_zh": "心理学与幸福感",
+    "question_zh": "如何理解情绪、幸福感与自我，并尝试相关练习？",
+    "description_zh": "包含心理学研究与实践导向课程；区分在读推荐、效果自述和对理论的赞同。",
+    "source_story_ids": [
+      10644518,
+      16745042,
+      22826722,
+      23427186
+    ],
+    "resource_ids": [
+      "hum-buddhism-modern-psychology",
+      "hum-science-wellbeing"
+    ],
+    "resource_count": 2
+  },
+  {
+    "id": "hum-economics-finance",
+    "title_zh": "货币、金融与战略互动",
+    "question_zh": "如何理解货币和市场的机制，而不只记财经名词？",
+    "description_zh": "重点是资产负债表、金融制度与博弈思维；不把经济学理解等同于市场预测。",
+    "source_story_ids": [
+      10644518,
+      16745042,
+      22826722,
+      31219253,
+      34591291
+    ],
+    "resource_ids": [
+      "hum-model-thinking",
+      "hum-money-banking",
+      "hum-financial-markets",
+      "hum-yale-game-theory"
+    ],
+    "resource_count": 4
+  },
+  {
+    "id": "hum-history-civilization",
+    "title_zh": "历史、文明与建筑",
+    "question_zh": "怎样建立现代世界与欧洲历史的脉络，并用文化作品理解过去？",
+    "description_zh": "把全球近现代史、乌克兰与欧洲史、建筑和音乐史联系起来。",
+    "source_story_ids": [
+      10644518,
+      16745042,
+      34591291,
+      35536042
+    ],
+    "resource_ids": [
+      "hum-modern-world",
+      "hum-modern-ukraine",
+      "hum-global-architecture",
+      "hum-first-nights-messiah",
+      "hum-philosophy-without-gaps"
+    ],
+    "resource_count": 5
+  },
+  {
+    "id": "hum-music",
+    "title_zh": "乐理、歌词与音乐欣赏",
+    "question_zh": "非音乐专业者怎样系统理解、创作和欣赏音乐？",
+    "description_zh": "既有基础乐理与歌词训练，也有通过具体作品学习音乐史的课程。",
+    "source_story_ids": [
+      10644518,
+      16745042,
+      21822225
+    ],
+    "resource_ids": [
+      "hum-songwriting",
+      "hum-fundamentals-music-theory",
+      "hum-first-nights-messiah"
+    ],
+    "resource_count": 3
+  },
+  {
+    "id": "hum-visual-arts",
+    "title_zh": "电影、建筑与3D创作",
+    "question_zh": "怎样从观看作品走向艺术分析或亲手制作？",
+    "description_zh": "组合电影细读、建筑历史与完整Blender入门项目。",
+    "source_story_ids": [
+      10644518,
+      33273022,
+      34591291
+    ],
+    "resource_ids": [
+      "hum-global-architecture",
+      "hum-blender-donut",
+      "hum-film-experience"
+    ],
+    "resource_count": 3
+  },
+  {
+    "id": "hum-classical-languages",
+    "title_zh": "古典语言与原文阅读",
+    "question_zh": "自学拉丁语时，有什么能逐步引向原文阅读的完整材料？",
+    "description_zh": "优先有多人推荐、难度逐步上升的教材，并保留购买与学习顺序的限制。",
+    "source_story_ids": [
+      26609397
+    ],
+    "resource_ids": [
+      "hum-lingua-latina"
+    ],
+    "resource_count": 1
+  },
+  {
+    "id": "cs-study-paths",
+    "title_zh": "怎样把计算机课程排成学习路线",
+    "question_zh": "会写代码之后，怎样系统补齐基础；零基础又该怎样起步？",
+    "description_zh": "比较主题式书课配对与完整MOOC课程表，结合已有基础和学习目标选择路线。",
+    "source_story_ids": [
+      23588896,
+      21062799
+    ],
+    "resource_ids": [
+      "teach-yourself-cs",
+      "ossu-cs"
+    ],
+    "resource_count": 2
+  },
+  {
+    "id": "course-discovery",
+    "title_zh": "到哪里找完整大学课程与MOOC",
+    "question_zh": "除了算法推荐的短视频，怎样找到成体系的讲座、作业与阅读材料？",
+    "description_zh": "整理被网友明确推荐的课程目录，区分大学资料库、学科视频索引和跨平台选课站。",
+    "source_story_ids": [
+      22826722,
+      23722680,
+      25245125,
+      27782300,
+      34591291,
+      35536042
+    ],
+    "resource_ids": [
+      "mit-ocw",
+      "open-yale",
+      "nptel",
+      "class-central",
+      "developer-y-course-index",
+      "helsinki-mooc-directory"
+    ],
+    "resource_count": 6
+  },
+  {
+    "id": "web-development",
+    "title_zh": "通过练习做出现代Web应用",
+    "question_zh": "有没有同时重视前端、后端与动手练习的大学课程？",
+    "description_zh": "以大学开放的项目与习题为线索，把框架知识放进完整应用开发流程。",
+    "source_story_ids": [
+      23722680
+    ],
+    "resource_ids": [
+      "full-stack-open"
+    ],
+    "resource_count": 1
+  },
+  {
+    "id": "complexity",
+    "title_zh": "复杂系统怎样从简单规则中出现",
+    "question_zh": "物理、生物、社会系统之间，有哪些可以共享的理解方法？",
+    "description_zh": "从跨学科课程了解简单现象如何形成复杂行为。",
+    "source_story_ids": [
+      25245125
+    ],
+    "resource_ids": [
+      "introduction-to-complexity"
+    ],
+    "resource_count": 1
+  },
+  {
+    "id": "aviation",
+    "title_zh": "飞行员在地面先学什么",
+    "question_zh": "普通人能否通过大学公开课，系统了解飞行训练的理论准备？",
+    "description_zh": "课程推荐帖中出现了MIT私人飞行员地面理论课，提供一个少见的大学公开课方向。",
+    "source_story_ids": [
+      35536042
+    ],
+    "resource_ids": [
+      "mit-private-pilot-ground-school"
+    ],
+    "resource_count": 1
+  }
+]

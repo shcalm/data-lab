@@ -4,7 +4,7 @@ shcalm 的个人数据实验室：用一个仓库持续整理有意思的榜单�
 
 站点地址：**https://shcalm.github.io/data-lab/**
 
-目前包含 Hacker News 十年讨论中的[书籍 Top 100](https://shcalm.github.io/data-lab/hn/books/)、[电影 Top 100](https://shcalm.github.io/data-lab/hn/movies/)、[学生阅读书目](https://shcalm.github.io/data-lab/hn/school-reading/)、[历史书目与纪录片](https://shcalm.github.io/data-lab/hn/history-documentaries/)，以及从2006—2026全档案发现的[30个深挖主题](https://shcalm.github.io/data-lab/hn/interesting-themes/)、[HN 每月 Top 20](https://shcalm.github.io/data-lab/hn/monthly-top/)。两份榜单提供搜索、主题筛选和排序；学生书目提供109部作品及年龄与类别交叉筛选；历史专题收录100项书目、97部纪录片／系列，其中64部为历史题材；深挖主题提供机制、边界、异议和原文，支持领域与精选阅读筛选。每月Top20覆盖239个日历月，提供4,721条月榜记录和全时段Top20，可按月翻阅。所有项目均有内容说明与数据下载。
+目前包含 Hacker News 十年讨论中的[书籍 Top 100](https://shcalm.github.io/data-lab/hn/books/)、[电影 Top 100](https://shcalm.github.io/data-lab/hn/movies/)、[学生阅读书目](https://shcalm.github.io/data-lab/hn/school-reading/)、[历史书目与纪录片](https://shcalm.github.io/data-lab/hn/history-documentaries/)，以及从2006—2026全档案发现的[30个深挖主题](https://shcalm.github.io/data-lab/hn/interesting-themes/)、[HN 每月 Top 20](https://shcalm.github.io/data-lab/hn/monthly-top/)。两份榜单提供搜索、主题筛选和排序；学生书目提供109部作品及年龄与类别交叉筛选；历史专题收录100项书目、97部纪录片／系列，其中64部为历史题材；深挖主题提供机制、边界、异议和原文，支持领域与精选阅读筛选。每月Top20覆盖239个日历月，提供4,721条月榜记录和全时段Top20，可按月翻阅。另有[课程与学习资源](https://shcalm.github.io/data-lab/hn/learning-resources/)，从25个主题整理83项具体资源，保留推荐原话。所有项目均有内容说明与数据下载。
 
 ## 本地运行
 
@@ -137,6 +137,22 @@ python3 tests/ask_show_browser.py --base-url https://shcalm.github.io/data-lab/ 
 ```
 
 复用同级 `hn-monthly-top20` 的来源、文本与导出辅助函数。刷新时使用新缓存并保留旧快照，核对所有月份、导读、数据来源、CSV／JSON／ZIP与哈希。验收同时覆盖原有月榜，避免共享日历和榜单组件改变已有行为。
+
+## 课程与学习资源维护
+
+`/hn/learning-resources/` 提供25个学习主题、83项资源、36个推荐来源讨论及183段引文。主题分为计算机、数学与AI、物理与工程、人文社会、艺术、学习方法六个领域。资源支持`topic`、`kind`和`q`交叉筛选，资源永久链接为`#resource-<id>`；链接目标被条件隐藏时恢复完整列表再展开。
+
+完整同步上游 `hacker_news/reports/learning-resources/results/` 到 `public/downloads/hn-learning-resources/`，包括CSV、JSON、Markdown、各主题文件、核验记录和ZIP。`src/lib/learning-resources.mjs`直接读取同一份`resources.json`，在原内容外添加浏览字段；主题导航元数据在`data/learning-resources.json`，纯筛选在`src/lib/learning-resources-filter.mjs`。资源属于多个主题时总数仍按独立ID计，不展示为全站推荐排名。
+
+181段引文与下载档案一致，另外2段评论有后续编辑，已保留当前树版本标记；页面保留不同意见、先修、历史版本、已失效入口与后续材料的区别。已复核的导出JSON是发布输入，原始索引和讨论树保留在研究项目中。更新时保持JSON、CSV、Markdown和ZIP一致，核对所有资源与主题数量、引文状态、入口说明和下载字节。
+
+```sh
+node --test tests/learning-resources.test.mjs
+npm run build
+python3 tests/learning_resources_browser.py --base-url http://127.0.0.1:4327/data-lab/
+```
+
+关闭JavaScript仍显示83项完整资源和183段可原生展开的引文。界面沿用站点颜色与排版，不引入额外前端框架。
 
 ## GitHub Pages 发布
 

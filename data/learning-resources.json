@@ -1,0 +1,16 @@
+{
+  "id": "learning-resources",
+  "number": "08",
+  "title": "课程与学习资源",
+  "path": "hn/learning-resources",
+  "dataPath": "downloads/hn-learning-resources",
+  "description": "从 Hacker News 讨论整理25个学习主题、83项课程与资源。按兴趣寻找大学课、MOOC、讲座和教材，附中文介绍、先修建议与推荐原话。",
+  "groups": [
+    {"id":"computing","label":"计算机与软件","intro":"从入门编程，到理解系统如何运作。","topicIds":["cs-foundations","cs-program-design","cs-algorithms","cs-systems","cs-language-implementation","cs-data-systems","cs-tools","web-development"]},
+    {"id":"math-ai","label":"数学、AI与复杂性","intro":"建立直觉，再把模型接到真实问题上。","topicIds":["stem-math","stem-probability-statistics","stem-machine-learning","complexity"]},
+    {"id":"science","label":"物理与工程","intro":"通过推导、代码与实验理解现实世界。","topicIds":["stem-physics","stem-electronics-signals","aviation"]},
+    {"id":"humanities","label":"人文与社会","intro":"从历史、思想和制度重新看熟悉的事。","topicIds":["hum-philosophy-reasoning","hum-psychology-wellbeing","hum-economics-finance","hum-history-civilization","hum-classical-languages"]},
+    {"id":"arts","label":"艺术与创作","intro":"从欣赏作品，走向分析和亲手创作。","topicIds":["hum-music","hum-visual-arts"]},
+    {"id":"learning","label":"学习方法与路线","intro":"安排学习次序，找到适合自己的课程。","topicIds":["hum-learning-methods","cs-study-paths","course-discovery"]}
+  ]
+}

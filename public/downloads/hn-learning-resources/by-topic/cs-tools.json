@@ -1,0 +1,162 @@
+{
+  "topic": {
+    "id": "cs-tools",
+    "title_zh": "补上命令行、Git与开发工具",
+    "question_zh": "会写程序却不熟悉开发环境，哪些练习能直接补齐工作能力？",
+    "description_zh": "Missing Semester讨论把工具空缺与实际工作联系起来；Learn Git Branching的正反体验提示互动练习仍要匹配已有知识。",
+    "source_story_ids": [
+      22226380,
+      18566638
+    ],
+    "resource_ids": [
+      "cs-missing-semester",
+      "cs-learn-git-branching"
+    ],
+    "resource_count": 2
+  },
+  "resources": [
+    {
+      "id": "cs-missing-semester",
+      "title": "The Missing Semester of Your CS Education",
+      "provider": "MIT / Anish Athalye、Jon Gjengset、Jose Javier Gonzalez Ortiz",
+      "format": "university_course",
+      "format_detail_zh": "公开工具课程 / 练习",
+      "topics": [
+        "cs-tools"
+      ],
+      "summary_zh": "集中练习命令行、编辑器、版本控制等开发工具，补齐会写代码却不熟悉工作环境的空缺。适合刚进入Unix开发环境或已有零散工具经验的人。",
+      "prerequisites_zh": "基本电脑与编码经验有帮助；已有熟练工具习惯的人可能觉得内容基础。",
+      "why_recommended_zh": "读完材料并看完讲座的学习者报告在Git、Vim与命令行上更熟练；另一条评论清楚提示对经验较深者增益有限。",
+      "resource_url": "https://missing.csail.mit.edu/",
+      "source_type": "community_recommendation",
+      "evidence": [
+        {
+          "resource_id": "cs-missing-semester",
+          "resource_title": "The Missing Semester of Your CS Education",
+          "story_id": 22226380,
+          "item_id": 22230116,
+          "quote": "I've read through all the material and watched all the lectures and I can say it has helped me tremendously thus far. I'm still trying to master all the tools they've mentioned but I already feel much more proficient with e.g. version control, vim, using the command line, etc.",
+          "stance": "recommendation",
+          "reason_zh": "完整读看材料后的具体工具熟练度反馈。",
+          "author": "wes1350",
+          "source_type": "community_comment",
+          "parent_item_id": 22226380,
+          "source_url": "https://news.ycombinator.com/item?id=22230116",
+          "item_url": "https://news.ycombinator.com/item?id=22230116",
+          "story_url": "https://news.ycombinator.com/item?id=22226380",
+          "created_at_utc": "2020-02-03T22:38:02.000Z",
+          "cache_file": "research/cs/threads/22226380.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "cs-missing-semester",
+          "resource_title": "The Missing Semester of Your CS Education",
+          "story_id": 22226380,
+          "item_id": 22231332,
+          "quote": "To be honest, I was kind of disappointed with this, because most of it I already knew! (That's not a criticism of your course c:)",
+          "stance": "qualified_recommendation",
+          "reason_zh": "已有经验者说明大部分内容自己已会，作为适用程度的保留。",
+          "author": "fao_",
+          "source_type": "community_comment",
+          "parent_item_id": 22226380,
+          "source_url": "https://news.ycombinator.com/item?id=22231332",
+          "item_url": "https://news.ycombinator.com/item?id=22231332",
+          "story_url": "https://news.ycombinator.com/item?id=22226380",
+          "created_at_utc": "2020-02-04T01:17:02.000Z",
+          "cache_file": "research/cs/threads/22226380.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "首帖为2020年课程，后续年份有更新；不要将工具课当成完整计算机科学课程。",
+      "resource_url_provenance": {
+        "story_id": 22226380,
+        "location": "story url"
+      },
+      "research_area": "cs",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 2,
+      "link_check": {
+        "url": "https://missing.csail.mit.edu/",
+        "checked_at_utc": "2026-11-19T03:58:47.711762+00:00",
+        "status": 206,
+        "final_url": "https://missing.csail.mit.edu/",
+        "page_title": "The Missing Semester of Your CS Education",
+        "result": "reachable"
+      }
+    },
+    {
+      "id": "cs-learn-git-branching",
+      "title": "Learn Git Branching",
+      "provider": "Learn Git Branching project",
+      "format": "practice_tool",
+      "format_detail_zh": "交互式可视化练习",
+      "topics": [
+        "cs-tools"
+      ],
+      "summary_zh": "用可视化提交图和闯关操作练习分支、合并与rebase。适合听过Git命令但难以建立分支模型的人。",
+      "prerequisites_zh": "有少量Git使用经验会更容易；可作为专项练习，不能替代所有Git概念解释。",
+      "why_recommended_zh": "推荐者认为它能暴露经验开发者的知识空缺；同一讨论也有偶尔使用Git的读者说rebase关卡仍然难懂。",
+      "resource_url": "https://learngitbranching.js.org/",
+      "source_type": "community_recommendation",
+      "evidence": [
+        {
+          "resource_id": "cs-learn-git-branching",
+          "resource_title": "Learn Git Branching",
+          "story_id": 18566638,
+          "item_id": 18567670,
+          "quote": "it's not perfect, and isn't going to completely de-mystify git. but it's a great exercise and seems to clear up a thing or two.",
+          "stance": "qualified_recommendation",
+          "reason_zh": "保留推荐者对作用范围的明确限定。",
+          "author": "guitarbill",
+          "source_type": "community_comment",
+          "parent_item_id": 18566638,
+          "source_url": "https://news.ycombinator.com/item?id=18567670",
+          "item_url": "https://news.ycombinator.com/item?id=18567670",
+          "story_url": "https://news.ycombinator.com/item?id=18566638",
+          "created_at_utc": "2018-11-30T08:44:34.000Z",
+          "cache_file": "research/cs/threads/18566638.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        },
+        {
+          "resource_id": "cs-learn-git-branching",
+          "resource_title": "Learn Git Branching",
+          "story_id": 18566638,
+          "item_id": 18571350,
+          "quote": "I tried this a while back, and I am so confused by the rebasing part I figured I'd find something else. As someone who knows some git, but only has to used it every once in a while, this website does not help me..",
+          "stance": "criticism",
+          "reason_zh": "实际尝试者说明rebase部分对低频使用者未必有效。",
+          "author": "russdpale",
+          "source_type": "community_comment",
+          "parent_item_id": 18567670,
+          "source_url": "https://news.ycombinator.com/item?id=18571350",
+          "item_url": "https://news.ycombinator.com/item?id=18571350",
+          "story_url": "https://news.ycombinator.com/item?id=18566638",
+          "created_at_utc": "2018-11-30T18:36:02.000Z",
+          "cache_file": "research/cs/threads/18566638.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "收录的是一个具体互动教程，不是Git托管平台；推荐与失败体验同时保留。",
+      "resource_url_provenance": {
+        "story_id": 18566638,
+        "item_id": 18567670,
+        "location": "comment href"
+      },
+      "research_area": "cs",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 1,
+      "link_check": {
+        "url": "https://learngitbranching.js.org/",
+        "checked_at_utc": "2026-11-19T03:58:45.857726+00:00",
+        "status": 206,
+        "final_url": "https://learngitbranching.js.org/",
+        "page_title": "",
+        "result": "reachable"
+      }
+    }
+  ]
+}

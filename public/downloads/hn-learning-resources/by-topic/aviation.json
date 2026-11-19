@@ -1,0 +1,60 @@
+{
+  "topic": {
+    "id": "aviation",
+    "title_zh": "飞行员在地面先学什么",
+    "question_zh": "普通人能否通过大学公开课，系统了解飞行训练的理论准备？",
+    "description_zh": "课程推荐帖中出现了MIT私人飞行员地面理论课，提供一个少见的大学公开课方向。",
+    "source_story_ids": [
+      35536042
+    ],
+    "resource_ids": [
+      "mit-private-pilot-ground-school"
+    ],
+    "resource_count": 1
+  },
+  "resources": [
+    {
+      "id": "mit-private-pilot-ground-school",
+      "title": "MIT 16.687 — Private Pilot Ground School",
+      "provider": "Massachusetts Institute of Technology",
+      "format": "university_course",
+      "topics": [
+        "aviation"
+      ],
+      "summary_zh": "面向私人飞行员学习者的地面理论课程，提供完整讲座视频。适合想系统了解飞行训练理论准备的人。",
+      "prerequisites_zh": "面向飞行学习者；要求与课程范围查看2019年版本说明。",
+      "why_recommended_zh": "推荐者认为教师容易理解、内容完整，适合有私人飞行员学习目标的人。",
+      "resource_url": "https://ocw.mit.edu/courses/16-687-private-pilot-ground-school-january-iap-2019/",
+      "evidence": [
+        {
+          "resource_id": "mit-private-pilot-ground-school",
+          "resource_title": "MIT 16.687 — Private Pilot Ground School",
+          "story_id": 35536042,
+          "item_id": 35543171,
+          "quote": "MIT's 16.687 - Private pilot ground school. If you want to become a private pilot or start your career, this is the place to begin. The professors are approachable and the content is comprehensive.",
+          "stance": "recommendation",
+          "reason_zh": "推荐者看重课程的全面性与教师的可接近性。",
+          "item_url": "https://news.ycombinator.com/item?id=35543171",
+          "story_url": "https://news.ycombinator.com/item?id=35536042",
+          "author": "gamedna",
+          "created_at_utc": "2023-04-12T17:14:29.000Z",
+          "cache_file": "research/cs/newer/threads/35536042.json",
+          "archive_match_status": "exact",
+          "evidence_source": "archive+algolia"
+        }
+      ],
+      "notes_zh": "入选的是2019年公开课；另有原评论提供的完整YouTube讲座列表。",
+      "research_area": "general",
+      "source_story_count": 1,
+      "positive_recommendation_item_count": 1,
+      "link_check": {
+        "url": "https://ocw.mit.edu/courses/16-687-private-pilot-ground-school-january-iap-2019/",
+        "checked_at_utc": "2026-11-19T03:52:59.121329+00:00",
+        "status": 206,
+        "final_url": "https://ocw.mit.edu/courses/16-687-private-pilot-ground-school-january-iap-2019/",
+        "page_title": "Private Pilot Ground School | Aeronautics and Astronautics | MIT OpenCourseWare",
+        "result": "reachable"
+      }
+    }
+  ]
+}

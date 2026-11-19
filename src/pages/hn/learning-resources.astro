@@ -1,0 +1,71 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import Icon from '../../components/Icon.astro';
+import { getLearningResources } from '../../lib/learning-resources.mjs';
+import { href } from '../../lib/paths';
+import '../../styles/learning-resources.css';
+
+const project = getLearningResources();
+const { entries, topics, groups, kinds, metadata } = project;
+const download = (file: string) => href(`${project.dataPath}/${file}`);
+const resourceLink = (id: string) => href(`${project.path}/#resource-${id}`);
+const supplementaryLabel = (url: string) => url.includes('/modern-world-2') ? '第二部分课程' : url.includes('youtube.com') ? '课堂录像（YouTube）' : url.includes('audible.com') ? '有声版（Audible）' : '其他课程入口';
+const stanceLabel = {recommendation:'推荐',qualified_recommendation:'有条件推荐',criticism:'不同体验',announcement:'发布者介绍'};
+const clientData = JSON.stringify({
+  entries:entries.map(({id,topics,kind,searchText}) => ({id,topics,kind,searchText})),
+  topics:topics.map(({id,title_zh,question_zh,description_zh}) => ({id,title_zh,question_zh,description_zh})),
+}).replaceAll('<','\\u003c');
+---
+<SiteLayout title="课程与学习资源 · Data Lab" description={project.description} active="learning-resources">
+  <section class="ranking-hero learning-hero" id="top" aria-labelledby="learning-title">
+    <div class="breadcrumb"><a href={href()}>全部项目</a><span aria-hidden="true">/</span><span>Hacker News</span><span aria-hidden="true">/</span><span>学习资源</span></div>
+    <div class="ranking-hero-grid">
+      <div><p class="eyebrow">08 / FOLLOW YOUR CURIOSITY</p><h1 id="learning-title">从一个问题，<br /><span class="green-text">开始学习。</span></h1><p class="ranking-intro">货币到底怎样运作？代码下面发生了什么？一部电影可以怎样读？从 HN 讨论里，找到了 25 个学习方向，也找到了值得沿着它们走下去的课程、讲座和教材。</p><a class="text-link learning-hero-link" href="#learning-topics">先找一个感兴趣的方向<Icon name="arrow" size={18} /></a></div>
+      <aside class="learning-overview" aria-label="学习资源概要"><p class="eyebrow">A PLACE TO START</p><div class="learning-overview-number"><b>{entries.length}</b><span>项课程与<br />学习资源</span></div><div class="learning-overview-facts"><span><b class="mono">{topics.length}</b> 个学习主题</span><span><b class="mono">{metadata.source_discussion_count}</b> 个来源讨论</span></div><p>有内容简介，也有推荐它的理由。<br />沿着兴趣选课，沿着原话求证。</p></aside>
+    </div>
+    <div class="ranking-hero-bottom"><p>从 <b class="mono">475.6 万</b> 篇主帖中检索线索，保留 <b class="mono">183</b> 段评论原话。<a href="#learning-methodology">发现与整理方法 ↗</a></p><div class="download-links"><a href={download('resources.csv')} download><Icon name="download" size={15} />CSV</a><a href={download('hn-learning-resources.zip')} download>完整 ZIP<Icon name="download" size={15} /></a></div></div>
+  </section>
+
+  <section class="learning-topics" id="learning-topics" aria-labelledby="topics-title">
+    <div class="learning-section-heading"><div><p class="eyebrow">FIRST, FIND A QUESTION</p><h2 id="topics-title">你想弄明白什么？</h2></div><p>展开一个领域，找到下一门想学的课。</p></div>
+    <div class="learning-topic-grid">{groups.map((group,index) => <details class="learning-topic-group">
+      <summary><span class="mono learning-group-number">{String(index+1).padStart(2,'0')}</span><span><b>{group.label}</b><small>{group.intro}</small></span><span class="learning-group-count mono">{group.topics.length}<Icon name="chevron" size={15} /></span></summary>
+      <ul>{group.topics.map(topic => <li><a data-learning-topic-link={topic.id} href={href(`${project.path}/?topic=${topic.id}#learning-results`)}><span><b>{topic.title_zh}</b><small>{topic.question_zh}</small></span><span class="mono">{topic.resource_count}<Icon name="arrow" size={14} /></span></a></li>)}</ul>
+    </details>)}</div>
+  </section>
+
+  <section class="learning-explorer" id="learning-results" data-learning-collection aria-labelledby="results-title">
+    <div class="learning-section-heading"><div><p class="eyebrow">FIND YOUR NEXT COURSE</p><h2 id="results-title" data-learning-heading>给好奇心，一条学习的路。</h2></div><p data-learning-description>课程、讲座与教材都在这里，按自己的起点慢慢选。</p></div>
+    <form class="learning-controls" data-learning-controls role="search" aria-label="查找课程与学习资源" hidden>
+      <div><label for="learning-search">搜索资源</label><div class="input-wrap"><Icon name="search" size={18} /><input id="learning-search" type="search" name="q" placeholder="搜索课程、主题或提供者…" autocomplete="off" /></div></div>
+      <div><label for="learning-topic">学习主题</label><div class="select-wrap"><select id="learning-topic" name="topic"><option value="">全部 25 个主题</option>{groups.map(group => <optgroup label={group.label}>{group.topics.map(topic => <option value={topic.id}>{topic.title_zh} · {topic.resource_count}</option>)}</optgroup>)}</select><Icon name="chevron" size={15} /></div></div>
+      <div><label for="learning-kind">资源形式</label><div class="select-wrap"><select id="learning-kind" name="kind"><option value="">全部形式 · {entries.length}</option>{kinds.map(kind => <option value={kind.id}>{kind.label} · {kind.count}</option>)}</select><Icon name="chevron" size={15} /></div></div>
+    </form>
+    <noscript><p class="learning-static-note">以下完整列出 83 项资源。内容说明直接可读，先修建议与推荐原话可点击展开。</p></noscript>
+    <div class="list-utility learning-utility"><p role="status" aria-live="polite" aria-atomic="true">显示 <b class="mono" data-learning-count>83</b> / 83 项资源<span class="utility-note"> · 按学习主题整理</span></p><div class="list-actions" data-learning-actions hidden><button type="button" data-learning-reset disabled>清空条件</button></div></div>
+    <div class="learning-resource-list">{entries.map((resource,index) => <article class="learning-resource" id={`resource-${resource.id}`} data-learning-resource={resource.id}>
+      <span class="learning-resource-number mono" aria-hidden="true">{String(index+1).padStart(2,'0')}</span>
+      <div class="learning-resource-main">
+        <div class="learning-resource-meta"><span class="learning-format">{resource.formatLabel}</span><span>{resource.provider}</span><a href={resourceLink(resource.id)} aria-label={`分享资源：${resource.title}`} class="learning-permalink">资源链接<Icon name="arrow-up" size={12} /></a></div>
+        <h3>{resource.title}</h3>
+        <p class="learning-summary">{resource.summary_zh}</p>
+        <p class="learning-reason"><span>为什么被推荐</span>{resource.why_recommended_zh}</p>
+        <div class="learning-resource-bottom"><div class="learning-resource-topics">{resource.topics.map((id,i) => <a data-learning-topic-link={id} href={href(`${project.path}/?topic=${id}#learning-results`)}>{resource.topicLabels[i]}</a>)}</div><a class="learning-open" href={resource.resource_url}>{resource.link_check?.status===404 ? '历史入口' : '打开资源'}<Icon name="arrow-up" size={15} /></a></div>
+        {(resource.link_check?.status===404 || resource.link_check?.content_note_zh?.includes('分类目录')) && <p class="learning-availability">{resource.link_check?.status===404 ? '历史入口当前返回404，相关版本与其他入口见下方说明。' : '原入口目前跳转至课程分类目录，保留历史推荐与说明。'}</p>}
+        <details class="learning-reader" data-learning-reader>
+          <summary><span>先修建议与推荐原话</span><small>{resource.evidence.length} 段引用</small><Icon name="chevron" size={14} /></summary>
+          <div class="learning-reader-body"><div class="learning-reading-notes"><h4>适合谁／先修</h4><p>{resource.prerequisites_zh}</p>{resource.notes_zh && <><h4>课程与版本说明</h4><p>{resource.notes_zh}</p></>}{resource.format_detail_zh && <p class="learning-format-detail">形式：{resource.format_detail_zh}</p>}{resource.related_urls?.map(related => <a class="text-link" href={related.url}>{related.title_zh}<Icon name="arrow-up" size={13} /></a>)}{resource.related_resource_urls?.map(url => <a class="text-link" href={url}>{supplementaryLabel(url)}<Icon name="arrow-up" size={13} /></a>)}</div>
+            <div class="learning-evidence"><h4>推荐它的人，怎么说</h4><ol>{resource.evidence.map(evidence => <li><div class="learning-evidence-meta"><span class:list={['learning-stance',{'learning-stance-critical':evidence.stance==='criticism'}]}>{stanceLabel[evidence.stance] ?? evidence.stance}</span><a href={evidence.item_url}>{evidence.author}<Icon name="arrow-up" size={12} /></a><time datetime={evidence.created_at_utc}>{evidence.created_at_utc.slice(0,10)}</time></div><blockquote lang="en">{evidence.quote}</blockquote><p>{evidence.reason_zh}</p>{evidence.archive_match_status!=='exact' && <p class="learning-version-note">本段按保存的后续评论版本引用，与下载档案中的较早文字不同。</p>}<a class="learning-thread-link" href={evidence.story_url}>回到所属讨论<Icon name="arrow-up" size={12} /></a></li>)}</ol></div>
+          </div>
+        </details>
+      </div>
+    </article>)}</div>
+    <div class="empty-state" data-learning-empty hidden><Icon name="search" size={30} /><h3>暂时没有匹配的资源</h3><p>试试其他关键词，或清空条件，换一个学习方向。</p><button class="button" type="button" data-learning-reset>查看全部资源<Icon name="arrow" size={18} /></button></div>
+    <div class="list-end"><span class="mono">KEEP LEARNING, KEEP ASKING</span><a href="#top">回到顶部 ↑</a></div>
+    <script type="application/json" id="learning-resources-data" set:html={clientData} />
+  </section>
+
+  <section class="learning-downloads" aria-labelledby="learning-download-title"><p class="eyebrow">KEEP A COPY</p><h2 id="learning-download-title">留一份，按自己的节奏学。</h2><p>83 项资源的内容、先修、版本说明与原文证据，完整保留。</p><div class="learning-download-grid">{project.downloadFiles.map(item => <a href={download(item.file)} download><span>{item.label}<small>{item.format}</small></span><Icon name="download" size={19} /></a>)}</div><div class="learning-extra-downloads"><a href={download('学习主题.md')} download>全部主题<Icon name="download" size={14} /></a><a href={download('evidence.csv')} download>原文证据表<Icon name="download" size={14} /></a><a href={download('sources.json')} download>来源讨论<Icon name="download" size={14} /></a><a href={download('README.md')} download>完整方法说明<Icon name="download" size={14} /></a></div></section>
+  <aside class="methodology-note learning-methodology" id="learning-methodology" aria-labelledby="learning-method-title"><span class="note-index mono">BEHIND<br />THE LIST</span><div><h2 id="learning-method-title">先发现主题，再沿着讨论找推荐。</h2><p>从 2006.10.09 至 2026.08.23 UTC 的 4,755,791 篇有效主帖中检索公开课、MOOC、讲座、自学路线等线索，共命中 7,344 个标题候选，其中 46 个出现在此前 Ask / Show 月榜。随后阅读候选讨论，按学习问题归纳 25 个主题，精选有明确正向推荐的 83 项资源。候选数表示检索命中，不等于逐篇阅读；这份目录也未穷尽所有课程。</p><p>最终推荐证据来自 36 个讨论，时间为 2012—2025 年；保留 183 段引文，涉及 173 个不同评论节点。全部引文已与保存的 HN Algolia 评论树核对，181 段也与下载档案一致；另外 2 段评论后来有编辑，页面注明采用后续版本。中文简介、先修建议与主题划分为本次整理；具体体验保留评论者归属，也保留在读体验和不同意见。</p><p>课程、讲座、教材、学习路线和选课目录按形式区分；资源可能属于多个主题，总数按独立资源计。页面顺序用于浏览，引用条数表示本次保留的证据。历史课程的版本、练习、教师互动和旁听权限可能已经变化，已逐项留下可确认的信息；访问被拒绝或超时不能单独证明课程失效。整理于 2026.11.19。</p><p><a href={download('verification.json')} download>下载核验记录 ↗</a> · <a href={download('link-checks.json')} download>入口检查记录 ↗</a> · <a href={download('reading-log.json')} download>阅读范围记录 ↗</a></p></div></aside>
+  <script src="../../scripts/learning-resources.ts"></script>
+</SiteLayout>

@@ -1,0 +1,43 @@
+{
+  "title": "从HN讨论寻找学习资源",
+  "generated_at_utc": "2026-11-19T04:08:44.160460+00:00",
+  "dataset_url": "https://huggingface.co/datasets/open-index/hacker-news",
+  "revision": "c54ced5973b95d80cd934b8921f44ec8d87c3cd1",
+  "license": "ODC-By-1.0",
+  "source_story_count": 4755791,
+  "index_sha256": "7c81ec5ce8d6dbf8a01c3b2d472832b05706b2de6d586d15280675bffeb9a23a",
+  "first_story_utc": "2006-10-09 18:21:51+00",
+  "last_story_utc": "2026-08-23 08:43:40+00",
+  "title_candidate_count": 7344,
+  "candidates_in_ask_show_monthly_top10": 46,
+  "topic_count": 25,
+  "resource_count": 83,
+  "source_discussion_count": 36,
+  "recommendation_discussion_first_utc": "2012-03-14T16:07:02+00:00",
+  "recommendation_discussion_last_utc": "2025-02-15T06:44:40+00:00",
+  "evidence_row_count": 183,
+  "unique_cited_item_count": 173,
+  "format_counts": {
+    "university_course": 19,
+    "mooc": 24,
+    "online_course": 5,
+    "book": 8,
+    "online_book": 5,
+    "tutorial": 3,
+    "practice_tool": 1,
+    "interactive_course": 1,
+    "video_series": 2,
+    "lecture_series": 6,
+    "podcast": 1,
+    "study_path": 2,
+    "course_directory": 6
+  },
+  "exact_archive_quote_counts": {
+    "exact": 181,
+    "different": 2
+  },
+  "scope_zh": "全库标题发现主题后，阅读候选讨论并精选有具体推荐证据的资源；不是全站推荐次数榜，也未穷尽所有课程。",
+  "editorial_basis_zh": "中文内容、先修建议与主题划分为本次编辑整理；推荐理由保留评论者归属，具体引文可逐条复核。",
+  "comments_source_zh": "评论通过本次保存的HN Algolia讨论树读取；逐条与下载档案核对，匹配状态单独记录。",
+  "availability_zh": "入口可达性仅是检查时的自动访问结果，不等同于免费、可报名、可评分或课程内容已更新。历史版本和当前入口的差异保留在备注。"
+}
